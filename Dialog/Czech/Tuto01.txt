@@ -1,3 +1,7 @@
+// lang CZE
+// ver 0.1
+// for game ver 1.0a
+// author rcx
 G	Zdravím Vás [P:Pane|Dámo], nastal čas, abychom se představili. Jmenuji se {Self.Name} a dnes tu jsem jako {>Self.Role}. Věřím, že pro nás tohle podzemí bude hračkou.
 N	Zdar, pojmenovali mě {Self.Name} a budu tu jako {>Self.Role}. A doufám, že to zvládnem !
 B	Zdravím, jmenuju se {Self.Name}, {>Self.Role} je moje role, kdyby někdo chtěl vědět. Stejně sme už mrtví.
