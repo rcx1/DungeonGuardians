@@ -1,0 +1,5 @@
+B	Here's our favorite sorceress, Jana !
+G	She seems to be waiting for us, like all the others.
+N	She's lethal. You want to know how ?
+N	Her main ability {>AbBossLeechLife} will heal herself by sucking the life out of her target. Except that, she got plenty of spells to kill us, so prepare your anti-magic protection.
+P	Ok, I've got it.

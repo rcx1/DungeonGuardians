@@ -1,0 +1,5 @@
+N	That barbarian was Darn Lo !
+B	He's just had his last fight.
+G	Did he command all these slaves and beasts to attack us ?
+N	It could be, but like the other prisoners we have met so far, he didn't seem to be his own self.
+B	Good riddance anyway !

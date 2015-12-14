@@ -1,0 +1,3 @@
+G	That's a good weapon ! I wonder who lost it there ?
+N	Click and drag it to the bag icon to put it in the party inventory, then click on the bag icon and click on the member's portrait you want to use this weapon, then drag the weapon icon to their hand (or directly right-click it).
+T3	Give it to me, I think this weapon would suit me well !

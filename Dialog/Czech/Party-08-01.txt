@@ -1,0 +1,7 @@
+G	Phew, glad to be out of the palace.
+B	I thought we were going to die in there.
+N	It surely has been a tough battle ! But thanks to your command, we made it out alive !
+P	You're welcome, but without all your talents, we would not be here now.
+B	Great, let's keep the big group hug for a bit later. I can smell the air is less stale here, I'm impatient to see the sunlight again.
+N	We're still not at the exit, but it shouldn't be far from here : check out all this moss on the walls.
+P	Good, but we might have more trouble waiting for us, just look ahead !

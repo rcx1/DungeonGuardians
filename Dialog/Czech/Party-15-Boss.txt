@@ -1,0 +1,6 @@
+N	PEW! I know that smell !
+B	Yup, our "friend" {>MobPigHead} must be very near.
+N	He was one of our prisoners, half-human and half-pig.
+B	Mostly pig, if you ask me. Would you like to know more about him ?
+B	Ok so he's a very powerful fighter, often attacking 2 targets at once, so the healing will have to be high.
+P	Ok, let's get ready gentlemen.

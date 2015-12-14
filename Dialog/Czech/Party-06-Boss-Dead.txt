@@ -1,0 +1,17 @@
+B	One more down. We're unstoppable!
+N	You know, this room has a lot of history.
+G	How so ?
+N	The Emperor died in this very room, on his first visit to this palace, as he wanted to check the progress of the constructions.
+B	Oh yeah, I remember that.
+N	He was alone with his kid, the Young Emperor as he was called, when it happened. Guards heard the Emperor briefly screaming, so they rushed into the room.
+G	Oh dear, really ?
+N	Yes, and the Young Emperor was sobbing on his father's dead body. When the guards approached, he ran away. By the time the guards realized what happened to the Emperor, the kid had disappeared.
+G	Did he kill the Emperor ?
+N	It's unlikely as he didn't have any injuries.
+B	And what happened to the kid ?
+N	They searched for him for weeks, but never found him. That's when the High Council decided to lock down this place, curse it with all its guards and slaves, and keep it only as a means to prevent escape from our jail. That was nearly 20 years ago.
+G	And the Young Emperor's body was never found ? Maybe he survived ?
+N	I doubt that. He was a young teenager at that time, said to be as cruel as his father, but surely not a great fighter nor a survivor.
+B	He probably got eaten by a giant spider or something.
+G	That's a terrible story.
+P	Yes, let's get the hell out of here.

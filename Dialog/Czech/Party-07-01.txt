@@ -1,0 +1,5 @@
+G	Good, another level up.
+N	But we're still in the Palace apparently.
+G	We're probably not far from the surface though.
+B	Still far enough so no one will hear us screaming when some abomination tears our guts out.
+P	Ok, so let's try to avoid that by keeping our eyes open !

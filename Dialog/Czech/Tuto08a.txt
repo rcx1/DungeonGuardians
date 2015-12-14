@@ -1,0 +1,7 @@
+H	That's a good bunch to fight !
+T	To be sure all of them are attacking me, start by using {>AbThunderClap}, then try to interrupt the 1st target's attack with {>AbKick}. And then use {>AbThunderClap} again as soon as its cooldown is over.
+T	To be sure all of them are attacking me, start by using {>AbSweepingBlow}, then try to interrupt the 1st target's attack with {>AbPommel}. And then use {>AbSweepingBlow} again as soon as its cooldown is over.
+T	Try to get all of them to attack me. Although it seems I don't have a tank specialization so it might be hard for me to achieve that, or even impossible. So just let hack'em all down before they do too much damage !
+T	To check all this, put the mouse cursor on my portrait, and all enemies that are attacking me will be highlighted in purple. My current target will be highlighted in pink if they're attacking me, and in red if they're not.
+H	Each enemy will always attack the most threatening party member for them. Each damaging attack threatens its target according to its damage points. The tank has special abilities that produce extra threat.
+H	And my healing spells will also threaten all enemies around, so the tank really needs to catch & keep their attention, so I won't get attacked all the time.

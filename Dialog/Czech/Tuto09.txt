@@ -1,0 +1,2 @@
+B	These damn skeletons reset the dungeon's automatic defenses. We're going to have a hard time passing through all these mechanisms !
+N	I think we should start with this lever .

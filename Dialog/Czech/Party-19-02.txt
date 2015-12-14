@@ -1,0 +1,13 @@
+N	Unbelievable !
+G	What ?
+N	Can you see this dead young man ?
+B	Sure, he's right under our noses, hard to miss him.
+N	He looks exactly like the Young Emperor's portrait in my history book!
+G	What ?
+B	You mean we found the body of the dead Young Emperor ?
+N	It seems so.
+G	I guess he must have been embalmed; he looks like he's sleeping, not like he has been dead for the past 20 years.
+B	Let me check something... *pop*... Cold as ice, he's dead, there's no ambiguity.
+G	So that means he's not the Guardian ?
+N	It would seem so...
+P	I'm beginning to feel cold myself, let's move!

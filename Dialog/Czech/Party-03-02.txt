@@ -1,0 +1,3 @@
+G	Ouch, it seems we can't go there !
+N	Yes, you have to purchase the game now. Or if you already did that, register it in the menu "{>Options} -> {>GameOptions}".
+B	Hurry up, we can't stay there forever !

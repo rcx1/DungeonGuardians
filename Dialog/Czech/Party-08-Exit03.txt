@@ -1,0 +1,5 @@
+G	When I understood you were bringing us back here, I hoped we could pass and finally exit this place.
+B	But we can't.
+N	Yes, it was worth a shot, but we don't have much choice right now. Either we go back even deeper into the Dungeon, or we stay here and wait to starve to death.
+B	We won't starve, we'll die from thirst way before.
+P	That's comforting. So let's head back !

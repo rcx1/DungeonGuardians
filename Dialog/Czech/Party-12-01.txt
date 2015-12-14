@@ -1,0 +1,4 @@
+N	So we found the 3 elven sisters now.
+G	They didn't run away anymore than the previous prisoners, after all.
+B	It looks like they were there against their will... Just like us.
+N	Yes, it feels like someone is pulling our strings and we don't have any other choice than to keep going on, deeper and deeper into this place.

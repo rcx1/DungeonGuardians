@@ -1,0 +1,10 @@
+G	It looks like we made it to the 6th level !
+N	It seems there's nothing in the direct vicinity, so maybe we should assess the situation so far.
+B	Yes, there's no way the prisoners are waiting for us by their own will.
+N	I'm afraid that's true ; just remember what Romuald looked like in the Catacombs. Someone, or something, has changed them.
+P	So what's your point ?
+N	I'm not sure. Maybe they got help from someone in the Dungeon, and this someone forced some of them to stay along the way to protect the escape of the others.
+P	That still doesn't explain why the monsters are alive and all the doors locked.
+N	Whoever or whatever helped them must have some control over the Dungeon and its inhabitants.
+G	I don't like the sound of that, but it might have some truth.
+P	Ok, enough speculation for now, let's concentrate on our mission.

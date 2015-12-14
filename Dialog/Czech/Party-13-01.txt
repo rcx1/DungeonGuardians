@@ -1,0 +1,7 @@
+N	Where are we ?
+B	That is a recurring question lately.
+G	It looks like the Imperial Palace.
+N	Yes, it does, but we already went through it, from top to bottom.
+G	And it looks older as well.
+B	Could it be possible this place inspired the architects of the Imperial Palace ?
+N	It's a possibility. But I never heard about it before, so it's rather unusual.

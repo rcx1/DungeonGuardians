@@ -1,0 +1,11 @@
+G	And here goes Broziorus!
+N	This is one tough warrior. He used to turn battles around before he lost his mind and pierced the heart of his commander.
+N	If you want to sweat this one out yourself, just hush me now.
+N	Ok, so once the fight starts, he'll summon 2 avatars. One of light and one of shadow.
+B	This means we're going to have to fight 3 archers at once. That's no picnic !
+N	Yes, but it doesn't stop there ! All of them have a {>AbBossArrowRain} ability that will tear down a whole zone for a few seconds.
+N	Every time they do it, we'll have to move elsewhere if we don't want to die.
+N	Moreover, the {>MobArcher2-Light} will do his {>AbBossSniperArrow} ability just after his {>AbBossArrowRain}. It's a highly damaging attack, so it'd be better if you could interrupt it.
+N	Except that, it's better to leave the {>MobArcher2-Light} alone, as he has a lot of health but doesn't do much damage, and if we kill him, Broziorus will resummon him after a little while.
+N	On another side, the {>MobArcher2-Shadow} is much more dangerous as his attacks are more damaging, but he has less health, so it's probably better to kill him if we have the chance. Broziorus will also summon him again after a while, so stay alert in all cases.
+P	Ok, that's a tough fight waiting for us, better to be well prepared for it!

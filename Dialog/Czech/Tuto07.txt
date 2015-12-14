@@ -1,0 +1,6 @@
+B	Jeez, there are more of them !
+N	Ok, now, you might want to press 'space' during overheated fights, so it'll pause the game and you will be able to carefully select the abilities you want to use.
+N	You can queue up to 3 abilities for each party member. When there's no abilities in queue, nor any ability ready, the default basic attack is used.
+N	There's a global cooldown for abilities of 6 seconds. This means that between 2 abilities, it will usually have 1 or 2 default attacks.
+N	Damage scores shown in white are from basic attacks ; the ones in yellow are from abilities. Scores are bigger for critical damages.
+G	Abilities of each party member are on their left if their portrait is on the left, and on their right if their portait is on the right. So currently, each party member has 2 abilities. We'll get more with experience.

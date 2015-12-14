@@ -1,0 +1,6 @@
+N	That was Jadal !
+B	Another escaped prisoner who just stayed there to fight us off.
+G	Maybe he sacrificed himself so the other ones could escape ?
+N	I doubt that, it was not his style : he was jailed for several assassinations, not exactly an humanist.
+B	And it would not explain why he was in the middle of locked rooms full of deadly creatures.
+P	We won't solve this mystery now, so let's just continue.

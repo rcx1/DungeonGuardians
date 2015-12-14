@@ -1,0 +1,13 @@
+G	Here, another tough brute!
+N	This one is not an escaped prisoner, though. It's {>MobWarrok}, the creature guarding the dungeon entrance.
+N	We must kill him in order to get his key and open the door leading to the exit.
+P	So how did the other prisoners manage to pass him ?
+B	They probably had accomplices who brought food to him ; if he were to see some dead deer on the opposite side of the door, he would open it, then get busy eating the deer, and people would be able to sneak past him.
+G	Hmm, that sounds like a good plan, maybe we could do something like that as well.
+B	Why ? Are you hiding a dead deer in your bag ?
+G	No, but...
+B	Then I guess blood will have to be spilled again.
+N	Ok boss, it should be fairly straigthforward to take him, but if you want, I still could give you a couple heads up, else just silence me.
+N	So the main thing is that when he casts {>AbMobHellFire}, we'll have to step back to avoid being burnt alive.
+N	Also, he'll swipe us all regularly, so all in all, better to get our group healing ready!
+P	Ok, got it, let's get to it!

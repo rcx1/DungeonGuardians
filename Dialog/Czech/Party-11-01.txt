@@ -1,0 +1,4 @@
+N	We keep going down. I don't like it.
+B	I didn't see any other way. Did you ?
+N	No, and that's exactly why I don't like it.
+P	These caverns and mines should lead somewhere. Eventually.

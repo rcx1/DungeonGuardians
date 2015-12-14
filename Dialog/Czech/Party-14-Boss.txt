@@ -1,0 +1,5 @@
+N	Oh, it looks like we found back our strange emissary !
+G	She said she came from a far far country. She surely looks strange.
+B	More than strange, she's just plain weird ! Anyway, I can tell you a thing or two about her, that you might find useful.
+B	So overall she's a good fighter so we'll have to be careful, but there's one very important thing to take care of : when she's casting her {>AbBossDeathRay}, run & hide as fast as possible ; this stuff can suck the life out of your body and send you to hell pretty fast !
+P	Ok, a game of hide and seek, just what we were missing..!

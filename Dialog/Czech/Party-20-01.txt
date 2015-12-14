@@ -1,0 +1,4 @@
+G	I don't like this place, it feels evil.
+N	We must be very deep below the ground now.
+B	Yes, there's surely no exit around here.
+P	There was no exit before either. We don't have much choice here but go on, wherever it leads us.

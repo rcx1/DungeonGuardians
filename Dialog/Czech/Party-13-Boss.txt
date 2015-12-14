@@ -1,0 +1,4 @@
+B	Hey, that's Beauregard over there ! He's a warlock, or a summoner, or both, I'm not sure what he calls himself.
+N	He's quite powerful anyway, and I can brief you on his abilities if you wish.
+N	So his main tactic is to teleport away when he's in trouble, summon a bunch of golems, and then heal himself. If we can reach him and interrupt before he heals himself, it'll make the fight much easier.
+P	Ok, I'll see what we can do...

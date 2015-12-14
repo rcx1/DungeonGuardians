@@ -1,0 +1,10 @@
+N	Did the door just slam behind us ?
+G	Yes, it did ! Can't be good...
+B	Whoa ! Did you see that ? What's there now !?!
+N	It looks like a sleeping undead dragon.
+B	Yeah, great, exactly the kind of stuff we've been missing so far.
+G	It's not an escaped prisoner, that's for sure.
+B	Ok, boss, I'm going to give you my thoughts on this, but if you don't want to know them, just end the conversation now.
+B	Alright, so when I was a kid, I heard of a story about an undead dragon just like this one. I don't remember much, but I think it has several devastating attacks, including one it does only when we're out of his reach, so I'd advise you to always keep close to him, except during special cases.
+B	Lastly, I think we should check these strange looking fields first. Don't wake up the dragon right away by walking near it, so we have time to understand what's going on in this room.
+P	Ok, let's check everything before getting dirty !

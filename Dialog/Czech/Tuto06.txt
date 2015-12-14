@@ -1,0 +1,4 @@
+B	Damn, one skeleton roamed to our side of the rift !
+N	Ok, to attack it, either left click on it and then click the 2-sword icon, or only right-click on it.
+N	Before attacking, be sure to have all 4 of us selected ; if not, click on the 4-dot icon ; it will toggle between the last custom selection and the full group selection.
+N	Note that the selected party members have golden corners on their portrait.

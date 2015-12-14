@@ -1,0 +1,2518 @@
+// Codes can't start with : §, -, 0-9
+
+//===System Errors
+AssertCheck	---
+
+//===Init
+LoadingGame	Nahrávám hru
+LoadingFailed	Nahrátí hry se nepodařilo
+
+ContactMG	www.managames.com/mail_en
+
+InvalidKey	Váš registrační klíč je chybný!\nProsím, ozvěte se našemu teamu [>ContactMG],\npošlete jméno, příjmení a zákaznické číslo.\n
+InvalidKeyTitle	Chybný klíč
+
+TrialInfo	Hru si užíváte v testovacím režimu.\n\nPokud jste si hru koupili, v což doufáme, prosím zadejte své zákaznické číslo.
+Register	Registrace plné verze hry
+EnterCustomerID	Zajedte zákaznické číslo
+Registered	{0}, podařilos e Vám úspěšně zaregistrovat tuto hru.\n\nPřejeme hodně dobrodružství a zábavy !
+CantWWW		Nemohu se připojit na server managames.com .\n\nProsím zkontrolujte své připojení k internetu a zkuste to znova.
+ContactingWWW	Připojuji se na server managames.com . Prosím vydržte.
+WrongID		Zadáno chybné zákaznické číslo.\n\nZkuste to prosím znovu. Pokud si myslíte, že je chyba na našem konci,\nozvěte se našemu teamu [>ContactMG] a pošlete jim své zákaznické číslo.
+FailedKey	Klíč se podařilo stáhnout, ale vypadá to, že nefunguje !\n\nProsím, ozvěte se našemu teamu [>ContactMG],\npošlete jméno, příjmení a zákaznické číslo.
+RegisterInfo	Registrační informace
+Info		Informace
+RegInfo		Hra registrována na:\n\n{0}\n{1}\n
+
+//=== Global
+On		Zapnuto
+Off		Vypnuto
+Default		Původní
+Back		Zpět
+Ok		Potvrdit
+Auto		Automaticky
+None		Žádný
+Done		Hotovo
+Cancel		Zrušit
+Remove		Odstranit
+Warning		Upozornění
+Confirm		Potvrdit
+Submit		Odeslat
+
+//=== Main Menu
+StartLevel	Začít patro
+StartGame	Začít novou hru
+ResumeGame	Pokračovat ve hře
+Options		Nastavení
+MapEditor	Editor map
+Exit		Konec
+Credits		Závěrečné titulky
+ShowDataFolder	Ukázat složku s daty
+Build		Verze
+//=== rcx added
+LoadGame		Načíst hru
+SelectDungeon		Vybrat patro
+
+//=== Options Menu
+FullScreen	Přes celou obrazovku
+Windowed	V okně
+VideoOptions	Grafika
+Controls	Ovládání
+GameOptions	Hra
+Interface	Rozhraní
+Audio		Zvuk
+
+//=== Game Options Menu
+Difficulty	Obtížnost
+DiffAdvanced	Rozšířené nastavení 
+EnemyHP		HP nepřátel
+EnemyDps	DPS nepřátel
+GuiArrows	Zobrazit šipky
+TooltipOnCursor	Nápověda vedle ukazatele
+GuiDpsLog	Zobrazit historii DPS
+DevMode		Vývojářský režim
+GhostMode	Jako duch
+ShowFps		Zobrazit FPS
+Analytics	Analytická data
+TipAnalytics	Umožní hře odesílat anonymní analytická data.\nTak se vývojáři v Mana Games dozví, jestli má některý boss příliš tuhý kořínek nebo naopak, jste si ho téměř nevšimli a podobné informace.
+AutoSave	Automaticky ukládat po skončení souboje
+
+AutoMapping	Automatické mapování
+ConfirmAutoMap	Zapnutí mapování znamená, že nebudete vázání na hledání magického svitku s mapou pro každé patro.\n\nAle také to dramaticky sníží obtížnost hry a atmosféra zoufalosti a ztracenostiv podzemí bude ta tam.\n\nOpravdu nedoporčujeme mapu zapínat, ledaže chcete hru jen proběhnout a rozlehlá, magicky podmanivá patra Vás nezajímají.
+
+GuiScaleTop	Měřítko horního GUI
+GuiScaleCenter	Měřítko středního GUI
+GuiScaleBottom	Měřítko dolního GUI
+
+Difficulty00	Kojenec	// 0.0 - Kid
+Difficulty01	Zvědavec	// 0.2 - Very Easy
+Difficulty02	Dobrodruh	// 0.5 - Easy
+Difficulty03	Bojovník		// 0.9 - Normal
+Difficulty04	Řezník	// 1.0 - Hard
+Difficulty05	Stratég	// 1.5 - Very Hard
+Difficulty06	Likvidátor	// 2.0 - Impossible
+
+Difficulty07	Aktuální nastavení
+Difficulty08	Vlastní
+
+DifficultyInfo	Obtížnost můžete změnit kdykoli během hry. Stačí jen jít do [>GameOptions].
+
+DescDiff00	Nedá se ani mluvit o obtížnosti. Jediné, co budeš potřebovat, je naučit se léčit svou partičku, ale to jen opravdu ve chvílích nejhorších. Pravá volba pro procházku parkem.
+DescDiff01	You'll have to be a bit careful, but even if you're not familiar with video games, you should reach the end of the game. If you play without using the [>KeyActivePause], the game will be already challenging.
+DescDiff02	You'll have to understand most of the game mechanisms to survive, but you'll still have a lot of margin for error. Without using [>KeyActivePause], the game will be very challenging.
+DescDiff03	Pick this if you're new to Dungeon Guardians, but not new to tactical combat; you'll get a good challenge. Playing without [>KeyActivePause] is nearly impossible.
+DescDiff04	You'll have to master all game mechanisms to survive. There's still room for error, but it's minimal. Playing without [>KeyActivePause] is just not possible.
+DescDiff05	Not only will you have to master all game mechanisms to not be constantly crushed, you'll also have to find all secrets & solve all puzzles to get enough gear and potions to succeed in the hardest fights. Don't even think about playing without the [>KeyActivePause].
+DescDiff06	Without a ton of luck (or maybe a few miracles?), you probably won't reach the end of the game, even if you play perfectly.
+DescDiff07	Keep the current Difficulty, which is set in [>GameOptions].
+DescDiff08	Lets you fine tune the difficulty with the following sliders.
+
+SelectDifficulty	Zvol obtížnost
+
+CheckNewVersion	Automatically Check For New Version
+CheckVersionNow	Check For New Version Now
+NoNewVersion	You already have the latest version.
+NewVersion	New Version
+NewVersionOnWeb	A new version is available on the website.
+DownloadNow	Download Now !
+Changelog	Changelog
+
+ChooseLanguage	Choose Language
+
+GameHelpers	Helpers
+ItemHighlight	Hightlight Items
+AutoAttackMob	Auto-attack next enemy on target death
+
+AutoPause00	Auto Pause on Empty Queue
+AutoPause01	Auto Pause on Enemy Death
+AutoPause02	Auto Pause on Party Member Knocked Out
+AutoPause03	Auto Pause on Healer out of Mana
+AutoPause04	Auto Pause on Damage Dealer out of Mana
+AutoPause05	Auto Pause on Long Cooldown Recharged
+AutoPause06	Auto Pause on Start of Battle
+AutoPause07	Auto Pause on Enemy Targets Non-Tank Member
+
+GlobalIcons	Global Icons
+DigitalCD	Digital Cooldowns
+
+//=== InGame Menu
+InGame		In-Game
+MainMenu	Main Menu
+BackToEditor	Back To Editor
+SaveGame	Save Game
+LoadGame	Load Game
+NewSave		Save to new slot
+QuickSave	Quick Save
+Overwriting	Overwriting '<i>{0}</i>' - <b><color=red>Click again to confirm</color></b>
+DefaultSaveName	MyGame
+ImportParty	Import Party
+PartyImported	Party Imported
+GameSaved	Game Saved to '{0}'
+GameLoaded	Game Loaded from '{0}'
+SelectDungeon	Select Dungeon
+SelectMods	Select Mods		//##
+Dungeon&Mods	Dungeon & Mods		//##
+NoSavedGame	No Saved Game
+GameOver	Game Over
+LoadLastGame	Load Last Saved Game
+
+CheckAccount	Check License Key Online
+SaveLocked	Your saved games have been locked. To unlock them, you have to check your License Key online.\nIf you didn't buy the game, you should buy it now.
+Unlocked	Your account is valid, your saved games have been unlocked !
+
+//=== Select Mods		//##
+ModOnRestart	Changes to Mods will be applied next time your start the game.
+ModSelect	Load Mods
+ModSelect00	All
+ModSelect01	None
+ModSelect02	Custom
+
+//=== Video Options Menu
+Gamma		Gamma
+TipGamma	There's a ring on the bottom left of the screen. You should notice it, but not too easily. You should be able to guess its whole shape is golden, not only the top.
+Ambient		Ambient
+Brightness	Brightness
+Contrast	Contrast
+VSync		VSync
+ViewRange	View Range
+Bloom		Bloom
+SSAO		SSAO
+TipSSAO		Screen Space Ambient Occlusion
+Fsaa		Full Scene Anti-Aliasing
+TipFsaa		FXAA3 Method
+VideoQuality	Quality
+Deferred	Deferred Lighting
+TipDeferred	Turning this off will remove all shadows. This is recommended only for very low end GPUs.
+MotionBlur	Motion Blur
+FramePerSecond	Frames Per Second
+Fov		Field of View
+
+QuFastest	Fastest
+QuFast		Fast
+QuSimple	Simple
+QuGood		Good
+QuBeautiful	Beautiful
+QuFantastic	Fantastic
+
+//=== Controls Menu
+MouseSensivity	Mouse Sensivity
+WheelSensivity	Wheel Sensivity
+InvertMouseY	Invert Mouse Vertical Axis
+CmdBuffering	Input Buffering
+CmdBuffering00	Off
+CmdBuffering01	Light
+CmdBuffering02	Full
+ViewBobbing	View Bobbing
+SmoothMouse	Smooth Mouse Look
+AutoCenterMouse	Center View On Move
+
+BindKeys	Bind Keys
+BindFunction	Function
+BindKey		Bound Key
+BindAltKey	Alternate Key
+KeyNone		<None>
+
+KeyBase		Base
+KeyAbilities	Abilities
+KeyEditor	Editor
+KeyModSymbol	M
+ConfirmDefKEys	This will reset all key bindings to their default.\nAre you sure ?
+TipKeyBind	Left-click to assign Key. Right-click to clear current Key.
+TipKeyBinding	Press the wanted Key. Right-click to cancel.
+
+//=== Keys
+KeyModifier1	Modifier 1	  	// Shift
+KeyModifier2	Modifier 2	  	// Control
+KeyModifier3	Modifier 3	  	// Alt
+
+KeyHealthPotion	Health Potion
+KeyManaPotion	Mana Potion
+
+KeyInventory	[>GiInventory]
+KeyTalentTree	[>GiTalentTree]
+KeyChatLog	[>GiChatLog]
+KeyMap		Map
+
+KeyEscape	Escape
+KeyCycleTarget	Cycle Target
+KeyToon1	Party Member 1
+KeyToon2	Party Member 2
+KeyToon3	Party Member 3
+KeyToon4	Party Member 4
+
+KeyQuickSave	[>QuickSave]
+KeyQuickLoad	Quick Load
+KeyScreenshot	Screenshot
+KeyHideGui	Hide Gui
+
+      //=== From Input
+KeyMoveForward	Move Forward
+KeyMoveBackward	Move Backward
+KeyMoveLeft	Move Left
+KeyMoveRight	Move Right
+KeyTurnLeft	Turn Left
+KeyTurnRight	Turn Right
+KeyActivePause	Active Pause
+
+KeyNextDialog	Next Dialogue
+KeyDpsGraph	[>GuiDpsLog]
+KeySelectToons	Toggle Selected Party Members
+KeyAttack	[>GiAttack]
+KeyLoot		Pick up all Loot	//##
+
+      //=== Ability
+KeyRightClick	Unqueue Ability
+DescKeyRightClick	Hold this key while pressing the ability's Key to unqueue it
+DescKeyModifier1	You can hold this key in combination with another key when binding it to a function
+DescKeyModifier2	[>DescKeyModifier1]
+DescKeyModifier3        [>DescKeyModifier1]
+
+KeyToonAbility	Member #{0} Ability #{1}
+
+      //=== Editor
+KeyEd_SaveMap	Save Map
+KeyEd_SaveDungeon	Save Dungeon
+KeyEd_TestDungeon	Test Level
+KeyEd_StopTest		[>BackToEditor]
+
+KeyEd_NextLevel	Next Level
+KeyEd_PreviousLevel	Previous Level
+KeyEd_OtherNextLevel	See Other Next Level
+KeyEd_OtherPrevLevel	See Other Previous Level
+KeyEd_ScrollUp	Scroll Up
+KeyEd_ScrollDown	Scroll Down
+KeyEd_ScrollLeft	Scroll Left
+KeyEd_ScrollRight	Scroll Right
+
+KeyEd_Floor	Floor
+KeyEd_Ceiling	Ceiling
+KeyEd_Wall	Wall
+KeyEd_Corner	Corner
+KeyEd_Prop	Prop
+KeyEd_Field	Field
+KeyEd_Mob	Mob
+KeyEd_Item	Item
+KeyEd_EditCells	Edit Cells
+KeyEd_Level	[>DungeonLevel]
+KeyEd_Dungeon	Dungeon
+
+KeyEd_VerticalUp	Fly Up
+KeyEd_VerticalDown	Fly Down
+KeyEd_DragOrbit	Scroll & Orbit
+
+//=== Audio
+MasterVol	Master Volume
+MusicVol	Music Volume
+AmbienceVol	Ambience Volume
+
+SpeakerMode	Speakers
+SpeakerMode00	Mono
+SpeakerMode01	Stereo
+SpeakerMode02	Quad
+SpeakerMode03	Surround
+SpeakerMode04	5.1
+SpeakerMode05	7.1
+
+//=== Party Creation
+PartyCreation	Party Creation
+DefaultParty	Default Party
+CustomParty	Custom Party
+SelectParty	Customize Party
+PartySelected	Start Game
+SelectMember	Select Guardian
+MemberDesc	{0}\n{1}\n({2}, {3}, {4}, {5})
+ChangeMember	Change Guardian
+ChangeSoul	Change Soul
+ShowBaseMember	User Guardians
+ShowUserMember	Base Guardians
+ShowMatchMember	All Guardians
+ShowAllMember	Comptatible Guardians
+CharDesc	{0} : {1}, {2}, {3}, {4}, {5}
+CharDetail	({0}, {1}, {2}, {3}, {4})
+NoMatchMember	No Matching Guardian
+NoMember	No Guardian - Create Some!
+SelectForRole	For Role: {0}
+CreateMember	Create Guardian
+DefaultName	[:Mister|Miss]
+DeleteChar	Delete Guardian
+ConfirmDelChar	Delete '{0}' ?\n\nYou can't undo this.
+MainCharacter	<b>Main Character</b>\nYou are the soul of this guardian.\nClick on another guardian's portrait to change your main character.
+
+CcPass00	Select Race
+CcPass01	Select Gender
+CcPass02	Enter Name
+CcPass03	Select Class
+CcPass04	Select Specialization
+CcPass05	Select Portrait
+CcPass06	Select Voice
+
+OverwriteChar	Guardian '{0}' already exists.\n\nWould you like to overwrite [:him|her] ?
+Overwrite	Overwrite
+IncompatibleMember	This guardian has a specialization that doesn't match [:his|her] role in the party.
+IncompatibleParty	If you use an incorrect specialization for your party members, the game difficulty can get extremely unbalanced, and you might not be able to survive.
+IncompatibleClass	This class doesn't have any specialization matching the current member role in the party.
+IncompatibleSpec	This specialization doesn't match the current member role in the party.
+
+VoiceAuto	Automatic
+TipVoiceAuto	Lets the game choose a voice so no 2 characters have the same voice.\n\nAll Built-in characters use auto-voice.
+Voice		Voice #{0}
+
+//=== Map Editor
+BrushNormal	Brush Normal
+BrushSmart	Brush Smart
+BrushAll	Brush All
+BrushAll/Center	Brush No Center
+
+TotalXpInLevel	Total XP
+EdMobXP		XP: {0} (In View: {1})\nTotal XP: {2}
+
+Normal		Normal
+Down		Down
+Up		Up
+
+Quantity	Quantity
+SubId		SubId
+Toon		Toon
+MapEdError	MapEd Error
+DungeonLevel	Level
+SeeOther	See Other
+
+NbEditCell	Selected Cells: {0}/{1}
+
+//=== Dungeon Tools
+SetPartyStart	Set Party Start
+DungeonName	Dungeon Name
+DungeonIni	Dungeon File
+SaveLevel	Save Level
+LoadLevel	Load Level
+SaveDungeon	Save Dungeon
+LoadDungeon	Load Dungeon
+BaseHeight 	Base Height
+DeleteLevel	Delete Level
+AddLevel	Add Level
+MoveResizeLvl	Move & Resize Level
+ResizeLevel	Resize Level
+TestDungeon	Save & Test Dungeon
+TestLevel	Save & Test Level
+LevDefaultEnv	Level's Default Environment
+LevAmbience	Level Ambience Track
+AssignEnv	Assign Environment
+DungeonVersion	Version
+NewDungeon	New Dungeon
+
+LigthOnParty	Boost Light On Party
+BoostAmbient	Boost Ambient Light
+
+LevelSaved	Level Saved to {0}
+DungeonSaved	Dungeon Saved to {0}
+
+NbLevelAround	Levels Around		//##
+
+XpScale		XP Scale		//##
+
+//=== Steam Workshop			//##
+SteamWorkshop	Steam Workshop
+SWS_CreateNew	Create New Item
+SWS_UpdateItem	Update Item
+SWS_Banned	You have been banned from Steam Community, so you can't add anything.
+SWS_TimeOut	Connection Timed Out. Retry later (or now! ;-) ).
+SWS_NotLogged	You have to log in your Steam account 1st.
+SWS_Visibility	Visibility
+SWS_Vis00	Public
+SWS_Vis01	Friends
+SWS_Vis02	Private
+SWS_ChangeNotes	Change Notes
+SWS_InvalidUp	Invalid
+SWS_Commiting	Commiting
+KilobyteSymbol	KB
+AutoScreenshot	Auto-Screenshot
+FromLastCamPos	From Last Camera
+DownloadingMap	Downloading Dungeon
+DownloadingItem	Download In Progress
+ItemInQueue	Items to be downloaded
+DlItemInfo	Please wait for Steam Workshop Items to finish to download.
+SteamItemId	Steam Item ID
+
+ModInDownload	The Following Mods and new Items from Steam Workshops need to be downloaded or updated, so they were not applied:{0}\n\nWait for them to finish to download, then restart the game. You can also play right away, but if these Mods are needed for your saved games, not having them might create unexpected results or crash the game.
+
+SWS_Mods	Mods
+ModDependency	You have these Mods installed : {0}\n\nIf your creation requires some of these Mods, be sure to set the correct dependencies in its Steam Workshop page that will pop up at end of the upload.
+SWS_ModDetail	Workshop ID
+
+//=== FlyBy
+AddedFlyBy	Added FlyBy Point #{0}
+FlyByCleared	FlyBy Cleared
+FlyByEmpty	FlyBy is Empty
+FlyByOnly1	FlyBy has only 1 point !
+FlyDelete	D
+
+//=== Target & Switch
+Add		Add
+SetTo0		Set To 0 (Untriggered)
+SetTo1		Trigger
+Toggle		Toggle Match
+ToggleAlways	Toggle Always
+SetIfTo		Set If To
+SetIfToElse0	Set If To Else Reset
+TimedSwitch	Timed Switch
+TimedOppSwitch	Timed Invert Switch
+CancelSwitch	Cancel If Switch Is
+CancelDelayedS	Cancel Delayed Switch
+CancelDelayedA	Cancel Delayed All
+SetMobBehavior	Set Mob Behavior
+AlwaysActivate	Always Activate
+Cycle		Cycle
+TeleportToPath	Teleport To Path
+ApplyAbility	Apply Ability
+SetTo		SetTo
+AddBound	Add Clamp
+
+NoConstraint	No constraint
+OnlyOnActivate	Only On Activate
+OnlyOnDeactivat	Only On Deactivate
+Once		Once
+OnceOnActivate	Once On Activate
+OnceOnDeactivat	Once On Deactivate
+
+SelectTarget	Select Target
+Var1		Var1
+Var2		Var2
+Delay		Delay
+SecondSymbol	s
+Activate	Activate
+Times		Times
+AlwaysRepeat	Repeat
+TriggeredByToon	Triggered By Party
+TriggeredByMob	Triggered By Mob
+TriggeredByItem	Triggered By Item
+TargetInLevel	Targets In Levels
+Targets		Targets
+TrackMob	Track Mob
+
+Triggered	Triggered
+TriggeredBy	Triggered By
+TriggeringDir	Triggering Dir
+NoItemSelected	No Item Selected
+OtherItemUnTrig	Other Items Prevent Triggering
+TrigItemAnyNum	Any Item of that Type
+TrigItemAnyLvl	Any Level
+TrigItemAnySub	Any Sub Id
+
+Found		Found
+NotFound	NotFound
+
+AutoCeilHeight	Auto Ceiling Height
+CeilHeight	Ceiling Height
+DownTo		Down To
+Direction	Direction
+MeterSymbol	m
+MsSymbol	m/s		// Meters Per Second
+ResetLast	Set To Last
+
+TriggerValue	Trigger Value
+AutoHeight	Auto Height
+Height		Height
+SetToLast	Set To Last
+TriggerOnAggro	Trigger On Aggro
+TriggerOnDeath	On Death
+TriggerOnBattle	On Battle
+
+LiftNbStop	Stops
+LiftSpeed	Speed
+
+OpenTriggered	Open (Triggered)
+ClosedUntrig'ed	Closed (Untrigged)
+OpenUntriggered	Open (Untriggered)
+ClosedTriggered	Closed (Triggered)
+
+ItemLoot	Dropped by Mobs
+Weight		Weight
+KgSymbol	Kg		// Kilograms
+ItemLevel	Level
+ItemLevelN	Level {0}
+ItemLevelSymbol	L
+ItemQuality	Quality
+GearSlot	Slot
+GearKind	Kind
+StackSize	Total in Stack
+TotalWeight	Total Weight
+OverWeight	Your party is overloaded and thus runs slower, you should drop some items.
+CrushingWeight	Your party is totally overloaded, you have to drop some items before you are able to move again.
+
+Active		Active
+Inactive	Inactive
+ActiveTriggered Active (Triggered)
+InactUntrig'ed	Inactive (Untriggered)
+InactiveTrig'ed	Inactive (Triggered)
+ActiveUntrig'ed	Active (Untriggered)
+
+DelOrClearLev	Delete Or Clear Level {0} ?
+Delete		Delete
+Clear		Clear
+AddLev?		Add Level ?
+BeforeLev	Before Level
+AfterLev	After Level
+AtFirst		At First
+AtEnd		At End
+Deleted		Deleted
+
+1stRow		1st Row
+LastRow		Last Row
+1stColumn	1st Column
+LastColumn	Last Column
+CopyLevelExtent	Copy Level Extent
+GetAutoExtent	Get Auto-Extent
+MoveLevel	Move Level
+MoveRow		Move Row
+MoveCol		Move Column
+ApplyPitChanges	Apply Pit Changes
+WarnCrop	Some occupied cells are going to be destroyed. This is NOT undoable.
+
+Floor		Floor
+Ceiling		Ceiling
+Wall		Wall
+Corner		Columns & Prop
+Prop		Wall's Prop
+Mob		Mob
+Item		Item
+Field		Field
+EditCells	Edit Cells
+Dungeon		Dungeon
+
+Undo		Undo
+Redo		Redo
+
+TotalLoot	Total Loot For Current Toon
+LootInLevel	In Current Level for All Toons
+
+//=== Edit Cells
+SelectAll	Select All
+SelectOnlyUsed	Only Used
+SelectOnlyEmpty	Only Empty
+Select		Select
+Paste		Paste
+Copy		Copy
+Cut		Cut
+NoCopiedCell	==> Copy/Cut Cells 1st <==
+SelectOnPaste	Select Cells On Paste
+
+SetCellHeight	Set Floor Height
+MoveCellHeight	Move Floor Height
+SetCeilingHgt	Set Ceiling Height
+MoveCeilingHgt	Move Ceiling Height
+
+//=== Field
+Speed		Speed
+Angle		Angle
+Damage		Damage
+GenMaxTotal	Max Generated
+GenMaxAlive	Max Alive
+DelayAtStart	Delay At Start
+OnlyNotVisible	Only When Not Visible
+KillOnDisable	Kill All Generated On Disable
+DialogFile	Dialogue File
+EffectName	Ability
+EffectContent	Visual Effect
+TagField	Tag
+
+//=== Wall
+North		North
+East		East
+South		South
+West		West
+WallAuto	Auto
+Center		Center
+WallNoChange	No Change
+WallOpposite	Opposite Dir
+Pit		Pit
+AllWall		All
+WallLeft	Turn Left
+WallRight	Turn Right
+
+//=== Field
+FieldDialog	Dialogue
+FieldTrigger	Trigger Field
+FieldTeleporter	Teleporter
+FieldForce	Force Field
+FieldEffect	Effect Field
+AffectParty	Affect Party
+AffectMob	Affect Mobs
+AffectItem	Affect Items
+TriggerRemote	Trigger On Remote Activation
+TriggerNoRemote	No Trigger On Remote Activation
+
+//=== Behavior
+BhvGuard	Guard
+BhvRoam		Roam
+BhvPatrol	Patrol
+BhvAttack	Attack
+BhvFlee		Flee
+BhvSleep	Sleep
+BhvAmbush	Ambush
+
+NoLimit		No Limit
+MaxRoamDist	Max Roam Dist
+MaxRoamLevel	Max Roam Level
+RandomLoot	Random Loot
+
+NoPathSelected	No Path Selected
+CreatePath	Create New Path
+ModifyPath	Modify Path
+DeletePath	Delete Path
+NewPathPoint	New Path Point
+PathDelay	Delay
+PathJumpTo	Jump To Point
+DeletePathPoint	Delete Point
+
+//=== Item
+Generic		Generic
+Weapon		Weapon
+Gear		Gear
+Consumable	Consumable
+Generator	Generator
+Key		Key
+Projectile	Projectile
+TargetedRandom	Targeted Random
+ItemRandDetail	Rd Lvl:
+ItemAllLvl	All
+ItemAllQualites	Any Quality
+
+//=== Key
+IronKey		Iron Key
+BrassKey	Brass Key
+GoldKey		Gold Key
+EbonyKey	Ebony Key
+EmeraldKey	Emerald Key
+SilverKey	Silver Key
+SquareKey	Square Key
+SkullKey	Skull Key
+RubyKey		Ruby Key
+CrossKey	Cross Key
+AutoMap		Magical Auto-Map Scroll
+
+//=== Weapon
+WeaponKind	Kind
+WeaponFist	Fist
+WeaponDagger	Dagger
+WeaponSword	Sword
+WeaponAxe	Axe
+WeaponMace	Mace
+WeaponPolearm	Polearm
+WeaponStaff	Staff
+WeaponWand	Wand
+WeaponBow	Bow
+WeaponCrossbow	Crossbow
+WeaponThrown	Thrown
+WeaponAll	All Kinds of Weapons
+
+Hand		Hands
+
+PracticeSword	Practice Sword
+PracticeGladius	Practice Gladius
+ShortSword	Short Sword
+ShortSwordB	Imperial Sword
+KnightSword	Knight Sword
+GuardSword	Guard Sword
+CaptainSword	Captain Sword
+BroadSword	Broad Sword
+NorseSword02	Nordic Sword
+Claymore	Claymore
+LongSword	Long Sword
+Flamberge	Flamberge
+Katana01	Katana
+Katana02	Ronin Katana
+
+FireWand	Fire Wand
+
+CombatKnife	Combat Knife
+Dagger		Dagger
+DaggerB		Imperial Dagger
+DaggerC		Long Dagger
+DaggerLarge	Large Dagger
+
+WoodmanAxe	Woodman Axe
+FellingAxe	Felling Axe
+BattleAxe	Battle Axe
+DoubleAxe	Double Axe
+Sagaris		Sagaris
+WarAxe		War Axe
+BarbarianAxe	Barbarian Axe
+
+Halberd_A	Halberd
+Halberd_B	Steel Halberd
+
+Staff		Runic Staff
+StaffSylvan	Sylvan Staff
+StaffIron	Iron Staff
+StaffBent	Bent Staff
+
+StoneHammer	Stone Hammer
+Mace01		Flanged Mace
+Mace02		Mace
+WarHammer	WarHammer
+Flail		Flail
+
+Bow		Bow
+Crossbow	Crossbow
+
+//=== Generic
+Stone01		Round Small Stone
+Stone02		Dark Boulder
+Stone03		Brown Small Stone
+Stone04		Broken Small Stone
+Stone05		Pebble
+StoneHeavy	Incredibly Heavy Small Stone
+
+Urn-DM1		"<i>Ashes of Bluegold</i>"
+Urn-DM2		"<i>Ashes of Notwen Reklaw</i>"
+Urn-DM3		"<i>Ashes of Redloh Soraj</i>"
+
+IdolTiger	Tiger Idol
+IdolSnake	Snake Idol
+IdolPrimitive	Primitive Idol
+
+PulsingAmethyst	Pulsing Amethyst
+PulsingEmerald	Pulsing Emerald
+PulsingRuby	Pulsing Ruby
+PulsingSapphire	Pulsing Sapphire
+
+EmptyMap	Useless Erased Map
+
+//=== DpsLog
+DpsTotal	T
+TipDpsTotal	Total over {0}
+DpsAverage	A
+TipDpsAverage	Average over last {0}
+
+CombatLog00	D
+CombatLog01	H
+CombatLog02	L
+CombatLog03	T
+
+TipCombatLog00	Damage
+TipCombatLog01	Healing\n(Includes absorbed damage)
+TipCombatLog02	Health Lost\n(Includes absorbed damage)
+TipCombatLog03	Threat\n(Highest current threat)
+
+MinuteSymbol	m
+TipCombatPeriod	Total Period
+TipCombatAvrg	Average Period
+TipCombatBack	Show Earlier Period
+
+Threat		Threat
+
+//=== Notes
+Note		Note
+NoteTip		A note that reads:\n"<i>{0}</i>"
+NoteL01-01	Do you like scavenger hunts ? If you do, put me in an empty alcove.
+Skull		Skull
+StrangeSkull	Strange Skull
+NoteL08-01	Are you sure you know who are the hunters, and who are the hunted ?
+NoteL09-01	Feeling lonely ?\n\nDon't.\n\nI'm watching you.
+NoteL13-01	I lost my way. I don't know where my head's at. Please help me come to my mind.	// Note beside a Skull in an alcove
+NoteL13-02	There's no turning back. There never was.
+NoteL13-03	Luckily for you, I don't have telepathic powers, else I'd have talked to you directly in your head, making you believe I was your friend, asking you to do many great things, only for you to discover at the very end I was your deepest enemy.\n\nWhat an incredible twist it would have been, wouldn't it ?
+NoteL14-01	Each step forward is a step closer to your death.
+NoteL15-01	You think you're the dungeon guardians ? I'm the real Guardian of this Dungeon.
+NoteL15-02	I'm just back from the library, I've read a book about a prophecy and I realized something : you're the chosen one ! You have been summoned to this place of darkness to destroy the great evil within once and for all.\n\nOh dear, I'm terribly afraid now. Luckily, this book also had about 4000 other prophecies. All more interesting than the previous one.\n\nHere's another one. The day pigs can fly, the chickens will have teeth. I like this one better, and it has more chances of becoming true, don't you agree ?
+NoteL16-01	You're in my home.\n\nMake yourself comfortable, you might stay here a long time.\n\nAn eternity, to be more specific.
+NoteL16-02	Can you guess who I am ?\n\nHint : I don't have 6 faces, only 3.	// 6 Faces for the Cube boss of LoG1
+NoteL17-01	You won't survive this place any more than my father did.
+NoteL18-01	Me take shiny. Me like shiny.
+NoteL18-02	Your fall will lead to my rise.
+NoteL19-01	I didn't expect you'd make it this far...\n\nOf course I did ! Why else would I be writing this note ?!?\n\nYou'll die when I decide so, and I won't write epitaphs for your tombs.
+NoteL19-02	Did you bring a firestaff ?\n\nNo? Good, you won't need it. Dead people don't need staff of any kind.	//Firestaff from Dungeon Master
+NoteL20-01	There's no try.		// Yoda (if you ask "Yoda who ?", you're out of here ! ;-) )
+NoteL20-02	Now is your time to choose between a quick death and a slow death.
+
+//=== Gear Leather
+GuardChest	Guard Chest
+GuardLeggings	Guard Leggings
+GuardBoots	Guard Boots
+GuardGloves	Guard Bracers
+GuardHelmet	Guard Helmet
+
+//=== Gear Mail
+CaptainChest	Captain Chest
+
+//=== Gear Plate
+ChampionChest	Champion Chestplate
+ChampionLeggings	Champion Leggings
+ChampionBoots	Champion Boots
+ChampionGloves	Champion Gloves
+ChampionHelmet	Champion Helmet
+
+//=== Gear Other
+//GuardShield	Guard Shield
+//ChampionShield	Champion Shield
+CloakMage	Cloak
+CloakWarrior	Cape
+
+ShieldA		Buckler
+ShieldB		Heater
+ShieldC		Shield
+ShieldD		Heater
+
+//=== Gear Trinket
+ShellHorn	Shell Horn
+Trinket1	Metal Trinket
+Trinket2	Silver Trinket
+
+//=== Gear Cloth
+PaddedRobe	Padded Robe
+PaddedLeggings	Padded Leggings
+PaddedShoes	Padded Boots
+PaddedGloves	Bracers
+PaddedHood	Circlet
+
+//=== Ring
+Ring		Ring
+RingA1		Silver Ruby Ring
+RingA1b		Silver Amethyst Ring
+RingA2		Snake Ring
+RingA3		Diamond Ring
+RingA4		Platinum Emerald Ring
+RingB1		Silver Snake Ring
+RingB1b		Silver Emerald Ring
+RingB2		Ruby Ring
+RingB3		Amethyst Ring
+RingB4		Platinum Sapphire Ring
+
+//=== OffHand
+Book1a		Book
+Book1b		Tome
+Book2		Codex
+Book3		Compendium
+
+//=== Necklace
+Necklace1	Snake Amulet
+Necklace2	Runic Amulet
+Necklace3	Ruby Pendant
+Necklace4	Emerald Pendant
+Necklace5	Golden Amulet
+Necklace6	Platinium Amulet
+Necklace7	Amethyst Pendant
+Necklace8	Sapphire Pendant
+
+//=== Consumable
+HealthPotion01	Health Vial
+HealthPotion02	Lesser Health Potion
+HealthPotion03	Health Potion
+HealthPotion04	Greater Health Potion
+HealthPotion05	Major Health Potion	// Next: Master, then Minor/Lesser/... Healing Elixir, etc...
+
+ManaPotion01	Mana Vial
+ManaPotion02	Lesser Mana Potion
+ManaPotion03	Mana Potion
+ManaPotion04	Greater Mana Potion
+ManaPotion05	Major Mana Potion	// Next : Mana Elixir
+
+HastePotion01	Haste Vial
+HastePotion02	Haste Potion
+HastePotion03	Greater Haste Potion
+
+CritPotion01	Critical Vial
+CritPotion02	Critical Potion
+CritPotion03	Greater Critical Potion
+
+//=== Item Slot
+SlotHead	Head
+SlotNeck	Neck
+SlotShoulder	Shoulder
+SlotChest	Chest
+SlotBack	Back
+SlotWrist	Wrist
+SlotHands	Gloves
+SlotWaist	Waist
+SlotLegs	Legs
+SlotBoots	Boots
+SlotMainHand	Main Hand
+SlotOffHand	Off-Hand
+SlotRing	Ring
+SlotTrinket	Trinket
+SlotAltWeapon	Alternate Weapon
+SlotAll		All Slots
+EmptySlotFor	Empty Slot For {0}
+
+//=== Gear Kind
+GearApparel	Apparel
+GearCloth	Cloth
+GearLeather	Leather
+GearMail	Mail
+GearPlate	Plate
+GearOther	Other
+GearAll		All Kinds
+
+//=== Item Quality
+QualityGarbage	Garbage
+QualityCommon	Common
+QualitySuperior	Superior
+QualityRare	Rare
+QualityEpic	Epic
+QualityLegendary	Legendary
+QualityAll	All
+
+// {0} = base item name (eg: guard sword)
+NameGarbage	Awful {0}
+NameCommon	{0}
+NameSuperior	{0}
+NameRare	Finer {0}
+NameEpic	Epic {0}
+NameLegendary	Legendary {0}
+
+//=== Game
+TargetUncons	Target is Unconscious
+TargetConscious	Target is not Unconscious
+CantCastOnU	Can't use this on yourself
+NotEnoughMana	Not Enough Mana
+QueueFull	Queue Full
+NoTarget	No Target
+CantInterrupt	This cast can't be interrupted!
+NeedRangedWp	This ability requires a ranged weapon
+NeedMeleeWp	This ability requires a melee weapon
+AbRequireWp	This ability requires: {0}
+Overweight	Party cannot move : too much weight !
+PartyStunned	Party cannot move : everybody is stunned !
+NoSpec		Still No Spec for this Toon's Class - Work in Progress !
+Casting		Casting
+NotFighting	This character doesn't have a target,\nso it's currently not fighting
+StunnedCantDo	Stunned, can't do anything right now !
+WIP		Work in Progress - This will come in an update at the end of October
+
+//=== Level Names
+Level01		Forgotten Jail
+Level02		Deep Fortress
+Level03		Slave Catacombs
+Level04		Forsaken Chapel
+Level05		Abandoned Hall
+Level06		Imperial Quarters
+Level07		Battle Arena
+Level08		Cave Entrance
+Level09		Underground Forest
+Level10		Dark Caverns
+Level11		Lost Mines
+Level12		Thousand Caverns
+Level13		Dead Palace
+Level14		Madness Antechamber
+Level15		Furnace of Doom
+Level16		Temple of the Dragon
+Level17		Goblins' Tower
+Level18		Forbidden Gates
+Level19		Black Crypt
+Level20		Guardian's Heart
+
+//=== Notification
+AddedToKeyRing	{0} added to Keyring
+LevelAutoMapped	Auto-mapping added for Level {0}
+LevelFullMapped	Full map revealed for Level {0}
+PutInInventory	{0} added to Inventory
+LookLikeCanHold	It looks like it could hold something...
+CantHoldThat	It can't hold that
+UsedKey		Used {0}
+NoMatchingKey	No matching Key in Keyring
+LevelUp		{0} just reached Level {1} !
+GotXp		Got {0} XP
+XpMobKill	Got {0} XP from killing {1} Level {2}
+Screenshot	Screenshot saved to {0}
+
+//=== Combat Event
+CeTooFar	Out of Reach
+CeMiss		Miss
+CeDodged	Dodged
+CeParried	Parried
+CeDeflected	Deflected
+CeImmune	Immune
+
+//=== Role
+Role		Role
+RoleTank	Tank
+RoleHealer	Healer
+RoleDps		Damage Dealer
+RoleSpellDps	[>RoleDps]
+RoleStrDps	[>RoleDps]
+RoleAgiDps	[>RoleDps]
+RoleStrTank	[>RoleTank]
+RoleAgiTank	[>RoleTank]
+RoleRangedDps	[>RoleDps]
+
+//=== Dialog
+DialogSkip	Skip
+DialogNext	Next
+NoChatLog	Still No Log
+ClickOnLog	Click on a Log entry\nto see its details
+
+SkipIntro	Skip Intro
+
+//=== Mob Family & Genus
+FamBeast	Beast
+FamCritter	Critter
+FamDemon	Demon
+FamDragonkin	Dragonkin
+FamElemental	Elemental
+FamGiant	Giant
+FamHumanoid	Humanoid
+FamMechanical	Mechanical
+FamUndead	Undead
+FamUnknown	Unknown
+
+GenCommon	Common
+GenElite        Elite
+GenRare         Rare
+GenRareElite    Rare Elite
+GenBoss         Boss
+
+//=== Mobs
+MobSkeleton	Skeleton
+MobSkeletonMinion	Skeleton Minion
+MobSkeletonMage	Skeleton Mage
+MobSkeletonArcher	Skeleton Archer
+MobSkeletonFootman	Skeleton Footman
+MobSkeletonWarlord	Skeleton Warlord
+MobSkeletonSoldier	Skeleton Soldier
+MobSkeletonChampion	Skeleton Champion
+MobSkeletonVeteran	Skeleton Veteran
+MobAncientKnight	Ancient Knight
+MobSkeletonCaptain	Skeleton Captain
+MobSkeletonKing		Skeleton King
+MobSkeletonKnight	Skeleton Knight
+MobSkeletonLieutenant	Skeleton Lieutenant
+MobCaveWorm	Cave Worm
+MobEvilWatcher	Evil Watcher
+MobChaosWatcher	Chaos Watcher
+MobSpider	Spider
+MobSpiderLing	Spiderling
+MobSpiderQueen	Spider Queen
+MobBonesDragon	Bones Dragon
+MobThief	Shadow Assassin
+MobUndeadKing	Undead King
+MobCaveMonster	Cave Beast
+MobCaveMother	Cave Mother
+MobForsakenKnight	Forsaken Knight
+MobGoldenKnight	Golden Knight
+MobArmoredBarbarian	Armored Barbarian
+MobBarbarianHulk	Barbarian Hallebardier
+MobBarbarianDestroyer	Barbarian Destroyer
+MobBarbarianLeader	Barbarian Leader
+MobBarbarianUnderworld	Underworld Barbarian
+MobBarbarianSpike	Spiked Barbarian
+MobImperialKnight	Imperial Knight
+MobImperialGuard	Imperial Guard
+MobImperialMinistrel	Imperial Ministrel
+MobBarbarianSlave	Barbarian Slave
+MobBarbarianSlaver	Barbarian Slaver
+MobBigBoss	Dungeon Guardian
+MobCaveVampire	Cave Vampire
+MobArcher2	Royal Archer
+MobArcher2-Light	Light Avatar
+MobArcher2-Shadow	Shadow Avatar
+MobRoyalKnight	Imperial Commander
+MobWarrok	Warrok
+MobBarbarianWarrior	Barbarian Warrior
+MobMushroomSmall	Aggressive Mushroom
+MobMushroomBig	Hell Mushroom
+MobCaveTroll	Cave Troll
+MobSnake	Snake
+MobSnakeLing	Snakelet
+MobSnakeKing	Snake King
+MobDragonBat	Dragon Bat
+MobDragonBatPup	Dragon Bat Pup
+MobDragonVampire	Dragon Vampire
+MobWormCave	Cave Worm
+MobWormDragon	Worm Dragon
+MobCavePredator	Cave Predator
+MobCavePatriarch	Cave Patriarch
+MobGnomeWorker	Gnome Worker
+MobGnomeWarrior	Gnome Warrior
+MobGnomePriest	Gnome Priest
+MobGnomeArcher	Gnome Archer
+MobGnomeGiant	Gnome Giant
+MobGnomeGiant2	Gnome Giant
+MobGnomeProtector	Gnome Protector
+MobElvenWitch	Elven Witch
+MobElvenHunter	Elven Hunter
+MobElvenAssassin	Elven Assassin
+MobElvenSwordGuard	Elven Sword Guard
+MobElvenSpearGuard	Elven Spear Guard
+MobElvenBeast	Elven Beast
+MobElvenBeastArmored	Armored Elven Beast
+MobElvenQueenBeast	Elven Queen Beast
+MobElvenQueen	Elven Queen
+MobSnakeMinion	Snake Minion
+MobGolemSoldier	Golem Soldier
+MobGolemCrusher	Golem Crusher
+MobGolemGuard	Golem Guard
+MobGolemMage	Golem Mage
+MobGolemAssassin	Golem Assassin
+MobGolemArcher	Golem Archer
+MobRatkinWarrior	Ratkin Warrior
+MobRatkinGunner	Ratkin Gunner
+MobRatkinShaman	Ratkin Shaman
+MobRatkinSlave	Ratkin Slave
+MobRatkinWarlord	Ratkin Warlord
+MobTrollWarrior	Troll Warrior
+MobCyclops	Cyclops
+MobLizardman	Lizardman
+MobOrcGrunt	Orc Grunt
+MobOrcBrute	Orc Brute
+MobWarlock	Warlock
+MobPigHead	PigHead
+MobEmissary	Emissary
+MobDragon	Dragon
+MobDragonIce	Ice Dragon
+MobMinionCrusher	Minion Crusher
+MobMinionGuard	Minion Guard
+MobMinionAssassin	Minion Assassin
+MobGoblinBandit	Goblin Bandit
+MobGoblinBaron	Goblin Baron
+MobGoblinGladiator	Goblin Gladiator
+MobGoblinShaman	Goblin Shaman
+MobGoblinSlave	Goblin Slave
+MobSoulEater	Soul Eater
+MobSoulDevourer	Soul Devourer
+MobSoulCrusher	Soul Crusher
+MobDemonWarrior	Demon Warrior
+MobDragonBugTiny	Lesser Dragon Bug
+MobDragonBug	Dragon Bug
+MobDragonBugGiant	Greater Dragon Bug
+MobGargoyle	Gargoyle
+MobGargoyleLesser	Lesser Gargoyle
+MobGargoyleBanished	Banished Gargoyle
+MobBasilisk	Basilisk
+MobBasiliskLesser	Water Basilisk
+MobBasiliskGreater	Ash Basilisk
+MobWyvern	Wyvern
+MobWyvernElder	Elder Wyvern
+MobSorceress	Sorceress
+MobNightshade	Nightshade
+MobDemonist	Demonist
+MobBigBoss1	Dungeon Guardian
+MobBigBoss2	[>MobBigBoss1]
+MobBigBoss3	[>MobBigBoss1]
+MobBigBoss4	[>MobBigBoss1]
+MobEmperorGhost	Emperor Ghost
+MobJanitor	Gate Keeper
+MobWarden	Warden
+
+//=== Races
+RaceHuman	Human
+RaceDwarf	Dwarf
+RaceElf		Elf
+RaceDarkElf	Dark Elf
+RaceHalfling	Halfling
+
+DescRaceHuman	Humans are the most common race in these lands ; they are known for their strong will.
+DescRaceDwarf	Dwarves are short sized but strong individuals, enjoying their life under the mountains.
+DescRaceElf	Elves are the forest inhabitant, wise and secluded.
+DescRaceDarkElf	Dark Elves are said to be elves that have been corrupted by dark magic, living underground.
+DescRaceHalfling	Halflings looks like small, weak humans, but are known for their agility.
+
+//=== Sex
+SexGender	[:Male|Female]
+
+//=== Default Names
+CharName01	[:Harry|Matilda]
+CharName02	[:Elifelet|Aurore]
+CharName03	[:Tatius|Medusa]
+CharName04	[:Ewald|Emily]
+CharName05	[:Cenhelm|Briseis]
+
+//=== Classes
+ClassWarrior	Warrior
+ClassHealer	Healer
+ClassMage	Mage
+ClassRogue	Rogue
+
+DescClassWarrior	Warriors are front line fighters using their might to devastate their enemies or protect their allies.
+DescClassHealer	Healers take care of all party members and mostly the tank, by healing their wounds during the fights.
+DescClassMage	Mages use arcane and elemental powers to fight their enemies from a distance.
+DescClassRogue	Rogues use cunning tactics and dexterity to surprise their enemies or protect their allies.
+
+
+//=== Hand Wielding
+Wielding	Wielding
+HandMain	Main Hand
+HandOff		Off-Hand
+HandAny		Any Hand
+HandBastard	Bastard
+HandBoth	Two-Hand
+HandAll		Any wielding
+
+//=== Character Sheet
+ArmorRating	Armor Rating
+TotalRating	Total Rating
+RateVsLvl	vs Lvl {0}
+RateVsBoss	vs Boss
+DamagePerSecond	Damage Per Second
+Experience	Experience
+ToonLevel	Level
+WarnEquipCombat	Can't change weapon during combat
+GearRestricted	This character can't equip this kind of item
+BaseBonus	Base: {0}\nBonus: {1}
+BaseMalus	Base: {0}\nHandicap: {1}
+
+//=== Attributes
+Str		Strength
+Agi		Agility
+Awa		Awareness
+Wil		Willpower
+Sta		Stamina
+HP		Health
+HpRegn		Health Regeneration
+HpCbRegn	Health Regeneration in Combat
+Mana		Mana
+ManaRegn	Mana Regeneration
+ManaCbRg	Mana Regeneration in Combat
+AP		Attack Power
+RAP		Ranged Attack Power
+SP		Spell Power
+Parry		Parry
+Dodge		Dodge
+Block		Block
+Armor		Armor
+ResNat		[>DmgNature]
+ResArcan	[>DmgArcane]
+ResFire		[>DmgFire]
+ResFrost	[>DmgFrost]
+ResShad		[>DmgShadow]
+ResHoly		[>DmgHoly]
+ResFall		[>DmgFall]
+Crit		Critical Chance
+mCritX	 	Melee Critical Multiplier
+rCritX	 	Ranged Critical Multiplier
+sCritX	 	Spell Critical Multiplier
+Haste		Haste
+Hit		Hit Chance Bonus
+Xpertise	Expertise
+XP		XP
+WpDps		Dps
+WpSpeed		Speed
+WpDamage	Damage
+
+AttGeneral	General
+Att1st		Attributes
+AttMelee	Melee
+AttRanged	Ranged
+AttSpell	Spell
+AttDefense	Defense
+AttResistance	Resistances
+
+StrTip		Increases melee Attack Power and Parry.
+AgiTip		Increases melee & ranged Attack Power for Agility based damage dealers, Critical Chance and Dodge.
+AwaTip		Increases Spell Power, Mana and Expertise.
+WilTip		Increases Mana, Mana Regenerations, Magic Resistances and Block.
+StaTip		Increases Health Points, Health Regeneration outside of combat and Mana Regenerations.
+
+HPTip		When it reaches 0, the character is unconscious.
+ManaTip		Used when casting spells.
+RegenTip	Points regenerated every 5 seconds.
+
+APTip		Increases damage done with melee weapons and melee weapon based abilities.
+RAPTip		Increases damage done with ranged weapons and ranged weapon based abilities.
+SPTip		Increases potency of all spells.
+DpsTip		Average damage per second for the auto-attacks.\n\nTakes into account hit chance, critical chance, haste & expertise.
+
+ParryTip	Chance to parry each melee strike.\nA successful parry usually completely cancels the strike.
+DodgeTip	Chance to dodge each melee strike.\nA successful dodge completely avoids the strike.
+BlockTip	Chance to block each melee strike when using a shield.\nA successful block lowers the damage by 30%.
+ArmorTip	Lowers the damage taken from physical based attacks.
+
+ResNatTip	Lowers the damage taken from nature based attacks.
+ResArcanTip	Lowers the damage taken from arcane based attacks.
+ResFireTip	Lowers the damage taken from fire based attacks.
+ResFrostTip	Lowers the damage taken from frost based attacks.
+ResShadTip	Lowers the damage taken from shadow based attacks.
+ResHolyTip	Lowers the damage taken from holy based attacks.
+
+CritTip		Each ability, including auto-attack, has this chance to be critical.
+
+mCritXTip	Damage multiplier on melee critical hit.
+rCritXTip	Damage multiplier on ranged critical hit.
+sCritXTip	Damage multiplier on spell critical hit.
+
+HasteTip	Increases the cast speed of all abilities and effects over time ticks.\n\nAlso decreases the Global Cooldown, but not the ability cooldowns.
+HitTip		Increases the chance to hit the target with all abilities.
+XpertiseTip	Lowers chance to be parried.\nMaximum useful percentage is 5%, as maximum enemy parry chance is 5%.
+ExperienceTip	When the characters get the required experience points, they level up.
+
+GlobalCD	Global Cooldown
+
+CharStats	Statistics
+CharStat00	Fallen Uncounscious
+CharStat01	Highest Damage
+CharStat02	Highest Dps over 12s
+CharStat03	Killed Foes
+
+NoRaceBonus	None
+
+//=== Map
+NoMap		Still no map found for this level
+LevelN		Level {0}
+MapNextLevel	To Level {0}
+
+//=== Abilities ====================================================================
+AbManaCost	Mana Cost: {0} MP
+AbSpeed		Cast: {0}
+AbChanneled	Channeled
+AbCD		Cooldown: {0}
+AbCDleft	Available in: {0}
+WeaponBased	Weapon Based
+AbRangeDist	Range: {0} meters
+AbMeleeRange	Range: Melee
+AbAoeRange	Area of Effect: {0} meters
+AbDamageType	Damage Type: {0}
+AbTimeleft	Time Left: {0}
+AbSecond	second
+AbSeconds	seconds
+AbMinute	minute
+AbMinutes	minutes
+AbAutoAttack	Auto-Attack
+AbNoCombat	Cannot use during combat
+OnlyOneTarget	Can affect only one target at once
+PartyCD		(shared with party)
+MobTarget	Target
+Owner		Owner
+
+AbRequire	Requires
+WeaponTip	{1} {0}		// {1} = Hand ; {0} = Weapon Kind
+AllExceptTip	All weapons except
+
+AbInstant	Instant
+AbNoQueue	Bypass Queue
+
+DmgPhysical	Physical
+DmgNature	Nature
+DmgArcane	Arcane
+DmgFire		Fire
+DmgFrost	Frost
+DmgShadow	Shadow
+DmgHoly		Holy
+DmgFall		Fall
+DmgWeapon	Weapon Based
+
+// {0} = Damage / Healing
+// {1} = Total Dot Damage / Healing
+// {2} = Total Dot Length
+// {3] = Dot End Damage / Healing
+// {4} = MaxStack
+// {5} = Effect Modifier #1
+// {6} = AoE Projectile Max Damage
+// {7} = Good Color Opening Tag	// Closing Tag = </color>
+// {8} = Bad Color Opening Tag
+// {9} = Effect Modifier #2
+// {10} = Effect Modifier #3
+// {11} {12} {13} = Effect Modifier #1 raw value (ie: not formatted & colored string)
+
+//ChTip<AbName> => {0} Charge A ; {1} Charge B
+
+//=== Mage - Elementalist
+AbFirebolt	Firebolt
+DescFirebolt	Throws a bolt of fire, damaging target for {0} HP.
+
+AbFireball	Fireball
+DescFireball	Throws a big ball of fire, exploding on contact, damaging target for {0} HP, and also damaging surrounding enemies up to {6} HP.
+
+AbScorch	Scorch
+DescScorch	Scorches the target for {0} HP plus {1} HP over {2}.
+
+AbIgnite	Ignition
+TickIgnite	Burns the target for {1} HP over {2}.
+
+AbRainOfFire	Rain Of Fire
+DescRainOfFire	Burns enemies around the target for {1} HP.
+
+AbWaterShield	Water Shield
+DescWaterShield	Summons a water shield that surrounds you and absords {5} of all incoming damage for {2}.
+
+AbIceShield	Ice Shield
+DescIceShield	Summons an ice shield that surrounds you and absorbs {5} of all incoming damage for {2}.
+
+AbFrostbolt	Frost Bolt
+DescFrostbolt	Sends a bolt of ice that damages the target for {0} HP.
+
+AbFocus		Focus
+DescFocus	Restores {7}25%</color> of your total Mana.
+
+AbIceblast	Ice Blast
+DescIceblast	Instantly damages the target for {0} HP.
+
+AbFlashFreezing	Flash Freezing
+DescFlashFreezing	Lowers [>Haste] by {5} for {2}.
+
+AbCauterize	Cauterize
+DescCauterize	Burns for {1} HP over {2}.
+
+//=== Mage - Warlock
+AbTorment	Torment
+DescTorment	Damages the target for {1} HP over {2}.
+
+AbShadowBall	Shadow Ball
+DescShadowBall	Damages the target for {0} HP.
+
+AbDirePlague	Dire Plague
+DescDirePlague	Damages the target for {1} HP over {2}. The damage is bigger with time.
+
+AbHellFire	Hell Fire
+DescHellFire	Damages all surrounding enemies for {1} HP.
+
+AbDominate	Dominate
+DescDominate	Damages the target for {0} HP, and raises by {5} all damage of your periodical spells affecting the target for {2}.
+
+AbDrainLife	Drain Life
+DescDrainLife	Damages the target for {1} HP, and heals you for the same amount.
+
+AbLethalEmpowerment	Lethal Empowerment
+DescLethalEmpowerment	Damages yourself for {0} HP, and restores your Mana for the same amount.
+
+AbDemonicForm	Demonic Form
+DescDemonicForm	Transforms yourself into a demon for {2}, which increases all your physical damage by {5} and your shadow damage by {9}, and also lowers all incoming damage by {10}.
+
+//=== Mage - Arcanist
+AbArcaneRupture	Arcane Rupture
+DescArcaneRupture	Damages the target for {1} HP over {2}. Stack up to {4} times.
+
+AbArcaneBurst	Arcane Burst
+DescArcaneBurst	Throws a series of deadly projectiles damaging the target for {1} HP.
+
+AbArcaneFusion	Arcane Fusion
+DescArcaneFusion	Damages the target for {1} HP over {2}. Stack up to {4} times.
+
+AbArcaneArmor	Arcane Armor
+DescArcaneArmor	Raises armor by {5}% for {2}.
+
+AbArcaneLock	Arcane Lock
+DescArcaneLock	Locks the target so they won't be able to attack for {2}. Damaging the target for {5} HP will break the lock. Can't be used against Elite & Boss enemies.
+
+AbMindFocus	Mind Focus
+DescMindFocus	Raises an ally's Critical chance by {5}% for {2}. If the ally critically hits, your chances to critically hit are also raised by {5}% for <color=white>12 seconds</color>.
+
+AbTwinFocus	Twin Focus
+DescTwinFocus	Raises Critical chance by {5}% for {2}.
+
+AbOverCharge	Overcharge
+DescOverCharge	Raises all your arcane based damage by {5} but all your spells' mana cost is also raised by {9}. Lasts {2}.
+
+AbEthericEnergy	Etheric Energy
+DescEthericEnergy	Lowers Mana cost of all your spells by {5} for {2}.
+
+AbArcaneImplosion	Arcane Implosion
+DescArcaneImplosion	Damages the target for {0} HP. The damage is increased by {8}100%</color> for each stack of [>AbArcaneRupture] currently on the target.\n\nConsumes [>AbArcaneRupture].
+
+AbEsotericConnection	Esoteric Connection
+DescEsotericConnection	Raises damage of the whole party by {5} for {2}.
+
+AbTotalRupture	Total Rupture
+DescTotalRupture	Resets the duration of your [>AbArcaneRupture] afflicting the target.
+
+//=== Healer - Druid
+AbHeal		Heal
+DescHeal	Heals a friendly target for {0} HP.
+
+AbLifeBloom	Life Bloom
+DescLifeBloom	Heals the target for {1} HP over {2}. When Life Bloom ends, the target is instantly healed for {3} HP. This effect can stack up to {4} times on the same target.
+
+AbRegrowth	Regrowth
+DescRegrowth	Heals the target for {1} HP over {2}.
+
+AbSavior	Savior
+DescSavior	Instantly heals the target for {0} HP.\n\nShare its cooldown with [>AbMortification] and [>AbOverMyDeadBody].
+
+AbDanceOfGaia	Dance Of Gaia
+DescDanceOfGaia	Heals every member of the group by {1} HP.
+
+AbWildRegrowth	Wild Regrowth
+DescWildRegrowth	Heals the target for {1} HP over {2}.
+
+AbDanceOfStars	Dance Of Stars
+DescDanceOfStars	Heals the target for {1} HP over {2}.
+
+AbRegrowthMana	Nature Gives Back
+DescRegrowthMana	Regenerates {1} Mana over {2}.
+
+AbRainOfLife	Rain Of Life
+DescRainOfLife	Heals every member of the group for {1} HP over {2} ; the healing effect is stronger at start, and fades after that.
+
+AbTreeForm	Tree Form
+DescTreeForm	Transforms you into a tree for {2} which increases all healing done by {5} and lowers all damage taken by {9}.
+
+AbDruidDispel	Dispell
+DescDruidDispel	Removes one negative effect from the target.\nClick on the effect you want to remove or click on an ally's portrait to remove the last negative effect applied.
+
+//=== Healer - Priest
+AbRitualRecover	Ritual Recover
+DescRitualRecover	Restores all your Mana.
+
+AbRighteousShield	Righteous Shield
+DescRighteousShield	Shields the target and absorbs up to {5} damages. Lasts {2}.
+ChTipRighteousShield	\n\nCan still absorb up to {0} damage.
+
+AbFlashHeal	Flash Heal
+DescFlashHeal	Quick but expensive spell that heals the target for {0} HP.
+
+AbRenew		Renew
+DescRenew	Heals the target for {1} HP over {2}.
+
+AbSacrament	Sacrament
+DescSacrament	Heals the target for {1} HP.
+
+AbTwinHeal	Twin Heal
+DescTwinHeal	Heals the target for {0} HP and yourself for {5} of that amount.
+
+AbDivineGrace	Divine Grace
+DescDivineGrace	Raises healing done by {5} for {2} ; this effect can stack up to {4} times.
+
+AbSacredNova	Sacred Nova
+DescSacredNova	Heals the whole party for {0} HP.
+
+AbPrayerOfRedemption	Prayer Of Redemption
+DescPrayerOfRedemption	Heals the whole party for {0} HP.
+
+AbMortification	Mortification
+DescMortification	Reduces all damage by {5} for {2}. Castable when stunned.\n\nShare its cooldown with [>AbOverMyDeadBody] and [>AbSavior].
+
+AbHolyDiligence	Holy Diligence
+DescHolyDiligence	Raises [>Haste] by {5}{7}%</color> for {2}.
+
+AbSpiritualEffervescence	Spiritual Effervescence
+DescSpiritualEffervescence	Absorbs up to {5} damages. Lasts {2}.
+ChTipSpiritualEffervescence	[>ChTipRighteousShield]
+
+AbArchangelWatch	Archangel Watch
+DescArchangelWatch	Lowers damage by {5} for {2}.
+
+AbBlessedSpirit	Blessed Spirit
+DescBlessedSpirit	Heals the target for {9} HP the next time they take damage. When the healing occurs, [>AbBlessedSpirit] jumps to another random ally.\nJumps up to 5 times and lasts {2} after each jump.\n\nYou can have only 1 active [>AbBlessedSpirit].
+
+//=== Healer - Necromancer
+AbSealOfNecromancy	Seal Of Necromancy
+DescSealOfNecromancy	The ally marked by this seal will receive healing from some of the [>SpecNecromancer]'s abilities. Lasts {2} and heals for {3} HP when ending.
+
+AbQuietSpirit	Call of the Quiet Spirit
+DescQuietSpirit	Heals the whole party for {0} HP.
+
+NoSealCarrier	\n\nIf there's no Seal carrier, the healing is done to you.
+
+AbSoulSucking	Soul Sucking
+DescSoulSucking Damages the target for {0} HP and heals the [>AbSealOfNecromancy] carrier for {7}triple</color> that amount.[>NoSealCarrier]
+
+AbEatMyFlesh	Eat My Flesh
+DescEatMyFlesh	Heals the target for {0} HP but damages you for {8}half</color> that amount.
+
+AbSoulEater	Soul Eater
+DescSoulEater	Damages the target for {1} HP over {2}, and heals you for {7}triple</color> that amount.
+
+AbRaiseFromTheDead	Raise From The Dead
+DescRaiseFromTheDead	Puts a mark on the target for {2}. If the target's health reaches {8}0</color> during that time, the target is healed for {5} HP plus a bonus up to {7}7</color> times bigger the longer the spell lasted.
+
+AbArmyOfDarkness	Army Of Darkness
+DescArmyOfDarkness	Heals the [>AbSealOfNecromancy] carrier for {5} HP and the rest of the party for {7}half</color> that amount.[>NoSealCarrier]
+
+AbLastIncantation	Last Incantation
+DescLastIncantation	Heals the target for {1} HP over {2}. When the incantation finishes, the [>AbSealOfNecromancy] carrier is healed for {5} HP.[>NoSealCarrier]
+
+AbTouchOfDeath	Touch Of Death
+DescTouchOfDeath	Lowers target's [>Haste] by {5}{8}%</color> for {2}.
+
+AbOverMyDeadBody	Over My Dead Body
+DescOverMyDeadBody	Summons a spirit that surrounds you and absorbs {7}60%</color> of all damage done to you and constantly taunts the target for {2}. Once the spirit is gone, all your threat is lowered by {7}50%</color>.\n\nShare its cooldown with [>AbMortification] and [>AbSavior].
+AbOverMyDeadBodyShield	[>AbOverMyDeadBody]
+DescOverMyDeadBodyShield	[>DescOverMyDeadBody]
+
+AbFromDeathComesLife	From Death Comes Life
+DescFromDeathComesLife	Heals {1} HP over {2}.
+
+AbShadowArmy	Shadow Army
+DescShadowArmy	Lowers damage by {5} over {2}.
+
+AbLastBreath	LastBreath
+DescLastBreath	Raises [>Haste] by {5}{7}%</color> over {2}.
+
+//=== Warrior - Protector
+AbRend		Rend
+DescRend	Deeply cuts the target for {0} HP and makes them bleed for {1} HP over {2}. High threat.
+
+AbThunderClap	Thunder Clap
+DescThunderClap	Creates a wave of energy that greatly threatens all surrounding enemies, damaging them for {0} HP.
+
+AbKick		Kick
+DescKick	Interrupts the target's current ability. Noticeably threatening.
+
+AbTaunt		Taunt
+DescTaunt	Forces the target to attack you right away by raising your threat level against it to the highest one of the party.
+
+AbDevastate	Devastate
+DescDevastate	Damages the target for {0} HP, plus lowers its armor by {5} for {2} ; this effect can stack up to {4} times.
+
+AbLastStand	Last Stand
+DescLastStand	Temporarily raises your current and maximum HP by {5} for {2}. After the effect expires, the extra health is lost.
+
+AbSpellDeflect	Spell Deflect
+DescSpellDeflect	Deflects first incoming projectile in the next {2}.
+
+AbRageYell	Rage Yell
+DescRageYell	Taunt all nearby enemies.
+
+AbEnrage	Enraged
+DescEnrage	Increases all damage done by {5} and lowers all damage received by {7}5%</color> for {2}.
+
+AbPulseWave	Pulse Wave
+DescPulseWave	Propels a wave of energy causing {0} damage and stunning all enemies standing in front for {2}. Very threatening.
+
+AbCounter	Counter Attack
+DescCounter	Increases [>Haste] by {5}{7}%</color> for {2} after each successful parry. Can stack up to {4} times.
+
+AbShieldWall	Shield Wall
+DescShieldWall	Lowers all incoming damage by {5} for {2}.
+
+//=== Warrior - Man At Arms
+AbSwipe		Swipe
+DescSwipe	A circular attack that strikes all enemies in front for {0} HP each.
+
+AbHardStrike	Hard Strike
+DescHardStrike	A tremendous attack damaging target for {0} HP.
+
+AbBleeding	Bleeding
+DescBleeding	Target bleeds for {1} HP over {2}.
+
+AbDeadlyAssault	Deadly Assault
+DescDeadlyAssault	An expert attack based more on your Attack Power than your weapon, dealing {0} damage to the target.
+
+AbWarCry	Warcry
+DescWarCry	Cheers all the party members and raises their Attack Power by {5} for {2}.
+TickWarCry	Raises Attack Power by {5} for {2}.
+
+AbDoomDrum	Drums of Doom
+DescDoomDrum	Decreases Attack Power by {5}.
+
+AbOverwhelmingBlow	Overwhelming Blow
+DescOverwhelmingBlow	A strike damaging the target for {0} HP and lowering their parry and dodge chances by {5} for {2}.
+
+AbMeatPounder	Meat Pounder
+DescMeatPounder	[>AbSwipe] makes [>AbHardStrike] hit 1 more target for {2}.
+
+AbLiveByTheSword	Live By The Sword
+DescLiveByTheSword	Increases parry chance by {5}{7}%</color> and lowers all damage taken by {9} for {2}.
+
+AbLuckyStrike	Lucky Strike
+DescLuckyStrike	Increases critical chance by {5}{7}%</color> for {2}.
+
+AbBerserk	Berserk
+DescBerserk	Increases damage done by {5} and damage taken by {9} for {2}.
+
+//=== Warrior - Paladin
+AbDivinePunishment	Divine Punishment
+DescDivinePunishment	A blast from the Gods that damages the target for {0} HP.
+
+AbHammerOfJustice	Hammer Of Justice
+DescHammerOfJustice	Empowers your weapon with the wrath of the Gods to damage the target for {0} HP.
+
+AbCrusaderAssault	Crusader Assault
+DescCrusaderAssault	Hits the target for {0} HP and the surrounding enemies for {6} HP.
+
+AbAngelProtection	Angel's Protection
+DescAngelProtection	Surrounds the targeted ally with a protective bubble that prevents {5} damage for {2}, but also immobilizes them. The enemies will then attack another target.
+
+AbHolyBarrier	Holy Barrier
+DescHolyBarrier	Summons a barrier that protects you against all magic damage by {5}% for {2}.
+
+AbHolierBarrier	Holier Barrier
+DescHolierBarrier	[>DescHolyBarrier]
+
+AbCelestialBlindness	Celestial Blindness
+DescCelestialBlindness	Instantly lowers threat against all enemies by {5}.
+
+AbSaintlySacrifice	Saintly Sacrifice
+DescSaintlySacrifice	Redirects to the [>SpecPaladin] {5} of the damage done to the target for {2}.
+
+AbSealOfContrition	Seal of Contrition
+DescSealOfContrition	Damages the target for {1} HP over {2}.
+
+AbSealOfRepentance	Seal of Repentance
+DescSealOfRepentance	Raises all incoming attacks' critical chance by {5}{8}%</color>.
+
+AbSpiritualShock	Spiritual Shock
+DescSpiritualShock	Stuns the target for {2}.
+
+AbSeraphicIntervention	Seraphic Intervention
+DescSeraphicIntervention	Revives a fallen ally with {0} HP and protects him from all damage for {2}.
+
+AbNoSacrificeInVain	No Sacrifice In Vain
+DescNoSacrificeInVain	Heals {3} HP after {2}.
+
+//=== Rogue - Assassin
+ComboPoint	Streak point
+ComboPoints	Streak points
+AddComboPoint	\n\nGrants 1 Streak point
+FinishCombo	Streak Climax : consumes all Streak points.\n\n
+
+AbDreadfulJab	Dreadful Jab
+DescDreadfulJab Cunning strike that damages the target for {0} HP.[>AddComboPoint].
+
+AbSwiftKnife	Swift Knife
+DescSwiftKnife	[>FinishCombo]Throw a magical knife damaging the target for {0} HP. The damage is increased by {8}20%</color> for each [>ComboPoint].
+
+AbPoison	Deadly Poison
+DescPoison	Damages the target for {1} HP over {2}.
+
+AbExecute	Execution
+DescExecute	[>FinishCombo]Hits the target for {0} damage. The damage is increased by {8}20%</color> for each [>ComboPoint].
+
+AbMug		Mug
+DescMug		Attacks with both your weapons. Your main-hand attack damages the current target for {0} HP, while your off-hand attack damages a nearby enemy.\n\nGrants 2 [>ComboPoints].
+
+AbKillingSpree	Killing Spree
+DescKillingSpree	[>FinishCombo]Increases your [>Haste] by {5}% for {2}. Each [>ComboPoint] increases the length of this effect by {7}100%</color>.
+
+AbThousandKnives	Thousand Knives
+DescThousandKnives	[>FinishCombo]Throw knives all around you, damaging all nearby enemies for {0} HP. Each [>ComboPoint] increases the damage by {8}20%</color>.
+
+AbHiredHitman	Hired Hitman
+DescHiredHitman	Your ally will absorb {7}65%</color> of your threat for <color=white>12 seconds</color>.
+
+AbHitman	[>AbHiredHitman]
+DescHitman	Transfers to your ally {5} of all your threats for {2}.
+
+AbHiringHitman	[>AbHiredHitman]
+DescHiringHitman	Absorbs some of the threat from the [>SpecAssassin] for {2}.
+
+AbFadeInShadows	Fade In The Shadows
+DescFadeInShadows	Raises your [>Dodge] chance by {5}% for {2}.
+
+AbNowOrNever	Now or Never
+DescNowOrNever	Grants you 5 [>ComboPoints].
+
+//=== Rogue - Duelist
+AbPommel	Pommel
+DescPommel	[>DescKick][>AddComboPoint].
+
+AbSweepingBlow	Sweeping Blow
+DescSweepingBlow	Damages the target for {0} HP and all the surrounding enemies for half of that. Also applies [>AbDeepCut] that will do the same damage over <color=white>12 seconds</color>. Very threatening.[>AddComboPoint].
+
+AbDeepCut	Deep Cut
+DescDeepCut	Damages the target for {1} HP over {2}. Very threatening.
+
+AbInvitation	Invitation
+DescInvitation	Tricks the target into attacking you right away by raising your threat level against it to the highest one of the party.[>AddComboPoint].
+
+AbSleightOfHand	Sleight Of Hand
+DescSleightOfHand	Decreases Attack Power by {5}.
+
+AbRiposte	Riposte
+DescRiposte	Increases physical damage by {5} for {2}.
+
+AbLunge		Lunge
+DescLunge	[>FinishCombo]Damages the target for {0} HP. Each [>ComboPoint] increases the damage done by {8}30%</color>. High threat.
+
+AbBladeDancer	Blade Dancer
+DescBladeDancer	Increases [>Dodge] chance by {5}{7}%</color> and lowers all damage taken by {9} for {2}.
+
+AbDualStrike	Dual Strike
+DescDualStrike	Attacks with both your weapons. Your main-hand attack damages the current target for {0} HP, while your off-hand attack damages a nearby enemy, preferably one not currently attacking you. High threat.\nIf you have a shield equipped in your off-hand, then only the main attack occurs.\n\nGrants 2 [>ComboPoints].
+
+AbRubSaltWound	Rub Salt in the Wound
+DescRubSaltWound	[>FinishCombo]Extends [>AbDeepCut] by {8}1 tick</color> for each [>ComboPoint].
+
+AbPiercingStrike	Piercing Strike
+DescPiercingStrike	[>FinishCombo]Damages the target for {0} HP. Ignores armor. High threat. Each [>ComboPoint] increases the damage done by {8}30%</color>.
+
+AbRecovery	Recovery in Blood
+DescRecovery	[>FinishCombo]Heals yourself for {1} HP over {2}. Each [>ComboPoint] increases the healing done and the effect length by {7}100%</color>.
+
+AbSlipperyFish	Slippery Fish
+DescSlipperyFish	Raises your [>Dodge] chance by {5}{7}%</color>.
+
+//=== Rogue - Ranger
+AbInstinctShot	Instinct Shot
+DescInstinctShot	Damages the target for {0} HP.[>AddComboPoint].
+
+AbSniperShot	Sniper Shot
+DescSniperShot	[>FinishCombo]Damages the target for {0} HP. The damage is increased by {8}15%</color> for each [>ComboPoint].
+
+AbDoubleShot	Double Shot
+DescDoubleShot	Damages the target for {0} HP. Also sends another projectile that damages another target nearby for {8}75%</color> of that amount.\n\nGrants 2 [>ComboPoints].
+
+AbHemorrhage	Hemorrhage
+DescHemorrhage	Damages the target for {1} HP over {2}.
+
+AbMaimThenKill	Maim Then Kill
+DescMaimThenKill	Raises damage of [>AbSniperShot] by {5} for {2}.
+
+AbVolleyOfArrows	Volley of Arrows
+DescVolleyOfArrows	[>FinishCombo]Send a volley of arrows around the target damaging all enemies for {1} HP. The damage is increased by {8}20%</color> for each [>ComboPoint].
+
+AbPlayingPossum	Playing Possum
+DescPlayingPossum	You pretend to die, removing all your threat against all enemies, but this stuns you for {2}.
+
+AbSideTrack	Sidetrack
+DescSideTrack	Your ally will absorb {7}40%</color> of your threat for <color=white>9 seconds</color>.
+
+AbSideTracked	[>AbSideTrack]
+DescSideTracked	Transfers to your ally {5} of all your threats for {2}.
+
+AbSideTracking	[>AbSideTrack]
+DescSideTracking	Absorbs some of the threat from the [>SpecRanger] for {2}.
+
+AbNightOfTheHunter	Night of the Hunter	// Movie Title
+DescNightOfTheHunter	Raises your [>Haste] by {5}{7}%</color> for {2}.
+
+AbRumble	Rumble
+DescRumble	Lowers all incoming damage by {5} for {2}, but you cannot do anything else during that period.
+
+AbWarningShot	Warning Shot
+DescWarningShot	Tricks the target into attacking you right away by raising your threat level against it to the highest one of the party.[>AddComboPoint].
+
+AbHunterTracking	Hunter Tracking
+DescHunterTracking	Leaves smoke behind you, helping you to keep track of your steps, for {2}.
+
+//=== Field Abilities ===================================================
+AbPoisonField	Poison
+DescPoisonField	Poisons for {0} HP plus {1} HP over {2}.
+AbFireField	Fire
+DescFireField	Burns for {0} HP plus {1} HP over {2}.
+AbShadowProtField	Shadow Protection
+DescShadowProtField	Protects from all Shadow based damages by {5}{7}%</color>.
+AbNatureProtField	Nature Protection
+DescNatureProtField	Protects from all Nature based damages by {5}{7}%</color>.
+AbLight		Light
+DescLight	Surrounds the party by light for {2}.
+AbHighDamage	Curse of Dark Elves
+DescHighDamage	All incoming damage is increased by {5} for {2}.
+AbBigBossLevel	Soul Crush
+DescBigBossLevel	Definitively lowers your Level by 5.
+AbHealField	Timed Heal
+DescHealField   Heals for {3} HP after {2}.
+AbHighDamager	Inner Force
+DescHighDamager	All damage is increased by {5} for {2}.
+AbDarkDecay	Dark Decay
+DescDarkDecay	Decays for {1} HP over {2}. Can stack up to {4} times.
+
+//=== Mob Abilities ===================================================
+AbCharge	Charge
+AbMobFirebolt	Firebolt
+AbMobBow	Bow
+AbMobSwing	Swing
+AbMobPunch	Punch
+AbMobRip	Rip
+AbMobWand	Wand
+AbMobWandFast	[>AbMobWand]
+AbMobHeal	Heal
+AbMobSmash	Smash
+AbMobTailJab	Tail Jab
+AbMobPoisonSpit	Poisonous Spit
+AbMobBlackSpit	Black Spit
+AbMobBite	Bite
+AbMobImpale	Impale
+AbMobBackStab	Backstab
+AbMobExecute	Execute
+AbMobMaim	Maim
+DescMobMaim	Maims the target for {2}, lowering their [>Haste] by {5}%.
+AbMobDoubleSwing	Double Swing
+AbMobKick	Kick
+AbMobShieldBash	Shield Bash
+AbMobFrostbolt	Frost Bolt
+DescMobFrostbolt	Sends a bolt of ice that lowers its target's [>Haste] by {5}% for {2}.
+AbMobSwipe	Swipe
+DescMobSwipe	Hits all enemies in front
+AbMobHellFire	Hell Fire
+AbMobDoubleSmash	Double Smash
+AbMobFastHeal	Fast Heal
+AbMobThrust	Thrust
+DescMobThrust	A quick controlled strike that also interrupts the target.
+AbMobStomp	Stomp
+DescMobStomp	Interrupt all enenmies around
+AbPredFireBreath	Fire Breath
+AbPredFireFlood	Fire Flood
+AbMobAcidFlood	Acid Flood
+AbMobAcidSpray	Acid Spray
+AbMobRottenArmor	Rotten Armor
+DescMobRottenArmor	Lowers the target armor by {5}, for {2}, and can stack up to {4} times.
+AbMobChew	Chew
+AbTwinSmash	Smash
+AbMobPierce	Pierce
+AbMobSwipeMaim	Swiping Maim
+DescMobSwipeMaim	Maims all targets in front for {2}, lowering their [>Haste] by {5}.
+AbMobFireball	Fireball
+AbMobWarCry	WarCry
+DescMobWarCry	Raises Attack Power of nearby allies by {5} for {2}.
+AbMobFire	Fire Gun
+AbRodentCurse	Rodent Curse
+DescRodentCurse	Damages the target for {1} HP over {2}, and can stack up to {4} times. Damage increases exponentially with stacks.
+AbMobSmashFrenzy	Smash Frenzy
+AbTrollRegen	Troll Regeneration
+DescTrollRegen	Heals for {1} HP over {2}.
+AbMobWhirlWind	Whirlwind
+AbMobBash	Bash
+DescMobBash	A strike made with the edge of the weapon instead of the blade that stuns the target for {2}.
+AbDragonFireFlood	Fire Flood
+AbWyvernFireFlood	Fire Flood
+AbMobFrostWave	Frost Wave
+DescMobFrostWave	Sends a wave of ice that lowers all targets' [>Haste] in its area by {5} for {2}.
+AbMobBowSlow	Hunter Trail
+DescMobBowSlow	Slows the target for {2}, lowering their [>Haste] by {5}.
+AbMobSkullCrusher	Skull Crusher
+DescMobSkullCrusher	A strike directly to the head that stuns the target for {2}.
+AbMobSoulBan	Soul Ban
+AbMobSoulBanned	Soul Banned
+DescMobSoulBanned	Reduces all healings by by {5}, for {2}.
+AbMobScorch	[>AbScorch]
+DescMobScorch	[>DescScorch]
+AbMobHarpoon	Harpoon
+AbMobSlash	Slash
+AbMobBloodSucking	Blood Sucking
+AbMobSludgeSpit	Sludge Spit
+DescMobSludgeSpit	Absords up to {5} healing. Lasts {2}.
+ChTipMobSludgeSpit	\n\nCan still absorb up to {0} healing.
+AbMobFireMeteor	Fire Meteor
+AbMobArcaneBall	Arcane Ball
+AbMobLightning	Lightning
+AbMobFireBreath	Fire Breath
+
+//=== Boss Abilities
+AbStunOfLight	Stunning Light
+DescStunOfLight	A flash of light that stuns all enemies in the area for {2}
+AbMobTeleportToBack	Veil of Shadows
+AbMobSummon	Minion Summoning
+AbLethalFireball	Lethal Fireball
+AbDragonShadow	Call of Darkness
+AbDragonAcid	Acid Fury
+AbBossSwipe	Monumental Swipe
+AbBossArrowRain	Rain of Arrows
+AbBossArrowRainLight	Rain of Holy Arrows
+AbBossArrowRainShadow	Rain of Shadow Arrows
+AbBossSniperArrow	Sniper Arrow
+AbBossShieldBash	Titanic Shield Bash
+DescBossShieldBash	Interrupt and stun the target for 3 seconds.
+AbBossSlowEnrage	Slow Enrage
+DescBossSlowEnrage	Enrages faster and faster over {2}, dealing up to {5} more damage.
+AbWitchCurse	Witch Curse
+DescWitchCurse	Damages the target for {1} HP over {2}, and can stack up to {4} times. Damage increases exponentially with stacks.
+AbWitchBall	Witch Spit
+AbWitchHeal	Spirit Healing
+AbTeleportPath	Light Warp
+AbHunterSniperArrow	[>AbBossSniperArrow]
+AbBossDeathRay	Death Ray
+AbTeleportWarlock	Shadow Blink
+AbWarlockHeal	Shadow Regeneration
+AbWarlockCurse	Black Curse
+DescWarlockCurse	Damages the target for {1} HP over {2}, and can stack up to {4} times.
+AbBossShadowCurse	Shadow Curse
+DescBossShadowCurse	[>DescWarlockCurse]
+AbBossNova	Super Nova
+AbBossNightBall	Night Cloud
+AbBossShadowArmor	Shadow Armor
+DescBossShadowArmor	Reduces all damage by {5} for {2}.
+AbBossLeechLife	Leech Life
+AbTeleportBigBoss	Teleport
+AbTeleportBackBigBoss	Regenerate
+AbBigBossHeal	Guardian Regeneration
+AbSlimeBomb	Slime Bomb
+DescSlimeBomb	Lowers [>Haste] by {5} and burns for {1} HP over {2}.
+AbEnergyBlast	Energy Blast
+AbEnergyShot	Energy Shot
+AbBossFireArmor	Fire Armor
+DescBossFireArmor	Reflects {8}25%</color> of incoming damage to the attackers.
+AbBurningHand	Burning Hand
+DescBurningHand	Burns the target for {1} HP over {2}.
+AbBigBossRegen	Regenerate
+
+//=== Ab Stun Tip
+TipStun		Stunned
+TipInterrupted	Interrupted!\n\nYour ability {0} has been interrupted by an enemy's attack.
+
+//=== Spec
+Specialization	Specialization
+SpecProtector	Protector
+SpecManAtArms	[:Man|Woman] at Arms
+SpecPaladin	Paladin
+SpecElementalist	Elementalist
+SpecDruid	Druid
+SpecPriest	[:Priest|Priestess]
+SpecNecromancer	Necromancer
+SpecWarlock	Warlock
+SpecArcanist	Arcanist
+SpecAssassin	Assassin
+SpecDuelist	Duelist
+SpecRanger	Ranger
+
+DescSpecProtector	The Protector is the quintessence of a tank: he wears plate armor, handle shield, and can mitigate a lot of damage. He doesn't have any self-healing abilities though, thus he must rely on the healer to heal his wounds.
+DescSpecManAtArms	The Man at Arms is a trained soldier especially proficient in 2-handed weapons with which he does devastating damage.
+DescSpecPaladin		The Paladin is a heavily armored knight of the Gods. He's a bit less devastating than the Man at Arms, but he's got a lot of protecting abilities.
+
+DescSpecElementalist	The Elementalist invokes fire & frost to obliterate his enemies, whether in group or alone.
+DescSpecWarlock		The Warlock relies mainly on damage over time spells to slowly but surely drain the life out of their victims.
+DescSpecArcanist	The Arcanist uses speed and precision to build intricate flows of arcane, annihilating their enemies.
+
+DescSpecDruid	The Druid mostly uses heal-over-time spells to save the life of his companions.
+DescSpecPriest	The Priest relies mainly on shielding the tank to prevent any injuries ; he also can heal when required.
+DescSpecNecromancer	The Necromancer is an adept of dark arts, stealing the life of the enemies to better heal the party.
+
+DescSpecAssassin	The Assassin is a master of fast and tricky attacks, building up moves before finishing their enemies.
+DescSpecDuelist		The Duelist is an expert at avoiding being hit and teasing the enemies.
+DescSpecRanger		The Ranger enjoys tracking and killing their target from a distance, using either a bow or a crossbow.
+
+SpecPoint	Used Points
+
+CanWield	Can wield
+
+
+//=== Consumable Abilities Desc
+AbHealthPotion	Health Potion
+DescHealthPotion	A potion that heals for {0} HP. The potency of all healing potions is lowered for {2} after use, and this lowering can stack up to {4} times.
+AbManaPotion	Mana Potion
+DescManaPotion	A potion that restores {0} Mana Points. The potency of all mana restoring potions is lowered for {2} after use, and this lowering can stack up to {4} times.
+AbHastePotion	Haste Potion
+DescHastePotion	A potion that raises your [>Haste] rating by {7}{11:F0}</color> for {2}.
+AbCritPotion	Critical Potion
+DescCritPotion	A potion that raises your critical rating by {7}{11:F0}</color> for {2}.
+
+//=== Talents ====================================================================
+NbTalentPoint	Available Points
+RequireInTree	Requires {0} point(s) in {1} tree
+AlreadyHaveSpec	Not available because this is not your main specialization.
+TalentNewAb	Provides this new ability
+TalentReplaceAb	Replaces {0} with this new ability
+TalentRank	Rank
+TalentNextRank	Next Rank
+TalentLearn	Left Click to Learn
+TalentUnlearn	Right Click to Unlearn
+RequireTl	Requires {0} point(s) in {1}
+RequireAb	Requires {0}
+TalentPoint	{0} Talent Point(s) Available
+
+ConfirmChanges	Confirm Changes
+CancelChanges	Cancel Changes
+
+TalentReroll	Reroll\n\nReset all your talent trees and refund you all your talent points.\nYou get 1 reroll point every 4 levels starting at level 1.
+TalentNbReroll	You currently have {0} reroll point(s).
+TalentNoReroll	You don't have any reroll points left.
+
+// Tl + Name = Talent Name
+// Tb + Name = effects that come only with Rank 1
+// Tr + Name = effects that are increased on each rank
+
+// {TalentX [G|B] [EffectIndex]}
+// {<AbilityUsedByTalent[:TalentPart}> [Dmg|DotLength|DotTotalDmg|MaxStack] [%|f] [#<EffectIndex>]}
+// {<AbilityUsedByTalentAddingTick> ExtraTime <OtherAbilityWithDot>}
+// {Talent <TalentPartName> Condition <OtherAbilityActive|FamilyActive|HpRatio|ManaRatio|Random>}
+// {Talent <TalentPartName> Var [G|B [%]}
+
+//=== Warrior - Protector
+TlProtector	[>SpecProtector]
+TrProtector	Increases Health Points by {HP} and [>Block] by {Block}.
+TlAnticipation	Anticipation
+TrAnticipation	Increases [>Dodge] chance by {Dodge}.
+TlThunderClap	Improved Thunder Clap
+TrThunderClap	Increases [>AbThunderClap] damage by {WarProtThunderClap}.
+TlShieldMaster	Shield Master
+TrShieldMaster	Increases block chances with a shield by {WarProtShield}.
+TlArmorMaster	Armor Master
+TrArmorMaster	Increases your [>ArmorRating] from items by {Armor}.
+TlDevastating	Devastating
+TrDevastating	When the [>AbDevastate] ability damages its target, it also damages another nearby enemy by {TalentX B} of the initial damage.
+TlEnrage	Enraged
+TrEnrage	Increases all damage done by {Enrage} and lowers all damage received by {Enrage #1} for {Enrage DotLength} when casting [>AbRageYell].
+TlRetaliate	Retaliate
+TrRetaliate	Immediately retaliates when blocking a strike and damage the attacker by {Retaliate Dmg} damage (AP based). Produces a bit of extra threat.\n\nAlso raises by {Damage G} the healing done by [>TlHolyAtonement].
+TlCounter	Counter Attack
+TrCounter       Increases [>Haste] by {Counter} for {Counter DotLength} after each successful parry. Can stack up to {Counter MaxStack} times.
+TlMenacingEyes	Menacing Eyes
+TrMenacingEyes	Increases the threat of all your direct damage by {TalentX}.
+TlMageKiller	Mage Killer
+TrMageKiller	Increases resistances against Arcane, Fire, Frost & Shadow damage by {ResFire}.\n\nAlso raises by {HigherThreat} the threat produced by [>AbSealOfContrition].
+
+//=== Warrior - Man at Arms
+TlManAtArms	[>SpecManAtArms]
+TrManAtArms	Increases Damage with two-handed weapons by {WarArmsRoot}.
+TlHardStrike	Improved Hard Strike
+TrHardStrike	Increases [>AbHardStrike] critical chances by {CritChance}.
+TlImpale	Impale
+TrImpale	Increases critical damage bonus of your abilities by {CritDamage}.
+TlDeepWound	Deep Wounds
+TrDeepWound	Your critical strikes cause your target to bleed, dealing {TalentX B} of your weapon average damage over {Bleeding DotLength}. Stacks up to {Bleeding MaxStack} times.
+TlExecute	Execute
+TrExecute	[>AbDeadlyAssault]'s damage is raised by {Damage} if the target health is under 25%.
+TlDoomDrum	[>AbDoomDrum]
+TrDoomDrum	Adds [>AbDoomDrum] effect to [>AbWarCry] that lowers the surrounding enemies' Attack Power by {DoomDrum} for {DoomDrum DotLength}.
+TlLustForBlood	Lust For Blood
+TrLustForBlood	All your abilities' direct damage is raised by {Damage} if the target is bleeding.
+TlFriendlyFace	Friendly Face
+TrFriendlyFace	Lowers the threat of all your direct damage by {TalentX}.
+TlSpec1H	One-Hand Specialization
+TrSpec1H	Increases all damages by {Damage} when wielding one-handed weapons.
+TlSpec2H	Two-Hand Specialization
+TrSpec2H	Increases all damages by {Damage} when wielding two-handed weapons.\n\nAlso lowers by {LowerManaCost} the mana cost of [>AbCrusaderAssault].
+TlMeatPounder	[>AbMeatPounder]
+TrMeatPounder	[>AbSwipe] makes [>AbHardStrike] hit 1 more target for {MeatPounder DotLength}.
+TlGoodPatient	Good Patient
+TrGoodPatient	Increases all healing received by {IncreaseHealing}.
+TlTitanGrip	Titan Fist
+TrTitanGrip	Allows to dual wield two-handed & bastard weapons.
+
+//=== Warrior - Paladin
+TlPaladin	[>SpecPaladin]
+TrPaladin	Gives Mana Points for {TalentX} of your Base HP.
+TlEnlightment	Enlightenment
+TrEnlightment	Raises Mana Points by {TalentX} of your Base HP.
+TlScarification	Scarification
+TrScarification	Raises your Spell Power by {TalentX} of your Attack Power.
+TlGodsAreWithUs	The Gods Are With Us
+TrGodsAreWithUs	Your abilities' critical hits heal you for {TalentX} of the damage done.
+TlHolierBarrier	[>AbHolierBarrier]
+//TrHolierBarrier	Increases the magic protection of [>HolyBarrier] by {ResHoly}.
+TlSealOfRepentance	[>AbSealOfRepentance]
+TrSealOfRepentance	When you cast [>AbSealOfContrition], [>AbSealOfRepentance] is also applied on the target, which raises all incoming attacks' critical chance by {SealOfRepentance}.
+TlHolyAtonement	Holy Atonement
+TrHolyAtonement	Casting [>AbHolierBarrier] also heals you for {HolyAtonement Dmg} HP.
+TlAngerOfGods	Anger Of Gods
+TrAngerOfGods	Raises critical chance of [>AbDivinePunishment] by {CritChance} and damage of [>AbSealOfContrition] by {Damage}.
+TlWrathOfTheJust	Wrath of the Just
+TrWrathOfTheJust	Increases all physical damage by {Damage} when weilding a shield.
+TlSpiritualShock	[>AbSpiritualShock]
+TrSpiritualShock        When [>AbCrusaderAssault] hits 3 enemies or more, then 1 of them is stunned for {SpiritualShock DotLength}. This effect can't occur more than once every 30 seconds.
+TlSeraphicIntervention	[>AbSeraphicIntervention]
+TlJusticeForAll	Justice For All
+TrJusticeForAll	Raises damage of [>AbHammerOfJustice] and [>AbOverwhelmingBlow] by {Damage}.
+TlNoSacrificeInVain	[>AbNoSacrificeInVain]
+TrNoSacrificeInVain	Casting [>AbSaintlySacrifice] applies [>AbNoSacrificeInVain] on youself, which will heal you by {NoSacrificeInVain DotEndDmg} HP after {NoSacrificeInVain DotLength}.
+
+//=== Rogue - Assassin
+TlAssassin	[>SpecAssassin]
+TrAssassin	Increases your [>DmgNature] based damage by {Damage}.
+TlToxicKnife	Toxic Knife
+TbToxicKnife	Critical hits of [>AbSwiftKnife] applies [>AbPoison] which damages the target for {Poison DotTotalDmg} HP over {Poison DotLength} and can stack up to {Poison MaxStack} times.
+TrToxicKnife	Increases critical chances of [>AbSwiftKnife] by {CritChance}.
+TlSmoothCriminal	Smooth Criminal
+TrSmoothCriminal	Lowers the threat of all your direct damage by {TalentX}, and also lowers the threat of [>AbSweepingBlow] and [>AbDeepCut] by {LowerThreat:RogueAssSmoothCriminalB}.
+TlDaggerSpecialist	Dagger Specialist
+TrDaggerSpecialist	Increases all damage done with Daggers by {Damage}, and damage of [>AbSwiftKnife] by {Damage:RogueAssDaggerSpecialistB}.
+TlUnstoppable	Unstoppable
+TrUnstoppable	The critical hits of your abilities that add [>ComboPoints] have {Talent RogueAssUnstoppable Condition Random} chance to give 1 additional [>ComboPoint].
+TlPoisonedBlade	Poisoned Blade
+TrPoisonedBlade	[>AbDreadfulJab]'s hits have {Talent RogueAssPoisonedBlade Condition Random} chance to apply [>AbPoison] which damages the target for {Poison DotTotalDmg} HP over {Poison DotLength} and can stack up to {Poison MaxStack} times.
+TlCurare	A Pinch of Curare		// wordplay: Pinch of Salt
+TrCurare	Raises damage of [>AbPoison] by {Damage}.
+TlSnakeTouch	Touch of the Snake
+TrSnakeTouch	Auto-attacks' hits have {Talent RogueAssSnakeTouch Condition Random} chance to apply [>AbPoison] which damages the target for {Poison DotTotalDmg} HP over {Poison DotLength} and can stack up to {Poison MaxStack} times.
+TlNeverEndingStory	NeverEnding Story	// Name of Movie
+TrNeverEndingStory	Your Streak Climax abilities' hits have {Talent RogueAssNeverEndingStory Condition Random} chance to give 1 [>ComboPoint].
+TlSideAttack	Side Attack
+TrSideAttack	Your [>AbDreadfulJab]'s successful hits also hit a nearby enemy with your off-hand weapon for {DreadfulJabOffHand Dmg} damage.\n\nAlso increases your [>Agi] by {Agility f}.
+TlTraumatologist	Traumatologist
+TrTraumatologist	Increases melee critical damage bonus by {TalentX B}.
+TlBloodAddict	Blood Addict
+TrBloodAddict	[>AbExecute]'s successful hits extend [>AbKillingSpree] by {Eval TalentX * 6} seconds for each [>ComboPoint].
+
+//=== Rogue - Duelist
+TlDuelist	[>SpecDuelist]
+TrDuelist	Increases your [>Dodge] and [>Parry] chances by {Dodge}.
+TlReinforcedLeather	Reinforced Leather
+TrReinforcedLeather	Increases your [>ArmorRating] from items by {Armor}.
+TlSlipperyFish	[>AbSlipperyFish]
+TrSlipperyFish	Lowers critical chances of all direct hits against you by {LowerCritChance}, and triggers [>AbSlipperyFish] when you get critically hit which raises your [>Dodge] chance by {SlipperyFish} for {SlipperyFish DotLength}.
+TlSleightOfHand	[>AbSleightOfHand]
+TrSleightOfHand	Auto-attacks' hits have {Talent RogueDuelSleightOfHand Condition Random} chance to apply [>AbSleightOfHand] that lowers the target's Attack Power by {SleightOfHand} for {SleightOfHand DotLength} and can stack up to {SleightOfHand MaxStack} times.
+TlEscapeArtist	Escape Artist
+TrEscapeArtist	Raises your [>ArmorRating] by {ArmorFromAgi f} (based on your [>Agi]).
+TlRiposte	Riposte
+TrRiposte	Your successful dodge and parry have {Talent RogueDuelRiposte Condition Random} chance to trigger [>AbRiposte] which increases all your physical damage by {Riposte B} for {Riposte DotLength}.
+TlInfectedWound	Infected Wound
+TrInfectedWound	Adds {AddDotTick f} tick(s) to [>AbDeepCut], and [>AbLunge] has {Talent RogueDuelInfectedWoundB Condition Random} chance to reset the duration of your [>AbDeepCut] afflicting the target.
+TlTillTheLastDrop	Till the Last Drop
+TrTillTheLastDrop	Increases your Total Health Points by {HP}.
+TlAggressiveStance	Aggressive Stance
+TrAggressiveStance	Increases the threat of all your direct damage by {TalentX}.
+TlGoneWithTheWind	Gone With the Wind	// Movie Title
+TrGoneWithTheWind	When you're hit by a projectile you have {Talent RogueDuelGoneWithTheWind Condition Random} chance to completely avoid the damage. This effect can't occur more than once every 20 seconds.
+TlStingLikeBee	Sting Like a Bee	// Muhammad Ali's quote
+TrStingLikeBee	Increases [>Dodge] and [>Parry] chances by {StingLikeBee} when not wielding a shield.\nAlso increases [>AbSwiftKnife]'s threat by {HigherThreat:RogueDuelStingLikeBeeB}, and damage of [>AbDoubleShot] by {Damage}.
+TlDualDrill	Dual Drill
+TrDualDrill	When you don't weild a shield, your [>AbPiercingStrike]'s successful hits also damage with your off-hand weapon a nearby enemy, preferably one not currently attacking you.
+TlTastierBlood	Tastier Blood
+TrTastierBlood	Increases healing done by [>AbRecovery] by {IncreaseHealing}.
+
+//=== Rogue - Ranger
+TlRanger	[>SpecRanger]
+TrRanger	Increases your total [>Agi] by {AgilityMultiply}.
+TlQuickAim	Quick Aim
+TrQuickAim	Increases your [>Haste] by {Haste}.
+TlFocusedHunting	Focused Hunting
+TrFocusedHunting	Raises your [>RAP] by {RapFromAwa f} (based on your [>Awa]).
+TlMarksman	Marksman
+TrMarksman	Increases damage of [>AbSniperShot] and [>AbDoubleShot] by {Damage}, and your auto-attacks' successful hits have {Talent RogueRangerMarksmanB Condition Random} chance to grants you 1 [>ComboPoint].
+TlHunterTracking	[>AbHunterTracking]
+TrHunterTracking	Lowers all your threat by {LowerThreat}.
+TlHardenedSteel	Hardened Steel
+TrHardenedSteel	Critical strikes of your abilities trigger [>AbHemorrhage] which damages the target for {TalentX B} of the initial damage over {Hemorrhage DotLength}.
+TlFrenzyStreak	Frenzy Streak
+TrFrenzyStreak	Your auto-attacks damage is increased by {TalentX B} for each [>ComboPoint] you currently have.
+TlRepeatingShot	Repeating Shot
+TrRepeatingShot	Your ranged auto-attack has {Talent RogueRangerRepeatingShot Condition Random} chance to send a 2nd projectile.
+TlMaimThenKill	[>AbMaimThenKill]
+TrMaimThenKill	Your [>AbInstinctShot] critical hits trigger [>AbMaimThenKill] which raises [>AbSniperShot] damage by {TalentX B} for {MaimThenKill DotLength}.
+TlSharpShooter	Sharpshooter
+TrSharpShooter	Increases ranged critical damage bonus by {TalentX B}, and damage of [>AbSwiftKnife] by {Damage}.
+TlHeavyBarrage	Heavy Barrage
+TrHeavyBarrage	Increases damage of [>AbVolleyOfArrows] by {Damage}, and critical chance of [>AbDoubleShot] by {CritChance}.
+TlSurvivalInstinct	Survival Instinct
+TrSurvivalInstinct	When [>AbNightOfTheHunter] is active, all incoming damage is lowered by {LowerDamage}.
+
+//=== Mage - Elementalist
+TlElementalist	[>SpecElementalist]
+TrElementalist	Increases critical chances of all [>DmgFire] & [>DmgFrost] Damages based attacks by {CritChance}.
+TlSpeedyEle	Swift Elements
+TrSpeedyEle	Reduces cast time of [>AbFrostbolt], [>AbFireball] and [>AbArcaneBurst] by {AbsoluteSpeed f} second(s).
+TlIgnite	[>AbIgnite]
+TrIgnite	[>AbFireball]'s critical strikes cause the target to burn for {TalentX B} of initial damage over {Ignite DotLength}.\nAlso increases damage of [>AbHellFire] by {Damage}.
+TlIceShield	[>AbIceShield]
+TlWaterfallShield	Waterfall Shield
+TrWaterfallShield	When you cast [>AbIceShield] on yourself, [>AbWaterShield] is applied to all other party members.
+TlHappyRain	Only Happy When it Rains
+TrHappyRain	Increases [>AbRainOfFire] damage by {Damage} and lowers its cooldown by {CoolDown}.
+TlChainSmoking	Chain Smoking
+TrChainSmoking	Lowers the mana cost of all your spells by {LowerManaCost} and their threat by {LowerThreat}.
+TlBurnBabyBurn	Burn Baby Burn
+TrBurnBabyBurn	Lowers mana cost of [>AbScorch] by {LowerManaCost} and raises its over time damage by {Damage}.
+TlFullCombustion	Full Combustion
+TrFullCombustion	Increases damage all of your Fire spells by {Damage}.
+TlKnockCold	Knock Cold
+TrKnockCold	Raises critical damage of all Frost spells by {CritDamage} and lowers their mana cost by {LowerManaCost}.
+TlFlashFreezing	Flash Freezing
+TrFlashFreezing	[>AbIceblast]'s target gets their [>Haste] lowered by {FlashFreezing} for {FlashFreezing DotLength}.
+TlIceStorm	Ice Storm
+TrIceStorm	Each spell cast has {Talent MageEleFlashIceStorm Condition Random} chance to reset [>AbIceblast]'s cooldown.
+TlSelfFulfillment	Self-Fulfillment
+TrSelfFulfillment	Non-periodical spell criticals refund {TalentX} of their spell Mana cost.
+TlCauterize	[>AbCauterize]
+TrCauterize	Attacks that bring you at 0 HP restore {TalentX} of your total HP but this effect will burn you for {TalentX B 2} of your total HP over {Cauterize DotLength} ; this effect can't happen more than once per minute.
+
+//=== Mage - Warlock
+TlWarlock	[>SpecWarlock]
+TrWarlock	Increases damage of all [>DmgShadow] spells by {Damage}.
+TlMovingShadows	Moving Shadows
+TrMovingShadows	Lowers cast time of [>AbShadowBall] and [>AbDominate] by {AbsoluteSpeed f} second(s).
+TlMoreTorment	More Torment
+TrMoreTorment	Increases by {Damage} [>AbTorment]'s damage.
+TlPiercingCurse	Piercing Curse
+TrPiercingCurse	Allows each damage-over-time abilities' tick to have {DotCritChance} of your normal critical chance.
+TlGloomyDoom	Gloomy Doom
+TrGloomyDoom	Raises the critical chance of [>AbDirePlague]'s tick by {CritChance}.
+TlMakeItWorthThePain	Make it Worth the Pain
+TrMakeItWorthThePain	Raises by {DamageMana G} the Mana generated from [>AbLethalEmpowerment] without raising its damage.
+TlOvercooked	Overcooked
+TrOvercooked	Raises by {Talent MageLockOvercooked Var B %} the length and damage of [>AbHellFire].
+TlSpiritSiphon	Spirit Siphon
+TrSpiritSiphon	Each [>AbTorment] tick has {Talent MageLockSpiritSiphon Condition Random} chance to heal you for {TalentX} of your Total Health.
+TlAcutePain	Acute Pain
+TrAcutePain	Increases the critical damage of Shadow and Fire spells by {CritDamage}.
+TlDrainDry	Drain Dry
+TrDrainDry	Increases the damage & healing of [>AbDrainLife] by {Damage} for each of your active DOT spell on the target.\n\nAlso lowers all your threat by {LowerThreat}.
+TlUnendingTorment	Unending Torment
+TrUnendingTorment       Your [>AbDominate] and [>AbShadowBall] spells have {Talent MageLockUnendingTorment Condition Random} chance to reset the duration of your [>AbTorment] afflicting the target.
+TlBattleMage	Battle Mage
+TrBattleMage	Raises by {TalentX} your total HP, and your physical damage by {Damage}.
+TlDarkWisdom	Dark Wisdom
+TrDarkWisdom	Raises by {TalentX} your total Mana.
+
+//=== Mage - Arcanist
+TlArcanist	[>SpecArcanist]
+TrArcanist	Increases your [>DmgArcane] based damage by {Damage}.
+TlFasterThanLight	Faster Than Light
+TrFasterThanLight	Raises your [>Haste] by {Haste}.
+TlArcaneFusion	[>AbArcaneFusion]
+TrArcaneFusion	[>AbArcaneRupture] & [>AbArcaneImplosion] hits have {Talent MageArcaneFusion Condition Random} chance to trigger [>AbArcaneFusion] on the target, which damages the target for {ArcaneFusion DotTotalDmg} HP over {ArcaneFusion DotLength} and can stack up to {ArcaneFusion MaxStack} times.
+TlSurvivalOfTheFittest	Survival Of The Fittest
+TrSurvivalOfTheFittest	[>AbArcaneArmor] lasts {AddDotTick ExtraTime ArcaneArmor} longer.
+TlMentalArmor	Mental Armor
+TrMentalArmor	Raises your [>ArmorRating] by {MentalArmor} and all your resistances by {MentalResistance f}% (based on your [>Wil]).
+TlEthericEnergy	[>AbEthericEnergy]
+TrEthericEnergy	Each damaging spell has {Talent MageArcaneEthericEnergy Condition Random} chance to trigger [>AbEthericEnergy] which lowers the Mana cost all of your spells by {EthericEnergy} for {EthericEnergy DotLength}.
+TlEthericCelerity	Etheric Celerity
+TrEthericCelerity	When [>AbEthericEnergy] is active, your [>Haste] is also raised by {Haste}.
+TlEthericConvergence	Etheric Convergence
+TrEthericConvergence	When [>AbEthericEnergy] is active, your [>ManaCbRg] is also raised by {TalentX}.
+TlEsotericAlteration	Esoteric Alteration
+TrEsotericAlteration	[>AbEsotericConnection] lasts {AddDotTick ExtraTime EsotericConnection} longer.
+TlMultipleRupture	Multiple Rupture
+TrMultipleRupture	Lowers the cooldown of [>AbArcaneRupture] by {CoolDown} and its mana cost by {LowerManaCost}.
+TlManaAddict	Mana Addict
+TrManaAddict	Increases your damage up to {TalentX} depending of your ratio of Mana left.
+TlImplosionDust	Implosion Dust
+TrImplosionDust	Refills {TalentX} of your total Mana when [>AbArcaneImplosion] critically hits.\n\nAlso lowers all your threat by {LowerThreat}.
+
+//=== Healer - Druid
+TlDruid		[>SpecDruid]
+TrDruid		Increases mana regeneration outside of combat by {ManaRegen}.
+TlClearState	Clear State
+TrClearState	Increases critical chances of all healing effects by {CritChance G}.
+TlAcutePersistance	Acute Persistance
+TrAcutePersistance	Allows each healing-over-time abilities' tick to have a critical chance.
+TlMeditation	Meditation
+TrMeditation	Increases mana regeneration during combat by {CombatManaRegen}.
+TlWildRegrowth	[>AbWildRegrowth]
+TrWildRegrowth	When you cast [>AbRegrowth] on a party member, [>AbWildRegrowth] will be applied to the other party member who lost most HP, healing him for {TalentX} of [>AbRegrowth] over {WildRegrowth DotLength}.
+TlDanceOfStars	[>AbDanceOfStars]
+TrDanceOfStars	Applies [>AbDanceOfStars] when [>AbDanceOfGaia] ends, healing each party member for {TalentX} of total [>AbDanceOfGaia]'s healing over {DanceOfStars DotLength}.
+TlEternalBloom	Eternal Bloom
+TrEternalBloom	[>AbLifeBloom] rewards {TalentX} of its mana cost when ending (up to 3 stacks).
+TlHigherState	Higher State of Consciousness
+TrHigherState	Raises [>Awa] by {Awareness}.
+TlNaturalWay	Natural Way
+TrNaturalWay	Increases healing of [>AbHeal] and [>AbRegrowth] by {Damage G}.
+TlBarkskin	Barkskin
+TrBarkskin	Increases resistances against all magic by {ResHoly} and lowers all healing spell threat by {LowerThreat}.
+TlRegrowthMana	[>AbRegrowthMana]
+TrRegrowthMana	Each [>AbRegrowth] tick has 1% chance to give you a Mana regeneration of {TalentX} of your Total Mana over {RegrowthMana DotLength}.
+TlSelfPreservation	Self Preservation
+TrSelfPreservation	Each time you get attacked when your HP is below {Talent HealDruidSelfPreservation Condition HpRatio}, you have {Talent HealDruidSelfPreservation Condition Random} chance to cast [>AbRegrowth] on yourself for no mana cost.
+TlPurifiedRain	Purified Rain
+TrPurifiedRain	Lowers the cooldown of [>AbRainOfLife] by {CoolDown}, its mana cost by {LowerManaCost} and its threat by {LowerThreat}.
+
+//=== Healer - Priest
+TlPriest	[>SpecPriest]
+TlExtendedProtection	Extended Protection
+TrExtendedProtection	When [>AbRighteousShield] is ended by an enemy attack, there's a {Talent HealPriestExtendedProtection Condition Random} chance to apply [>AbRenew] on the ally.
+TlStrongerShield	Stronger Shield
+TrStrongerShield	Increases by {Talent HealPriestStrongerShield Var G %} the damage absorbed by [>AbRighteousShield].
+TlAbsolution	Absolution
+TrAbsolution	Lowers the cooldown of [>AbRighteousShield] by {CoolDown}.
+TlHolyDiligence	[>AbHolyDiligence]
+TrHolyDiligence	Increases your [>Haste] by {HolyDiligence} for {HolyDiligence DotLength} each time you cast [>AbRighteousShield], and reduces cast time of [>AbPrayerOfRedemption] by {AbsoluteSpeed f} second(s).
+TlStrongerFaith	Stronger Faith
+TrStrongerFaith	Increases by {Damage G} the healing of [>AbBlessedSpirit], [>AbFlashHeal] and [>AbTwinHeal].
+TlSpiritualCommunion	Spiritual Communion
+TrSpiritualCommunion	When your direct healing spells are critical, [>AbSpiritualEffervescence] is applied on the target and absorbs up to {TalentX} of the amount healed over {SpiritualEffervescence DotLength}. The absorbing charge stacks with each critical spell.
+TlArchangelWatch	[>AbArchangelWatch]
+TrArchangelWatch	Cast on yourself [>AbArchangelWatch] every time you get hit, which lowers damage by {TalentX} over {ArchangelWatch DotLength}.
+TlDivineGrace	[>AbDivineGrace]
+TrDivineGrace	Raises healing done by {TalentX} for {DivineGrace DotLength} when you cast [>AbFlashHeal], [>AbSacrament] and [>AbTwinHeal] ; stacks up to 3 times.
+TlGodlyGuidance	Godly Guidance
+TrGodlyGuidance	Lowers by {LowerManaCost} the mana cost of all your healing spells.
+TlBlindFaith	Blind Faith
+TrBlindFaith	Raises your [>Haste] by {Haste}.
+TlRenewal	Renewal
+TrRenewal	Add 1 tick to [>AbRenew].
+TlBlessedSpirit	[>AbBlessedSpirit]
+
+//=== Healer - Necromancer
+TlNecromancer	[>SpecNecromancer]
+TrNecromancer	Increases Health Points by {HealNecroRoot}.
+TlDeadKingdom	Power from the Dead Kingdom
+TrDeadKingdom	The whole party has {Talent HealNecroDeadKingdom Condition Random} chance to restore {TalentX} of its total mana any time you do damage with [>AbSoulSucking] and [>AbSoulEater] spells, and {Talent HealNecroDeadKingdomC Condition Random} chance when you do damage with your auto-attacks.
+TlTheChosenOne	The Chosen One
+TrTheChosenOne	Raises by {Damage G} the final healing of [>AbSealOfNecromancy].
+TlFromDeathComesLife	[>AbFromDeathComesLife]
+TrFromDeathComesLife	When your health is lowered to 0, [>AbFromDeathComesLife] is applied on all your conscious allies, which will heal them for {FromDeathComesLife DotTotalDmg} HP over {FromDeathComesLife DotLength}.\n\nCan happen once per minute.
+TlOpenBuffet	Open Buffet
+TrOpenBuffet	Raises by {TalentX} the healing done by [>AbEatMyFlesh]. This doesn't raise the damage done to you.
+TlSoulFeast	Soul Feast
+TrSoulFeast	[>AbSoulSucking] heals another ally for {TalentX} of the initial amount.
+TlLateSupper	Late Supper
+TrLateSupper	Adds {AddDotTick f} tick(s) to [>AbSoulEater], but raises its cooldown by {CoolDown B}.
+TlShadowArmy	[>AbShadowArmy]
+TrShadowArmy	Applies [>AbShadowArmy] on the whole party when you cast [>AbArmyOfDarkness], which lowers all damages taken by {TalentX} for {ShadowArmy DotLength}.
+TlAngrySpirits	Angry Spirits
+TrAngrySpirits	Raises the damage of all your attack spells by {Damage}.
+TlDarkArts	Dark Arts
+TrDarkArts	Raises your total mana points by {TalentX}.
+TlOneFootInBothWorld	One Foot in Both Worlds
+TrOneFootInBothWorld	Lowers all damage done to you by {TalentX G}.
+TlLastBreath	[>AbLastBreath]
+TrLastBreath	Applies [>AbLastBreath] on your [>AbLastIncantation]'s target, which raises their [>Haste] by {LastBreath} over {LastBreath DotLength}.
+
+//=== Global Icons
+GiAttack	Attack
+GidAttack	Attack\n\nSelect a target first.
+GiAttackStop	Stop Attacking
+GiSelectAll	Toggle Selected Party Members\n\nRight-click to lock/unlock the current selection.
+GiHealthPotion	Health Potion
+GidHealthPotion	No Health Potion in Inventory
+GiManaPotion	Mana Potion
+GidManaPotion	No Mana Potion in Inventory
+GiInventory	Inventory
+GiTalentTree	Talent Tree
+GiChatLog	Dialogue Log
+GiMap		Map\n\nClick on Map to add a note.\nClick on a note to edit it.\nRight-click on a note to delete it.\nDrag a note by its nail.\nClick a note's nail to fold & unfold it.
+GiClose		Close
+GiMenu		System Menu
+
+NoteColor	Select this color for new notes
+
+InInventory	\n\nIn Inventory: {0}
+LogWin		"DungeonGuardians_Data\output_log.txt" (within the installation folder)
+LogOsx		~/Library/Logs/Unity/Player.log
+LogLinux	~/.config/unity3d/CompanyName/ProductName/Player.log
+LogWhere	Location Unknown ; check this page to know where to find the log file http://docs.unity3d.com/Manual/LogFiles.html
+CrashTip	Game Loop crashed !\n\nIt's recommended to reload your last saved game, especially if the counters keep raising.\nPossibly, send this file to contact@managames.com : {0} ; and your last saved game (go to the [>LoadGame] menu and click on the "[>ShowDataFolder]" button and the saved games will be in the "Saves" folder).
+LoadCrashed	Load crashed !\n\nIt's recommended to try to load another saved game, especially if you see the broken shield icon at the top right of the screen if you try to play now.
+
+LoopGame	Game
+LoopAI		AI
+LoopGUI		GUI
+LoopInit	Init
+
+//=== Enchantments
+Enchantment	Enchantment
+EnchBear	{0} of the Bear
+EnchBandit	{0} of the Bandit
+EnchBeast	{0} of the Beast
+EnchBedrock	{0} of the Bedrock
+EnchBoulderpeak {0} of the Boulderpeak
+EnchEagle	{0} of the Eagle
+EnchGroundbreaker 	{0} of the Groundbreaker
+EnchEarthfall	{0} of the Earthfall
+EnchEarthshaker {0} of the Earthshaker
+EnchElder	{0} of the Elder
+EnchRift	{0} of the Rift
+EnchFeverflare	{0} of the Feverflare
+EnchQuicksand	{0} of the Quicksand
+EnchFireflash	{0} of the Fireflash
+EnchJourneyMan	{0} of the Journeyman
+EnchMerchant	{0} of the Merchant
+EnchApprentice	{0} of the Apprentice
+EnchBlackSmith	{0} of the BlackSmith
+EnchJuggler	{0} of the Juggler
+EnchTempest	{0} of the Tempest
+EnchLandslide	{0} of the Landslide
+EnchMarksman	{0} of the Marksman
+EnchMonkey	{0} of the Monkey
+EnchSoldier 	{0} of the Soldier
+EnchStormgale	{0} of the Stormgale
+EnchWindstorm	{0} of the Windstorm
+EnchBarricade	{0} of the Barricade
+EnchEscape	{0} of the Escape
+EnchOwl		{0} of the Owl
+EnchHyena	{0} of the Hyena
+EnchWallbreaker	{0} of the Wallbreaker
+EnchGolem	{0} of the Golem
+EnchWindmaker	{0} of the Windmaker
+EnchDirerock	{0} of the Direrock
+EnchAssassin	{0} of the Assassin
+EnchWizard	{0} of the Wizard
+EnchLightning	{0} of the Lightning
+EnchGrinder	{0} of the Grinder
+EnchBurningHand	{0} of the Burning Hand
+EnchMagician	{0} of the Magician
+EnchSeer	{0} of the Seer
+EnchDoom	{0} of the Doom
+EnchLight	{0} of the Light
+EnchFocused	{0} of the Focused
+EnchSurvivor	{0} of the Survivor
+EnchThunderblast	{0} of the Thunderblast
+EnchFox		{0} of the Fox
+EnchSwan	{0} of the Swan
+EnchLion	{0} of the Lion
+EnchWhale	{0} of the Whale
+EnchDeer	{0} of the Deer
+EnchSun		{0} of the Sun
+EnchRebel	{0} of the Rebel
+EnchScorpion	{0} of the Scorpion
+EnchIcefall	{0} of the Icefall
+EnchExpert	{0} of the Expert
+EnchJoker	{0} of the Joker
+EnchMage	{0} of the Mage
+EnchCrystal	{0} of the Crystal
+EnchWasp	{0} of the Wasp
+EnchDash	{0} of the Dash
+EnchStone	{0} of the Stone	//##
+EnchMonolith	{0} of the Monolith	//##
+EnchTiger	{0} of the Tiger	//##
+//Ench	{0} of the

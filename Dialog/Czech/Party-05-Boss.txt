@@ -1,0 +1,8 @@
+B	And another door just slammed at our backs. It's really becoming a bad habit.
+G	Look! That's Arthur, the {>MobRoyalKnight} that was jailed a few years ago.
+N	Hey boss, there's something you must know about him, but if you want to find out by yourself, just tell me to keep quiet now.
+N	Ok, so he has a special ability, called {>AbBossSlowEnrage}, that will raise his damage more and more after a few minutes.
+N	So it would be better to take him down within 4 or 5 minutes, else it might be us who will be taken down.
+N	Also, watch out for his {>AbBossShieldBash}, it will stun his target for a few seconds, and then attack another target.
+P	Ok, got it.
+B	His escape stops here. Let's get him !

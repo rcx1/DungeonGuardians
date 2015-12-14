@@ -1,0 +1,61 @@
+Janitor	Hey, you're the new recruit, right ? I was waiting for you !
+Janitor	Come on up, let's get you to your new job !
+Janitor	Take a last look at the sunlight, you won't see it again for a long time.
+Janitor	Hang on, this is a pretty long descent.
+Janitor	I hope you're not afraid of heights...
+Janitor	So you want to be a guardian in that jail down there, right ?
+Janitor	I'm sorry to ask, but my eyes aren't what they used to be... What is your gender ?
+.	I'm a male.
+.	I'm a female.
+Janitor	Oh, I see now, you don't have... I mean you have... Hum, yeah.
+P	What do you mean exactly ?
+Janitor	Sorry, I meant what is your name ?
+.	{Intern.Name01}
+.	{Intern.Name02}
+.	{Intern.Name03}
+.	{Intern.Name04}
+.	{Intern.Name05}
+.	#Input#
+Janitor That's a beautiful name, it reminds me of the name of a pig I had once.
+P	What ?!?
+Janitor	Sorry, nothing, just rambling from an old man, don't listen to me.
+Janitor	Don't stay quiet like this. Instead, tell me what is your race ?
+rHuman	{>RaceHuman}
+rDwarf	{>RaceDwarf}
+rElf	{>RaceElf}
+rDarkElf	{>RaceDarkElf}
+rHalfling	{>RaceHalfling}
+Janitor	Oh right, that explains why you're so... Hum...
+P	"So" what ?
+Janitor	I didn't say anything. Did you ? Anyway, what kind of guardian are you going to be in our jail ?
+.	A guard, of course !
+.	I like to cut things: I'm an executioner.
+.	I'm here to ensure the well-being of everyone: I'm a healer.
+.	My magic powers are faster than any running prisoner: I'm a mage.
+Janitor	I thought so ! You really look like one.
+P	You seem to have an awful lot of prejudices.
+Title	Mana Games presents
+Title
+Title	The Fall of the Dungeon Guardians
+Title
+Title	Game Design, Level Design, Coding, Sound Design
+Title
+Title	3D Environments
+Title
+Title	Music & Ambience
+Title
+Title	2D Art & GUI
+Warden	Oh, there you are, a fresh recruit at last !
+Warden	I'm the warden of this prison. I wanted to personally welcome you here. I've heard of all your exploits.
+Warden	Nah, I'm kidding, I have no idea who you are, I just heard the lift coming down. I'm sure you're a nobody like all the other guardians we have here.
+Warden	Come on, follow me, I'll show you the guardian quarters, let you have a good night's sleep and first thing tomorrow I'll get you to your assignment.
+Warden	Hey, lazy bum, get up !
+Warden	Finally, you're awake. You just slept through a full scale riot !
+Warden	All the prisoners escaped, all 15 of them.
+Warden	Don't ask me how, I was busy trying to stop the fire that burned down my office.
+Warden	Obviously something is very wrong here, so I have to evacuate the prison by the lift.
+Warden	But I can't let the prisoners get away. They didn't take the lift, so they must have fled through the dungeon.
+Warden	And you know what, when I see you, I see a leader, a real hero, so I'm promoting you to Chief of the Interception Squad.
+Warden	How lucky are you ? It's only your 1st day and you get responsibilities.
+Warden	Don't worry, I won't let you take back all the prisoners all by yourself.
+Warden	You can pick 3 other fools... Oops, I meant heroes just like you, amongst our available guardians, to accompany you in your noble quest.

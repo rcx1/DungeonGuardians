@@ -1,0 +1,25 @@
+Title	The Fall of the Dungeon Guardians
+Title	Game Design, Level Design, Coding, Sound Design
+Title	3D Environments
+Title	Music & Ambience
+Title	2D Art & GUI
+Title	Quality Insurance
+Title	3D Creatures
+Title	3D Objects
+Title	Visual FX
+Title	Sound FX
+Title	German Localization
+Title	Polish Localization
+Title	Hungarian Localization
+Title	English Proofreading
+Title
+Title
+Title
+N	Just throw all your gear if you want to swim up to that hole !
+B	Already done !
+N	You didn't throw your rings !
+B	Oh, come on !
+G	Do it. Now !
+B	Ok, ok, alright, let's get the hell out there now..!
+P	Hey, what's up there ?!
+Title	To be continued..?

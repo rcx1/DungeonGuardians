@@ -1,0 +1,6 @@
+N	Whoa, it looks like we reached the 'Palace' !
+P	What's that ?
+N	It was built to host the Emperor and some of his courtiers when he wanted to come to personally interrogate some prisoners, or just to enjoy seeing them in their misery.
+N	It has never actually been inhabited. They recruited soldiers and personnel, though. But they ended badly, taken in the Necromancers' spells dooming this dungeon; they came to haunt it as well.
+G	We might cross their path soon.
+P	Then let's get prepared for them.

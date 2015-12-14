@@ -1,0 +1,8 @@
+B	Whoa, it's pitch black here !
+N	At least there's no trees anymore.
+B	What was wrong with trees ?
+N	Just felt unnatural in a middle of a cavern.
+B	You're a worshipper of the natural order now ?
+N	There's no point talking to you.
+G	Boss, don't listen to them and let's focus on finding some light !
+P	You got it.

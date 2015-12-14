@@ -1,0 +1,4 @@
+N	Ouch ! It seems we've got company.
+B	Another dragon, great. You want my opinion on the situation ?
+B	It's big, it's bad, it probably throws a ton of fire, so my opinion is that it's going to be intense and hot. Try to avoid us getting cooked on our feet.
+P	That's a good plan.

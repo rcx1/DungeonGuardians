@@ -1,0 +1,4 @@
+G	That's Amethyst, one of the elven sisters !
+N	She's a witch and can be quite dangerous ! Would you like to know more about her ?
+N	Ok, so the main thing is that she's going to curse her target more and more ; at some point you have to interrupt her curse casting, else the curse will get too powerful. Also, she can heal herself, so you might want to interrupt her when she does that else we'll never kill her.
+P	Ok, that sounds doable !

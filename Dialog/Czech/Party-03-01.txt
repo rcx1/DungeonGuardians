@@ -1,0 +1,7 @@
+B	I don't like this place. We started to go deep into the dungeon, at least far from our quarters, even if we're getting closer to the surface.
+N	It's obviously the catacombs. It's where all the slaves who died building this dungeon have been buried.
+G	Left to rot and be eaten by rodents and insects would be more accurate; they didn't get any proper burial.
+B	Technically, they're buried several dozens of meters down in the ground.
+N	And then they were brought back to life by necromancers, to haunt this place forever.
+G	We saw a bunch of them since we started, and we still haven't seen the last of them.
+P	Right, so let's go on, there's no turning back anyway.

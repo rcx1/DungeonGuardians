@@ -1,0 +1,2 @@
+B	Whoa, this one looks tough!
+N	By the way, if a party member loses all of their Health Points, they'll stay unconscious till the end of the fight ; it's not possible to heal them or revive them during that time.

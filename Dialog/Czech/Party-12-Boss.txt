@@ -1,0 +1,5 @@
+B	What the heck !?! This is the elven queen ! She was never in our jail. Could she have helped the elven sisters to escape ?
+G	Anyway, she's a tough one, especially with the beast she's mounting.
+G	The truth is that I don't have much of an idea what she's able to do but I can try to guess if you want.
+G	So my idea is that her beast is similar to the ones we've encountered so far, but this one looks much more durable ; you might want to look around during the battle, in case something comes to help us to fight it more efficiently.
+P	Ok, I'll keep my eyes open !

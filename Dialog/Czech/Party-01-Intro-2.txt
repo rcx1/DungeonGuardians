@@ -1,0 +1,5 @@
+N	It looks like the Warden's plan didn't go as he hoped.
+B	Nope, it didn't.
+G	It doesn't change our orders, though.
+B	And it surely doesn't change our path. Only 1 exit left out of this death trap.
+P	Ok, let's go !

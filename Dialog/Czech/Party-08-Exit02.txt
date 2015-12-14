@@ -1,0 +1,6 @@
+BigBoss	Hey, not so fast ! You wouldn't want to leave now, would you ? That would be quite rude ! I haven't finished playing with you ; you have broken some of my toys, but I have plenty more for you, much more amazing, much bigger, and much... deadlier !
+B	Who the hell are you ?!
+BigBoss	I'm your best friend, don't you recognize me ?!? Let's have more fun !
+B	What the heck just happened ? Who was that ugly dude ? Where the hell are we ?
+N	Not outside.
+B	Not useful, not useful at all.

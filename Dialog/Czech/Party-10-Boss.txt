@@ -1,0 +1,4 @@
+B	Can you see behind the tree ? It looks like Jade, another one of the elven sisters !
+G	She's a hunter and a tricky one. Would you like to know the details about her tricks ?
+G	So she's able to teleport herself, and usually follows up with a powerful attack with her bow. Also she can summon snakes, so we'll have a lot on our plate.
+P	That seems intriguing. May we prevail !

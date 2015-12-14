@@ -1,0 +1,8 @@
+G	Here is Ganfaul, the demonist !
+B	The fool got himself self-possessed by one of his demons.
+N	Not that it makes him any less dangerous.
+G	He was under some heavy spell in the jail to contain his power, but by the looks of it, he got rid of any constraints.
+B	So you may want a little heads up on the current situation ?
+B	He's going to cast {>AbBossNova} ; we should not stay close when this happens, so avoid getting stuck during the fight ! Also, it seems there's some stuff inside the jails around, be sure to kill anything that comes out as fast as possible if the doors open.
+B	You might want to also check what these colorful fields do before getting sweaty.
+P	Ok, I'm ready !

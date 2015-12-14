@@ -1,0 +1,5 @@
+N	That's Horno down there ! How the hell did he get his gear back ?!
+G	No idea, but it's time to take a prisoner back in, dead or alive !
+B	Wait a sec. This is a great fighter. You might need to know a few things to beat him. Click 'Skip' now if you want to figure out everything by yourself. You'll still be able to consult the {>GiChatLog} later.
+B	Ok, so here's the tricks : he's going to cast {>AbStunOfLight} to stun us for a few seconds while he strikes us using his {>AbBossSwipe}, a deadly attack. So to avoid a premature death, one of us will have to interrupt his {>AbStunOfLight}, then we'll just have to step away before he does his {>AbBossSwipe}, and we should be all good !
+P	Ok, got it, let's get to it !

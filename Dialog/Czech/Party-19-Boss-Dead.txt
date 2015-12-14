@@ -1,0 +1,5 @@
+N	That was our last prisoner. There's no one left to run after.
+G	And yet, our path still doesn't end, we're neither in a dead-end nor outside in the wild.
+N	What more could possibly await us ?
+B	Death. What else ?
+P	That self-called Dungeon Guardian, maybe ? Let's find out !

@@ -1,0 +1,5 @@
+B	Whoa, looks like we made it alive to the 2nd level, I never thought we'd make it this far..!
+B	... hum, I meant, yeah, piece of cake !
+N	Don't you think that's strange that Horno made it that far, leaving all these creatures behind him alive ? And he was supposed to be with 14 other inmates.
+G	Yeah, something's wrong here. We need to figure that out, our survival might depend on it.
+P	Ok, keep your eyes open, we have no choice but to keep going on from here.

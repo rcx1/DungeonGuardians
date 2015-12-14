@@ -1,0 +1,4 @@
+G	Look there, Topaz, the last of the elven sisters !
+N	We might not have much time, but I can give a couple of tips if you want.
+N	She's a fine fighter ; so be careful of her {>AbMobWhirlWind} and {>AbMobDoubleSmash} as these attacks will hurt several of us.
+P	I see. Our healing capabilities are going to be tested !

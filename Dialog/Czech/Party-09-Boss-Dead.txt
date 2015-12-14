@@ -1,0 +1,7 @@
+N	We got her !
+P	Hmm, wasn't she one of the escaped prisoners ?
+N	Yes, she was one of the prisoners. "<i>Escaped</i>", now I begin to have strong doubts about that.
+B	Yup, why she would end up here if she was escaping?
+G	Could they all have been manipulated by this strange man we met ?
+N	If he was a man at all...
+P	There's no turning back anyway. Let's hope we'll find some answers on the path forward.

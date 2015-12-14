@@ -1,0 +1,5 @@
+N	Oh, {>MobNightshade} is just here.
+B	She was pretty nice in her solitary jail. All the guys wanted to talk to her. She got special treatment from the warden because she's actually from a very rich family.
+G	She's also very dangerous. I can explain a bit more about why if you want me to.
+G	Mainly, we'll want to avoid her {>AbBossNightBall} ; so when she casts it stand far away, and don't even stay close to the walls as its area of effect is pretty big.
+P	I can handle that !

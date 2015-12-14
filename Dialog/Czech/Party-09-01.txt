@@ -1,0 +1,3 @@
+G	These are not natural caverns, at least not completely .
+N	Who would have a place like this built ?
+B	And more importantly, why ?

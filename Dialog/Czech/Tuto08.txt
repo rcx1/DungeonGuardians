@@ -1,0 +1,4 @@
+T	Good, it seems you're getting the hang of it ! Now, you should learn to use me as a tank, which means my job is to make all enemies attack me. To do so, use my special abilities.
+H	And me, as the healer, I'll have to keep the tank alive, and of course the damage dealers as well, when things get dirty and enemies attack them.
+T	When an enemy attacks a party member, their portrait will get highlighted in red.
+H	If the enemy attacked by a party member is close to attacking them back, the member's portrait will be highlighted in orange.

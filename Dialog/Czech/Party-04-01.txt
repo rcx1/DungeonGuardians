@@ -1,0 +1,3 @@
+N	Hmm, it seems we've reached the 4th level, counting from our prison. I'm not sure what's around there.
+B	Probably more corridors, and more creatures lurking in the dark.
+P	Let's find out !

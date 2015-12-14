@@ -1,0 +1,5 @@
+G	Hey, can you see the "thing" up there ?
+G	It kinda looks like Romuald. He was jailed for necromancy, but till yesterday, he looked way more alive than this.
+G	It seems he has been transformed into one of the creatures he used to summon with his dark magic.
+B	Might be. We have to bring him back, dead or alive. I'm not sure undead count, so I'll pick dead !
+P	Ok, let's get to it then !
