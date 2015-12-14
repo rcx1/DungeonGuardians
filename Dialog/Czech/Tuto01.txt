@@ -2,11 +2,11 @@ G	Zdravím Vás [P:Sir|Milady], nastal čas, abychom se představili. Jmenuji se
 N	Zdar, pojmenovali mě {Self.Name} a budu tu jako {>Self.Role}. A doufám, že to zvládnem !
 B	Zdravím, jmenuju se {Self.Name}, {>Self.Role} je moje role, kdyby někdo chtěl vědět. Stejně sme už mrtví.
 P	Ahoj lidičky, já jsem {Self.Name} a budu tu jako {>Self.Role}, no a pro dnešek se o Vás postarám.
-C1	Jen doufám, že nís neženu do záhuby..
+C1	Jen doufám, že nás neženu do záhuby..
 C2	Netuším jako to dopadne, ale doufám, že co nejlíp.
-C3	Když dátě na mě, určitě se odsud dostanem živí a zdraví.
+C3	Když dáte na mě, určitě se odsud dostanem živí a zdraví.
 B	No jasně, přesně jak říkáš.
 N	Zaručeně.
-G	Věřímě Ti !
+G	Věříme Ti !
 P	Dobrá, neztrácejme čas a vzhůru dolů ;) !
 B	Hele, Ty, co to tu vedeš, a co ta páka, neměl bys ji dát dolů ?
