@@ -9,7 +9,7 @@ LoadingFailed	Nahrátí hry se nepodařilo
 
 ContactMG	www.managames.com/mail_en
 
-InvalidKey	Váš registrační klíč je chybný!\nProsím, ozvěte se našemu teamu [>ContactMG],\npošlete jméno, příjmení a zákaznické číslo.\n
+InvalidKey	Váš registrační klíč je chybný!\nProsím, ozvěte se našemu týmu [>ContactMG],\npošlete jméno, příjmení a zákaznické číslo.\n
 InvalidKeyTitle	Chybný klíč
 
 TrialInfo	Hru si užíváte v testovacím režimu.\n\nPokud jste si hru koupili, v což doufáme, prosím zadejte své zákaznické číslo.
@@ -18,8 +18,8 @@ EnterCustomerID	Zajedte zákaznické číslo
 Registered	{0}, podařilos e Vám úspěšně zaregistrovat tuto hru.\n\nPřejeme hodně dobrodružství a zábavy !
 CantWWW		Nemohu se připojit na server managames.com .\n\nProsím zkontrolujte své připojení k internetu a zkuste to znova.
 ContactingWWW	Připojuji se na server managames.com . Prosím vydržte.
-WrongID		Zadáno chybné zákaznické číslo.\n\nZkuste to prosím znovu. Pokud si myslíte, že je chyba na našem konci,\nozvěte se našemu teamu [>ContactMG] a pošlete jim své zákaznické číslo.
-FailedKey	Klíč se podařilo stáhnout, ale vypadá to, že nefunguje !\n\nProsím, ozvěte se našemu teamu [>ContactMG],\npošlete jméno, příjmení a zákaznické číslo.
+WrongID		Zadáno chybné zákaznické číslo.\n\nZkuste to prosím znovu. Pokud si myslíte, že je chyba na našem konci,\nozvěte se našemu týmu [>ContactMG] a pošlete jim své zákaznické číslo.
+FailedKey	Klíč se podařilo stáhnout, ale vypadá to, že nefunguje !\n\nProsím, ozvěte se našemu týmu [>ContactMG],\npošlete jméno, příjmení a zákaznické číslo.
 RegisterInfo	Registrační informace
 Info		Informace
 RegInfo		Hra registrována na:\n\n{0}\n{1}\n
@@ -49,16 +49,13 @@ Exit		Konec
 Credits		Závěrečné titulky
 ShowDataFolder	Ukázat složku s daty
 Build		Verze
-//=== rcx added
-LoadGame		Načíst hru
-SelectDungeon		Vybrat patro
 
 //=== Options Menu
 FullScreen	Přes celou obrazovku
 Windowed	V okně
 VideoOptions	Grafika
 Controls	Ovládání
-GameOptions	Hra
+GameOptions	Nastavení hry
 Interface	Rozhraní
 Audio		Zvuk
 
@@ -98,214 +95,214 @@ Difficulty08	Vlastní
 DifficultyInfo	Obtížnost můžete změnit kdykoli během hry. Stačí jen jít do [>GameOptions].
 
 DescDiff00	Nedá se ani mluvit o obtížnosti. Jediné, co budeš potřebovat, je naučit se léčit svou partičku, ale to jen opravdu ve chvílích nejhorších. Pravá volba pro procházku parkem.
-DescDiff01	You'll have to be a bit careful, but even if you're not familiar with video games, you should reach the end of the game. If you play without using the [>KeyActivePause], the game will be already challenging.
-DescDiff02	You'll have to understand most of the game mechanisms to survive, but you'll still have a lot of margin for error. Without using [>KeyActivePause], the game will be very challenging.
-DescDiff03	Pick this if you're new to Dungeon Guardians, but not new to tactical combat; you'll get a good challenge. Playing without [>KeyActivePause] is nearly impossible.
-DescDiff04	You'll have to master all game mechanisms to survive. There's still room for error, but it's minimal. Playing without [>KeyActivePause] is just not possible.
-DescDiff05	Not only will you have to master all game mechanisms to not be constantly crushed, you'll also have to find all secrets & solve all puzzles to get enough gear and potions to succeed in the hardest fights. Don't even think about playing without the [>KeyActivePause].
-DescDiff06	Without a ton of luck (or maybe a few miracles?), you probably won't reach the end of the game, even if you play perfectly.
-DescDiff07	Keep the current Difficulty, which is set in [>GameOptions].
-DescDiff08	Lets you fine tune the difficulty with the following sliders.
+DescDiff01	Ikdyž jsou pro Tebe hry španělskou vesnicí, tak s jedním okem zavřeným by ses na konec hry měl dostat. Pokud nebudeš hru zastavovat pomocí [>KeyActivePause], tak hra může být i výzvou.
+DescDiff02	Už jsi nějakou tu hru hrál a přežití pro Tebe není až takový problém, ale i tak Ti necháme prostor pro drobná zaškobrnutí. Pokud nebudeš hru zastavovat pomocí [>KeyActivePause], tak hra bude velkou výzvou.
+DescDiff03	Pravá volba pro strategické hráče, byť nováčky v této hře - užijete si ji. Hra bez zastavování pomocí [>KeyActivePause] je téměř nemožná.
+DescDiff04	Budeš se muset naučit hrát pomalu poslepu, ale i tak ti jedno či dvě zaškobrtnutí povolíme. Hra bez zastavování pomocí [>KeyActivePause] je vcelku nemožná.
+DescDiff05	Nejen, že se budeš muset naušit hrát téměř jako bůh, ale budeš muset odhalit všechna tajemství a skrýše, abys měl alespoň nějaké vybavení a pár lektvarů. O hraní bez zastavovaní pomocí [>KeyActivePause] ani neuvažuj.
+DescDiff06	Bez hromady štěstí a pár zázraků se dalšího patra nedožiješ, ale od toho jsou výzvy, ne ?
+DescDiff07	Ponechat obtížnost, tak jakje nastavena v [>GameOptions].
+DescDiff08	Pohraj si s obtížností pomocí šoupátek.
 
 SelectDifficulty	Zvol obtížnost
 
-CheckNewVersion	Automatically Check For New Version
-CheckVersionNow	Check For New Version Now
-NoNewVersion	You already have the latest version.
-NewVersion	New Version
-NewVersionOnWeb	A new version is available on the website.
-DownloadNow	Download Now !
-Changelog	Changelog
+CheckNewVersion	Ověřovat dostupnost nové verze automaticky
+CheckVersionNow	Ověřit dostupnost nové verze právě teď
+NoNewVersion	Již si užíváte nejnovější verzi hry.
+NewVersion	Nová verze
+NewVersionOnWeb	Na serveru je k dispozici nová verze hry.
+DownloadNow	Stáhnout ihned !
+Changelog	Seznam změn
 
-ChooseLanguage	Choose Language
+ChooseLanguage	Choose Language (Změna jazyka)
 
-GameHelpers	Helpers
-ItemHighlight	Hightlight Items
-AutoAttackMob	Auto-attack next enemy on target death
+GameHelpers	Pomocníčci
+ItemHighlight	Zvýrazňovat věci
+AutoAttackMob	Zaútočit na dalšího nepřítele po smrti aktuálního
 
-AutoPause00	Auto Pause on Empty Queue
-AutoPause01	Auto Pause on Enemy Death
-AutoPause02	Auto Pause on Party Member Knocked Out
-AutoPause03	Auto Pause on Healer out of Mana
-AutoPause04	Auto Pause on Damage Dealer out of Mana
-AutoPause05	Auto Pause on Long Cooldown Recharged
-AutoPause06	Auto Pause on Start of Battle
-AutoPause07	Auto Pause on Enemy Targets Non-Tank Member
+AutoPause00	Zastav při prázdné frontě
+AutoPause01	Zastav při smrti nepřítele
+AutoPause02	Zastav, pokud je někdo KO
+AutoPause03	Zastav, pokud je léčitel bez many
+AutoPause04	Zastav, pokud je útočník bez many
+AutoPause05	Zastav po dlouhém dobití
+AutoPause06	Zastav na začátku bitvy
+AutoPause07	Zastav, pokud nepřítel útočí na jinou postavu než tanka
 
-GlobalIcons	Global Icons
+GlobalIcons	Globální ikony
 DigitalCD	Digital Cooldowns
 
 //=== InGame Menu
-InGame		In-Game
-MainMenu	Main Menu
-BackToEditor	Back To Editor
-SaveGame	Save Game
-LoadGame	Load Game
-NewSave		Save to new slot
-QuickSave	Quick Save
-Overwriting	Overwriting '<i>{0}</i>' - <b><color=red>Click again to confirm</color></b>
-DefaultSaveName	MyGame
-ImportParty	Import Party
-PartyImported	Party Imported
-GameSaved	Game Saved to '{0}'
-GameLoaded	Game Loaded from '{0}'
-SelectDungeon	Select Dungeon
-SelectMods	Select Mods		//##
-Dungeon&Mods	Dungeon & Mods		//##
-NoSavedGame	No Saved Game
-GameOver	Game Over
-LoadLastGame	Load Last Saved Game
+InGame		Ve-hře
+MainMenu	Hlavní menu
+BackToEditor	Zpět do Editoru
+SaveGame	Uložit hru
+LoadGame	Nahrát hru
+NewSave		Uložit na novou pozici
+QuickSave	Uložit rychle
+Overwriting	Přepisuji '<i>{0}</i>' - <b><color=red>Potvrď dalším klikem</color></b>
+DefaultSaveName	MojeHra
+ImportParty	Importovat bandu
+PartyImported	Banda importována
+GameSaved	Hra uložena do '{0}'
+GameLoaded	Hra nahrána z '{0}'
+SelectDungeon	Vybrat patro
+SelectMods	Vybrat rozšíření		//##
+Dungeon&Mods	Podzemí & Rozšíření		//##
+NoSavedGame	Nemáš žádnou uloženou hru
+GameOver	Konec hry
+LoadLastGame	Nahrát poslední uloženou hru
 
-CheckAccount	Check License Key Online
-SaveLocked	Your saved games have been locked. To unlock them, you have to check your License Key online.\nIf you didn't buy the game, you should buy it now.
-Unlocked	Your account is valid, your saved games have been unlocked !
+CheckAccount	XXCheck License Key Online
+SaveLocked	XXYour saved games have been locked. To unlock them, you have to check your License Key online.\nIf you didn't buy the game, you should buy it now.
+Unlocked	XXYour account is valid, your saved games have been unlocked !
 
 //=== Select Mods		//##
-ModOnRestart	Changes to Mods will be applied next time your start the game.
-ModSelect	Load Mods
-ModSelect00	All
-ModSelect01	None
-ModSelect02	Custom
+ModOnRestart	Změny v rošířeních se projeví až po restaru hry.
+ModSelect	Nahrát rozšíření
+ModSelect00	Všechna
+ModSelect01	Žádná
+ModSelect02	Vybraná
 
 //=== Video Options Menu
 Gamma		Gamma
-TipGamma	There's a ring on the bottom left of the screen. You should notice it, but not too easily. You should be able to guess its whole shape is golden, not only the top.
-Ambient		Ambient
-Brightness	Brightness
-Contrast	Contrast
+TipGamma	Vlevo dole je prsten, měl bys ho vidět v přítmí a měl bys také poznat, že je celý zlatý.
+Ambient		Okolí
+Brightness	Jas
+Contrast	Kontrast
 VSync		VSync
-ViewRange	View Range
-Bloom		Bloom
+ViewRange	Viditelnost
+Bloom		Záře
 SSAO		SSAO
-TipSSAO		Screen Space Ambient Occlusion
-Fsaa		Full Scene Anti-Aliasing
-TipFsaa		FXAA3 Method
-VideoQuality	Quality
-Deferred	Deferred Lighting
-TipDeferred	Turning this off will remove all shadows. This is recommended only for very low end GPUs.
-MotionBlur	Motion Blur
-FramePerSecond	Frames Per Second
-Fov		Field of View
+TipSSAO	Technika pokročilého stínování (SSAO).
+Fsaa		Plnohodnotný Anti-Aliasing
+TipFsaa		Plnohodnotný Anti-Aliasing metodou FXAA3.
+VideoQuality	Kvalita
+Deferred	Jednoduché osvělení
+TipDeferred	Vypne stíny, vhodné pro opravdu staré grafické karty.
+MotionBlur	Pohybová neostrost
+FramePerSecond	Snímků za sekundu (FPS)
+Fov		Úhel pohledu
 
-QuFastest	Fastest
-QuFast		Fast
-QuSimple	Simple
-QuGood		Good
-QuBeautiful	Beautiful
-QuFantastic	Fantastic
+QuFastest	Nejrychlejší
+QuFast		Rychlá
+QuSimple	Běžná
+QuGood		Dobrá
+QuBeautiful	Krásná
+QuFantastic	Fantastická
 
 //=== Controls Menu
-MouseSensivity	Mouse Sensivity
-WheelSensivity	Wheel Sensivity
-InvertMouseY	Invert Mouse Vertical Axis
-CmdBuffering	Input Buffering
-CmdBuffering00	Off
-CmdBuffering01	Light
-CmdBuffering02	Full
-ViewBobbing	View Bobbing
-SmoothMouse	Smooth Mouse Look
-AutoCenterMouse	Center View On Move
+MouseSensivity	Citlivost myši
+WheelSensivity	Citlivost kolečka myši
+InvertMouseY	Otoč osu Y myši
+CmdBuffering	Vstupní zásobník
+CmdBuffering00	Vypnut
+CmdBuffering01	Malý
+CmdBuffering02	Velký
+ViewBobbing	Pohyb (houpání) kamery
+SmoothMouse	Plynulost myši
+AutoCenterMouse	Srovnat kameru při pohybu
 
-BindKeys	Bind Keys
-BindFunction	Function
-BindKey		Bound Key
-BindAltKey	Alternate Key
-KeyNone		<None>
+BindKeys	Klávesy
+BindFunction	Funkce
+BindKey		Klávesa
+BindAltKey	Náhradní klávesa
+KeyNone		<Nepřiřazena>
 
-KeyBase		Base
-KeyAbilities	Abilities
+KeyBase		Obecné
+KeyAbilities	Schopnosti
 KeyEditor	Editor
 KeyModSymbol	M
-ConfirmDefKEys	This will reset all key bindings to their default.\nAre you sure ?
-TipKeyBind	Left-click to assign Key. Right-click to clear current Key.
-TipKeyBinding	Press the wanted Key. Right-click to cancel.
+ConfirmDefKEys	Oprvadu chcete veškeré klávesy nastavit na původní ?
+TipKeyBind	Levým tlačitkem myši nastavíte novou klávesu. Pravým tlačítkem zrušíte aktuálně zvolenou klávesu.
+TipKeyBinding	Stiskněte požadovanou klávesu. Pravým tlačítkem myši zrušíte nastavování.
 
 //=== Keys
-KeyModifier1	Modifier 1	  	// Shift
-KeyModifier2	Modifier 2	  	// Control
-KeyModifier3	Modifier 3	  	// Alt
+KeyModifier1	Rozšiřující klávesa 1	  	// Shift
+KeyModifier2	Rozšiřující klávesa 2	  	// Control
+KeyModifier3	Rozšiřující klávesa 3	  	// Alt
 
-KeyHealthPotion	Health Potion
-KeyManaPotion	Mana Potion
+KeyHealthPotion	Lektvar zdraví
+KeyManaPotion	Lektvar many
 
 KeyInventory	[>GiInventory]
 KeyTalentTree	[>GiTalentTree]
 KeyChatLog	[>GiChatLog]
-KeyMap		Map
+KeyMap		Mapa
 
-KeyEscape	Escape
-KeyCycleTarget	Cycle Target
-KeyToon1	Party Member 1
-KeyToon2	Party Member 2
-KeyToon3	Party Member 3
-KeyToon4	Party Member 4
+KeyEscape	Esc
+KeyCycleTarget	Další nepřítel
+KeyToon1	Člen bandy 1
+KeyToon2	Člen bandy 2
+KeyToon3	Člen bandy 3
+KeyToon4	Člen bandy 4
 
 KeyQuickSave	[>QuickSave]
-KeyQuickLoad	Quick Load
-KeyScreenshot	Screenshot
-KeyHideGui	Hide Gui
+KeyQuickLoad	Nahrát rychle
+KeyScreenshot	Otisk obrazovky
+KeyHideGui	Skrýt GUI
 
       //=== From Input
-KeyMoveForward	Move Forward
-KeyMoveBackward	Move Backward
-KeyMoveLeft	Move Left
-KeyMoveRight	Move Right
-KeyTurnLeft	Turn Left
-KeyTurnRight	Turn Right
-KeyActivePause	Active Pause
+KeyMoveForward	Krok vpřed
+KeyMoveBackward	Krok vzad
+KeyMoveLeft	Krok vlevo
+KeyMoveRight	Krok vpravo
+KeyTurnLeft	Otočka vlevo
+KeyTurnRight	Otočka vpravo
+KeyActivePause	Bojová pauza
 
-KeyNextDialog	Next Dialogue
+KeyNextDialog	Další dialog
 KeyDpsGraph	[>GuiDpsLog]
-KeySelectToons	Toggle Selected Party Members
+KeySelectToons	Označit/Odznačit vybrané členy bandy
 KeyAttack	[>GiAttack]
-KeyLoot		Pick up all Loot	//##
+KeyLoot		Sebrat vše ze země	//##
 
       //=== Ability
-KeyRightClick	Unqueue Ability
-DescKeyRightClick	Hold this key while pressing the ability's Key to unqueue it
-DescKeyModifier1	You can hold this key in combination with another key when binding it to a function
+KeyRightClick	Odebrat Schopnost z fronty
+DescKeyRightClick	Drž stisknutou tuto klávesu spolu s klávesou schopnosti, kterou chceš odebrat z fronty
+DescKeyModifier1	Jedna z rozšiřujících kláves SHIFT, CTRL, ALT, které znásobují množsví přiřaditelných klávesových zkratek
 DescKeyModifier2	[>DescKeyModifier1]
-DescKeyModifier3        [>DescKeyModifier1]
+DescKeyModifier3	[>DescKeyModifier1]
 
-KeyToonAbility	Member #{0} Ability #{1}
+KeyToonAbility	Člen #{0} Schopnost #{1}
 
       //=== Editor
-KeyEd_SaveMap	Save Map
-KeyEd_SaveDungeon	Save Dungeon
-KeyEd_TestDungeon	Test Level
+KeyEd_SaveMap	Uložit mapu
+KeyEd_SaveDungeon	Uložit podzemí
+KeyEd_TestDungeon	Test patra
 KeyEd_StopTest		[>BackToEditor]
 
-KeyEd_NextLevel	Next Level
-KeyEd_PreviousLevel	Previous Level
+KeyEd_NextLevel	Další patro
+KeyEd_PreviousLevel	Předchozí patro
 KeyEd_OtherNextLevel	See Other Next Level
 KeyEd_OtherPrevLevel	See Other Previous Level
-KeyEd_ScrollUp	Scroll Up
-KeyEd_ScrollDown	Scroll Down
-KeyEd_ScrollLeft	Scroll Left
-KeyEd_ScrollRight	Scroll Right
+KeyEd_ScrollUp	Posun nahoru
+KeyEd_ScrollDown	Posun dolů
+KeyEd_ScrollLeft	Posun vlevo
+KeyEd_ScrollRight	Posun vpravo
 
-KeyEd_Floor	Floor
-KeyEd_Ceiling	Ceiling
-KeyEd_Wall	Wall
-KeyEd_Corner	Corner
-KeyEd_Prop	Prop
-KeyEd_Field	Field
-KeyEd_Mob	Mob
-KeyEd_Item	Item
-KeyEd_EditCells	Edit Cells
+KeyEd_Floor	Podlaha
+KeyEd_Ceiling	Strop
+KeyEd_Wall	Zeď
+KeyEd_Corner	Roh
+KeyEd_Prop	Vlastnosti
+KeyEd_Field	XXField
+KeyEd_Mob	Příšera
+KeyEd_Item	Věc
+KeyEd_EditCells	XXEdit Cells
 KeyEd_Level	[>DungeonLevel]
-KeyEd_Dungeon	Dungeon
+KeyEd_Dungeon	Podzemí
 
-KeyEd_VerticalUp	Fly Up
-KeyEd_VerticalDown	Fly Down
-KeyEd_DragOrbit	Scroll & Orbit
+KeyEd_VerticalUp	Letět nahoru
+KeyEd_VerticalDown	Letět dolů
+KeyEd_DragOrbit	Posun a kroužení
 
 //=== Audio
-MasterVol	Master Volume
-MusicVol	Music Volume
-AmbienceVol	Ambience Volume
+MasterVol	Hlasitost
+MusicVol	Hlasitost hudby
+AmbienceVol	Hlasitost doprovodu
 
-SpeakerMode	Speakers
+SpeakerMode	Reproduktory
 SpeakerMode00	Mono
 SpeakerMode01	Stereo
 SpeakerMode02	Quad
@@ -314,48 +311,48 @@ SpeakerMode04	5.1
 SpeakerMode05	7.1
 
 //=== Party Creation
-PartyCreation	Party Creation
-DefaultParty	Default Party
-CustomParty	Custom Party
-SelectParty	Customize Party
-PartySelected	Start Game
-SelectMember	Select Guardian
+PartyCreation	Výběr bandy
+DefaultParty	Původní banda
+CustomParty	Vlastní banda
+SelectParty	Upravit bandu
+PartySelected	Začít hru
+SelectMember	Vyber strážce
 MemberDesc	{0}\n{1}\n({2}, {3}, {4}, {5})
-ChangeMember	Change Guardian
-ChangeSoul	Change Soul
-ShowBaseMember	User Guardians
-ShowUserMember	Base Guardians
-ShowMatchMember	All Guardians
-ShowAllMember	Comptatible Guardians
+ChangeMember	Vyměň strážce
+ChangeSoul	Přesuň duši
+ShowBaseMember	Moji strážci
+ShowUserMember	Původní strážci
+ShowMatchMember	Všichni strážci
+ShowAllMember	Vhodní strážci
 CharDesc	{0} : {1}, {2}, {3}, {4}, {5}
 CharDetail	({0}, {1}, {2}, {3}, {4})
-NoMatchMember	No Matching Guardian
-NoMember	No Guardian - Create Some!
-SelectForRole	For Role: {0}
-CreateMember	Create Guardian
-DefaultName	[:Mister|Miss]
-DeleteChar	Delete Guardian
-ConfirmDelChar	Delete '{0}' ?\n\nYou can't undo this.
-MainCharacter	<b>Main Character</b>\nYou are the soul of this guardian.\nClick on another guardian's portrait to change your main character.
+NoMatchMember	Nemáš žádného vhodného strážce
+NoMember	Nemáš žádného strážce - tak si nějakého stvoř!
+SelectForRole	Pro roli: {0}
+CreateMember	Vytvoř strážce
+DefaultName	[:Pan|Dáma]
+DeleteChar	Smaž strážce
+ConfirmDelChar	Opravdu se chceš zbavit '{0}' ?\n\nNení už pak cesty zpět !
+MainCharacter	<b>Hlavní postava</b>\nJsi duší tohoto strážce.\nHlavní postavu změníš kliknutím na portrét jiného strážce.
 
-CcPass00	Select Race
-CcPass01	Select Gender
-CcPass02	Enter Name
-CcPass03	Select Class
-CcPass04	Select Specialization
-CcPass05	Select Portrait
-CcPass06	Select Voice
+CcPass00	Zvol rasu
+CcPass01	Zvol pohlaví
+CcPass02	Zvol jméno
+CcPass03	Zvol třídu
+CcPass04	Zvol specializaci
+CcPass05	Zvol potrét
+CcPass06	Zvol hlas
 
-OverwriteChar	Guardian '{0}' already exists.\n\nWould you like to overwrite [:him|her] ?
-Overwrite	Overwrite
-IncompatibleMember	This guardian has a specialization that doesn't match [:his|her] role in the party.
-IncompatibleParty	If you use an incorrect specialization for your party members, the game difficulty can get extremely unbalanced, and you might not be able to survive.
-IncompatibleClass	This class doesn't have any specialization matching the current member role in the party.
-IncompatibleSpec	This specialization doesn't match the current member role in the party.
+OverwriteChar	Strážce '{0}' byl již jednou stvořen.\n\nPřejete si [:ho|ji] přepsat ?
+Overwrite	Přepsat
+IncompatibleMember	Tento stážce se na vybranou roli v bandě nehodí.
+IncompatibleParty	Pokud si pro jednotlivé role nevybereš vhodné strážce, bude hra nevyrovnaná, případně i nedohratelná.
+IncompatibleClass	Tato třída nemá žádnou vhodnou specializaci pro vybranou roli.
+IncompatibleSpec	Tato specializace se pro vybranou roli nehodí.
 
-VoiceAuto	Automatic
-TipVoiceAuto	Lets the game choose a voice so no 2 characters have the same voice.\n\nAll Built-in characters use auto-voice.
-Voice		Voice #{0}
+VoiceAuto	Automaticky
+TipVoiceAuto	Nech hlasy na hře, ať nemáš postavy se stejným hlasem.\n\nVšichní Původní strážci mají nastaveno automatické přiřazení hlasu.
+Voice		Hlas #{0}
 
 //=== Map Editor
 BrushNormal	Brush Normal
@@ -1026,8 +1023,8 @@ CeImmune	Immune
 //=== Role
 Role		Role
 RoleTank	Tank
-RoleHealer	Healer
-RoleDps		Damage Dealer
+RoleHealer	Léčitel
+RoleDps		Útočník
 RoleSpellDps	[>RoleDps]
 RoleStrDps	[>RoleDps]
 RoleAgiDps	[>RoleDps]
