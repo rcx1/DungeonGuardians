@@ -1,3 +1,7 @@
+// lang CZE
+// ver 0.1
+// for game ver 1.0a
+// author rcx
 // Codes can't start with : §, -, 0-9
 
 //===System Errors
@@ -92,16 +96,16 @@ Difficulty06	Likvidátor	// 2.0 - Impossible
 Difficulty07	Aktuální nastavení
 Difficulty08	Vlastní
 
-DifficultyInfo	Obtížnost můžete změnit kdykoli během hry. Stačí jen jít do [>GameOptions].
+DifficultyInfo	Obtížnost můžete změnit kdykoli během hry.\nStačí jen jít do [>GameOptions].
 
 DescDiff00	Nedá se ani mluvit o obtížnosti. Jediné, co budeš potřebovat, je naučit se léčit svou partičku, ale to jen opravdu ve chvílích nejhorších. Pravá volba pro procházku parkem.
-DescDiff01	Ikdyž jsou pro Tebe hry španělskou vesnicí, tak s jedním okem zavřeným by ses na konec hry měl dostat. Pokud nebudeš hru zastavovat pomocí [>KeyActivePause], tak hra může být i výzvou.
-DescDiff02	Už jsi nějakou tu hru hrál a přežití pro Tebe není až takový problém, ale i tak Ti necháme prostor pro drobná zaškobrnutí. Pokud nebudeš hru zastavovat pomocí [>KeyActivePause], tak hra bude velkou výzvou.
-DescDiff03	Pravá volba pro strategické hráče, byť nováčky v této hře - užijete si ji. Hra bez zastavování pomocí [>KeyActivePause] je téměř nemožná.
-DescDiff04	Budeš se muset naučit hrát pomalu poslepu, ale i tak ti jedno či dvě zaškobrtnutí povolíme. Hra bez zastavování pomocí [>KeyActivePause] je vcelku nemožná.
-DescDiff05	Nejen, že se budeš muset naušit hrát téměř jako bůh, ale budeš muset odhalit všechna tajemství a skrýše, abys měl alespoň nějaké vybavení a pár lektvarů. O hraní bez zastavovaní pomocí [>KeyActivePause] ani neuvažuj.
+DescDiff01	Ikdyž jsou pro Tebe hry španělskou vesnicí, tak s jedním okem zavřeným by ses na konec hry měl dostat. Pokud nebudeš hru zastavovat pomocí klávesy [>KeyActivePause], tak hra může být i výzvou.
+DescDiff02	Už jsi nějakou tu hru hrál a přežití pro Tebe není až takový problém, ale i tak Ti necháme prostor pro drobná zaškobrnutí. Pokud nebudeš hru zastavovat pomocí klávesy [>KeyActivePause], tak hra bude velkou výzvou.
+DescDiff03	Pravá volba pro strategické hráče, byť nováčky v této hře - užijete si ji. Hra bez zastavování pomocí klávesy [>KeyActivePause] je téměř nemožná.
+DescDiff04	Budeš se muset naučit hrát pomalu poslepu, ale i tak ti jedno či dvě zaškobrtnutí povolíme. Hra bez zastavování pomocí klávesy [>KeyActivePause] je vcelku nemožná.
+DescDiff05	Nejen, že se budeš muset naušit hrát téměř jako bůh, ale budeš muset odhalit všechna tajemství a skrýše, abys měl alespoň nějaké vybavení a pár lektvarů. O hraní bez zastavovaní pomocí klávesy [>KeyActivePause] ani neuvažuj.
 DescDiff06	Bez hromady štěstí a pár zázraků se dalšího patra nedožiješ, ale od toho jsou výzvy, ne ?
-DescDiff07	Ponechat obtížnost, tak jakje nastavena v [>GameOptions].
+DescDiff07	Ponechat obtížnost, tak jak je nastavena v [>GameOptions].
 DescDiff08	Pohraj si s obtížností pomocí šoupátek.
 
 SelectDifficulty	Zvol obtížnost
@@ -153,12 +157,12 @@ NoSavedGame	Nemáš žádnou uloženou hru
 GameOver	Konec hry
 LoadLastGame	Nahrát poslední uloženou hru
 
-CheckAccount	XXCheck License Key Online
-SaveLocked	XXYour saved games have been locked. To unlock them, you have to check your License Key online.\nIf you didn't buy the game, you should buy it now.
-Unlocked	XXYour account is valid, your saved games have been unlocked !
+CheckAccount	Kontrola licenčního klíče online
+SaveLocked	Tvoje uložené hry byly uzamčeny. Prosím nech si zkontorlovat online liceční klíč.\nPokud sis hru nekoupil, tak teď je ten pravý čas.
+Unlocked	Tvoje přístupové údaje jsou v pořádku - uložené hry odemčeny !
 
 //=== Select Mods		//##
-ModOnRestart	Změny v rošířeních se projeví až po restaru hry.
+ModOnRestart	Změny v rozšířeních se projeví až po restartu hry.
 ModSelect	Nahrát rozšíření
 ModSelect00	Všechna
 ModSelect01	Žádná
@@ -1059,189 +1063,189 @@ GenRareElite    Rare Elite
 GenBoss         Boss
 
 //=== Mobs
-MobSkeleton	Skeleton
-MobSkeletonMinion	Skeleton Minion
-MobSkeletonMage	Skeleton Mage
-MobSkeletonArcher	Skeleton Archer
-MobSkeletonFootman	Skeleton Footman
-MobSkeletonWarlord	Skeleton Warlord
-MobSkeletonSoldier	Skeleton Soldier
-MobSkeletonChampion	Skeleton Champion
-MobSkeletonVeteran	Skeleton Veteran
-MobAncientKnight	Ancient Knight
-MobSkeletonCaptain	Skeleton Captain
-MobSkeletonKing		Skeleton King
-MobSkeletonKnight	Skeleton Knight
-MobSkeletonLieutenant	Skeleton Lieutenant
-MobCaveWorm	Cave Worm
-MobEvilWatcher	Evil Watcher
-MobChaosWatcher	Chaos Watcher
-MobSpider	Spider
-MobSpiderLing	Spiderling
-MobSpiderQueen	Spider Queen
-MobBonesDragon	Bones Dragon
-MobThief	Shadow Assassin
-MobUndeadKing	Undead King
-MobCaveMonster	Cave Beast
-MobCaveMother	Cave Mother
-MobForsakenKnight	Forsaken Knight
-MobGoldenKnight	Golden Knight
-MobArmoredBarbarian	Armored Barbarian
-MobBarbarianHulk	Barbarian Hallebardier
-MobBarbarianDestroyer	Barbarian Destroyer
-MobBarbarianLeader	Barbarian Leader
-MobBarbarianUnderworld	Underworld Barbarian
-MobBarbarianSpike	Spiked Barbarian
-MobImperialKnight	Imperial Knight
-MobImperialGuard	Imperial Guard
-MobImperialMinistrel	Imperial Ministrel
-MobBarbarianSlave	Barbarian Slave
-MobBarbarianSlaver	Barbarian Slaver
-MobBigBoss	Dungeon Guardian
-MobCaveVampire	Cave Vampire
-MobArcher2	Royal Archer
-MobArcher2-Light	Light Avatar
-MobArcher2-Shadow	Shadow Avatar
-MobRoyalKnight	Imperial Commander
+MobSkeleton	Kostlivec
+MobSkeletonMinion	Kostlivcův pomocník
+MobSkeletonMage	Kostlivec - mág
+MobSkeletonArcher	Kostlivec - lučíštník
+MobSkeletonFootman	Kostlivec - pěšák
+MobSkeletonWarlord	Kostlivec - bojovník
+MobSkeletonSoldier	Kostlivec - voják
+MobSkeletonChampion	Kostlivec - šampion
+MobSkeletonVeteran	Kostlivec - veterán
+MobAncientKnight	Starobylý rytíř
+MobSkeletonCaptain	Kostlivec - kapitán
+MobSkeletonKing		Kostlivec - král
+MobSkeletonKnight	Kostlivec - rytíř
+MobSkeletonLieutenant	Kostlivec - poručík
+MobCaveWorm	Jeskynní červ
+MobEvilWatcher	Ďáblovo oko
+MobChaosWatcher	Oko chaosu
+MobSpider	Pavouk
+MobSpiderLing	Pavouček
+MobSpiderQueen	Královna pavouků
+MobBonesDragon	Drak - kostlivec
+MobThief	Smrtící stín
+MobUndeadKing	Nemrtvý král
+MobCaveMonster	Jeskynní bestie
+MobCaveMother	Jeskynní bestie - matka
+MobForsakenKnight	Zapovězený rytíř
+MobGoldenKnight	Zlatý rytíř
+MobArmoredBarbarian	Obrněný barbar
+MobBarbarianHulk	Barbarian - kopiník
+MobBarbarianDestroyer	Barbar - ničitel
+MobBarbarianLeader	Barbar - šéf
+MobBarbarianUnderworld	Temný barbar
+MobBarbarianSpike	Ostnatý barbar
+MobImperialKnight	Imperiální rytíř
+MobImperialGuard	Imperiální stráž
+MobImperialMinistrel	Imperiální bard
+MobBarbarianSlave	Barbar - otrok
+MobBarbarianSlaver	Barbar - otrokář
+MobBigBoss	Strážce podzemí
+MobCaveVampire	Jeskynní upír
+MobArcher2	Královský lučištník
+MobArcher2-Light	Jasný avatar
+MobArcher2-Shadow	Temný avatar
+MobRoyalKnight	Imperiální poručík
 MobWarrok	Warrok
-MobBarbarianWarrior	Barbarian Warrior
-MobMushroomSmall	Aggressive Mushroom
-MobMushroomBig	Hell Mushroom
-MobCaveTroll	Cave Troll
-MobSnake	Snake
-MobSnakeLing	Snakelet
-MobSnakeKing	Snake King
-MobDragonBat	Dragon Bat
-MobDragonBatPup	Dragon Bat Pup
-MobDragonVampire	Dragon Vampire
-MobWormCave	Cave Worm
-MobWormDragon	Worm Dragon
-MobCavePredator	Cave Predator
-MobCavePatriarch	Cave Patriarch
-MobGnomeWorker	Gnome Worker
-MobGnomeWarrior	Gnome Warrior
-MobGnomePriest	Gnome Priest
-MobGnomeArcher	Gnome Archer
-MobGnomeGiant	Gnome Giant
-MobGnomeGiant2	Gnome Giant
-MobGnomeProtector	Gnome Protector
-MobElvenWitch	Elven Witch
-MobElvenHunter	Elven Hunter
-MobElvenAssassin	Elven Assassin
-MobElvenSwordGuard	Elven Sword Guard
-MobElvenSpearGuard	Elven Spear Guard
-MobElvenBeast	Elven Beast
-MobElvenBeastArmored	Armored Elven Beast
-MobElvenQueenBeast	Elven Queen Beast
-MobElvenQueen	Elven Queen
-MobSnakeMinion	Snake Minion
-MobGolemSoldier	Golem Soldier
-MobGolemCrusher	Golem Crusher
-MobGolemGuard	Golem Guard
-MobGolemMage	Golem Mage
-MobGolemAssassin	Golem Assassin
-MobGolemArcher	Golem Archer
-MobRatkinWarrior	Ratkin Warrior
-MobRatkinGunner	Ratkin Gunner
-MobRatkinShaman	Ratkin Shaman
-MobRatkinSlave	Ratkin Slave
-MobRatkinWarlord	Ratkin Warlord
-MobTrollWarrior	Troll Warrior
-MobCyclops	Cyclops
-MobLizardman	Lizardman
-MobOrcGrunt	Orc Grunt
-MobOrcBrute	Orc Brute
-MobWarlock	Warlock
-MobPigHead	PigHead
-MobEmissary	Emissary
-MobDragon	Dragon
-MobDragonIce	Ice Dragon
-MobMinionCrusher	Minion Crusher
-MobMinionGuard	Minion Guard
-MobMinionAssassin	Minion Assassin
-MobGoblinBandit	Goblin Bandit
-MobGoblinBaron	Goblin Baron
-MobGoblinGladiator	Goblin Gladiator
-MobGoblinShaman	Goblin Shaman
-MobGoblinSlave	Goblin Slave
-MobSoulEater	Soul Eater
-MobSoulDevourer	Soul Devourer
-MobSoulCrusher	Soul Crusher
-MobDemonWarrior	Demon Warrior
-MobDragonBugTiny	Lesser Dragon Bug
-MobDragonBug	Dragon Bug
-MobDragonBugGiant	Greater Dragon Bug
-MobGargoyle	Gargoyle
-MobGargoyleLesser	Lesser Gargoyle
-MobGargoyleBanished	Banished Gargoyle
-MobBasilisk	Basilisk
-MobBasiliskLesser	Water Basilisk
-MobBasiliskGreater	Ash Basilisk
-MobWyvern	Wyvern
-MobWyvernElder	Elder Wyvern
-MobSorceress	Sorceress
-MobNightshade	Nightshade
-MobDemonist	Demonist
-MobBigBoss1	Dungeon Guardian
+MobBarbarianWarrior	Barbar - válečník
+MobMushroomSmall	Agresivní houba
+MobMushroomBig	Pekelná houba
+MobCaveTroll	Jeskynní trol
+MobSnake	Had
+MobSnakeLing	Hádě
+MobSnakeKing	Král hadů
+MobDragonBat	Netopýr dračí
+MobDragonBatPup	Netopýrek dračí
+MobDragonVampire	Drak - upír
+MobWormCave	Jeskynní červ
+MobWormDragon	Dračí červ
+MobCavePredator	Jeskynní predátor
+MobCavePatriarch	Jeskynní vládce
+MobGnomeWorker	Gnóm - dělník
+MobGnomeWarrior	Gnóm - bojovník
+MobGnomePriest	Gnóm - kněz
+MobGnomeArcher	Gnóm - lučištník
+MobGnomeGiant	Gnóm - obr
+MobGnomeGiant2	Gnóm - obr
+MobGnomeProtector	Gnóm - ochránce
+MobElvenWitch	Elf - čarodejnice
+MobElvenHunter	Elf - lovec
+MobElvenAssassin	Elf - vrah
+MobElvenSwordGuard	Elf - šermíř
+MobElvenSpearGuard	Elf - kopiník
+MobElvenBeast	Elfí bestie
+MobElvenBeastArmored	Obrněná elfí bestie
+MobElvenQueenBeast	Elvfí královna - bestie
+MobElvenQueen	Elfí královna
+MobSnakeMinion	Had - pomocník
+MobGolemSoldier	Golem - voják
+MobGolemCrusher	Golem - drtič
+MobGolemGuard	Golem - stráž
+MobGolemMage	Golem - mág
+MobGolemAssassin	Golem - vrah
+MobGolemArcher	Golem - lučištník
+MobRatkinWarrior	Krysák - bojovník
+MobRatkinGunner	Krysák - střelec
+MobRatkinShaman	Krysák - šaman
+MobRatkinSlave	Krysák - otrok
+MobRatkinWarlord	Krysák - hrdina
+MobTrollWarrior	Trol - bojovník
+MobCyclops	Kyklop
+MobLizardman	Ještěr
+MobOrcGrunt	Ork - mrzout
+MobOrcBrute	Ork - nelida
+MobWarlock	Bojový mág
+MobPigHead	Prasečí hlava
+MobEmissary	Vyslanec
+MobDragon	Drak
+MobDragonIce	Ledový drak
+MobMinionCrusher	XXMinion - drtič
+MobMinionGuard	XXMinion - stráž
+MobMinionAssassin	XXMinion - vrah
+MobGoblinBandit	Goblin - bandita
+MobGoblinBaron	Goblin - baron
+MobGoblinGladiator	Goblin - gladiátor
+MobGoblinShaman	Goblin - šaman
+MobGoblinSlave	Goblin - otrok
+MobSoulEater	Požírač duší
+MobSoulDevourer	Lovec duší
+MobSoulCrusher	Ničitel duší
+MobDemonWarrior	Démon - bojovník
+MobDragonBugTiny	Malý dračí brouk
+MobDragonBug	Dračí brouk
+MobDragonBugGiant	Velký dračí brouk
+MobGargoyle	Chrlič
+MobGargoyleLesser	Malý chrlič
+MobGargoyleBanished	Zapovězený chrlič
+MobBasilisk	Bazilišek
+MobBasiliskLesser	Vodní bazilišek
+MobBasiliskGreater	Popelavý bazilišek
+MobWyvern	Saň
+MobWyvernElder	Stará saň
+MobSorceress	Čarodějka
+MobNightshade	Stín noci
+MobDemonist	Pekelník
+MobBigBoss1	Strážce podzemí
 MobBigBoss2	[>MobBigBoss1]
 MobBigBoss3	[>MobBigBoss1]
 MobBigBoss4	[>MobBigBoss1]
-MobEmperorGhost	Emperor Ghost
-MobJanitor	Gate Keeper
-MobWarden	Warden
+MobEmperorGhost	Imperátorův duch
+MobJanitor	Žalářník
+MobWarden	Správce vězení
 
 //=== Races
-RaceHuman	Human
-RaceDwarf	Dwarf
+RaceHuman	Člověk
+RaceDwarf	Trpaslík
 RaceElf		Elf
-RaceDarkElf	Dark Elf
-RaceHalfling	Halfling
+RaceDarkElf	Temný elf
+RaceHalfling	Půlčík
 
-DescRaceHuman	Humans are the most common race in these lands ; they are known for their strong will.
-DescRaceDwarf	Dwarves are short sized but strong individuals, enjoying their life under the mountains.
-DescRaceElf	Elves are the forest inhabitant, wise and secluded.
-DescRaceDarkElf	Dark Elves are said to be elves that have been corrupted by dark magic, living underground.
-DescRaceHalfling	Halflings looks like small, weak humans, but are known for their agility.
+DescRaceHuman	Lidé jsou nejběžnější rasou v těchto končinách a kupodivu mají silnou vůli.
+DescRaceDwarf	O co jsou trpaslící menší o to jsou silnější. Užívají si život v podhůří.
+DescRaceElf	Elfové jsou dětmi lesa, moudří, ale uzavření.
+DescRaceDarkElf	O temných elfech se říká, že jsou batři elfů, kteří se nechali svést temnou magií a žijí v podzemí.
+DescRaceHalfling	Půlčíci sice vypadají jako malí, slabí lidé, ale opak je pravdou - jsou krajně čilí.
 
 //=== Sex
-SexGender	[:Male|Female]
+SexGender	[:Muž|Žena]
 
 //=== Default Names
-CharName01	[:Harry|Matilda]
-CharName02	[:Elifelet|Aurore]
-CharName03	[:Tatius|Medusa]
-CharName04	[:Ewald|Emily]
-CharName05	[:Cenhelm|Briseis]
+CharName01	[:Honza|Matylda]
+CharName02	[:Elifelet|Aurora]
+CharName03	[:Tatius|Medúza]
+CharName04	[:Ewald|Emilka]
+CharName05	[:Čeněk|Hilda]
 
 //=== Classes
-ClassWarrior	Warrior
-ClassHealer	Healer
-ClassMage	Mage
-ClassRogue	Rogue
+ClassWarrior	Bojovník
+ClassHealer	Léčitel
+ClassMage	Mág
+ClassRogue	Zloděj
 
-DescClassWarrior	Warriors are front line fighters using their might to devastate their enemies or protect their allies.
-DescClassHealer	Healers take care of all party members and mostly the tank, by healing their wounds during the fights.
-DescClassMage	Mages use arcane and elemental powers to fight their enemies from a distance.
-DescClassRogue	Rogues use cunning tactics and dexterity to surprise their enemies or protect their allies.
+DescClassWarrior	Bojovníci jsou tvorové první linie, kosící nepřátele a bránící své.
+DescClassHealer	Léčitelé se starají o celou bandu, ale hlavně o Tanka.
+DescClassMage	Mágové užívají svých tajemných sil k boji z dálky.
+DescClassRogue	Zloději využívají taktiku, aby překvapili nepřátele či ochránili přátele.
 
 
 //=== Hand Wielding
-Wielding	Wielding
-HandMain	Main Hand
-HandOff		Off-Hand
-HandAny		Any Hand
+Wielding	Úchop
+HandMain	Pravou rukou
+HandOff		Levou rukou
+HandAny		Libovolnou rukou
 HandBastard	Bastard
-HandBoth	Two-Hand
-HandAll		Any wielding
+HandBoth	Obouruční
+HandAll		Libovolný
 
 //=== Character Sheet
-ArmorRating	Armor Rating
-TotalRating	Total Rating
-RateVsLvl	vs Lvl {0}
-RateVsBoss	vs Boss
-DamagePerSecond	Damage Per Second
-Experience	Experience
-ToonLevel	Level
+ArmorRating	Hodnocení brnění
+TotalRating	Celkové hodnocení
+RateVsLvl	vs úrověň {0}
+RateVsBoss	vs boss
+DamagePerSecond	DPS (škoda / zranění za sekundu)
+Experience	Zkušenosti
+ToonLevel	Úroveň
 WarnEquipCombat	Can't change weapon during combat
 GearRestricted	This character can't equip this kind of item
 BaseBonus	Base: {0}\nBonus: {1}
@@ -2016,19 +2020,19 @@ TipStun		Stunned
 TipInterrupted	Interrupted!\n\nYour ability {0} has been interrupted by an enemy's attack.
 
 //=== Spec
-Specialization	Specialization
-SpecProtector	Protector
-SpecManAtArms	[:Man|Woman] at Arms
+Specialization	Specializace
+SpecProtector	Ochránce
+SpecManAtArms	[:Muž|Dáma] ve zbrani
 SpecPaladin	Paladin
-SpecElementalist	Elementalist
+SpecElementalist	Elementalista
 SpecDruid	Druid
-SpecPriest	[:Priest|Priestess]
-SpecNecromancer	Necromancer
-SpecWarlock	Warlock
-SpecArcanist	Arcanist
-SpecAssassin	Assassin
-SpecDuelist	Duelist
-SpecRanger	Ranger
+SpecPriest	[:Kněz|Kněžka]
+SpecNecromancer	Nekromancer
+SpecWarlock	Warlok
+SpecArcanist	Arkanista
+SpecAssassin	Vrah
+SpecDuelist	Duelista
+SpecRanger	Stopař
 
 DescSpecProtector	The Protector is the quintessence of a tank: he wears plate armor, handle shield, and can mitigate a lot of damage. He doesn't have any self-healing abilities though, thus he must rely on the healer to heal his wounds.
 DescSpecManAtArms	The Man at Arms is a trained soldier especially proficient in 2-handed weapons with which he does devastating damage.
