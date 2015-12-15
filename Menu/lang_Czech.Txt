@@ -158,7 +158,7 @@ GameOver	Konec hry
 LoadLastGame	Nahrát poslední uloženou hru
 
 CheckAccount	Kontrola licenčního klíče online
-SaveLocked	Tvoje uložené hry byly uzamčeny. Prosím nech si zkontorlovat online liceční klíč.\nPokud sis hru nekoupil, tak teď je ten pravý čas.
+SaveLocked	Tvoje uložené hry byly uzamčeny. Prosím nech si zkontrolovat online liceční klíč.\nPokud sis hru nekoupil, tak teď je ten pravý čas.
 Unlocked	Tvoje přístupové údaje jsou v pořádku - uložené hry odemčeny !
 
 //=== Select Mods		//##
@@ -217,7 +217,7 @@ KeyBase		Obecné
 KeyAbilities	Schopnosti
 KeyEditor	Editor
 KeyModSymbol	M
-ConfirmDefKEys	Oprvadu chcete veškeré klávesy nastavit na původní ?
+ConfirmDefKEys	Opravdu chcete veškeré klávesy nastavit na původní ?
 TipKeyBind	Levým tlačitkem myši nastavíte novou klávesu. Pravým tlačítkem zrušíte aktuálně zvolenou klávesu.
 TipKeyBinding	Stiskněte požadovanou klávesu. Pravým tlačítkem myši zrušíte nastavování.
 
@@ -355,7 +355,7 @@ IncompatibleClass	Tato třída nemá žádnou vhodnou specializaci pro vybranou 
 IncompatibleSpec	Tato specializace se pro vybranou roli nehodí.
 
 VoiceAuto	Automaticky
-TipVoiceAuto	Nech hlasy na hře, ať nemáš postavy se stejným hlasem.\n\nVšichní Původní strážci mají nastaveno automatické přiřazení hlasu.
+TipVoiceAuto	Nech hlasy na hře, ať nemáš postavy se stejným hlasem.\n\nVšichni Původní strážci mají nastaveno automatické přiřazení hlasu.
 Voice		Hlas #{0}
 
 //=== Map Editor
@@ -666,148 +666,148 @@ PathJumpTo	Jump To Point
 DeletePathPoint	Delete Point
 
 //=== Item
-Generic		Generic
-Weapon		Weapon
-Gear		Gear
-Consumable	Consumable
-Generator	Generator
-Key		Key
-Projectile	Projectile
+Generic		XXGeneric
+Weapon		Zbraň
+Gear		Vybavení
+Consumable	Poživatina
+Generator	XXGenerator
+Key		Klíč
+Projectile	Projektil
 TargetedRandom	Targeted Random
 ItemRandDetail	Rd Lvl:
 ItemAllLvl	All
 ItemAllQualites	Any Quality
 
 //=== Key
-IronKey		Iron Key
-BrassKey	Brass Key
-GoldKey		Gold Key
-EbonyKey	Ebony Key
-EmeraldKey	Emerald Key
-SilverKey	Silver Key
-SquareKey	Square Key
-SkullKey	Skull Key
-RubyKey		Ruby Key
-CrossKey	Cross Key
-AutoMap		Magical Auto-Map Scroll
+IronKey		Železný klíč
+BrassKey	Mosazný klíč
+GoldKey		Zlatý klíč
+EbonyKey	Ebenový klíč
+EmeraldKey	Smaragdový klíč
+SilverKey	Stříbrný klíč
+SquareKey	Klíč se čvercem
+SkullKey	Klíč s lebkou
+RubyKey		Rubínový klíč
+CrossKey	Klíč s křížem
+AutoMap		Svitek magického mapování
 
 //=== Weapon
-WeaponKind	Kind
-WeaponFist	Fist
-WeaponDagger	Dagger
-WeaponSword	Sword
-WeaponAxe	Axe
-WeaponMace	Mace
-WeaponPolearm	Polearm
-WeaponStaff	Staff
-WeaponWand	Wand
-WeaponBow	Bow
-WeaponCrossbow	Crossbow
-WeaponThrown	Thrown
-WeaponAll	All Kinds of Weapons
+WeaponKind	Druh zbraně
+WeaponFist	Pěst
+WeaponDagger	Dýka
+WeaponSword	Meč
+WeaponAxe	Sekera
+WeaponMace	Palcát
+WeaponPolearm	Kopí
+WeaponStaff	Hůl
+WeaponWand	Hůlka
+WeaponBow	Luk
+WeaponCrossbow	Samostříl
+WeaponThrown	Vrhací
+WeaponAll	Různé druhy zbraní
 
-Hand		Hands
+Hand		Ruce
 
-PracticeSword	Practice Sword
-PracticeGladius	Practice Gladius
-ShortSword	Short Sword
-ShortSwordB	Imperial Sword
-KnightSword	Knight Sword
-GuardSword	Guard Sword
-CaptainSword	Captain Sword
-BroadSword	Broad Sword
-NorseSword02	Nordic Sword
-Claymore	Claymore
-LongSword	Long Sword
-Flamberge	Flamberge
+PracticeSword	Cvičný meč
+PracticeGladius	Cvičný římský meč
+ShortSword	Krátký meč
+ShortSwordB	Imperiání meč
+KnightSword	Rytířský meč
+GuardSword	Meč stráže
+CaptainSword	Meč kapitána
+BroadSword	Široký meč
+NorseSword02	Severský meč
+Claymore	Skotský meč
+LongSword	Dlouhý meč
+Flamberge	Plamenný meč
 Katana01	Katana
-Katana02	Ronin Katana
+Katana02	Zabijácká katana
 
-FireWand	Fire Wand
+FireWand	Magická hůlka - oheň
 
-CombatKnife	Combat Knife
-Dagger		Dagger
-DaggerB		Imperial Dagger
-DaggerC		Long Dagger
-DaggerLarge	Large Dagger
+CombatKnife	Bojový nůž
+Dagger		Dýka
+DaggerB		Imperiální dýka
+DaggerC		Dlouhá dýka
+DaggerLarge	Velká dýka
 
-WoodmanAxe	Woodman Axe
-FellingAxe	Felling Axe
-BattleAxe	Battle Axe
-DoubleAxe	Double Axe
+WoodmanAxe	Lesnická sekera
+FellingAxe	Dřevorubecká sekera
+BattleAxe	Bojová sekera
+DoubleAxe	Oboustranná sekera
 Sagaris		Sagaris
-WarAxe		War Axe
-BarbarianAxe	Barbarian Axe
+WarAxe		Válečná sekera
+BarbarianAxe	Barbarská sekera
 
-Halberd_A	Halberd
-Halberd_B	Steel Halberd
+Halberd_A	Halapartna
+Halberd_B	Ocelová halapartna
 
-Staff		Runic Staff
-StaffSylvan	Sylvan Staff
-StaffIron	Iron Staff
-StaffBent	Bent Staff
+Staff		Runová hůl
+StaffSylvan	XXSylvan hůl
+StaffIron	Železná hůl
+StaffBent	Tvarovaná hůl
 
-StoneHammer	Stone Hammer
-Mace01		Flanged Mace
-Mace02		Mace
-WarHammer	WarHammer
-Flail		Flail
+StoneHammer	Kamenné kladivo
+Mace01		Křídlatý palcát
+Mace02		Palcát
+WarHammer	Válečné kladivo
+Flail		Řemdih
 
-Bow		Bow
-Crossbow	Crossbow
+Bow		Luk
+Crossbow	Samostříl
 
 //=== Generic
-Stone01		Round Small Stone
-Stone02		Dark Boulder
-Stone03		Brown Small Stone
-Stone04		Broken Small Stone
-Stone05		Pebble
-StoneHeavy	Incredibly Heavy Small Stone
+Stone01		Malý oblý kámen
+Stone02		Temný kámen
+Stone03		Malý hnědý kámen
+Stone04		Prasklý malý kámen
+Stone05		Oblázek
+StoneHeavy	Neskutečně těžký malý kámen
 
-Urn-DM1		"<i>Ashes of Bluegold</i>"
-Urn-DM2		"<i>Ashes of Notwen Reklaw</i>"
-Urn-DM3		"<i>Ashes of Redloh Soraj</i>"
+Urn-DM1		"<i>Popel Bluegoldův</i>"
+Urn-DM2		"<i>Popel Notwena Reklawa</i>"
+Urn-DM3		"<i>Popel Redloha Soraje</i>"
 
-IdolTiger	Tiger Idol
-IdolSnake	Snake Idol
-IdolPrimitive	Primitive Idol
+IdolTiger	Soška tygra
+IdolSnake	Soška hada
+IdolPrimitive	Primitivní soška
 
-PulsingAmethyst	Pulsing Amethyst
-PulsingEmerald	Pulsing Emerald
-PulsingRuby	Pulsing Ruby
-PulsingSapphire	Pulsing Sapphire
+PulsingAmethyst	Pulzující ametyst
+PulsingEmerald	Pulzující smaragd
+PulsingRuby	Pulzující rubín
+PulsingSapphire	Pulzující safír
 
-EmptyMap	Useless Erased Map
+EmptyMap	Bezcenná prázdná mapa
 
 //=== DpsLog
-DpsTotal	T
-TipDpsTotal	Total over {0}
-DpsAverage	A
-TipDpsAverage	Average over last {0}
+DpsTotal	C
+TipDpsTotal	Celkem za {0}
+DpsAverage	P
+TipDpsAverage	Průměr za poslední {0}
 
 CombatLog00	D
 CombatLog01	H
 CombatLog02	L
 CombatLog03	T
 
-TipCombatLog00	Damage
-TipCombatLog01	Healing\n(Includes absorbed damage)
-TipCombatLog02	Health Lost\n(Includes absorbed damage)
-TipCombatLog03	Threat\n(Highest current threat)
+TipCombatLog00	Škoda
+TipCombatLog01	Léčení\n(včetně vstřebaných úderů)
+TipCombatLog02	Ztracené zdraví\n(včetně vstřebaných úderů)
+TipCombatLog03	Hrozba\n(nejvyšší aktualní hrozba)
 
 MinuteSymbol	m
-TipCombatPeriod	Total Period
-TipCombatAvrg	Average Period
-TipCombatBack	Show Earlier Period
+TipCombatPeriod	Celá doba
+TipCombatAvrg	Průměrná doba
+TipCombatBack	Ukaž předchozí
 
-Threat		Threat
+Threat		Hrozba
 
 //=== Notes
-Note		Note
-NoteTip		A note that reads:\n"<i>{0}</i>"
-NoteL01-01	Do you like scavenger hunts ? If you do, put me in an empty alcove.
-Skull		Skull
-StrangeSkull	Strange Skull
+Note		Poznámka
+NoteTip		Poznámka, která zní:\n"<i>{0}</i>"
+NoteL01-01	Máš rád[P:|a] honbu za pokladem ? Pokud ano, tak mi do rakve nic nedávej ...
+Skull		Lebka
+StrangeSkull	Podivná lebka
 NoteL08-01	Are you sure you know who are the hunters, and who are the hunted ?
 NoteL09-01	Feeling lonely ?\n\nDon't.\n\nI'm watching you.
 NoteL13-01	I lost my way. I don't know where my head's at. Please help me come to my mind.	// Note beside a Skull in an alcove
@@ -846,8 +846,8 @@ ChampionHelmet	Champion Helmet
 //=== Gear Other
 //GuardShield	Guard Shield
 //ChampionShield	Champion Shield
-CloakMage	Cloak
-CloakWarrior	Cape
+CloakMage	Plášť
+CloakWarrior	Kápě
 
 ShieldA		Buckler
 ShieldB		Heater
@@ -1003,26 +1003,26 @@ Level19		Black Crypt
 Level20		Guardian's Heart
 
 //=== Notification
-AddedToKeyRing	{0} added to Keyring
-LevelAutoMapped	Auto-mapping added for Level {0}
-LevelFullMapped	Full map revealed for Level {0}
-PutInInventory	{0} added to Inventory
-LookLikeCanHold	It looks like it could hold something...
-CantHoldThat	It can't hold that
-UsedKey		Used {0}
-NoMatchingKey	No matching Key in Keyring
-LevelUp		{0} just reached Level {1} !
-GotXp		Got {0} XP
-XpMobKill	Got {0} XP from killing {1} Level {2}
-Screenshot	Screenshot saved to {0}
+AddedToKeyRing	{0} přidán na kruh s klíči
+LevelAutoMapped	Automatická mapa povolena pro patro {0}
+LevelFullMapped	Plná mapa zpřístupněna pro patro {0}
+PutInInventory	{0} přidáno do inventáře
+LookLikeCanHold	Vypadá to jako nějaký držák...
+CantHoldThat	Ale na tohle asi ne...
+UsedKey		Použit {0}
+NoMatchingKey	Nemám vhodný klíč
+LevelUp		{0} právě povýšil na {1} !
+GotXp		Získal[:|a] {0} bodů
+XpMobKill	Získal[:|a] {0} bodů za zabití {1} úrovně {2}
+Screenshot	Screenshot uložen do {0}
 
 //=== Combat Event
-CeTooFar	Out of Reach
-CeMiss		Miss
-CeDodged	Dodged
-CeParried	Parried
-CeDeflected	Deflected
-CeImmune	Immune
+CeTooFar	Příliš daleko
+CeMiss		Těsně vedle
+CeDodged	Odražen
+CeParried	Ubráněn
+CeDeflected	Odkloněn
+CeImmune	Neúčinné
 
 //=== Role
 Role		Role
@@ -1037,29 +1037,29 @@ RoleAgiTank	[>RoleTank]
 RoleRangedDps	[>RoleDps]
 
 //=== Dialog
-DialogSkip	Skip
-DialogNext	Next
-NoChatLog	Still No Log
-ClickOnLog	Click on a Log entry\nto see its details
+DialogSkip	Přeskočit
+DialogNext	Dále
+NoChatLog	Pořád ani slůvko
+ClickOnLog	Klikni na záznam v logu\na uvidíš podrobnosti.
 
-SkipIntro	Skip Intro
+SkipIntro	Přeskočit úvod
 
 //=== Mob Family & Genus
-FamBeast	Beast
-FamCritter	Critter
-FamDemon	Demon
-FamDragonkin	Dragonkin
-FamElemental	Elemental
-FamGiant	Giant
+FamBeast	Bestie
+FamCritter	Příšerka
+FamDemon	Démon
+FamDragonkin	Drak
+FamElemental	Elementál
+FamGiant	Obr
 FamHumanoid	Humanoid
-FamMechanical	Mechanical
-FamUndead	Undead
-FamUnknown	Unknown
+FamMechanical	Stroj
+FamUndead	Nemrtvý
+FamUnknown	Neznámo
 
-GenCommon	Common
-GenElite        Elite
-GenRare         Rare
-GenRareElite    Rare Elite
+GenCommon	Běžný
+GenElite        Elita
+GenRare         Vzácný
+GenRareElite    Vzácná elita
 GenBoss         Boss
 
 //=== Mobs
