@@ -1225,7 +1225,7 @@ ClassHealer	Léčitel
 ClassMage	Mág
 ClassRogue	Zloděj
 
-DescClassWarrior	Bojovníci jsou tvorové první linie, kosící nepřátele a bránící své.
+DescClassWarrior	Bojovníci jsou tvorové první linie, kosící nepřátele a bránící přátele.
 DescClassHealer	Léčitelé se starají o celou bandu, ale hlavně o Tanka.
 DescClassMage	Mágové užívají svých tajemných sil k boji z dálky.
 DescClassRogue	Zloději využívají taktiku k překvapení nepřátel a ochraně přátel.
@@ -1334,13 +1334,12 @@ mCritXTip	Damage multiplier on melee critical hit.
 rCritXTip	Damage multiplier on ranged critical hit.
 sCritXTip	Damage multiplier on spell critical hit.
 
-// XX
-HasteTip	Zvyšuje the cast speed of all abilities a effects over time ticks.\n\nAlso decreases the Global Cooldown, but not the ability cooldowns.
+HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nTaké snižuje [:GlobalCD], nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách.
 HitTip		Zvyšuje šanci zasáhnout cíl využitím dovedností.
 XpertiseTip	Snižuje šanci na odražení.\nMaximální použitelná míra je 5%, protože i maximální šance na odražení je 5%.
 ExperienceTip	Když postava dosáhne požadovaného množství bodů, pak se jí zvýší úroveň.
 
-GlobalCD	Global Cooldown
+GlobalCD	Globální pauzu
 
 CharStats	Statistika
 CharStat00	Počet omdlení // Fallen Uncounscious
