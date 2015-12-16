@@ -1266,7 +1266,7 @@ Mana		Mana
 ManaRegn	Obnova many
 ManaCbRg	Obnova many v boji
 AP		Síla útoku
-RAP		Síla vzdáleného útoku
+RAP		Síla střelného útoku
 SP		Síla kouzla
 Parry		Odražení
 Dodge		Úhyb
@@ -1280,9 +1280,9 @@ ResShad		[>DmgShadow]
 ResHoly		[>DmgHoly]
 ResFall		[>DmgFall]
 Crit		Šance na kritický zásah (šnkz)
-mCritX	 	Násobek šnkz
-rCritX	 	Násobek šnkz na dálku
-sCritX	 	Násobek šnkz kouzla
+mCritX		x poškození při KZ chladnou zbraní
+rCritX		x poškození při KZ střelnou zbraní
+sCritX		x poškození při KZ kouzlem
 Haste		Spěch
 Hit		Šance na zásah
 Xpertise	Expertýza
@@ -1291,12 +1291,11 @@ WpDps		DPS (poškození za sekundu)
 WpSpeed		Rychlost
 WpDamage	Poškození
 
-// XX
-AttGeneral	General
-Att1st		Attributes
-AttMelee	Melee
-AttRanged	Ranged
-AttSpell	Spell
+AttGeneral	Obecné
+Att1st		Vlastnosti
+AttMelee	Chladné zbraně
+AttRanged	Střelné zbraně
+AttSpell	Kouzla
 AttDefense	Obrana
 AttResistance	Odolnost
 
@@ -1329,10 +1328,9 @@ ResHolyTip	Snižuje poškození z posvěcených útoků.
 
 CritTip		Každý útok, ať už automatický nebo pomocí dovednosti, má takto vysokou šanci stát se kritickým.
 
-// XX
-mCritXTip	Damage multiplier on melee critical hit.
-rCritXTip	Damage multiplier on ranged critical hit.
-sCritXTip	Damage multiplier on spell critical hit.
+mCritXTip	Násobek poškození při kritickém zásahu (KZ) chladnou zbraní.
+rCritXTip	Násobek poškození při kritickém zásahu (KZ) střelnou zbraní.
+sCritXTip	Násobek poškození při kritickém zásahu (KZ) kouzlem.
 
 HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nTaké snižuje [:GlobalCD], nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách.
 HitTip		Zvyšuje šanci zasáhnout cíl využitím dovedností.
@@ -1354,46 +1352,46 @@ NoMap		Mapu pro toto patro se ještě nepodařilo najít
 LevelN		Patro {0}
 MapNextLevel	do patra {0}
 
-// XX
 //=== Abilities ====================================================================
-AbManaCost	Mana Cost: {0} MP
-AbSpeed		Cast: {0}
-AbChanneled	Channeled
-AbCD		Cooldown: {0}
-AbCDleft	Available in: {0}
-WeaponBased	Weapon Based
+AbManaCost	Spotřeba many: {0} MP
+AbSpeed		Použití: {0}
+AbChanneled	(dle magie) // XFix - weapon base is displayed in brackets, but magic not
+AbCD		Pauza: {0}
+AbCDleft	K dipozici za: {0}
+WeaponBased	dle zbraně
 AbRangeDist	Dostřel: {0} m
 AbMeleeRange	V dosahu zbraní
-AbAoeRange	Area of Effect: {0} m
+AbAoeRange	Dosah: {0} m
 AbDamageType	Typ poškození: {0}
-AbTimeleft	Time Left: {0}
-AbSecond	second
-AbSeconds	seconds
-AbMinute	minute
-AbMinutes	minutes
-AbAutoAttack	Auto-Attack
-AbNoCombat	Cannot use during combat
-OnlyOneTarget	Can affect only one target at once
-PartyCD		(shared with party)
-MobTarget	Target
-Owner		Owner
+AbTimeleft	Zbývá: {0}
+AbSecond	s
+AbSeconds	s
+AbMinute	m
+AbMinutes	m
+AbAutoAttack	Automatický útok
+AbNoCombat	Nelze použít během boje
+OnlyOneTarget	Účinkuje pouze na jeden cíl
+PartyCD		(sdíleno s celou bandou)
+MobTarget	Cíl
+Owner		Vlastník
 
-AbRequire	Requires
+AbRequire	Vyžaduje
 WeaponTip	{1} {0}		// {1} = Hand ; {0} = Weapon Kind
-AllExceptTip	All weapons except
+AllExceptTip	Všechny zbraně vyjma
 
-AbInstant	Instant
-AbNoQueue	Bypass Queue
+AbInstant	ihned
+AbNoQueue	mimo frontu
 
-DmgPhysical	Physical
-DmgNature	Nature
-DmgArcane	Arcane
-DmgFire		Fire
-DmgFrost	Frost
-DmgShadow	Shadow
-DmgHoly		Holy
-DmgFall		Fall
-DmgWeapon	Weapon Based
+DmgPhysical	Fyzické poškození
+DmgNature	Přírodní magie
+DmgArcane	Tajemná magie
+DmgFire		Ohňová magie
+DmgFrost	Mrazivá magie
+DmgShadow	Temná magie
+DmgHoly		Posvátná magie
+DmgFall		Pád
+DmgWeapon	Zbraň
+
 
 // {0} = Damage / Healing
 // {1} = Total Dot Damage / Healing
@@ -1410,6 +1408,7 @@ DmgWeapon	Weapon Based
 
 //ChTip<AbName> => {0} Charge A ; {1} Charge B
 
+// XX
 //=== Mage - Elementalist
 AbFirebolt	Firebolt
 DescFirebolt	Throws a bolt of fire, damaging target for {0} HP.
