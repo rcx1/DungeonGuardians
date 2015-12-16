@@ -526,19 +526,19 @@ ClosedUntrig'ed	Closed (Untrigged)
 OpenUntriggered	Open (Untriggered)
 ClosedTriggered	Closed (Triggered)
 
-ItemLoot	Dropped by Mobs
-Weight		Weight
+ItemLoot	Odloženo příserami // Dropped by Mobs
+Weight		Hmotnost
 KgSymbol	Kg		// Kilograms
-ItemLevel	Level
-ItemLevelN	Level {0}
-ItemLevelSymbol	L
-ItemQuality	Quality
+ItemLevel	Úroveň
+ItemLevelN	Úroveň {0}
+ItemLevelSymbol	Ú
+ItemQuality	Kvalita
 GearSlot	Slot
-GearKind	Kind
-StackSize	Total in Stack
-TotalWeight	Total Weight
-OverWeight	Your party is overloaded and thus runs slower, you should drop some items.
-CrushingWeight	Your party is totally overloaded, you have to drop some items before you are able to move again.
+GearKind	Materiál
+StackSize	Počet
+TotalWeight	Celková hmotnost
+OverWeight	Banda toho nese moc a tudíž se hýbe pomaleji, měl by ses něčeho zbavit.
+CrushingWeight	Banda je zavalena lupem, pokud se něčeho nezbavíš, tak už se nepohneš z místa.
 
 Active		Active
 Inactive	Inactive
@@ -765,8 +765,8 @@ Stone05		Oblázek
 StoneHeavy	Neskutečně těžký malý kámen
 
 Urn-DM1		"<i>Popel Bluegoldův</i>"
-Urn-DM2		"<i>Popel Notwena Reklawa</i>"
-Urn-DM3		"<i>Popel Redloha Soraje</i>"
+Urn-DM2		"<i>Popel Notwena Reklawa</i>" // nice Walter N ;)
+Urn-DM3		"<i>Popel Redloha Soraje</i>" // Holder ;)
 
 IdolTiger	Soška tygra
 IdolSnake	Soška hada
@@ -805,163 +805,163 @@ Threat		Hrozba
 //=== Notes
 Note		Poznámka
 NoteTip		Poznámka, která zní:\n"<i>{0}</i>"
-NoteL01-01	Máš rád[P:|a] honbu za pokladem ? Pokud ano, tak mi do rakve nic nedávej ...
+NoteL01-01	Rád[P:|a] se honíš za poklady ? Pokud ano, tak mě u nějakého odlož...
 Skull		Lebka
 StrangeSkull	Podivná lebka
-NoteL08-01	Are you sure you know who are the hunters, and who are the hunted ?
-NoteL09-01	Feeling lonely ?\n\nDon't.\n\nI'm watching you.
-NoteL13-01	I lost my way. I don't know where my head's at. Please help me come to my mind.	// Note beside a Skull in an alcove
-NoteL13-02	There's no turning back. There never was.
-NoteL13-03	Luckily for you, I don't have telepathic powers, else I'd have talked to you directly in your head, making you believe I was your friend, asking you to do many great things, only for you to discover at the very end I was your deepest enemy.\n\nWhat an incredible twist it would have been, wouldn't it ?
-NoteL14-01	Each step forward is a step closer to your death.
-NoteL15-01	You think you're the dungeon guardians ? I'm the real Guardian of this Dungeon.
-NoteL15-02	I'm just back from the library, I've read a book about a prophecy and I realized something : you're the chosen one ! You have been summoned to this place of darkness to destroy the great evil within once and for all.\n\nOh dear, I'm terribly afraid now. Luckily, this book also had about 4000 other prophecies. All more interesting than the previous one.\n\nHere's another one. The day pigs can fly, the chickens will have teeth. I like this one better, and it has more chances of becoming true, don't you agree ?
-NoteL16-01	You're in my home.\n\nMake yourself comfortable, you might stay here a long time.\n\nAn eternity, to be more specific.
-NoteL16-02	Can you guess who I am ?\n\nHint : I don't have 6 faces, only 3.	// 6 Faces for the Cube boss of LoG1
-NoteL17-01	You won't survive this place any more than my father did.
-NoteL18-01	Me take shiny. Me like shiny.
-NoteL18-02	Your fall will lead to my rise.
-NoteL19-01	I didn't expect you'd make it this far...\n\nOf course I did ! Why else would I be writing this note ?!?\n\nYou'll die when I decide so, and I won't write epitaphs for your tombs.
-NoteL19-02	Did you bring a firestaff ?\n\nNo? Good, you won't need it. Dead people don't need staff of any kind.	//Firestaff from Dungeon Master
-NoteL20-01	There's no try.		// Yoda (if you ask "Yoda who ?", you're out of here ! ;-) )
-NoteL20-02	Now is your time to choose between a quick death and a slow death.
+NoteL08-01	Jsi si jist[P:ý|á] kdo je tu lovcem a kdo štvanou zvěří ?
+NoteL09-01	Cítíš se osaměle ?\n\nNemusíš.\n\nJÁ Tě pozoruju ... POŘÁD.
+NoteL13-01	Jsem ztracen. Nevím, kde mi hlava stojí. Pomozte mi se najít.	// Note beside a Skull in an alcove
+NoteL13-02	Není cesty zpět ... nikdy nebylo.
+NoteL13-03	Naštěstí pro Tebe neovládám telepatii, jinak už bych Ti dávno nakukal[P:a|], že jsem [P:Tvoje|Tvůj], chtěl[P:a|] po Tobě hromadu náročnejch úkolů, jen abys nakonec zjistil[P:|a], že jsem [P:Tvůj|Tvoje] největší ne-přítel[P:kyně|].\n\nTo by byl nečekanej zvrat, co ?
+NoteL14-01	Každý krok vpřed Tě jen přibližuje smrti.
+NoteL15-01	Myslíš si, že jsi strážce podzemí ? Jedině JÁ jsem ten pravý Strážce podzemí.
+NoteL15-02	Zrovna jsem se vrátil z knihovny, četl jsem tam knížku o proroctví a na něco jsem přišel : Ty seš Vyvolen[P:ej|á] ! Povolali Tě, abys vnesl[P:|a] světlo do tohoto doupěte temnoty a navždy ho zbavil[P:|a] toho největšího nejčernějšího zla.\n\nUž teď se třesu strachy. Naštěsetí v tý knížce je dalších, bratru, 4000 proroctví, jedno lákavější než druhé.\n\nMě zaujalo tohle - Až prasata budou lítat, slépky budou zuby mít - řek bych, že se tohle stane dřív, co říkáš ? Mlčís ?
+NoteL16-01	Vítej v mém prostém domě.\n\nUdělej si pohodlí, budeš tu pěkně dlouho.\n\nAbych byl přesný - věčnost.
+NoteL16-02	Uhádneš, kdo jsem ?\n\nNápověda : Nemám 6 stran, jen 3.	// 6 Faces for the Cube boss of LoG1
+NoteL17-01	Stejně jako můj táta ani Ty tu nevydržíš dlouho.
+NoteL18-01	Pojďte ke mě zlatíška. Ja rád zlatíška.
+NoteL18-02	Jsme jako spojené nádoby - Tvůj pád bude můj vzestup.
+NoteL19-01	Nečekal jsem, že se dostaneš až sem...\n\nKecám, čekal jsem  ! Proč jinak by tu byla tahle poznámka ?!?\n\nZemřeš, kdy jen si budu přát. Tak si pomalu chystej poslední slova. Protože já pro Tebe žádná mít nebudu.
+NoteL19-02	Přinesl[P:|a]s si Ohnivou hůl ?\n\nNe? To je dobře, stejně by Ti byla k ničemu. Mrtví většinou nepotřebují vůbec žádné hole.	// Firestaff from Dungeon Master
+NoteL20-01	Smrt nevyzkoušíš.		// Yoda (if you ask "Yoda who ?", you're out of here ! ;-) )
+NoteL20-02	Konečně nastal ten čas - přeješ si rychlou či pomalou smrt ?
 
 //=== Gear Leather
-GuardChest	Guard Chest
-GuardLeggings	Guard Leggings
-GuardBoots	Guard Boots
-GuardGloves	Guard Bracers
-GuardHelmet	Guard Helmet
+GuardChest	Strážcova zbroj // hrudní plát
+GuardLeggings	Strážcovy legíny
+GuardBoots	Strážcovy boty
+GuardGloves	Strážcovy nátepníky
+GuardHelmet	Strážcova helma
 
 //=== Gear Mail
-CaptainChest	Captain Chest
+CaptainChest	Kapitánova zbroj // hrudní plát
 
 //=== Gear Plate
-ChampionChest	Champion Chestplate
-ChampionLeggings	Champion Leggings
-ChampionBoots	Champion Boots
-ChampionGloves	Champion Gloves
-ChampionHelmet	Champion Helmet
+ChampionChest	Šampionův hrudní plát
+ChampionLeggings	Šampionovy legíny
+ChampionBoots	Šampionovy boty
+ChampionGloves	Šampionovy rukavice
+ChampionHelmet	Šampionova helma
 
 //=== Gear Other
-//GuardShield	Guard Shield
-//ChampionShield	Champion Shield
+//GuardShield	Strážcův štít
+//ChampionShield	Šampionův štít
 CloakMage	Plášť
 CloakWarrior	Kápě
 
-ShieldA		Buckler
-ShieldB		Heater
-ShieldC		Shield
-ShieldD		Heater
+ShieldA		Pukléř
+ShieldB		Malý štít
+ShieldC		Štít
+ShieldD		Velký štít // Pavéza
 
 //=== Gear Trinket
-ShellHorn	Shell Horn
-Trinket1	Metal Trinket
-Trinket2	Silver Trinket
+ShellHorn	Kousek rohoviny
+Trinket1	Kovová cetka
+Trinket2	Stříbrná cetka
 
 //=== Gear Cloth
-PaddedRobe	Padded Robe
-PaddedLeggings	Padded Leggings
-PaddedShoes	Padded Boots
-PaddedGloves	Bracers
-PaddedHood	Circlet
+PaddedRobe	Podšitá košile
+PaddedLeggings	Podšité legíny
+PaddedShoes	Prošívané boty
+PaddedGloves	Prošívané nátepníky
+PaddedHood	Čelenka
 
 //=== Ring
-Ring		Ring
-RingA1		Silver Ruby Ring
-RingA1b		Silver Amethyst Ring
-RingA2		Snake Ring
-RingA3		Diamond Ring
-RingA4		Platinum Emerald Ring
-RingB1		Silver Snake Ring
-RingB1b		Silver Emerald Ring
-RingB2		Ruby Ring
-RingB3		Amethyst Ring
-RingB4		Platinum Sapphire Ring
+Ring		Prsten
+RingA1		Stříbrný prsten s rubínem
+RingA1b		Stříbrný prsten s ametystem
+RingA2		Hadí prsten
+RingA3		Prsten s diamantem
+RingA4		Platinový prsten se smaragdem
+RingB1		Stříbrný hadí prsten
+RingB1b		Stříbrný prsten se smaragdem
+RingB2		Prsten s rubínem 
+RingB3		Prsten s ametystem
+RingB4		Platinový prsten se safírem
 
 //=== OffHand
-Book1a		Book
-Book1b		Tome
-Book2		Codex
-Book3		Compendium
+Book1a		Kniha
+Book1b		Spisek
+Book2		Kodex
+Book3		Bichle
 
 //=== Necklace
-Necklace1	Snake Amulet
-Necklace2	Runic Amulet
-Necklace3	Ruby Pendant
-Necklace4	Emerald Pendant
-Necklace5	Golden Amulet
-Necklace6	Platinium Amulet
-Necklace7	Amethyst Pendant
-Necklace8	Sapphire Pendant
+Necklace1	Hadí amulet
+Necklace2	Runový amulet
+Necklace3	Rubínový náhrdelník
+Necklace4	Smaragdový náhrdelník
+Necklace5	Zlatý amulet
+Necklace6	Platinový amulet
+Necklace7	Ametystový náhrdelník
+Necklace8	Safírový náhrdelník
 
 //=== Consumable
-HealthPotion01	Health Vial
-HealthPotion02	Lesser Health Potion
-HealthPotion03	Health Potion
-HealthPotion04	Greater Health Potion
-HealthPotion05	Major Health Potion	// Next: Master, then Minor/Lesser/... Healing Elixir, etc...
+HealthPotion01	Léčivá ampule
+HealthPotion02	Malý léčivý lektvar
+HealthPotion03	Střední léčivý lektvar
+HealthPotion04	Velký léčivý lektvar
+HealthPotion05	Obří léčivý lektvar	// Next: Master, then Minor/Lesser/... Healing Elixir, etc...
 
-ManaPotion01	Mana Vial
-ManaPotion02	Lesser Mana Potion
-ManaPotion03	Mana Potion
-ManaPotion04	Greater Mana Potion
-ManaPotion05	Major Mana Potion	// Next : Mana Elixir
+ManaPotion01	Ampule s manou
+ManaPotion02	Malá mana
+ManaPotion03	Střední mana
+ManaPotion04	Velká mana
+ManaPotion05	Obří mana	// Next : Mana Elixir
 
-HastePotion01	Haste Vial
-HastePotion02	Haste Potion
-HastePotion03	Greater Haste Potion
+HastePotion01	Ampule spěchu
+HastePotion02	Nápoj spěchu
+HastePotion03	Velký nápoj spěchu
 
-CritPotion01	Critical Vial
-CritPotion02	Critical Potion
-CritPotion03	Greater Critical Potion
+CritPotion01	Ampule ráznosti
+CritPotion02	Nápoj ráznosti
+CritPotion03	Velký nápoj ráznosti
 
 //=== Item Slot
-SlotHead	Head
-SlotNeck	Neck
-SlotShoulder	Shoulder
-SlotChest	Chest
-SlotBack	Back
-SlotWrist	Wrist
-SlotHands	Gloves
-SlotWaist	Waist
-SlotLegs	Legs
-SlotBoots	Boots
-SlotMainHand	Main Hand
-SlotOffHand	Off-Hand
-SlotRing	Ring
-SlotTrinket	Trinket
-SlotAltWeapon	Alternate Weapon
-SlotAll		All Slots
-EmptySlotFor	Empty Slot For {0}
+SlotHead	Helmice
+SlotNeck	Náhrdelník
+SlotShoulder	Kápě
+SlotChest	Zbroj
+SlotBack	Plášť
+SlotWrist	Nátepníky
+SlotHands	Rukavice
+SlotWaist	Chrániče
+SlotLegs	Kalhoty
+SlotBoots	Boty
+SlotMainHand	Zbraň
+SlotOffHand	Štít / Zbraň
+SlotRing	Prsten
+SlotTrinket	Cetka
+SlotAltWeapon	Záložní zbraň
+SlotAll		Všechna místa / Libovolné místo
+EmptySlotFor	Sem patří {0}
 
 //=== Gear Kind
-GearApparel	Apparel
-GearCloth	Cloth
-GearLeather	Leather
-GearMail	Mail
-GearPlate	Plate
-GearOther	Other
-GearAll		All Kinds
+GearApparel	Oblečení
+GearCloth	Látka
+GearLeather	Kůže
+GearMail	Kroužků
+GearPlate	Ocel
+GearOther	Jiný materiál
+GearAll		Všechny materiály / Libovolný materiál
 
 //=== Item Quality
-QualityGarbage	Garbage
-QualityCommon	Common
-QualitySuperior	Superior
-QualityRare	Rare
-QualityEpic	Epic
-QualityLegendary	Legendary
-QualityAll	All
+QualityGarbage	Odpad
+QualityCommon	Běžná kvalita
+QualitySuperior	Vynikající kvalita
+QualityRare	Neobvyklá kvalita
+QualityEpic	Epická kvalita
+QualityLegendary	Legendární kvalita
+QualityAll	Všechny / libovolná kvalita
 
 // {0} = base item name (eg: guard sword)
-NameGarbage	Awful {0}
-NameCommon	{0}
-NameSuperior	{0}
-NameRare	Finer {0}
-NameEpic	Epic {0}
-NameLegendary	Legendary {0}
+NameGarbage	{0} (rozpadající se)
+NameCommon	{0} (běžné kv)
+NameSuperior	{0} (vynikající kv)
+NameRare	{0} (neobvyklé kv)
+NameEpic	{0} (epické kv)
+NameLegendary	{0} (legendární kv)
 
-//=== Game
+//=== Game XX
 TargetUncons	Target is Unconscious
 TargetConscious	Target is not Unconscious
 CantCastOnU	Can't use this on yourself
@@ -981,26 +981,26 @@ StunnedCantDo	Stunned, can't do anything right now !
 WIP		Work in Progress - This will come in an update at the end of October
 
 //=== Level Names
-Level01		Forgotten Jail
-Level02		Deep Fortress
-Level03		Slave Catacombs
-Level04		Forsaken Chapel
-Level05		Abandoned Hall
-Level06		Imperial Quarters
-Level07		Battle Arena
-Level08		Cave Entrance
-Level09		Underground Forest
-Level10		Dark Caverns
-Level11		Lost Mines
-Level12		Thousand Caverns
-Level13		Dead Palace
-Level14		Madness Antechamber
-Level15		Furnace of Doom
-Level16		Temple of the Dragon
-Level17		Goblins' Tower
-Level18		Forbidden Gates
-Level19		Black Crypt
-Level20		Guardian's Heart
+Level01		Zapomenutý žalář // Forgotten Jail
+Level02		Podzemní pevnost // Deep Fortress
+Level03		Katakomby otroků // Slave Catacombs
+Level04		Zapovězená kaple // Forsaken Chapel
+Level05		Opuštěná hala // Abandoned Hall
+Level06		Imperiální bydlení // Imperial Quarters
+Level07		Aréna // Battle Arena
+Level08		Vstup do jeskyně // Cave Entrance
+Level09		Podzemní les // Underground Forest
+Level10		Temné jeskyně // Dark Caverns
+Level11		Ztracený důl // Lost Mines
+Level12		Tisíc jesknyní // Thousand Caverns
+Level13		Mrtvý palác // Dead Palace
+Level14		Šilencův předpokoj // Madness Antechamber
+Level15		Pekelná pec // Furnace of Doom
+Level16		Dračí zámek // Temple of the Dragon
+Level17		Vež goblinů // Goblins' Tower
+Level18		Zapovězené brány // Forbidden Gates
+Level19		Nejtemnější krypta // Black Crypt
+Level20		Strážcovo srdce // Guardian's Heart
 
 //=== Notification
 AddedToKeyRing	{0} přidán na kruh s klíči
@@ -1019,10 +1019,11 @@ Screenshot	Screenshot uložen do {0}
 //=== Combat Event
 CeTooFar	Příliš daleko
 CeMiss		Těsně vedle
-CeDodged	Odražen
-CeParried	Ubráněn
+CeDodged	Uhnul
+CeParried	Odražen
 CeDeflected	Odkloněn
 CeImmune	Neúčinné
+
 
 //=== Role
 Role		Role
@@ -1226,7 +1227,7 @@ ClassRogue	Zloděj
 DescClassWarrior	Bojovníci jsou tvorové první linie, kosící nepřátele a bránící své.
 DescClassHealer	Léčitelé se starají o celou bandu, ale hlavně o Tanka.
 DescClassMage	Mágové užívají svých tajemných sil k boji z dálky.
-DescClassRogue	Zloději využívají taktiku, aby překvapili nepřátele či ochránili přátele.
+DescClassRogue	Zloději využívají taktiku k překvapení nepřátel a ochraně přátel.
 
 
 //=== Hand Wielding
@@ -1239,37 +1240,37 @@ HandBoth	Obouruční
 HandAll		Libovolný
 
 //=== Character Sheet
-ArmorRating	Hodnocení brnění
+ArmorRating	Hodnocení zbroje
 TotalRating	Celkové hodnocení
 RateVsLvl	vs úrověň {0}
 RateVsBoss	vs boss
-DamagePerSecond	DPS (škoda / zranění za sekundu)
+DamagePerSecond	DPS (poškození za sekundu)
 Experience	Zkušenosti
 ToonLevel	Úroveň
-WarnEquipCombat	Can't change weapon during combat
-GearRestricted	This character can't equip this kind of item
+WarnEquipCombat	Během boje nelze měnit zbraně
+GearRestricted	Tahle věc není pro vybranou postavu vhodná
 BaseBonus	Base: {0}\nBonus: {1}
 BaseMalus	Base: {0}\nHandicap: {1}
 
 //=== Attributes
-Str		Strength
-Agi		Agility
-Awa		Awareness
-Wil		Willpower
-Sta		Stamina
-HP		Health
-HpRegn		Health Regeneration
-HpCbRegn	Health Regeneration in Combat
+Str		Síla // Strength
+Agi		Agilita // Agility
+Awa		Pozornost // Awareness
+Wil		Síla vůle // Willpower
+Sta		Odolnost // Stamina
+HP		Zdraví // Health
+HpRegn		Uzdravování
+HpCbRegn	Uzdravování v boji
 Mana		Mana
-ManaRegn	Mana Regeneration
-ManaCbRg	Mana Regeneration in Combat
-AP		Attack Power
-RAP		Ranged Attack Power
-SP		Spell Power
-Parry		Parry
-Dodge		Dodge
-Block		Block
-Armor		Armor
+ManaRegn	Obnova many
+ManaCbRg	Obnova many v boji
+AP		Síla útoku
+RAP		Síla vzdáleného útoku
+SP		Síla kouzla
+Parry		Odražení
+Dodge		Úhyb
+Block		Blokování
+Armor		Brnění
 ResNat		[>DmgNature]
 ResArcan	[>DmgArcane]
 ResFire		[>DmgFire]
@@ -1277,18 +1278,19 @@ ResFrost	[>DmgFrost]
 ResShad		[>DmgShadow]
 ResHoly		[>DmgHoly]
 ResFall		[>DmgFall]
-Crit		Critical Chance
-mCritX	 	Melee Critical Multiplier
-rCritX	 	Ranged Critical Multiplier
-sCritX	 	Spell Critical Multiplier
-Haste		Haste
-Hit		Hit Chance Bonus
-Xpertise	Expertise
-XP		XP
-WpDps		Dps
-WpSpeed		Speed
-WpDamage	Damage
+Crit		Šance na kritický zásah (šnkz)
+mCritX	 	Násobek šnkz
+rCritX	 	Násobek šnkz na dálku
+sCritX	 	Násobek šnkz kouzla
+Haste		Spěch
+Hit		Šance na zásah
+Xpertise	Expertýza
+XP		XP (zkušenost)
+WpDps		DPS (poškození za sekundu)
+WpSpeed		Rychlost
+WpDamage	Poškození
 
+// XX
 AttGeneral	General
 Att1st		Attributes
 AttMelee	Melee
@@ -1297,16 +1299,17 @@ AttSpell	Spell
 AttDefense	Defense
 AttResistance	Resistances
 
-StrTip		Increases melee Attack Power and Parry.
-AgiTip		Increases melee & ranged Attack Power for Agility based damage dealers, Critical Chance and Dodge.
-AwaTip		Increases Spell Power, Mana and Expertise.
-WilTip		Increases Mana, Mana Regenerations, Magic Resistances and Block.
-StaTip		Increases Health Points, Health Regeneration outside of combat and Mana Regenerations.
+StrTip		Zvyšuje sílu úderu při boji zblízka a sílu odražení útoku.
+AgiTip		Zvyšuje sílu útoku zblízka i na dálku, šanci na kritický zásah a úhyb.
+AwaTip		Zvyšuje sílu kouzel, přidává manu a přidává body do expertýzy.
+WilTip		Zvyšuje množství many, rychlost obnovy many, odolnost proti magii a schopnost blokovat útok.
+StaTip		Zvyšuje zdraví, zrychluje uzdravování a obnovu many (mimo boj).
 
-HPTip		When it reaches 0, the character is unconscious.
-ManaTip		Used when casting spells.
-RegenTip	Points regenerated every 5 seconds.
+HPTip		Když spadne na 0, postava omdlí.
+ManaTip		Hodí se při kouzlení.
+RegenTip	Obnova many a uzdravování probíhají jednou za 5 vteřin.
 
+// XX
 APTip		Increases damage done with melee weapons and melee weapon based abilities.
 RAPTip		Increases damage done with ranged weapons and ranged weapon based abilities.
 SPTip		Increases potency of all spells.
@@ -1337,19 +1340,20 @@ ExperienceTip	When the characters get the required experience points, they level
 
 GlobalCD	Global Cooldown
 
-CharStats	Statistics
-CharStat00	Fallen Uncounscious
-CharStat01	Highest Damage
-CharStat02	Highest Dps over 12s
-CharStat03	Killed Foes
+CharStats	Statistika
+CharStat00	Omdlel[P:|a] // Fallen Uncounscious
+CharStat01	Největší zásah
+CharStat02	Nejvyšší Dps za 12s
+CharStat03	Zabito nepřátel
 
-NoRaceBonus	None
+NoRaceBonus	Bez bonusu
 
 //=== Map
-NoMap		Still no map found for this level
-LevelN		Level {0}
-MapNextLevel	To Level {0}
+NoMap		Mapu pro toto patro se ještě nepodařilo najít
+LevelN		Patro {0}
+MapNextLevel	do patra {0}
 
+// XX
 //=== Abilities ====================================================================
 AbManaCost	Mana Cost: {0} MP
 AbSpeed		Cast: {0}
@@ -2435,7 +2439,7 @@ GiMap		Map\n\nClick on Map to add a note.\nClick on a note to edit it.\nRight-cl
 GiClose		Close
 GiMenu		System Menu
 
-NoteColor	Select this color for new notes
+NoteColor	Změna barvy pro nové poznámky
 
 InInventory	\n\nIn Inventory: {0}
 LogWin		"DungeonGuardians_Data\output_log.txt" (within the installation folder)
@@ -2451,69 +2455,69 @@ LoopGUI		GUI
 LoopInit	Init
 
 //=== Enchantments
-Enchantment	Enchantment
-EnchBear	{0} of the Bear
-EnchBandit	{0} of the Bandit
-EnchBeast	{0} of the Beast
-EnchBedrock	{0} of the Bedrock
-EnchBoulderpeak {0} of the Boulderpeak
-EnchEagle	{0} of the Eagle
-EnchGroundbreaker 	{0} of the Groundbreaker
-EnchEarthfall	{0} of the Earthfall
-EnchEarthshaker {0} of the Earthshaker
-EnchElder	{0} of the Elder
-EnchRift	{0} of the Rift
-EnchFeverflare	{0} of the Feverflare
-EnchQuicksand	{0} of the Quicksand
-EnchFireflash	{0} of the Fireflash
-EnchJourneyMan	{0} of the Journeyman
-EnchMerchant	{0} of the Merchant
-EnchApprentice	{0} of the Apprentice
-EnchBlackSmith	{0} of the BlackSmith
-EnchJuggler	{0} of the Juggler
-EnchTempest	{0} of the Tempest
-EnchLandslide	{0} of the Landslide
-EnchMarksman	{0} of the Marksman
-EnchMonkey	{0} of the Monkey
-EnchSoldier 	{0} of the Soldier
-EnchStormgale	{0} of the Stormgale
-EnchWindstorm	{0} of the Windstorm
-EnchBarricade	{0} of the Barricade
-EnchEscape	{0} of the Escape
-EnchOwl		{0} of the Owl
-EnchHyena	{0} of the Hyena
-EnchWallbreaker	{0} of the Wallbreaker
-EnchGolem	{0} of the Golem
-EnchWindmaker	{0} of the Windmaker
-EnchDirerock	{0} of the Direrock
-EnchAssassin	{0} of the Assassin
-EnchWizard	{0} of the Wizard
-EnchLightning	{0} of the Lightning
-EnchGrinder	{0} of the Grinder
-EnchBurningHand	{0} of the Burning Hand
-EnchMagician	{0} of the Magician
-EnchSeer	{0} of the Seer
-EnchDoom	{0} of the Doom
-EnchLight	{0} of the Light
-EnchFocused	{0} of the Focused
-EnchSurvivor	{0} of the Survivor
-EnchThunderblast	{0} of the Thunderblast
-EnchFox		{0} of the Fox
-EnchSwan	{0} of the Swan
-EnchLion	{0} of the Lion
-EnchWhale	{0} of the Whale
-EnchDeer	{0} of the Deer
-EnchSun		{0} of the Sun
-EnchRebel	{0} of the Rebel
-EnchScorpion	{0} of the Scorpion
-EnchIcefall	{0} of the Icefall
-EnchExpert	{0} of the Expert
-EnchJoker	{0} of the Joker
-EnchMage	{0} of the Mage
-EnchCrystal	{0} of the Crystal
-EnchWasp	{0} of the Wasp
-EnchDash	{0} of the Dash
-EnchStone	{0} of the Stone	//##
-EnchMonolith	{0} of the Monolith	//##
-EnchTiger	{0} of the Tiger	//##
+Enchantment	Provedení
+EnchBear	{0} medvěda
+EnchBandit	{0} bandity
+EnchBeast	{0} bestie
+EnchBedrock	{0} země
+EnchBoulderpeak {0} vrcholu
+EnchEagle	{0} orla
+EnchGroundbreaker 	{0} pukající země
+EnchEarthfall	{0} padající země
+EnchEarthshaker {0} zemětřasa
+EnchElder	{0} starších
+EnchRift	{0} zlomu
+EnchFeverflare	{0} pochodně //  of the Feverflare
+EnchQuicksand	{0} zrádného písku
+EnchFireflash	{0} jiskry
+EnchJourneyMan	{0} cestáře
+EnchMerchant	{0} kupce
+EnchApprentice	{0} učedníka
+EnchBlackSmith	{0} kováře
+EnchJuggler	{0} kejklíře
+EnchTempest	{0} bouře
+EnchLandslide	{0} laviny
+EnchMarksman	{0} střelce
+EnchMonkey	{0} opice
+EnchSoldier 	{0} vojáka
+EnchStormgale	{0} větrníku // of the Stormgale
+EnchWindstorm	{0} vichřice
+EnchBarricade	{0} barikády
+EnchEscape	{0} útěku
+EnchOwl		{0} sovy
+EnchHyena	{0} hyeny
+EnchWallbreaker	{0} bořiče // of the Wallbreaker
+EnchGolem	{0} golema
+EnchWindmaker	{0} bouřliváka // of the Windmaker
+EnchDirerock	{0} hrozby // of the Direrock
+EnchAssassin	{0} vraha
+EnchWizard	{0} čaroděje
+EnchLightning	{0} blesku
+EnchGrinder	{0} drtiče
+EnchBurningHand	{0} plamene // of the Burning Hand
+EnchMagician	{0} kouzelníka // of the Magician
+EnchSeer	{0} jasnovidce
+EnchDoom	{0} skázy
+EnchLight	{0} světla
+EnchFocused	{0} nezlomného
+EnchSurvivor	{0} vytrvalce
+EnchThunderblast	{0} hromu
+EnchFox		{0} lišky
+EnchSwan	{0} labutě
+EnchLion	{0} lva
+EnchWhale	{0} velryby
+EnchDeer	{0} jelena
+EnchSun		{0} slunce
+EnchRebel	{0} rebela
+EnchScorpion	{0} škorpióna
+EnchIcefall	{0} jinovatky
+EnchExpert	{0} experta
+EnchJoker	{0} vtipálka
+EnchMage	{0} mága
+EnchCrystal	{0} krystalu
+EnchWasp	{0} vosy
+EnchDash	{0} odmlky // of the Dash
+EnchStone	{0} kamene	//##
+EnchMonolith	{0} monolitu	//##
+EnchTiger	{0} tigra	//##
 //Ench	{0} of the
