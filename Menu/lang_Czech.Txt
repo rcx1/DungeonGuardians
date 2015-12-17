@@ -1410,10 +1410,10 @@ DmgWeapon	Zbraň
 
 // XX
 //=== Mage - Elementalist
-AbFirebolt	Firebolt
+AbFirebolt	Prskavka
 DescFirebolt	Throws a bolt of fire, damaging target for {0} HP.
 
-AbFireball	Fireball
+AbFireball	Ohnivá koule
 DescFireball	Throws a big ball of fire, exploding on contact, damaging target for {0} HP, a also damaging surrounding enemies up to {6} HP.
 
 AbScorch	Scorch
@@ -1422,7 +1422,7 @@ DescScorch	Scorches the target for {0} HP plus {1} HP over {2}.
 AbIgnite	Ignition
 TickIgnite	Burns the target for {1} HP over {2}.
 
-AbRainOfFire	Rain Of Fire
+AbRainOfFire	Ohnivý déšť
 DescRainOfFire	Burns enemies around the target for {1} HP.
 
 AbWaterShield	Water Shield
@@ -2054,7 +2054,7 @@ DescSpecAssassin	The Assassin is a master of fast a tricky attacks, building up 
 DescSpecDuelist		The Duelist is an expert at avoiding being hit a teasing the enemies.
 DescSpecRanger		The Ranger enjoys tracking a killing their target from a distance, using either a bow or a crossbow.
 
-SpecPoint	Used Points
+SpecPoint	Počet využitých bodů
 
 CanWield	Can wield
 
@@ -2070,25 +2070,25 @@ AbCritPotion	Critical Potion
 DescCritPotion	A potion that raises your critical rating by {7}{11:F0}</color> for {2}.
 
 //=== Talents ====================================================================
-NbTalentPoint	Available Points
-RequireInTree	Requires {0} point(s) in {1} tree
-AlreadyHaveSpec	Not available because this is not your main specialization.
-TalentNewAb	Provides this new ability
-TalentReplaceAb	Replaces {0} with this new ability
-TalentRank	Rank
-TalentNextRank	Next Rank
-TalentLearn	Left Click to Learn
-TalentUnlearn	Right Click to Unlearn
-RequireTl	Requires {0} point(s) in {1}
-RequireAb	Requires {0}
-TalentPoint	{0} Talent Point(s) Available
+NbTalentPoint	Počet volných bodů
+RequireInTree	Vyžaduje {0} bod(y/ů) ve stromu {1}
+AlreadyHaveSpec	Toto je Ti zapovězeno, protože máš jinou specializaci.
+TalentNewAb	Nabízí tuto dovednost
+TalentReplaceAb	Nahrazuje {0} touto novou dovedností
+TalentRank	Úroveň
+TalentNextRank	Na další úrovni
+TalentLearn	Levým tlačítkem dovednost získáte
+TalentUnlearn	Pravým tlačítkem dovednost zapomenete
+RequireTl	Vyžaduje {0} bod(y) v {1}
+RequireAb	Vyžaduje {0}
+TalentPoint	{0} volných bodů
 
-ConfirmChanges	Confirm Changes
-CancelChanges	Cancel Changes
+ConfirmChanges	Potvrdit změny
+CancelChanges	Zrušit změny
 
-TalentReroll	Reroll\n\nReset all your talent trees a refund you all your talent points.\nYou get 1 reroll point every 4 levels starting at level 1.
-TalentNbReroll	You currently have {0} reroll point(s).
-TalentNoReroll	You don't have any reroll points left.
+TalentReroll	Nové rozložení dovedností\n\nZapomeneš všechny dovednosti i svou specializaci a dostaneš za ně body zpět.\nTuto možnost získáš za každé 4 úrovně postavy.
+TalentNbReroll	Aktuálně můžes {0}x změnit strom.
+TalentNoReroll	Nyní nemáš nárok na změnu stromu.
 
 // Tl + Name = Talent Name
 // Tb + Name = effects that come only with Rank 1
@@ -2102,7 +2102,7 @@ TalentNoReroll	You don't have any reroll points left.
 
 //=== Warrior - Protector
 TlProtector	[>SpecProtector]
-TrProtector	Zvyšuje Health Points by {HP} a [>Block] by {Block}.
+TrProtector	Zvyšuje zdraví o {HP} a [>Block] o {Block}.
 TlAnticipation	Anticipation
 TrAnticipation	Zvyšuje [>Dodge] chance by {Dodge}.
 TlThunderClap	Improved Thunder Clap
