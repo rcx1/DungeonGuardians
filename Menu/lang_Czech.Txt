@@ -1673,7 +1673,7 @@ AbSwipe		Výpad
 DescSwipe	Kruhový útok, který způsobí nepřátelům před Tebou poškození {0} HP.
 
 AbHardStrike	Tvrdý úder
-DescHardStrike	Mocný ptok způsobující poškození {0} HP.
+DescHardStrike	Mocný útok způsobující poškození {0} HP.
 
 AbBleeding	Krvácení
 DescBleeding	Nepříteli způsobuje krvácení poškození {1} HP po dobu {2}.
@@ -1704,44 +1704,44 @@ AbBerserk	Berserk
 DescBerserk	Zvyšuje nejen poškození nepříteli o {5}, ale i příchozí poškození o {9} po dobu {2}.
 
 //=== Warrior - Paladin
-AbDivinePunishment	Divine Punishment
-DescDivinePunishment	A blast from the Gods that Způsobí nepříteli poškození {0} HP.
+AbDivinePunishment	Boží trest
+DescDivinePunishment	Úder boží, který způsobí nepříteli poškození {0} HP.
 
-AbHammerOfJustice	Hammer Of Justice
-DescHammerOfJustice	Empowers your weapon with the wrath of the Gods to poškození the target na {0} HP.
+AbHammerOfJustice	Kladivo spravedlnosti
+DescHammerOfJustice	Požehná Tvou zbraň, která tak získá poškození {0} HP.
 
-AbCrusaderAssault	Crusader Assault
-DescCrusaderAssault	Hits the target na {0} HP a the surrounding enemies na {6} HP.
+AbCrusaderAssault	Útok Křižáků
+DescCrusaderAssault	Způsobí nepříteli poškození {0} HP a okolním nepřátelům poškození {6} HP.
 
-AbAngelProtection	Angel's Protection
-DescAngelProtection	Surrounds the targeted ally with a protective bubble that prevents {5} poškození po dobu {2}, but also immobilizes them. The enemies will then attack another target.
+AbAngelProtection	Štít andělů
+DescAngelProtection	Obklopí vybraného spolubojovníka bublinou, která pohltí {5} poškození po dobu {2}, ale také spolubojovníka dočasně znehybní, díky čemuž o něj nepřátelé ztratí zájem.
 
-AbHolyBarrier	Holy Barrier
-DescHolyBarrier	Summons a barrier that protects you against all magic poškození o {5}% po dobu {2}.
+AbHolyBarrier	Svatý štít
+DescHolyBarrier	Vytvoří bariéru, která bude snižovat příchozí poškození magií o {5}% po dobu {2}.
 
-AbHolierBarrier	Holier Barrier
+AbHolierBarrier	Svatá zeď
 DescHolierBarrier	[>DescHolyBarrier]
 
-AbCelestialBlindness	Celestial Blindness
-DescCelestialBlindness	Instantly snižuje threat against all enemies o {5}.
+AbCelestialBlindness	Posvátná slepota
+DescCelestialBlindness	Okamžitě snižuje Tvou hrozbu nepřátelům o {5}.
 
-AbSaintlySacrifice	Saintly Sacrifice
-DescSaintlySacrifice	Redirects to the [>SpecPaladin] {5} of the poškození done to the target po dobu {2}.
+AbSaintlySacrifice	Svatá oběť
+DescSaintlySacrifice	Přesměruje na Paladina {5} poškození způsobeného spolubojovníkovi po dobu {2}.
 
-AbSealOfContrition	Seal of Contrition
+AbSealOfContrition	Znak kajícnosti
 DescSealOfContrition	Způsobí nepříteli poškození {1} HP po dobu {2}.
 
-AbSealOfRepentance	Seal of Repentance
-DescSealOfRepentance	Zvyšuje all incoming attacks' critical chance o {5}{8}%</color>.
+AbSealOfRepentance	Znak pokání
+DescSealOfRepentance	Šance na KZ nepřítele se zvyšují o {5}{8}%</color>.
 
-AbSpiritualShock	Spiritual Shock
-DescSpiritualShock	Stuns the target po dobu {2}.
+AbSpiritualShock	Duchovní šok
+DescSpiritualShock	Ochromí nepřítele po dobu {2}.
 
-AbSeraphicIntervention	Seraphic Intervention
-DescSeraphicIntervention	Revives a fallen ally with {0} HP a protects him from all poškození po dobu {2}.
+AbSeraphicIntervention	Božská pomoc
+DescSeraphicIntervention	Oživí padlého spolubojivníka {0} HP a bude ho chránit proti poškození po dobu {2}.
 
-AbNoSacrificeInVain	No Sacrifice In Vain
-DescNoSacrificeInVain	Heals {3} HP after {2}.
+AbNoSacrificeInVain	Odměna boží
+DescNoSacrificeInVain	Uzdraví {3} HP, ale nutno vyčkat {2}.
 
 //=== Rogue - Assassin
 ComboPoint	útočný bod
@@ -2101,10 +2101,9 @@ TalentNoReroll	Nyní nemáš nárok na změnu stromu.
 // {Talent <TalentPartName> Condition <O                                                                                                                                                                                                                                                                                                                                                                             therAbilityActive|FamilyActive|HpRatio|ManaRatio|Random>}
 // {Talent <TalentPartName> Var [G|B [%]} 
 
-// XX
 //=== Warrior - Protector
 TlProtector	[>SpecProtector]
-TrProtector	Zvyšuje zdraví o {HP} a [>Block] o {Block}.
+TrProtector	Zvyšuje zdraví o {HP} a bonus u vlastnosti [>Block] o {Block}.
 TlAnticipation	Očekávání
 TrAnticipation	Zvyšuje šanci na [>Dodge] o {Dodge}.
 TlThunderClap	Improved Thunder Clap
@@ -2157,26 +2156,26 @@ TrTitanGrip	Allows to dual wield two-handed & bastard weapons.
 //=== Warrior - Paladin
 TlPaladin	[>SpecPaladin]
 TrPaladin	Gives Mana Points na {TalentX} of your Base HP.
-TlEnlightment	Enlightenment
+TlEnlightment	Osvícení
 TrEnlightment	Zvyšuje Mana Points o {TalentX} of your Base HP.
-TlScarification	Scarification
+TlScarification	Zjizvení
 TrScarification	Zvyšuje Spell Power o {TalentX} of your Attack Power.
-TlGodsAreWithUs	The Gods Are With Us
+TlGodsAreWithUs	Bohové jsou s námi
 TrGodsAreWithUs	Your abilities' critical hits heal you na {TalentX} of the poškození done.
 TlHolierBarrier	[>AbHolierBarrier]
 //TrHolierBarrier	Zvyšuje the magic protection of [>HolyBarrier] o {ResHoly}.
 TlSealOfRepentance	[>AbSealOfRepentance]
 TrSealOfRepentance	When you cast [>AbSealOfContrition], [>AbSealOfRepentance] is also applied on the target, which Zvyšuje all incoming attacks' critical chance o {SealOfRepentance}.
-TlHolyAtonement	Holy Atonement
+TlHolyAtonement	Svaté souznění
 TrHolyAtonement	Casting [>AbHolierBarrier] also heals you na {HolyAtonement Dmg} HP.
-TlAngerOfGods	Anger Of Gods
+TlAngerOfGods	Hněv boží
 TrAngerOfGods	Zvyšuje critical chance of [>AbDivinePunishment] o {CritChance} a poškození of [>AbSealOfContrition] o {Damage}.
-TlWrathOfTheJust	Wrath of the Just
+TlWrathOfTheJust	Spravedlivý hněv
 TrWrathOfTheJust	Zvyšuje all fyzické poškození o {Damage} when weilding a shield.
 TlSpiritualShock	[>AbSpiritualShock]
 TrSpiritualShock        When [>AbCrusaderAssault] hits 3 enemies or more, then 1 of them is stunned na {SpiritualShock DotLength}. This effect can't occur more than once every 30 seconds.
 TlSeraphicIntervention	[>AbSeraphicIntervention]
-TlJusticeForAll	Justice For All
+TlJusticeForAll	Spravedlnost pro všechny
 TrJusticeForAll	Zvyšuje poškození of [>AbHammerOfJustice] a [>AbOverwhelmingBlow] o {Damage}.
 TlNoSacrificeInVain	[>AbNoSacrificeInVain]
 TrNoSacrificeInVain	Casting [>AbSaintlySacrifice] applies [>AbNoSacrificeInVain] on youself, which will heal you o {NoSacrificeInVain DotEndDmg} HP after {NoSacrificeInVain DotLength}.
