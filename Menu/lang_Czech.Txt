@@ -1878,9 +1878,9 @@ DescShadowProtField	Protects from all Shadow based poškození o {5}{7}%</color>
 AbNatureProtField	Ochrana proti přírodní magii
 DescNatureProtField	Protects from all Nature based poškození o {5}{7}%</color>.
 AbLight		Světlo
-DescLight	Surrounds the party by light po dobu {2}.
+DescLight	Obklopí bandu světlem po dobu {2}.
 AbHighDamage	Kletba temných elfů
-DescHighDamage	veškeré příchozí poškození is increased o {5} po dobu {2}.
+DescHighDamage	veškeré příchozí poškození bude zvýšeno o {5} po dobu {2}.
 AbBigBossLevel	Soul Crush
 DescBigBossLevel	Definitively snižuje your Level by 5.
 AbHealField	Načasované uzdravení
@@ -1891,85 +1891,85 @@ AbDarkDecay	Temná hniloba
 DescDarkDecay	Decays na {1} HP po dobu {2}. Může být opakováno až {4} krát po sobě.
 
 //=== Mob Abilities ===================================================
-AbCharge	Charge
-AbMobFirebolt	Firebolt
-AbMobBow	Bow
-AbMobSwing	Swing
-AbMobPunch	Punch
-AbMobRip	Rip
-AbMobWand	Wand
+AbCharge	Výboj
+AbMobFirebolt	Ohnivý šíp
+AbMobBow	Luk
+AbMobSwing	Seknutí // Swing
+AbMobPunch	Rána
+AbMobRip	Škrábanec // Rip
+AbMobWand	Hůlka
 AbMobWandFast	[>AbMobWand]
-AbMobHeal	Heal
-AbMobSmash	Smash
-AbMobTailJab	Tail Jab
-AbMobPoisonSpit	Poisonous Spit
-AbMobBlackSpit	Black Spit
-AbMobBite	Bite
-AbMobImpale	Impale
-AbMobBackStab	Backstab
-AbMobExecute	Execute
-AbMobMaim	Maim
-DescMobMaim	Maims the target po dobu {2}, lowering their [>Haste] o {5}%.
-AbMobDoubleSwing	Double Swing
-AbMobKick	Kick
-AbMobShieldBash	Shield Bash
-AbMobFrostbolt	Frost Bolt
-DescMobFrostbolt	Sends a bolt of ice that snižuje its target's [>Haste] o {5}% po dobu {2}.
-AbMobSwipe	Swipe
-DescMobSwipe	Hits all enemies in front
-AbMobHellFire	Hell Fire
-AbMobDoubleSmash	Double Smash
-AbMobFastHeal	Fast Heal
-AbMobThrust	Thrust
-DescMobThrust	A quick controlled strike that also interrupts the target.
-AbMobStomp	Stomp
-DescMobStomp	Interrupt all enenmies around
-AbPredFireBreath	Fire Breath
-AbPredFireFlood	Fire Flood
-AbMobAcidFlood	Acid Flood
-AbMobAcidSpray	Acid Spray
-AbMobRottenArmor	Rotten Armor
-DescMobRottenArmor	Snižuje target armor o {5}, po dobu {2}, a Může být opakováno až {4} krát po sobě.
-AbMobChew	Chew
-AbTwinSmash	Smash
-AbMobPierce	Pierce
-AbMobSwipeMaim	Swiping Maim
-DescMobSwipeMaim	Maims all targets in front po dobu {2}, lowering their [>Haste] o {5}.
-AbMobFireball	Fireball
-AbMobWarCry	WarCry
-DescMobWarCry	Zvyšuje Attack Power of nearby allies o {5} po dobu {2}.
-AbMobFire	Fire Gun
-AbRodentCurse	Rodent Curse
-DescRodentCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, a Může být opakováno až {4} krát po sobě. poškození zvyšuje exponentially with stacks.
-AbMobSmashFrenzy	Smash Frenzy
-AbTrollRegen	Troll Regeneration
-DescTrollRegen	Heals na {1} HP po dobu {2}.
+AbMobHeal	Uzdravení se
+AbMobSmash	Placka // Smash
+AbMobTailJab	Rána ocasem // Tail Jab
+AbMobPoisonSpit	Jedovatá slina
+AbMobBlackSpit	Temná slina
+AbMobBite	Kousnutí
+AbMobImpale	Nabodnutí
+AbMobBackStab	Podpásovka
+AbMobExecute	Poprava
+AbMobMaim	Zmrzačení
+DescMobMaim	Zmrzačí strážce po dobu {2} a sníží [>Haste] o {5}%.
+AbMobDoubleSwing	Dvojité seknutí
+AbMobKick	Kopanec
+AbMobShieldBash	Útok štítem
+AbMobFrostbolt	Ledový šíp
+DescMobFrostbolt	Vyšle ledový šíp, který snižuje stražcův [>Haste] o {5}% po dobu {2}.
+AbMobSwipe	Otočka
+DescMobSwipe	Zasáhne všechny strážce před sebou.
+AbMobHellFire	Pekelný oheň
+AbMobDoubleSmash	Dvojitá placka
+AbMobFastHeal	Rychlé uzdravení
+AbMobThrust	Výpad
+DescMobThrust	Rychlý, kontrolovaný útok, který vyruší zasaženého strážce (dotyčný přeruší právě prováděnou akci).
+AbMobStomp	Dupnutí
+DescMobStomp	Vyruší všechny strážce (všichni strážci přeruší právě prováděnou akci)
+AbPredFireBreath	Ohnivý dech
+AbPredFireFlood	Ohnivá záplava
+AbMobAcidFlood	Záplava kyseliny
+AbMobAcidSpray	Kyselý déšť
+AbMobRottenArmor	Koroze
+DescMobRottenArmor	Snižuje obranu o {5}, po dobu {2}, může být opakováno až {4} krát po sobě.
+AbMobChew	Sežvýkání
+AbTwinSmash	[>AbMobSmash]
+AbMobPierce	Probodnutí
+AbMobSwipeMaim	Hromadné zmrzačení
+DescMobSwipeMaim	Zmrzačí všechny před sebou po dobu {2} a sníží jim [>Haste] o {5}.
+AbMobFireball	Ohnivá koule
+AbMobWarCry	Válečný ryk
+DescMobWarCry	Zvyšuje sílu útoku spojenců o {5} po dobu {2}.
+AbMobFire	Ručnice
+AbRodentCurse	Krysí prokletí
+DescRodentCurse	Způsobí strážci poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
+AbMobSmashFrenzy	Mlátička
+AbTrollRegen	Trolí regenerace
+DescTrollRegen	Uzdravuje {1} HP po dobu {2}.
 AbMobWhirlWind	Whirlwind
 AbMobBash	Bash
 DescMobBash	A strike made with the edge of the weapon instead of the blade that stuns the target po dobu {2}.
-AbDragonFireFlood	Fire Flood
-AbWyvernFireFlood	Fire Flood
-AbMobFrostWave	Frost Wave
-DescMobFrostWave	Sends a wave of ice that snižuje all targets' [>Haste] in its area o {5} po dobu {2}.
+AbDragonFireFlood	[>AbPredFireFlood]
+AbWyvernFireFlood	[>AbPredFireFlood]
+AbMobFrostWave	Ledová smršť
+DescMobFrostWave	Vyšle vlnu ledu, která snižuje všem zasaženým [>Haste] o {5} po dobu {2}.
 AbMobBowSlow	Hunter Trail
 DescMobBowSlow	Slows the target po dobu {2}, lowering their [>Haste] o {5}.
-AbMobSkullCrusher	Skull Crusher
-DescMobSkullCrusher	A strike directly to the head that stuns the target po dobu {2}.
-AbMobSoulBan	Soul Ban
-AbMobSoulBanned	Soul Banned
-DescMobSoulBanned	Reduces all healings by o {5}, po dobu {2}.
+AbMobSkullCrusher	Louskáček
+DescMobSkullCrusher	Zásah přímo do hlavy, který ochromí strážce po dobu {2}.
+AbMobSoulBan	Klatba
+AbMobSoulBanned	Jsi v klatbě
+DescMobSoulBanned	Sníží veškeré formy uzdravování o {5}, po dobu {2}.
 AbMobScorch	[>AbScorch]
 DescMobScorch	[>DescScorch]
-AbMobHarpoon	Harpoon
-AbMobSlash	Slash
-AbMobBloodSucking	Blood Sucking
-AbMobSludgeSpit	Sludge Spit
-DescMobSludgeSpit	Absords up to {5} healing. Trvá {2}.
-ChTipMobSludgeSpit	\n\nCan still absorb up to {0} healing.
-AbMobFireMeteor	Fire Meteor
-AbMobArcaneBall	Arcane Ball
-AbMobLightning	Lightning
-AbMobFireBreath	Fire Breath
+AbMobHarpoon	Harpuna
+AbMobSlash	Seknutí
+AbMobBloodSucking	Upír
+AbMobSludgeSpit	Plivanec
+DescMobSludgeSpit	Po dobu {2} pohlcuje {5} z udravování.
+ChTipMobSludgeSpit	\n\nMůže ještě pohltit {0} z udravování.
+AbMobFireMeteor	Meteorický déšt
+AbMobArcaneBall	Magická koule
+AbMobLightning	Blesk
+AbMobFireBreath	Ohnivý dech
 
 //=== Boss Abilities
 AbStunOfLight	Stunning Light
