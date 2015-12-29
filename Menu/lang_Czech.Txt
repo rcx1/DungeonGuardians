@@ -1909,21 +1909,21 @@ AbMobImpale	Nabodnutí
 AbMobBackStab	Podpásovka
 AbMobExecute	Poprava
 AbMobMaim	Zmrzačení
-DescMobMaim	Zmrzačí strážce po dobu {2} a sníží [>Haste] o {5}%.
+DescMobMaim	Zmrzačí nepřítele na {2} a sníží [>Haste] o {5}%.
 AbMobDoubleSwing	Dvojité seknutí
 AbMobKick	Kopanec
 AbMobShieldBash	Útok štítem
 AbMobFrostbolt	Ledový šíp
 DescMobFrostbolt	Vyšle ledový šíp, který snižuje stražcův [>Haste] o {5}% po dobu {2}.
 AbMobSwipe	Otočka
-DescMobSwipe	Zasáhne všechny strážce před sebou.
+DescMobSwipe	Zasáhne všechny nepřátele před sebou.
 AbMobHellFire	Pekelný oheň
 AbMobDoubleSmash	Dvojitá placka
 AbMobFastHeal	Rychlé uzdravení
 AbMobThrust	Výpad
-DescMobThrust	Rychlý, kontrolovaný útok, který vyruší zasaženého strážce (dotyčný přeruší právě prováděnou akci).
+DescMobThrust	Rychlý, kontrolovaný útok, který vyruší zasaženého nepřítele (dotyčn[:ý|á] přeruší právě prováděnou akci).
 AbMobStomp	Dupnutí
-DescMobStomp	Vyruší všechny strážce (všichni strážci přeruší právě prováděnou akci)
+DescMobStomp	Vyruší všechny nepřátele (všichni nepřátelé přeruší právě prováděnou akci).
 AbPredFireBreath	Ohnivý dech
 AbPredFireFlood	Ohnivá záplava
 AbMobAcidFlood	Záplava kyseliny
@@ -1940,21 +1940,21 @@ AbMobWarCry	Válečný ryk
 DescMobWarCry	Zvyšuje sílu útoku spojenců o {5} po dobu {2}.
 AbMobFire	Ručnice
 AbRodentCurse	Krysí prokletí
-DescRodentCurse	Způsobí strážci poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
+DescRodentCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
 AbMobSmashFrenzy	Mlátička
 AbTrollRegen	Trolí regenerace
 DescTrollRegen	Uzdravuje {1} HP po dobu {2}.
-AbMobWhirlWind	Whirlwind
-AbMobBash	Bash
-DescMobBash	A strike made with the edge of the weapon instead of the blade that stuns the target po dobu {2}.
+AbMobWhirlWind	Větrník
+AbMobBash	Rána
+DescMobBash	Útok vedený plochou zbraně namísto její ostrou částí. Útok ochromí nepřítele po dobu {2}.
 AbDragonFireFlood	[>AbPredFireFlood]
 AbWyvernFireFlood	[>AbPredFireFlood]
 AbMobFrostWave	Ledová smršť
 DescMobFrostWave	Vyšle vlnu ledu, která snižuje všem zasaženým [>Haste] o {5} po dobu {2}.
-AbMobBowSlow	Hunter Trail
-DescMobBowSlow	Slows the target po dobu {2}, lowering their [>Haste] o {5}.
+AbMobBowSlow	Zmatený stopař
+DescMobBowSlow	Zpomalí nepřítele snížením [>Haste] o {5} po dobu {2}.
 AbMobSkullCrusher	Louskáček
-DescMobSkullCrusher	Zásah přímo do hlavy, který ochromí strážce po dobu {2}.
+DescMobSkullCrusher	Zásah přímo do hlavy, který ochromí nepřítele po dobu {2}.
 AbMobSoulBan	Klatba
 AbMobSoulBanned	Jsi v klatbě
 DescMobSoulBanned	Sníží veškeré formy uzdravování o {5}, po dobu {2}.
@@ -1972,52 +1972,52 @@ AbMobLightning	Blesk
 AbMobFireBreath	Ohnivý dech
 
 //=== Boss Abilities
-AbStunOfLight	Stunning Light
-DescStunOfLight	A flash of light that stuns all enemies in the area po dobu {2}
-AbMobTeleportToBack	Veil of Shadows
-AbMobSummon	Minion Summoning
-AbLethalFireball	Lethal Fireball
-AbDragonShadow	Call of Darkness
-AbDragonAcid	Acid Fury
-AbBossSwipe	Monumental Swipe
-AbBossArrowRain	Rain of Arrows
-AbBossArrowRainLight	Rain of Holy Arrows
-AbBossArrowRainShadow	Rain of Shadow Arrows
-AbBossSniperArrow	Sniper Arrow
-AbBossShieldBash	Titanic Shield Bash
-DescBossShieldBash	Interrupt a stun the target for 3 seconds.
-AbBossSlowEnrage	Slow Enrage
-DescBossSlowEnrage	Enrages faster a faster over {2}, dealing up to {5} more poškození.
-AbWitchCurse	Witch Curse
-DescWitchCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, a Může být opakováno až {4} krát po sobě. poškození zvyšuje exponentially with stacks.
-AbWitchBall	Witch Spit
-AbWitchHeal	Spirit Healing
-AbTeleportPath	Light Warp
+AbStunOfLight	Ohromení
+DescStunOfLight	Záblesk, který ochromí všechny nepřátele v okolí po dobu {2}
+AbMobTeleportToBack	Závoj temnoty
+AbMobSummon	Vyvolání pomocníků
+AbLethalFireball	Smrtonosná ohnivá koule
+AbDragonShadow	Vyvolání temnoty
+AbDragonAcid	Kyselá smršť
+AbBossSwipe	Monumentální otočka
+AbBossArrowRain	Déšť šípů
+AbBossArrowRainLight	Déšť svatých šípů
+AbBossArrowRainShadow	Déšť stínových šípů
+AbBossSniperArrow	Srdcovka
+AbBossShieldBash	Masivní útok štítem
+DescBossShieldBash	Vyruší zasaženého nepřítele a navíc ho ochromení na 3s.
+AbBossSlowEnrage	Rostoucí vztek
+DescBossSlowEnrage	Útočníkův vztek roste po dobu {2}, výsledkem je doplňkové poškození {5} HP.
+AbWitchCurse	Uhranutí
+DescWitchCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
+AbWitchBall	Chrchel
+AbWitchHeal	Magické uzdravení
+AbTeleportPath	Rychlost světla
 AbHunterSniperArrow	[>AbBossSniperArrow]
-AbBossDeathRay	Death Ray
-AbTeleportWarlock	Shadow Blink
-AbWarlockHeal	Shadow Regeneration
-AbWarlockCurse	Black Curse
-DescWarlockCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, a Může být opakováno až {4} krát po sobě.
-AbBossShadowCurse	Shadow Curse
+AbBossDeathRay	Paprsek smrti
+AbTeleportWarlock	Temné mrknutí
+AbWarlockHeal	Temné uzdravení
+AbWarlockCurse	Temná klatba
+DescWarlockCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě.
+AbBossShadowCurse	[>AbWarlockCurse]
 DescBossShadowCurse	[>DescWarlockCurse]
-AbBossNova	Super Nova
-AbBossNightBall	Night Cloud
-AbBossShadowArmor	Shadow Armor
-DescBossShadowArmor	Reduces all poškození o {5} po dobu {2}.
-AbBossLeechLife	Leech Life
+AbBossNova	Supernova
+AbBossNightBall	Temný oblak
+AbBossShadowArmor	Temné brnění
+DescBossShadowArmor	Snižuje příchozí poškození o {5} po dobu {2}.
+AbBossLeechLife	Král upírů // Leech Life
 AbTeleportBigBoss	Teleport
-AbTeleportBackBigBoss	Regenerate
-AbBigBossHeal	Guardian Regeneration
-AbSlimeBomb	Slime Bomb
-DescSlimeBomb	Snižuje [>Haste] o {5} a burns na {1} HP po dobu {2}.
-AbEnergyBlast	Energy Blast
-AbEnergyShot	Energy Shot
-AbBossFireArmor	Fire Armor
+AbTeleportBackBigBoss	Návrat // Regenerate
+AbBigBossHeal	Regenerace // Guardian Regeneration
+AbSlimeBomb	Slizová bomba
+DescSlimeBomb	Snižuje [>Haste] o {5} a způsobuje poškození {1} HP leptáním po dobu {2}.
+AbEnergyBlast	Vlna energie
+AbEnergyShot	Elektrický šíp
+AbBossFireArmor	Ohnivé brnění
 DescBossFireArmor	Reflects {8}25%</color> of příchozí poškození to the attackers.
-AbBurningHand	Burning Hand
-DescBurningHand	Burns the target na {1} HP po dobu {2}.
-AbBigBossRegen	Regenerate
+AbBurningHand	Ohnivá ruka
+DescBurningHand	Způsobuje nepříteli poškození {1} HP popálením po dobu {2}.
+AbBigBossRegen	Regenerace
 
 //=== Ab Stun Tip
 TipStun		Ochromen[:|a]
