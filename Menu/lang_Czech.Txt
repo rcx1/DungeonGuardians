@@ -2,6 +2,7 @@
 // ver 0.1a
 // for game ver 1.0a
 // author rcx
+// in progress - magic professions, editor
 // Codes can't start with : §, -, 0-9
 
 //===System Errors
@@ -1634,7 +1635,7 @@ DescLastBreath	Zvyšuje [>Haste] o {5}{7}%</color> po dobu {2}.
 AbRend		Zářez // Rend
 DescRend	Udělá nepříteli hlubokou, krvácející ránu a způsobí poškození {0} HP, Krvácení způsobuje dodatečné poškození {1} HP po dobu {2}. Děsivé - zvyšuje hrozbu.
 
-AbThunderClap	Zvuk bouře
+AbThunderClap	Hromobití
 DescThunderClap	Vytvoří vlnu energie, která poděsí všechny nepřátele a způsobí jim poškození {0} HP.
 
 AbKick		Kopanec
@@ -1722,7 +1723,7 @@ AbHolierBarrier	Svatá zeď
 DescHolierBarrier	[>DescHolyBarrier]
 
 AbCelestialBlindness	Posvátná slepota
-DescCelestialBlindness	Okamžitě snižuje Tvou hrozbu nepřátelům o {5}.
+DescCelestialBlindness	Okamžitě sniží Tvou hrozbu nepřátelům o {5}.
 
 AbSaintlySacrifice	Svatá oběť
 DescSaintlySacrifice	Přesměruje na Paladina {5} poškození způsobeného spolubojovníkovi po dobu {2}.
@@ -2105,24 +2106,24 @@ TlProtector	[>SpecProtector]
 TrProtector	Zvyšuje zdraví o {HP} a bonus u vlastnosti [>Block] o {Block}.
 TlAnticipation	Očekávání
 TrAnticipation	Zvyšuje šanci na [>Dodge] o {Dodge}.
-TlThunderClap	Improved Thunder Clap
+TlThunderClap	Hrom za zády // Improved Thunder Clap
 TrThunderClap	Zvyšuje [>AbThunderClap] poškození o {WarProtThunderClap}.
 TlShieldMaster	Mistr[:|yně] štítu
 TrShieldMaster	Zvyšuje šanci na blokování štítem o {WarProtShield}.
 TlArmorMaster	Zbrojmistr[:|yně] 
 TrArmorMaster	Zvyšuje hodnotu vlastností typu [>ArmorRating] získanou z vybavení o {Armor}.
-TlDevastating	Devastating
-TrDevastating	When the [>AbDevastate] ability damages its target, it also damages another nearby enemy o {TalentX B} of the initial poškození.
-TlEnrage	Enraged
-TrEnrage	Zvyšuje all poškození done o {Enrage} a snižuje all poškození received o {Enrage #1} na {Enrage DotLength} when casting [>AbRageYell].
-TlRetaliate	Retaliate
-TrRetaliate	Immediately retaliates when blocking a strike a poškození the attacker o {Retaliate Dmg} poškození (AP based). Produces a bit of extra threat.\n\nAlso Zvyšuje o {Damage G} the healing done by [>TlHolyAtonement].
-TlCounter	Counter Attack
-TrCounter       Zvyšuje [>Haste] o {Counter} na {Counter DotLength} after each successful parry. Can stack up to {Counter MaxStack} times.
-TlMenacingEyes	Menacing Eyes
-TrMenacingEyes	Zvyšuje the threat of all your direct poškození o {TalentX}.
-TlMageKiller	Mage Killer
-TrMageKiller	Zvyšuje resistances against Arcane, Fire, Frost & Shadow poškození o {ResFire}.\n\nAlso Zvyšuje o {HigherThreat} the threat produced by [>AbSealOfContrition].
+TlDevastating	Ničitel
+TrDevastating	Dovednost [>AbDevastate] způsobí poškození nejen nepříteli, ale i některému z jeho druhů ve výši {TalentX B} původního poškození.
+TlEnrage	Zuřivost
+TrEnrage	Zvyšuje odchozí poškození o {Enrage} a snižuje příchozí poškození o {Enrage #1} na {Enrage DotLength}. // X? meaning? ~ when casting [>AbRageYell].
+TlRetaliate	Ústup
+TrRetaliate	Okamžitě ustoupí, díky blokování sníží příchozí fyzické poškození o {Retaliate Dmg}. Lehce zvyšuje hrozbu.\n\nTaké zvyšuje o {Damage G} účinek uzdravování na základě dovednosti [>TlHolyAtonement].
+TlCounter	Protiútok
+TrCounter       Zvyšuje [>Haste] o {Counter} na {Counter DotLength} po každém úspěšném održeném útoku. Může být opakováno až {Counter MaxStack} krát po sobě.
+TlMenacingEyes	Uhrančivé oči
+TrMenacingEyes	Zvyšuje hrozbu všech Tvách přímých poškození o {TalentX}.
+TlMageKiller	Likvidátor mágů
+TrMageKiller	Zvyšuje odolnost proti veškerému magickému poškození o {ResFire}.\n\nTaké zvyšuje účinek dovednosti [>AbSealOfContrition] - hrozba se zvýší o {HigherThreat}.
 
 //=== Warrior - Man at Arms
 TlManAtArms	[>SpecManAtArms]
