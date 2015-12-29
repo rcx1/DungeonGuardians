@@ -666,7 +666,7 @@ PathJumpTo	Jump To Point
 DeletePathPoint	Delete Point
 
 //=== Item
-Generic		XXGeneric
+Generic		Věc // Generic
 Weapon		Zbraň
 Gear		Vybavení
 Consumable	Poživatina
@@ -743,7 +743,7 @@ Halberd_A	Halapartna
 Halberd_B	Ocelová halapartna
 
 Staff		Runová hůl
-StaffSylvan	XXSylvan hůl
+StaffSylvan	Živá hůl // Sylvan staff
 StaffIron	Železná hůl
 StaffBent	Tvarovaná hůl
 
@@ -975,8 +975,7 @@ AbRequireWp	Tato dovednost vyžaduje: {0}
 Overweight	Banda toho nese moc a tudíž se hýbe pomaleji, měl by ses něčeho zbavit. // X2!
 PartyStunned	Banda se nemůže hýbat : všichni jsou ochromeni !
 NoSpec		Tak tenhle popisek někdo regulérně ukrad ! // Still No Spec for this Toon's Class - Work in Progress !
-// XX
-Casting		Casting
+Casting		Soustředí se // Casting
 NotFighting	Tato postava nemá protivníka,\ntakže aktuálně nebojuje
 StunnedCantDo	Jsem ochromen[P:|a], takže teď neudělám vůbec nic !
 WIP		Musíme to opravit :D - Pokud Bůh aktualizací dá, tak přístě je to tam ...
@@ -1162,9 +1161,9 @@ MobPigHead	Prasečí hlava
 MobEmissary	Vyslanec
 MobDragon	Drak
 MobDragonIce	Ledový drak
-MobMinionCrusher	XXMinion - drtič
-MobMinionGuard	XXMinion - stráž
-MobMinionAssassin	XXMinion - vrah
+MobMinionCrusher	Pomocník - drtič
+MobMinionGuard	Pomocník - stráž
+MobMinionAssassin	Pomocník - vrah
 MobGoblinBandit	Goblin - bandita
 MobGoblinBaron	Goblin - baron
 MobGoblinGladiator	Goblin - gladiátor
@@ -1874,21 +1873,21 @@ DescPoisonField	Způsobí otravu a poškození {0} HP plus {1} HP po dobu {2}.
 AbFireField	Oheň
 DescFireField	Způsobí popáleniny a poškození {0} HP plus {1} HP po dobu {2}.
 AbShadowProtField	Ochrana proti temné magii
-DescShadowProtField	Protects from all Shadow based poškození o {5}{7}%</color>.
+DescShadowProtField	Chrání proti poškození na bázi temné magie - {5}{7}%</color>.
 AbNatureProtField	Ochrana proti přírodní magii
-DescNatureProtField	Protects from all Nature based poškození o {5}{7}%</color>.
+DescNatureProtField	Chrání proti poškození na bázi přírodní magie - {5}{7}%</color>.
 AbLight		Světlo
 DescLight	Obklopí bandu světlem po dobu {2}.
 AbHighDamage	Kletba temných elfů
-DescHighDamage	veškeré příchozí poškození bude zvýšeno o {5} po dobu {2}.
-AbBigBossLevel	Soul Crush
-DescBigBossLevel	Definitively snižuje your Level by 5.
+DescHighDamage	Veškeré příchozí poškození bude po dobu {2} zvýšeno o {5}.
+AbBigBossLevel	Ponížení // Soul Crush
+DescBigBossLevel	Snižuje Tvoji úroveň o 5.
 AbHealField	Načasované uzdravení
-DescHealField   Heals na {3} HP after {2}.
+DescHealField   Uzdraví {3} HP s odstupem {2}.
 AbHighDamager	Síla Dědy // Inner Force
-DescHighDamager	All poškození is increased o {5} po dobu {2}.
+DescHighDamager	Všechna poškození jsou po dobu {2} zvýšena o {5}.
 AbDarkDecay	Temná hniloba
-DescDarkDecay	Decays na {1} HP po dobu {2}. Může být opakováno až {4} krát po sobě.
+DescDarkDecay	Vyrážka na kůži ti bude způsobovat poškození {1} HP po dobu {2}. Může být opakováno až {4} krát po sobě.
 
 //=== Mob Abilities ===================================================
 AbCharge	Výboj
@@ -2021,7 +2020,7 @@ AbBigBossRegen	Regenerace
 
 //=== Ab Stun Tip
 TipStun		Ochromen[:|a]
-TipInterrupted	Přerušeno!\n\ntvoje dovednost {0} byla přerušena nepřítelovým útokem.
+TipInterrupted	Přerušeno!\n\ntvoje dovednost {0} byla přerušena útokem nepřítele.
 
 //=== Spec
 Specialization	Specializace
