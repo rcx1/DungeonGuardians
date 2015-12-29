@@ -2,7 +2,7 @@
 // ver 0.1a
 // for game ver 1.0a
 // author rcx
-// in progress - magic professions, editor
+// in progress - magic professions, editor, line 2120-2420
 // Codes can't start with : §, -, 0-9
 
 //===System Errors
@@ -1473,13 +1473,13 @@ DescDemonicForm	Transforms yourself into a demon po dobu {2}, which zvyšuje all
 
 //=== Mage - Arcanist
 AbArcaneRupture	Arcane Rupture
-DescArcaneRupture	Způsobí nepříteli poškození {1} HP po dobu {2}. Stack up to {4} times.
+DescArcaneRupture	Způsobí nepříteli poškození {1} HP po dobu {2}. Stack up to {4} krát po sobě.
 
 AbArcaneBurst	Arcane Burst
 DescArcaneBurst	Throws a series of deadly projectiles damaging the target na {1} HP.
 
 AbArcaneFusion	Arcane Fusion
-DescArcaneFusion	Způsobí nepříteli poškození {1} HP po dobu {2}. Stack up to {4} times.
+DescArcaneFusion	Způsobí nepříteli poškození {1} HP po dobu {2}. Stack up to {4} krát po sobě.
 
 AbArcaneArmor	Arcane Armor
 DescArcaneArmor	Zvyšuje armor o {5}% po dobu {2}.
@@ -1563,7 +1563,7 @@ AbTwinHeal	Twin Heal
 DescTwinHeal	Heals the target na {0} HP a yourself na {5} of that amount.
 
 AbDivineGrace	Divine Grace
-DescDivineGrace	Zvyšuje healing done o {5} po dobu {2} ; Může být opakováno až {Poison MaxStack} krát po sobě {4} times.
+DescDivineGrace	Zvyšuje healing done o {5} po dobu {2} ; Může být opakováno až {Poison MaxStack} krát po sobě {4} krát po sobě.
 
 AbSacredNova	Sacred Nova
 DescSacredNova	Heals the whole party na {0} HP.
@@ -1645,7 +1645,7 @@ AbTaunt		Popíchnutí
 DescTaunt	Zvýší Tvou hrozbu tak, aby byla nejvyšší, a tím přiláká nepřátele.
 
 AbDevastate	Znič
-DescDevastate	Způsobí nepříteli poškození {0} HP, plus sniží nepříteli hodnotu vlastnosti [>ArmorRating] o {5} po dobu {2}. Může být opakováno až {4} krát po sobě.
+DescDevastate	Způsobí nepříteli poškození {0} HP, plus Sníží nepříteli hodnotu vlastnosti [>ArmorRating] o {5} po dobu {2}. Může být opakováno až {4} krát po sobě.
 
 AbLastStand	Poslední zůstává
 DescLastStand	Dočasně zvyšuje zdraví HP o {5} po dobu {2}. Po skončení efektu je maximální zdraví vráceno na původní hodnotu.
@@ -1686,7 +1686,7 @@ DescWarCry	Povzbudí všechny členy bandy a zvyší jim hodnotu vlastnosti [>AP
 TickWarCry	Zvyšuje hodnotu vlastnosti [>AP] o {5} po dobu {2}.
 
 AbDoomDrum	Bubny zmaru
-DescDoomDrum	Sniží nepříteli hodnotu vlastnosti [>AP] o {5}.
+DescDoomDrum	Sníží nepříteli hodnotu vlastnosti [>AP] o {5}.
 
 AbOverwhelmingBlow	Nekutečná rána
 DescOverwhelmingBlow	Úder způsobující poškození {0} HP a zároveň snižující nepříteli hodnotu obranných vlastností o {5} po dobu {2}.
@@ -1723,7 +1723,7 @@ AbHolierBarrier	Svatá zeď
 DescHolierBarrier	[>DescHolyBarrier]
 
 AbCelestialBlindness	Posvátná slepota
-DescCelestialBlindness	Okamžitě sniží Tvou hrozbu nepřátelům o {5}.
+DescCelestialBlindness	Okamžitě Sníží Tvou hrozbu nepřátelům o {5}.
 
 AbSaintlySacrifice	Svatá oběť
 DescSaintlySacrifice	Přesměruje na Paladina {5} poškození způsobeného spolubojovníkovi po dobu {2}.
@@ -2127,58 +2127,58 @@ TrMageKiller	Zvyšuje odolnost proti veškerému magickému poškození o {ResFi
 
 //=== Warrior - Man at Arms
 TlManAtArms	[>SpecManAtArms]
-TrManAtArms	Zvyšuje poškození with two-handed weapons o {WarArmsRoot}.
-TlHardStrike	Improved Hard Strike
-TrHardStrike	Zvyšuje [>AbHardStrike] critical chances o {CritChance}.
-TlImpale	Impale
-TrImpale	Zvyšuje critical poškození bonus of your abilities o {CritDamage}.
-TlDeepWound	Deep Wounds
-TrDeepWound	Your critical strikes cause your target to bleed, dealing {TalentX B} of your weapon average poškození over {Bleeding DotLength}. Stacks up to {Bleeding MaxStack} times.
-TlExecute	Execute
-TrExecute	[>AbDeadlyAssault]'s poškození is raised o {Damage} if the target health is under 25%.
+TrManAtArms	Zvyšuje poškození způsobené obouručními zbraněmi o {WarArmsRoot}.
+TlHardStrike	Mistrovský úder // Improved Hard Strike
+TrHardStrike	Zvyšuje šanci na KZ pro [>AbHardStrike] o {CritChance}.
+TlImpale	Nabodnutí
+TrImpale	Zvyšuje bonusovou složku šance na KZ u dovedností o {CritDamage}.
+TlDeepWound	Hluboké rány
+TrDeepWound	V případě úspěšného KZ bude nepřítel krvácet po dobu {Bleeding DotLength} - poškození bude {TalentX B} průměrného poškození způsobeného Tvojí zbraní. Může být opakováno až {Bleeding MaxStack} krát po sobě.
+TlExecute	Důkladnost
+TrExecute	Pokud klesne nepřítelovo zdraví pod 25%, pak poškození způsobené dovedností [>AbDeadlyAssault] je zvýšeno o {Damage}.
 TlDoomDrum	[>AbDoomDrum]
-TrDoomDrum	Adds [>AbDoomDrum] effect to [>AbWarCry] that Snižuje surrounding enemies' Attack Power o {DoomDrum} na {DoomDrum DotLength}.
-TlLustForBlood	Lust For Blood
-TrLustForBlood	All your abilities' direct poškození is raised o {Damage} if the target is bleeding.
-TlFriendlyFace	Friendly Face
-TrFriendlyFace	Snižuje threat of all your direct poškození o {TalentX}.
-TlSpec1H	One-Hand Specialization
-TrSpec1H	Zvyšuje all poškození o {Damage} when wielding one-handed weapons.
-TlSpec2H	Two-Hand Specialization
-TrSpec2H	Zvyšuje all poškození o {Damage} when wielding two-handed weapons.\n\nAlso snižuje o {LowerManaCost} the mana cost of [>AbCrusaderAssault].
+TrDoomDrum	Rozšíří dovednost [>AbWarCry] o efekty podobné dovednosti [>AbDoomDrum] - Sníží nepříteli hodnotu vlastnosti [>AP] o {DoomDrum} na {DoomDrum DotLength}.
+TlLustForBlood	Krvelačnost
+TrLustForBlood	Pokud nepřítel krvácí, pak veškeré přímé poškození způsobené dovednostmi bude zvýšeno o {Damage}.
+TlFriendlyFace	Milá tvář
+TrFriendlyFace	Snižuje hrozbu plynoucí přímých poškození o {TalentX}.
+TlSpec1H	Jednoručka
+TrSpec1H	Při boji jednoruční zbraní zvyšuje poškození o {Damage}.
+TlSpec2H	Pod obojí
+TrSpec2H	Při boji obouruční zbraní zvyšuje o {Damage}.\n\nTaké snižuje o {LowerManaCost} spotřebu many na [>AbCrusaderAssault].
 TlMeatPounder	[>AbMeatPounder]
-TrMeatPounder	[>AbSwipe] makes [>AbHardStrike] hit 1 more target na {MeatPounder DotLength}.
-TlGoodPatient	Good Patient
-TrGoodPatient	Zvyšuje all healing received o {IncreaseHealing}.
-TlTitanGrip	Titan Fist
-TrTitanGrip	Allows to dual wield two-handed & bastard weapons.
+TrMeatPounder	Po [>AbSwipe] se provede [>AbHardStrike], který bude 1 nepřítele drtit po dobu {MeatPounder DotLength}.
+TlGoodPatient	Dobrý pacient
+TrGoodPatient	Zvyšuje příchozí léčení o {IncreaseHealing}.
+TlTitanGrip	Titánův úchop
+TrTitanGrip	Umožnuje vzít do každé ruky obouruční zbraň.
 
 //=== Warrior - Paladin
 TlPaladin	[>SpecPaladin]
-TrPaladin	Gives Mana Points na {TalentX} of your Base HP.
+TrPaladin	Zvyšuje množství many o {TalentX} Tvého zdraví (bez bonusů).
 TlEnlightment	Osvícení
-TrEnlightment	Zvyšuje Mana Points o {TalentX} of your Base HP.
+TrEnlightment	Zvyšuje množství many o {TalentX} Tvého zdraví (bez bonusů).
 TlScarification	Zjizvení
-TrScarification	Zvyšuje Spell Power o {TalentX} of your Attack Power.
+TrScarification	Zvyšuje sílu Tvých kouzel o {TalentX} Tvé [>AP].
 TlGodsAreWithUs	Bohové jsou s námi
-TrGodsAreWithUs	Your abilities' critical hits heal you na {TalentX} of the poškození done.
+TrGodsAreWithUs	Každý úspěšný KZ Tě uzdraví o {TalentX} z Tebou způsobeného poškození.
 TlHolierBarrier	[>AbHolierBarrier]
-//TrHolierBarrier	Zvyšuje the magic protection of [>HolyBarrier] o {ResHoly}.
+//TrHolierBarrier	Zvyšuje ochranu získanou dovedností [>HolyBarrier] o {ResHoly}.
 TlSealOfRepentance	[>AbSealOfRepentance]
-TrSealOfRepentance	When you cast [>AbSealOfContrition], [>AbSealOfRepentance] is also applied on the target, which Zvyšuje all incoming attacks' critical chance o {SealOfRepentance}.
+TrSealOfRepentance	Pokud použiješ dovednost [>AbSealOfContrition], použije se i [>AbSealOfRepentance], čímž se zvýší šance na KZ všech příchozích útoků o {SealOfRepentance}.
 TlHolyAtonement	Svaté souznění
-TrHolyAtonement	Casting [>AbHolierBarrier] also heals you na {HolyAtonement Dmg} HP.
+TrHolyAtonement	Pokud použiješ dovednost [>AbHolierBarrier], pak se i uzdravíš o {HolyAtonement Dmg} HP.
 TlAngerOfGods	Hněv boží
-TrAngerOfGods	Zvyšuje critical chance of [>AbDivinePunishment] o {CritChance} a poškození of [>AbSealOfContrition] o {Damage}.
+TrAngerOfGods	Zvyšuje šanci na KZ dovedností [>AbDivinePunishment] o {CritChance} a poškození způsobené dovedností [>AbSealOfContrition] o {Damage}.
 TlWrathOfTheJust	Spravedlivý hněv
-TrWrathOfTheJust	Zvyšuje all fyzické poškození o {Damage} when weilding a shield.
+TrWrathOfTheJust	Pokud máš štít, tak veškeré fyzické poškození bude zvýšeno o {Damage}.
 TlSpiritualShock	[>AbSpiritualShock]
-TrSpiritualShock        When [>AbCrusaderAssault] hits 3 enemies or more, then 1 of them is stunned na {SpiritualShock DotLength}. This effect can't occur more than once every 30 seconds.
+TrSpiritualShock        Pokud dovedností [>AbCrusaderAssault] zasáhneš 3 a více nepřátel, pak 1 z nich bude ochromen na {SpiritualShock DotLength}. Nelze opakovat častěji než jednou za půl minuty (30s).
 TlSeraphicIntervention	[>AbSeraphicIntervention]
 TlJusticeForAll	Spravedlnost pro všechny
-TrJusticeForAll	Zvyšuje poškození of [>AbHammerOfJustice] a [>AbOverwhelmingBlow] o {Damage}.
+TrJusticeForAll	Zvyšuje poškození způsobené dovednostmi [>AbHammerOfJustice] a [>AbOverwhelmingBlow] o {Damage}.
 TlNoSacrificeInVain	[>AbNoSacrificeInVain]
-TrNoSacrificeInVain	Casting [>AbSaintlySacrifice] applies [>AbNoSacrificeInVain] on youself, which will heal you o {NoSacrificeInVain DotEndDmg} HP after {NoSacrificeInVain DotLength}.
+TrNoSacrificeInVain	Pokud použiješ dovednost [>AbSaintlySacrifice], pak se použije i dovednost [>AbNoSacrificeInVain], která Tě po uplynutí {NoSacrificeInVain DotLength} uzdraví o {NoSacrificeInVain DotEndDmg} HP.
 
 //=== Rogue - Assassin
 TlAssassin	[>SpecAssassin]
@@ -2198,7 +2198,7 @@ TlCurare	Špetka kurare		// wordplay: Pinch of Salt
 TrCurare	Zvyšuje poškození u dovednosti [>AbPoison] o {Damage}.
 TlSnakeTouch	Dotek hada
 TrSnakeTouch	Každý automatický útok má {Talent RogueAssSnakeTouch Condition Random} šanci přidat účinky dovednosti [>AbPoison], které budou způsobovat nepříteli poškození {Poison DotTotalDmg} HP po dobu {Poison DotLength}. Může být opakováno až {Poison MaxStack} krát po sobě.
-TlNeverEndingStory	Nekonečný příběh	// Name of Movie
+TlNeverEndingStory	Nekonečný příběh	// Name of the movie
 TrNeverEndingStory	Všechny akce spotřebovávající útočné body budou mít {Talent RogueAssNeverEndingStory Condition Random} šanci vrátit 1 [>ComboPoint] zpět.
 TlSideAttack	Bokovka
 TrSideAttack	Úspěšné zásahy dovedností [>AbDreadfulJab], umožní doplňkovou ránu levačkou okolním nepřátelům za {DreadfulJabOffHand Dmg} poškození.\n\nNavíc zlepší vlastnost [>Agi] o {Agility f}.
@@ -2213,10 +2213,10 @@ TrDuelist	Zvyšuje šance na [>Dodge] a [>Parry] o {Dodge}.
 TlReinforcedLeather	Druhá kůže
 TrReinforcedLeather	Zvyšuje hodnotu vlastností typu [>ArmorRating] získanou z vybavení o {Armor}.
 TlSlipperyFish	[>AbSlipperyFish]
-TrSlipperyFish	Snižuje šance na přímý KZ proti Tobě o {LowerCritChance} a aktivuje dovednost [>AbSlipperyFish] when you get critically hit which Zvyšuje šanci na [>Dodge] o {SlipperyFish} na {SlipperyFish DotLength}.
+TrSlipperyFish	Snižuje šance na přímý KZ proti Tobě o {LowerCritChance} a pokud se nepříteli podařil KZ, tak se aktivuje dovednost [>AbSlipperyFish], která zvyšuje šanci na [>Dodge] o {SlipperyFish} na {SlipperyFish DotLength}.
 TlSleightOfHand	[>AbSleightOfHand]
-TrSleightOfHand	automatický útoks' hits have {Talent RogueDuelSleightOfHand Condition Random} chance to apply [>AbSleightOfHand] that Snižuje target's Attack Power o {SleightOfHand} na {SleightOfHand DotLength} a can stack up to {SleightOfHand MaxStack} times.
-TlEscapeArtist	Escape Artist
+TrSleightOfHand	automatický útoks' hits have {Talent RogueDuelSleightOfHand Condition Random} chance to apply [>AbSleightOfHand] that Snižuje target's [>AP] o {SleightOfHand} na {SleightOfHand DotLength} a can stack up to {SleightOfHand MaxStack} krát po sobě.
+TlEscapeArtist	Akrobat // Escape Artist
 TrEscapeArtist	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {ArmorFromAgi f} (v závislosti na hodnotě vlastnosti [>Agi]).
 TlRiposte	Riposte
 TrRiposte	Your successful dodge a parry have {Talent RogueDuelRiposte Condition Random} chance to trigger [>AbRiposte] which zvyšuje all your fyzické poškození o {Riposte B} na {Riposte DotLength}.
@@ -2240,13 +2240,13 @@ TlRanger	[>SpecRanger]
 TrRanger	Zvyšuje hodnotu vlastnosti [>Agi] o {Agility f}. // XBug unknown multiplier AgilityMultiply, probably Agility f
 TlQuickAim	Rychlá muška
 TrQuickAim	Zvyšuje [>Haste] o {Haste}.
-TlFocusedHunting	Focused Hunting
+TlFocusedHunting	Odhodlaný lovec // Focused Hunting
 TrFocusedHunting	Zvyšuje [>RAP] o {RapFromAwa f} (v závislosti na hodnotě vlastnosti [>Awa]).
-TlMarksman	Marksman
-TrMarksman	Zvyšuje poškození of [>AbSniperShot] a [>AbDoubleShot] o {Damage}, a your automatický útoks' successful hits have {Talent RogueRangerMarksmanB Condition Random} chance to grants you 1 [>ComboPoint].
+TlMarksman	Ostrostřelec
+TrMarksman	Zvyšuje poškození způsobené dovednostmi [>AbSniperShot] a [>AbDoubleShot] o {Damage}, a your automatický útoks' successful hits have {Talent RogueRangerMarksmanB Condition Random} chance to grants you 1 [>ComboPoint].
 TlHunterTracking	[>AbHunterTracking]
-TrHunterTracking	Snižuje all your threat o {LowerThreat}.
-TlHardenedSteel	Hardened Steel
+TrHunterTracking	Snižuje všechny Tvoje hrozby o {LowerThreat}.
+TlHardenedSteel	Kalená ocel
 TrHardenedSteel	Critical strikes of your abilities trigger [>AbHemorrhage] which Způsobí nepříteli poškození {TalentX B} of the initial poškození over {Hemorrhage DotLength}.
 TlFrenzyStreak	Frenzy Streak
 TrFrenzyStreak	Your automatický útoks poškození is increased o {TalentX B} for each [>ComboPoint] you currently have.
@@ -2324,7 +2324,7 @@ TrArcanist	Zvyšuje [>DmgArcane] based poškození o {Damage}.
 TlFasterThanLight	Faster Than Light
 TrFasterThanLight	Zvyšuje [>Haste] o {Haste}.
 TlArcaneFusion	[>AbArcaneFusion]
-TrArcaneFusion	[>AbArcaneRupture] & [>AbArcaneImplosion] hits have {Talent MageArcaneFusion Condition Random} chance to trigger [>AbArcaneFusion] on the target, which Způsobí nepříteli poškození {ArcaneFusion DotTotalDmg} HP po dobu {ArcaneFusion DotLength} a can stack up to {ArcaneFusion MaxStack} times.
+TrArcaneFusion	[>AbArcaneRupture] & [>AbArcaneImplosion] hits have {Talent MageArcaneFusion Condition Random} chance to trigger [>AbArcaneFusion] on the target, which Způsobí nepříteli poškození {ArcaneFusion DotTotalDmg} HP po dobu {ArcaneFusion DotLength} a can stack up to {ArcaneFusion MaxStack} krát po sobě.
 TlSurvivalOfTheFittest	Survival Of The Fittest
 TrSurvivalOfTheFittest	[>AbArcaneArmor] lasts {AddDotTick ExtraTime ArcaneArmor} longer.
 TlMentalArmor	Mental Armor
@@ -2389,7 +2389,7 @@ TrSpiritualCommunion	When your direct healing spells are critical, [>AbSpiritual
 TlArchangelWatch	[>AbArchangelWatch]
 TrArchangelWatch	Cast on yourself [>AbArchangelWatch] every time you get hit, which snižuje poškození o {TalentX} over {ArchangelWatch DotLength}.
 TlDivineGrace	[>AbDivineGrace]
-TrDivineGrace	Zvyšuje healing done o {TalentX} na {DivineGrace DotLength} when you cast [>AbFlashHeal], [>AbSacrament] a [>AbTwinHeal] ; stacks up to 3 times.
+TrDivineGrace	Zvyšuje healing done o {TalentX} na {DivineGrace DotLength} when you cast [>AbFlashHeal], [>AbSacrament] a [>AbTwinHeal]. Múže být opakováno až 3 krát po sobě.
 TlGodlyGuidance	Godly Guidance
 TrGodlyGuidance	Snižuje o {LowerManaCost} the mana cost of all your healing spells.
 TlBlindFaith	Blind Faith
