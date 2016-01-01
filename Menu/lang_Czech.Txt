@@ -2215,25 +2215,25 @@ TrReinforcedLeather	Zvyšuje hodnotu vlastností typu [>ArmorRating] získanou z
 TlSlipperyFish	[>AbSlipperyFish]
 TrSlipperyFish	Snižuje šance na přímý KZ proti Tobě o {LowerCritChance} a pokud se nepříteli podařil KZ, tak se aktivuje dovednost [>AbSlipperyFish], která zvyšuje šanci na [>Dodge] o {SlipperyFish} na {SlipperyFish DotLength}.
 TlSleightOfHand	[>AbSleightOfHand]
-TrSleightOfHand	automatický útoks' hits have {Talent RogueDuelSleightOfHand Condition Random} chance to apply [>AbSleightOfHand] that Snižuje target's [>AP] o {SleightOfHand} na {SleightOfHand DotLength} a can stack up to {SleightOfHand MaxStack} krát po sobě.
+TrSleightOfHand	Zásahy způsobené automatickým útokem mají {Talent RogueDuelSleightOfHand Condition Random} přidat účinky dovednosti [>AbSleightOfHand] - Sníží nepříteli hodnotu vlastnosti [>AP] o {SleightOfHand} na {SleightOfHand DotLength}. Může být opakováno až {SleightOfHand MaxStack} krát po sobě.
 TlEscapeArtist	Akrobat // Escape Artist
 TrEscapeArtist	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {ArmorFromAgi f} (v závislosti na hodnotě vlastnosti [>Agi]).
-TlRiposte	Riposte
-TrRiposte	Your successful dodge a parry have {Talent RogueDuelRiposte Condition Random} chance to trigger [>AbRiposte] which zvyšuje all your fyzické poškození o {Riposte B} na {Riposte DotLength}.
-TlInfectedWound	Infected Wound
+TlRiposte	Riposta
+TrRiposte	Pokud úspěšně odrazíš útok nepřítele, pak máš {Talent RogueDuelRiposte Condition Random} šanci aktivaci dovednosti [>AbRiposte], která zvyšuje fyzické poškození o {Riposte B} na {Riposte DotLength}.
+TlInfectedWound	Zanícená rána
 TrInfectedWound	Adds {AddDotTick f} tick(s) to [>AbDeepCut], a [>AbLunge] has {Talent RogueDuelInfectedWoundB Condition Random} chance to reset the duration of your [>AbDeepCut] afflicting the target.
-TlTillTheLastDrop	Till the Last Drop
-TrTillTheLastDrop	Zvyšuje Total Health Points o {HP}.
-TlAggressiveStance	Aggressive Stance
-TrAggressiveStance	Zvyšuje the threat of all your direct poškození o {TalentX}.
-TlGoneWithTheWind	Gone With the Wind	// Movie Title
-TrGoneWithTheWind	When you're hit by a projectile you have {Talent RogueDuelGoneWithTheWind Condition Random} chance to completely avoid the poškození. This effect can't occur more than once every 20 seconds.
-TlStingLikeBee	Sting Like a Bee	// Muhammad Ali's quote
-TrStingLikeBee	Zvyšuje [>Dodge] a [>Parry] chances o {StingLikeBee} when not wielding a shield.\nAlso zvyšuje [>AbSwiftKnife]'s threat o {HigherThreat:RogueDuelStingLikeBeeB}, a poškození of [>AbDoubleShot] o {Damage}.
-TlDualDrill	Dual Drill
-TrDualDrill	When you don't weild a shield, your [>AbPiercingStrike]'s successful hits also poškození with your off-hand weapon a nearby enemy, preferably one not currently attacking you.
-TlTastierBlood	Tastier Blood
-TrTastierBlood	Zvyšuje healing done by [>AbRecovery] o {IncreaseHealing}.
+TlTillTheLastDrop	Do poslední kapky
+TrTillTheLastDrop	Zvyšuje hodnotu vlastnosti [>HP] o {HP}.
+TlAggressiveStance	Hrozivý postoj
+TrAggressiveStance	Zvyšuje hrozbu všech Tvých přímých poškození o {TalentX}.
+TlGoneWithTheWind	Vítr z hor	// Movie Title
+TrGoneWithTheWind	Pokud Tě zasáhne projektil, pak máš {Talent RogueDuelGoneWithTheWind Condition Random} šanci vyváznout bez poškození. Situace se nesmí se opakovat častěji než jednou za 20 s.
+TlStingLikeBee	Bodej jako včela	// Muhammad Ali's quote
+TrStingLikeBee	Pokud nemáte štít, pak zvyšuje šanci na [>Dodge] a [>Parry] o {StingLikeBee}.\nTaké zvyšuje hrozbu dovednosti [>AbSwiftKnife] o {HigherThreat:RogueDuelStingLikeBeeB} a poškození způsobené dovedností [>AbDoubleShot] o {Damage}.
+TlDualDrill	Dvojitý záběr
+TrDualDrill	Pokud nemáš štít, pak zásahy způsobené dovedností [>AbPiercingStrike] poškodí zbraní v levičce některého z nepřátel poblíž - přednostně se zaměřuje na nepřátele, na které neútočíš.
+TlTastierBlood	Jak chutná krev
+TrTastierBlood	Zvyšuje léčení způsobené dovedností [>AbRecovery] o {IncreaseHealing}.
 
 //=== Rogue - Ranger
 TlRanger	[>SpecRanger]
@@ -2243,23 +2243,23 @@ TrQuickAim	Zvyšuje [>Haste] o {Haste}.
 TlFocusedHunting	Odhodlaný lovec // Focused Hunting
 TrFocusedHunting	Zvyšuje [>RAP] o {RapFromAwa f} (v závislosti na hodnotě vlastnosti [>Awa]).
 TlMarksman	Ostrostřelec
-TrMarksman	Zvyšuje poškození způsobené dovednostmi [>AbSniperShot] a [>AbDoubleShot] o {Damage}, a your automatický útoks' successful hits have {Talent RogueRangerMarksmanB Condition Random} chance to grants you 1 [>ComboPoint].
+TrMarksman	Zvyšuje poškození způsobené dovednostmi [>AbSniperShot] a [>AbDoubleShot] o {Damage}, navíc Tvé úspěšné automatické útoky mají šanci {Talent RogueRangerMarksmanB Condition Random} Ti přidat 1 [>ComboPoint].
 TlHunterTracking	[>AbHunterTracking]
 TrHunterTracking	Snižuje všechny Tvoje hrozby o {LowerThreat}.
 TlHardenedSteel	Kalená ocel
-TrHardenedSteel	Critical strikes of your abilities trigger [>AbHemorrhage] which Způsobí nepříteli poškození {TalentX B} of the initial poškození over {Hemorrhage DotLength}.
-TlFrenzyStreak	Frenzy Streak
-TrFrenzyStreak	Your automatický útoks poškození is increased o {TalentX B} for each [>ComboPoint] you currently have.
-TlRepeatingShot	Repeating Shot
-TrRepeatingShot	Your ranged automatický útok has {Talent RogueRangerRepeatingShot Condition Random} chance to send a 2nd projectile.
+TrHardenedSteel	KZ způsobené Tvými dovenostmi akivují [>AbHemorrhage], čímž způsobí nepříteli poškození {TalentX B} původního poškození během {Hemorrhage DotLength}.
+TlFrenzyStreak	Divoký útok
+TrFrenzyStreak	Poškození zppůsobené automatickým útokem se zvyšuje o {TalentX B} za každý nasbíraný [>ComboPoint].
+TlRepeatingShot	Repete
+TrRepeatingShot	Automatický útok palnou zbraní má {Talent RogueRangerRepeatingShot Condition Random} šanci vyslat další projektil.
 TlMaimThenKill	[>AbMaimThenKill]
-TrMaimThenKill	Your [>AbInstinctShot] critical hits trigger [>AbMaimThenKill] which Zvyšuje [>AbSniperShot] poškození o {TalentX B} na {MaimThenKill DotLength}.
-TlSharpShooter	Sharpshooter
-TrSharpShooter	Zvyšuje ranged critical poškození bonus o {TalentX B}, a poškození of [>AbSwiftKnife] o {Damage}.
-TlHeavyBarrage	Heavy Barrage
-TrHeavyBarrage	Zvyšuje poškození of [>AbVolleyOfArrows] o {Damage}, a critical chance of [>AbDoubleShot] o {CritChance}.
-TlSurvivalInstinct	Survival Instinct
-TrSurvivalInstinct	When [>AbNightOfTheHunter] is active, veškeré příchozí poškození is lowered o {LowerDamage}.
+TrMaimThenKill	KZ způsobené dovedností [>AbInstinctShot] aktivují [>AbMaimThenKill], čímž zvýší poškození plynoucí z dovednosti [>AbSniperShot] o {TalentX B} na {MaimThenKill DotLength}.
+TlSharpShooter	Ostrostřelec
+TrSharpShooter	Zvyšuje bonus pro KZ palnou zbraní o {TalentX B} a poškození způsobené dovedností [>AbSwiftKnife] o {Damage}.
+TlHeavyBarrage	Kanonáda // Heavy Barrage
+TrHeavyBarrage	Zvyšuje poškození způsobené dovedností [>AbVolleyOfArrows] o {Damage} a šanci na KZ dovedností [>AbDoubleShot] o {CritChance}.
+TlSurvivalInstinct	Pud sebezáchovy
+TrSurvivalInstinct	Pokud je aktivní dovednost [>AbNightOfTheHunter], pak veškeré příchozí poškození je sníženo o {LowerDamage}.
 
 //=== Mage - Elementalist
 TlElementalist	[>SpecElementalist]
