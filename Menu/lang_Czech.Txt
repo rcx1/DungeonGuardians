@@ -1332,7 +1332,7 @@ mCritXTip	Násobek poškození při kritickém zásahu (KZ) chladnou zbraní.
 rCritXTip	Násobek poškození při kritickém zásahu (KZ) střelnou zbraní.
 sCritXTip	Násobek poškození při kritickém zásahu (KZ) kouzlem.
 
-HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nTaké snižuje [>GlobalCD], nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách.
+HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nNavíc snižuje [>GlobalCD], nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách.
 HitTip		Zvyšuje šanci zasáhnout cíl využitím dovedností.
 XpertiseTip	Snižuje šanci na odražení.\nMaximální použitelná míra je 5%, protože i maximální šance na odražení je 5%.
 ExperienceTip	Když postava dosáhne požadovaného množství bodů, pak se jí zvýší úroveň.
@@ -2117,13 +2117,13 @@ TrDevastating	Dovednost [>AbDevastate] způsobí poškození nejen nepříteli, 
 TlEnrage	Zuřivost
 TrEnrage	Zvyšuje odchozí poškození o {Enrage} a snižuje příchozí poškození o {Enrage #1} na {Enrage DotLength}. // X? meaning? ~ when casting [>AbRageYell].
 TlRetaliate	Ústup
-TrRetaliate	Okamžitě ustoupí, díky blokování sníží příchozí fyzické poškození o {Retaliate Dmg}. Lehce zvyšuje hrozbu.\n\nTaké zvyšuje o {Damage G} účinek uzdravování na základě dovednosti [>TlHolyAtonement].
+TrRetaliate	Okamžitě ustoupí, díky blokování sníží příchozí fyzické poškození o {Retaliate Dmg}. Lehce zvyšuje hrozbu.\n\nNavíc zvyšuje o {Damage G} účinek uzdravování na základě dovednosti [>TlHolyAtonement].
 TlCounter	Protiútok
 TrCounter       Zvyšuje [>Haste] o {Counter} na {Counter DotLength} po každém úspěšném održeném útoku. Může být opakováno až {Counter MaxStack} krát po sobě.
 TlMenacingEyes	Uhrančivé oči
 TrMenacingEyes	Zvyšuje hrozbu všech Tvách přímých poškození o {TalentX}.
 TlMageKiller	Likvidátor mágů
-TrMageKiller	Zvyšuje odolnost proti veškerému magickému poškození o {ResFire}.\n\nTaké zvyšuje účinek dovednosti [>AbSealOfContrition] - hrozba se zvýší o {HigherThreat}.
+TrMageKiller	Zvyšuje odolnost proti veškerému magickému poškození o {ResFire}.\n\nNavíc zvyšuje účinek dovednosti [>AbSealOfContrition] - hrozba se zvýší o {HigherThreat}.
 
 //=== Warrior - Man at Arms
 TlManAtArms	[>SpecManAtArms]
@@ -2145,7 +2145,7 @@ TrFriendlyFace	Snižuje hrozbu plynoucí přímých poškození o {TalentX}.
 TlSpec1H	Jednoručka
 TrSpec1H	Při boji jednoruční zbraní zvyšuje poškození o {Damage}.
 TlSpec2H	Pod obojí
-TrSpec2H	Při boji obouruční zbraní zvyšuje o {Damage}.\n\nTaké snižuje o {LowerManaCost} spotřebu many na [>AbCrusaderAssault].
+TrSpec2H	Při boji obouruční zbraní zvyšuje o {Damage}.\n\nNavíc snižuje o {LowerManaCost} spotřebu many na [>AbCrusaderAssault].
 TlMeatPounder	[>AbMeatPounder]
 TrMeatPounder	Po [>AbSwipe] se provede [>AbHardStrike], který bude 1 nepřítele drtit po dobu {MeatPounder DotLength}.
 TlGoodPatient	Dobrý pacient
@@ -2229,7 +2229,7 @@ TrAggressiveStance	Zvyšuje hrozbu všech Tvých přímých poškození o {Talen
 TlGoneWithTheWind	Vítr z hor	// Movie Title
 TrGoneWithTheWind	Pokud Tě zasáhne projektil, pak máš {Talent RogueDuelGoneWithTheWind Condition Random} šanci vyváznout bez poškození. Situace se nesmí se opakovat častěji než jednou za 20 s.
 TlStingLikeBee	Bodej jako včela	// Muhammad Ali's quote
-TrStingLikeBee	Pokud nemáte štít, pak zvyšuje šanci na [>Dodge] a [>Parry] o {StingLikeBee}.\nTaké zvyšuje hrozbu dovednosti [>AbSwiftKnife] o {HigherThreat:RogueDuelStingLikeBeeB} a poškození způsobené dovedností [>AbDoubleShot] o {Damage}.
+TrStingLikeBee	Pokud nemáte štít, pak zvyšuje šanci na [>Dodge] a [>Parry] o {StingLikeBee}.\nNavíc zvyšuje hrozbu dovednosti [>AbSwiftKnife] o {HigherThreat:RogueDuelStingLikeBeeB} a poškození způsobené dovedností [>AbDoubleShot] o {Damage}.
 TlDualDrill	Dvojitý záběr
 TrDualDrill	Pokud nemáš štít, pak zásahy způsobené dovedností [>AbPiercingStrike] poškodí zbraní v levičce některého z nepřátel poblíž - přednostně se zaměřuje na nepřátele, na které neútočíš.
 TlTastierBlood	Jak chutná krev
@@ -2263,11 +2263,11 @@ TrSurvivalInstinct	Pokud je aktivní dovednost [>AbNightOfTheHunter], pak veške
 
 //=== Mage - Elementalist
 TlElementalist	[>SpecElementalist]
-TrElementalist	Zvyšuje critical chances of all [>DmgFire] & [>DmgFrost] Damages založených útoků o {CritChance}.
-TlSpeedyEle	Swift Elements
-TrSpeedyEle	Reduces cast time of [>AbFrostbolt], [>AbFireball] a [>AbArcaneBurst] o {AbsoluteSpeed f} second(s).
+TrElementalist	Zvyšuje o {CritChance} šanci na KZ u útoků jejichž základem je [>DmgFire] & [>DmgFrost].
+TlSpeedyEle	Rychlé ruce // Swift Elements
+TrSpeedyEle	Snižuje čas potřebný na [>AbFrostbolt], [>AbFireball] a [>AbArcaneBurst] o {AbsoluteSpeed f} s.
 TlIgnite	[>AbIgnite]
-TrIgnite	[>AbFireball]'s critical strikes cause the target to burn na {TalentX B} of initial poškození over {Ignite DotLength}.\nAlso zvyšuje poškození of [>AbHellFire] o {Damage}.
+TrIgnite	KZ dovedností [>AbFireball] zapálí nepřítele a způsobí mu {TalentX B} původního poškození po dobu {Ignite DotLength}.\nNavíc zvyšuje poškození způsobené dovedností [>AbHellFire] o {Damage}.
 TlIceShield	[>AbIceShield]
 TlWaterfallShield	Waterfall Shield
 TrWaterfallShield	When you cast [>AbIceShield] on yourself, [>AbWaterShield] is applied to all other party members.
