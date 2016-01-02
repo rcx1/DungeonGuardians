@@ -2,7 +2,7 @@
 // ver 0.1a
 // for game ver 1.0a
 // author rcx
-// in progress - magic professions, editor, line 2300-2420
+// in progress - magic professions, editor, "tick" related lines
 // Codes can't start with : §, -, 0-9
 
 //===System Errors
@@ -2039,21 +2039,21 @@ SpecDuelist	Duelist[:a|ka]
 SpecRanger	Stopař[:|ka]
 
 // X? where is DescSpec used ???
-DescSpecProtector	[:Ochránce|Ochránkyně] je ideálem Tanka: nosí těžké brnění, štít a zvládá velké poškození. Což je vyváženo tím, že nemá žádné uzdravovací dovednosti a tím pádem je plně odkázán[:|a] na lěčitele.
-DescSpecManAtArms	[:Muž|Dáma] ve zbrani je voják kovaný v boji, má rád[:|a] obouruční zbraně, se kterým je schop[:en|na] napáchat nepříteli neuvěřitelné poškození.
-DescSpecPaladin		Paladin je bojovník boží v těžké zbroji. V boji dává nepříteli nepatrně nižší poškození než jeho druhové, ale to je vyváženo hromadou, v boji užitečných, dovedností.
+DescSpecProtector	[>SpecProtector] je ideálem Tanka: nosí těžké brnění, štít a zvládá velké poškození. Což je vyváženo tím, že nemá žádné uzdravovací dovednosti a tím pádem je plně odkázán[:|a] na lěčitele.
+DescSpecManAtArms	[>SpecManAtArms] je voják kovaný v boji, má rád[:|a] obouruční zbraně, se kterým je schop[:en|na] napáchat nepříteli neuvěřitelné poškození.
+DescSpecPaladin		[>SpecPaladin] je bojovník boží v těžké zbroji. V boji dává nepříteli nepatrně nižší poškození než jeho druhové, ale to je vyváženo hromadou, v boji užitečných, dovedností.
 
-DescSpecElementalist	Elementalist[:a|ka] využívá elementy k likvidaci nepřátel, bez velkého ohledu na to, zda jde o jednotlivce či skupinu.
-DescSpecWarlock		Warlock spoléhá na dlouhodobé účinky svých kouzel, kterými pomalu, ale jistě vysává život ze svých objetí.
-DescSpecArcanist	Arkanist[:a|ka] je mistr[:|yně] rychlosti a přesnosti. Nepřítele vítá vlnou tajemných kouzel, která kosí řady nepřátel.
+DescSpecElementalist	[>SpecElementalist] využívá elementy k likvidaci nepřátel, bez velkého ohledu na to, zda jde o jednotlivce či skupinu.
+DescSpecWarlock		[>SpecWarlock] spoléhá na dlouhodobé účinky svých kouzel, kterými pomalu, ale jistě vysává život ze svých objetí.
+DescSpecArcanist	[>SpecArcanist] je mistr[:|yně] rychlosti a přesnosti. Nepřítele vítá vlnou tajemných kouzel, která kosí řady nepřátel.
 
-DescSpecDruid	Druid je se svými dlouho působícími kouzly typickým léčitelem.
-DescSpecPriest	[:Kněz|Kněžka] sice má léčitelské schopnosti, ale dává přednost ochraně Tanka.
-DescSpecNecromancer	Nekromancer je adeptem temných umění kradoucím zdraví nepřátelům.
+DescSpecDruid	[>SpecDruid] je se svými dlouho působícími kouzly typickým léčitelem.
+DescSpecPriest	[>SpecPriest] sice má léčitelské schopnosti, ale dává přednost ochraně Tanka.
+DescSpecNecromancer	[>SpecNecromancer] je adeptem temných umění kradoucím zdraví nepřátelům.
 
-DescSpecAssassin	[:Vrah|Vražedkyně] je mistr[:|yně] rychlosti a překvapení. Pokud již ve frontě nemá nic, pak vězte, že jste po smrti.
-DescSpecDuelist		Duelist[:a|ka] je mistr[:|yně] mrštnosti a provokace.
-DescSpecRanger		Stopař[:|ka] si užívá stopování a s velkou přesností útočí na vzdálené cíle.
+DescSpecAssassin	[>SpecAssassin] je mistr[:|yně] rychlosti a překvapení. Pokud již ve frontě nemá nic, pak vězte, že jste po smrti.
+DescSpecDuelist		[>SpecDuelist] je mistr[:|yně] mrštnosti a provokace.
+DescSpecRanger		[>SpecRanger] si užívá stopování a s velkou přesností útočí na vzdálené cíle.
 
 SpecPoint	Počet využitých bodů
 
@@ -2402,7 +2402,7 @@ TlBlessedSpirit	[>AbBlessedSpirit]
 TlNecromancer	[>SpecNecromancer]
 TrNecromancer	Zvyšuje hodnotu vlastnosti [>HP] o {HealNecroRoot}.
 TlDeadKingdom	Síla království mrtvých
-TrDeadKingdom	Celá banda získá {Talent HealNecroDeadKingdom Condition Random} šanci na obnovu {TalentX} maximálního množství many při Tebou způsobeném poškození dovednostmi [>AbSoulSucking] a [>AbSoulEater], a {Talent HealNecroDeadKingdomC Condition Random} šanci při poškození způsobeným autoamtickým útokem.
+TrDeadKingdom	Celá banda získá {Talent HealNecroDeadKingdom Condition Random} šanci na obnovu {TalentX} maximálního množství many při Tebou způsobeném poškození dovednostmi [>AbSoulSucking] a [>AbSoulEater], a {Talent HealNecroDeadKingdomC Condition Random} šanci při poškození způsobeným automatickým útokem.
 TlTheChosenOne	Vyvolen[:ý|á]
 TrTheChosenOne	Zvyšuje o {Damage G} the final healing of [>AbSealOfNecromancy].
 TlFromDeathComesLife	[>AbFromDeathComesLife]
@@ -2425,20 +2425,20 @@ TlLastBreath	[>AbLastBreath]
 TrLastBreath	Přidá účinky dovednosti [>AbLastBreath] cíli dovednosti [>AbLastIncantation], čímž dotčené[:mu|] zvýší hodnotu dovednosti [>Haste] o {LastBreath} po dobu {LastBreath DotLength}.
 
 //=== Global Icons
-GiAttack	Attack
-GidAttack	Attack\n\nSelect a target first.
-GiAttackStop	Stop Attacking
-GiSelectAll	Toggle Selected Party Members\n\nRight-click to lock/unlock the current selection.
-GiHealthPotion	Health Potion
-GidHealthPotion	No Health Potion in Inventory
-GiManaPotion	Mana Potion
-GidManaPotion	No Mana Potion in Inventory
-GiInventory	Inventory
-GiTalentTree	Talent Tree
-GiChatLog	Dialogue Log
-GiMap		Map\n\nClick on Map to add a note.\nClick on a note to edit it.\nRight-click on a note to delete it.\nDrag a note by its nail.\nClick a note's nail to fold & unfold it.
-GiClose		Close
-GiMenu		System Menu
+GiAttack	Začni útok
+GidAttack	Útok\n\nNejdřív vyber cíl.
+GiAttackStop	Zastav útok
+GiSelectAll	Označí / Odznačí vybrané členy bandy\n\nPravým tlačítkem uzamčeš / odemčeš aktuální nastavení.
+GiHealthPotion	Lektvar zdraví
+GidHealthPotion	V inventáři nemáš žádný lektvar zdraví
+GiManaPotion	Lektvar many
+GidManaPotion	V inventáři nemáš žádný lektvar many
+GiInventory	Inventář
+GiTalentTree	Strom dovedností
+GiChatLog	Historie dialogů
+GiMap		Mapa\n\nPoklikem na mapu přidáš poznámku.\nPoklikem na poznámku sputíš její editaci.\nPoznámku smažeš klikem pravým tlačítkem.\nPoznámku lze přetáhnout tahem za špendlík.\nKlikni na špenlík a poznámka se rozbalí nebo naopak sbalí.
+GiClose		Zavři
+GiMenu		Systémové menu
 
 NoteColor	Změna barvy pro nové poznámky
 
