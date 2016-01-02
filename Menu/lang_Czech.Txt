@@ -2,7 +2,7 @@
 // ver 0.1a
 // for game ver 1.0a
 // author rcx
-// in progress - magic professions, editor, line 2120-2420
+// in progress - magic professions, editor, line 2300-2420
 // Codes can't start with : §, -, 0-9
 
 //===System Errors
@@ -1447,7 +1447,7 @@ AbCauterize	Cauterize
 DescCauterize	Burns na {1} HP po dobu {2}.
 
 //=== Mage - Warlock
-AbTorment	Torment
+AbTorment	Muka
 DescTorment	Způsobí nepříteli poškození {1} HP po dobu {2}.
 
 AbShadowBall	Shadow Ball
@@ -2075,7 +2075,7 @@ NbTalentPoint	Počet volných bodů
 RequireInTree	Vyžaduje {0} bod(y/ů) ve stromu {1}
 AlreadyHaveSpec	Toto je Ti zapovězeno, protože máš jinou specializaci.
 TalentNewAb	Přidává dovednost
-TalentReplaceAb	Nahrazuje {0} touto novou dovedností
+TalentReplaceAb	Nahrazuje {0} novou dovedností
 TalentRank	Úroveň
 TalentNextRank	Na další úrovni
 TalentLearn	Levým tlačítkem dovednost získáte
@@ -2088,7 +2088,7 @@ ConfirmChanges	Potvrdit změny
 CancelChanges	Zrušit změny
 
 TalentReroll	Nové rozložení dovedností\n\nZapomeneš všechny dovednosti i svou specializaci a dostaneš za ně body zpět.\nTuto možnost získáš za každé 4 úrovně postavy.
-TalentNbReroll	Aktuálně můžes {0}x změnit strom.
+TalentNbReroll	Aktuálně můžeš {0}x změnit strom.
 TalentNoReroll	Nyní nemáš nárok na změnu stromu.
 
 // Tl + Name = Talent Name
@@ -2288,15 +2288,15 @@ TrIceStorm	Každá dovednost bude mít {Talent MageEleFlashIceStorm Condition Ra
 TlSelfFulfillment	Spokojenost // Self-Fulfillment
 TrSelfFulfillment	Magií způsobený KZ vrací {TalentX} many potřebné k použití dovednosti, která KZ způsobila.
 TlCauterize	[>AbCauterize]
-TrCauterize	Pokud se Tvé zdraví dostane na 0, tak se uzdravíš o {TalentX} svého maximálního zdraví, ale po dobu {Cauterize DotLength} budeš tráven[:|a] ohněm až do poškození {TalentX B 2} tvého maximálního zdraví.\nNemělo by se opakovat častěji než jednou za minutu.
+TrCauterize	Pokud se Tvé zdraví dostane na <color=red>0</color>, tak se uzdravíš o {TalentX} svého maximálního zdraví, ale po dobu {Cauterize DotLength} budeš tráven[:|a] ohněm až do poškození {TalentX B 2} tvého maximálního zdraví.\nNemělo by se opakovat častěji než jednou za minutu.
 
 //=== Mage - Warlock
 TlWarlock	[>SpecWarlock]
-TrWarlock	Zvyšuje poškození of all [>DmgShadow] spells o {Damage}.
-TlMovingShadows	Moving Shadows
-TrMovingShadows	Snižuje cast time of [>AbShadowBall] a [>AbDominate] o {AbsoluteSpeed f} second(s).
-TlMoreTorment	More Torment
-TrMoreTorment	Zvyšuje o {Damage} [>AbTorment]'s poškození.
+TrWarlock	Zvyšuje poškození u útoků jejichž základem je [>DmgShadow] o {Damage}.
+TlMovingShadows	Pohyblivé stíny
+TrMovingShadows	Snižuje čas potřebný na [>AbShadowBall] a [>AbDominate] o {AbsoluteSpeed f} s.
+TlMoreTorment	Větší muka
+TrMoreTorment	Zvyšuje o {Damage} poškození způsobené dovedností [>AbTorment].
 TlPiercingCurse	Piercing Curse
 TrPiercingCurse	Allows each damage-over-time abilities' tick to have {DotCritChance} of your normal critical chance.
 TlGloomyDoom	Gloomy Doom
@@ -2320,7 +2320,7 @@ TrDarkWisdom	Zvyšuje o {TalentX} your total Mana.
 
 //=== Mage - Arcanist
 TlArcanist	[>SpecArcanist]
-TrArcanist	Zvyšuje [>DmgArcane] based poškození o {Damage}.
+TrArcanist	Zvyšuje poškození u útoků jejichž základem je [>DmgArcane] o {Damage}.
 TlFasterThanLight	Faster Than Light
 TrFasterThanLight	Zvyšuje [>Haste] o {Haste}.
 TlArcaneFusion	[>AbArcaneFusion]
