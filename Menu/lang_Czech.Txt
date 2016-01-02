@@ -2376,15 +2376,15 @@ TrPurifiedRain	Snižuje pauzu mezi použitími dovednosti [>AbRainOfLife] o {Coo
 TlPriest	[>SpecPriest]
 TlExtendedProtection	Extended Protection
 TrExtendedProtection	When [>AbRighteousShield] is ended by an enemy attack, there's a {Talent HealPriestExtendedProtection Condition Random} chance to apply [>AbRenew] on the ally.
-TlStrongerShield	Stronger Shield
-TrStrongerShield	Zvyšuje o {Talent HealPriestStrongerShield Var G %} the poškození absorbed by [>AbRighteousShield].
+TlStrongerShield	Vylepšený štít
+TrStrongerShield	Zvyšuje o {Talent HealPriestStrongerShield Var G %} poškození pohlcené dovedností [>AbRighteousShield].
 TlAbsolution	Absolutorium
 TrAbsolution	Snižuje pauzu mezi použitími dovednosti [>AbRighteousShield] o {CoolDown}.
 TlHolyDiligence	[>AbHolyDiligence]
-TrHolyDiligence	Zvyšuje [>Haste] o {HolyDiligence} na {HolyDiligence DotLength} each time you cast [>AbRighteousShield], a reduces cast time of [>AbPrayerOfRedemption] o {AbsoluteSpeed f} second(s).
-TlStrongerFaith	Stronger Faith
-TrStrongerFaith	Zvyšuje o {Damage G} the healing of [>AbBlessedSpirit], [>AbFlashHeal] a [>AbTwinHeal].
-TlSpiritualCommunion	Spiritual Communion
+TrHolyDiligence	Při každém použití dovednosti [>AbRighteousShield] zvýší hodnotu vlastnosti [>Haste] o {HolyDiligence} na {HolyDiligence DotLength} a dobu přípravy na dovednost [>AbPrayerOfRedemption] o {AbsoluteSpeed f} s.
+TlStrongerFaith	Silná je víra
+TrStrongerFaith	Zvyšuje o {Damage G} účinky dovedností [>AbBlessedSpirit], [>AbFlashHeal] a [>AbTwinHeal].
+TlSpiritualCommunion	Duševní jednota
 TrSpiritualCommunion	When your direct healing spells are critical, [>AbSpiritualEffervescence] is applied on the target a absorbs up to {TalentX} of the amount healed over {SpiritualEffervescence DotLength}. The absorbing charge stacks with each critical spell.
 TlArchangelWatch	[>AbArchangelWatch]
 TrArchangelWatch	Cast on yourself [>AbArchangelWatch] every time you get hit, which snižuje poškození o {TalentX} over {ArchangelWatch DotLength}.
