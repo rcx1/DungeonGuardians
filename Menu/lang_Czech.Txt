@@ -1490,19 +1490,19 @@ DescArcaneLock	Locks the target so they won't be able to attack po dobu {2}. Dam
 AbMindFocus	Soustředění
 DescMindFocus	Zvyšuje an ally's Critical chance o {5}% po dobu {2}. If the ally critically hits, your chances to critically hit are also raised o {5}% for <color=white>12 seconds</color>.
 
-AbTwinFocus	Twin Focus
+AbTwinFocus	Maximální soustředění
 DescTwinFocus	Zvyšuje Critical chance o {5}% po dobu {2}.
 
-AbOverCharge	Overcharge
+AbOverCharge	Akumulátor
 DescOverCharge	Zvyšuje all your arcane based poškození o {5} but all your spells' množství many potřebné k použití dovednosti is also raised o {9}. Trvá {2}.
 
-AbEthericEnergy	Etheric Energy
+AbEthericEnergy	Duševní energie
 DescEthericEnergy	Snižuje množství many potřebné k použití dovednosti of all your spells o {5} po dobu {2}.
 
-AbArcaneImplosion	Arcane Implosion
+AbArcaneImplosion	Tajemná imploze
 DescArcaneImplosion	Způsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}100%</color> for each stack of [>AbArcaneRupture] currently on the target.\n\nConsumes [>AbArcaneRupture].
 
-AbEsotericConnection	Esoteric Connection
+AbEsotericConnection	Spojení s Bohem
 DescEsotericConnection	Zvyšuje poškození of the whole party o {5} po dobu {2}.
 
 AbTotalRupture	Erupce
@@ -1578,7 +1578,7 @@ AbHolyDiligence	Pilný jako včelka
 DescHolyDiligence	Zvyšuje [>Haste] o {5}{7}%</color> po dobu {2}.
 
 AbSpiritualEffervescence	Vůle boží
-DescSpiritualEffervescence	Absorbs up to {5} poškození. Trvá {2}.
+DescSpiritualEffervescence	Vstřebá až {5} poškození. Trvá {2}.
 ChTipSpiritualEffervescence	[>ChTipRighteousShield]
 
 AbArchangelWatch	Pod křídlem božím
@@ -1588,44 +1588,44 @@ AbBlessedSpirit	Požehnání
 DescBlessedSpirit	Heals the target na {9} HP the next time they take poškození. When the healing occurs, [>AbBlessedSpirit] jumps to another random ally.\nJumps up to 5 times a Trvá {2} after each jump.\n\nYou can have only 1 active [>AbBlessedSpirit].
 
 //=== Healer - Necromancer
-AbSealOfNecromancy	Seal Of Necromancy
+AbSealOfNecromancy	Znak nekromancie
 DescSealOfNecromancy	The ally marked by this seal will receive healing from some of the [>SpecNecromancer]'s abilities. Trvá {2} a heals na {3} HP when ending.
 
-AbQuietSpirit	Call of the Quiet Spirit
+AbQuietSpirit	Přivolání Ducha ticha // Call of the Quiet Spirit
 DescQuietSpirit	Heals the whole party na {0} HP.
 
 NoSealCarrier	\n\nIf there's no Seal carrier, the healing is done to you.
 
-AbSoulSucking	Soul Sucking
+AbSoulSucking	Duševní upír
 DescSoulSucking Způsobí nepříteli poškození {0} HP a heals the [>AbSealOfNecromancy] carrier na {7}triple</color> that amount.[>NoSealCarrier]
 
-AbEatMyFlesh	Eat My Flesh
+AbEatMyFlesh	Masochista
 DescEatMyFlesh	Heals the target na {0} HP but damages you na {8}half</color> that amount.
 
-AbSoulEater	Soul Eater
+AbSoulEater	Požírač duší
 DescSoulEater	Způsobí nepříteli poškození {1} HP po dobu {2}, a heals you na {7}triple</color> that amount.
 
-AbRaiseFromTheDead	Raise From The Dead
+AbRaiseFromTheDead	Vstaň z mrtvých
 DescRaiseFromTheDead	Puts a mark on the target po dobu {2}. If the target's health reaches {8}0</color> during that time, the target is healed na {5} HP plus a bonus up to {7}7</color> times bigger the longer the spell lasted.
 
-AbArmyOfDarkness	Army Of Darkness
+AbArmyOfDarkness	Armáda temnoty
 DescArmyOfDarkness	Heals the [>AbSealOfNecromancy] carrier na {5} HP a the rest of the party na {7}half</color> that amount.[>NoSealCarrier]
 
-AbLastIncantation	Last Incantation
+AbLastIncantation	Poslední slova
 DescLastIncantation	Heals the target na {1} HP po dobu {2}. When the incantation finishes, the [>AbSealOfNecromancy] carrier is healed na {5} HP.[>NoSealCarrier]
 
-AbTouchOfDeath	Touch Of Death
+AbTouchOfDeath	Dotyk smrti
 DescTouchOfDeath	Snižuje nepřítelův [>Haste] o {5}{8}%</color> po dobu {2}.
 
-AbOverMyDeadBody	Over My Dead Body
+AbOverMyDeadBody	Jen přes mou mrtvolu
 DescOverMyDeadBody	Summons a spirit that surrounds you a absorbs {7}60%</color> of all poškození done to you a constantly taunts the target po dobu {2}. Once the spirit is gone, all your threat is lowered o {7}50%</color>.\n\nShare its pauzu mezi použitími with [>AbMortification] a [>AbSavior].
 AbOverMyDeadBodyShield	[>AbOverMyDeadBody]
 DescOverMyDeadBodyShield	[>DescOverMyDeadBody]
 
-AbFromDeathComesLife	From Death Comes Life
+AbFromDeathComesLife	Smrt v život se obrátí
 DescFromDeathComesLife	Heals {1} HP po dobu {2}.
 
-AbShadowArmy	Shadow Army
+AbShadowArmy	Temná armáda
 DescShadowArmy	Snižuje poškození o {5} po dobu {2}.
 
 AbLastBreath	Poslední dech
@@ -2374,8 +2374,8 @@ TrPurifiedRain	Snižuje pauzu mezi použitími dovednosti [>AbRainOfLife] o {Coo
 
 //=== Healer - Priest
 TlPriest	[>SpecPriest]
-TlExtendedProtection	Extended Protection
-TrExtendedProtection	When [>AbRighteousShield] is ended by an enemy attack, there's a {Talent HealPriestExtendedProtection Condition Random} chance to apply [>AbRenew] on the ally.
+TlExtendedProtection	Mocnější ochrana
+TrExtendedProtection	Pokud je dovednost [>AbRighteousShield] předčasně ukončena nepřítelem, pak je {Talent HealPriestExtendedProtection Condition Random} šance, že na někoho z bandy bude aplikována dovednost [>AbRenew].
 TlStrongerShield	Vylepšený štít
 TrStrongerShield	Zvyšuje o {Talent HealPriestStrongerShield Var G %} poškození pohlcené dovedností [>AbRighteousShield].
 TlAbsolution	Absolutorium
@@ -2385,42 +2385,42 @@ TrHolyDiligence	Při každém použití dovednosti [>AbRighteousShield] zvýší
 TlStrongerFaith	Silná je víra
 TrStrongerFaith	Zvyšuje o {Damage G} účinky dovedností [>AbBlessedSpirit], [>AbFlashHeal] a [>AbTwinHeal].
 TlSpiritualCommunion	Duševní jednota
-TrSpiritualCommunion	When your direct healing spells are critical, [>AbSpiritualEffervescence] is applied on the target a absorbs up to {TalentX} of the amount healed over {SpiritualEffervescence DotLength}. The absorbing charge stacks with each critical spell.
+TrSpiritualCommunion	Pokud Tvé léčivé dovednosti zaznamenají KZ, pak je navíc aplikována dovednost [>AbSpiritualEffervescence], která vstřebá až {TalentX} za {SpiritualEffervescence DotLength}. Opakování není omezeno.
 TlArchangelWatch	[>AbArchangelWatch]
-TrArchangelWatch	Cast on yourself [>AbArchangelWatch] every time you get hit, which snižuje poškození o {TalentX} over {ArchangelWatch DotLength}.
+TrArchangelWatch	Při každém příchozím poškození použije dovednost [>AbArchangelWatch], čímž sníží poškození o {TalentX} po dobu {ArchangelWatch DotLength}.
 TlDivineGrace	[>AbDivineGrace]
-TrDivineGrace	Zvyšuje healing done o {TalentX} na {DivineGrace DotLength} when you cast [>AbFlashHeal], [>AbSacrament] a [>AbTwinHeal]. Múže být opakováno až 3 krát po sobě.
-TlGodlyGuidance	Godly Guidance
-TrGodlyGuidance	Snižuje o {LowerManaCost} the množství many potřebné k použití dovednosti of all your healing spells.
-TlBlindFaith	Blind Faith
-TrBlindFaith	Zvyšuje [>Haste] o {Haste}.
-TlRenewal	Renewal
+TrDivineGrace	Po použití dovedností [>AbFlashHeal], [>AbSacrament] a [>AbTwinHeal] zvyšuje zdraví o {TalentX} na {DivineGrace DotLength}. Může být opakováno až 3 krát po sobě.
+TlGodlyGuidance	Cesta boží
+TrGodlyGuidance	Snižuje o {LowerManaCost} množství many potřebné k použití dovedností s léčivými účinky.
+TlBlindFaith	Slepá víra
+TrBlindFaith	Zvyšuje hodnotu vlastnosti [>Haste] o {Haste}.
+TlRenewal	Bonusová obnova
 TrRenewal	Add 1 tick to [>AbRenew].
 TlBlessedSpirit	[>AbBlessedSpirit]
 
 //=== Healer - Necromancer
 TlNecromancer	[>SpecNecromancer]
-TrNecromancer	Zvyšuje Health Points o {HealNecroRoot}.
-TlDeadKingdom	Power from the Dead Kingdom
+TrNecromancer	Zvyšuje hodnotu vlastnosti [>HP] o {HealNecroRoot}.
+TlDeadKingdom	Síla království mrtvých
 TrDeadKingdom	The whole party has {Talent HealNecroDeadKingdom Condition Random} chance to restore {TalentX} of its total mana any time you do poškození with [>AbSoulSucking] a [>AbSoulEater] spells, a {Talent HealNecroDeadKingdomC Condition Random} chance when you do poškození with your automatický útoks.
-TlTheChosenOne	The Chosen One
+TlTheChosenOne	Vyvolen[:ý|á]
 TrTheChosenOne	Zvyšuje o {Damage G} the final healing of [>AbSealOfNecromancy].
 TlFromDeathComesLife	[>AbFromDeathComesLife]
-TrFromDeathComesLife	When your health is lowered to 0, [>AbFromDeathComesLife] is applied on all your conscious allies, which will heal them na {FromDeathComesLife DotTotalDmg} HP po dobu {FromDeathComesLife DotLength}.\n\nCan happen once per minute.
-TlOpenBuffet	Open Buffet
+TrFromDeathComesLife	Pokud se Tvé zdraví dostane na <color=red>0</color>, tak na všechny aktivní členy party je aplikována dovednost [>AbFromDeathComesLife], čímž je uzdraví na {FromDeathComesLife DotTotalDmg} HP po dobu {FromDeathComesLife DotLength}.\n\nNemůže se opakovat častěji než jednou za minutu.
+TlOpenBuffet	Občerstvení zdarma
 TrOpenBuffet	Zvyšuje o {TalentX} the healing done by [>AbEatMyFlesh]. This doesn't raise the poškození done to you.
-TlSoulFeast	Soul Feast
+TlSoulFeast	Duševní hostina
 TrSoulFeast	[>AbSoulSucking] heals another ally na {TalentX} of the initial amount.
-TlLateSupper	Late Supper
+TlLateSupper	Svačinka
 TrLateSupper	Adds {AddDotTick f} tick(s) to [>AbSoulEater], but Zvyšuje its pauzu mezi použitími o {CoolDown B}.
 TlShadowArmy	[>AbShadowArmy]
 TrShadowArmy	Applies [>AbShadowArmy] on the whole party when you cast [>AbArmyOfDarkness], which snižuje all poškození taken o {TalentX} na {ShadowArmy DotLength}.
-TlAngrySpirits	Angry Spirits
-TrAngrySpirits	Zvyšuje the poškození of all your attack spells o {Damage}.
-TlDarkArts	Dark Arts
-TrDarkArts	Zvyšuje total mana points o {TalentX}.
-TlOneFootInBothWorld	One Foot in Both Worlds
-TrOneFootInBothWorld	Snižuje all poškození done to you o {TalentX G}.
+TlAngrySpirits	Poltergeist
+TrAngrySpirits	Zvyšuje poškození Tvých útočných dovedností o {Damage}.
+TlDarkArts	Temná umění
+TrDarkArts	Zvyšuje maximální manu o {TalentX}.
+TlOneFootInBothWorld	Nohama na zemi // One Foot in Both Worlds
+TrOneFootInBothWorld	Snižuje příchozí poškození o {TalentX G}.
 TlLastBreath	[>AbLastBreath]
 TrLastBreath	Applies [>AbLastBreath] on your [>AbLastIncantation]'s target, which Zvyšuje their [>Haste] o {LastBreath} over {LastBreath DotLength}.
 
