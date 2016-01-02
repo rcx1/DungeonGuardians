@@ -2402,19 +2402,19 @@ TlBlessedSpirit	[>AbBlessedSpirit]
 TlNecromancer	[>SpecNecromancer]
 TrNecromancer	Zvyšuje hodnotu vlastnosti [>HP] o {HealNecroRoot}.
 TlDeadKingdom	Síla království mrtvých
-TrDeadKingdom	The whole party has {Talent HealNecroDeadKingdom Condition Random} chance to restore {TalentX} of its total mana any time you do poškození with [>AbSoulSucking] a [>AbSoulEater] spells, a {Talent HealNecroDeadKingdomC Condition Random} chance when you do poškození with your automatický útoks.
+TrDeadKingdom	Celá banda získá {Talent HealNecroDeadKingdom Condition Random} šanci na obnovu {TalentX} maximálního množství many při Tebou způsobeném poškození dovednostmi [>AbSoulSucking] a [>AbSoulEater], a {Talent HealNecroDeadKingdomC Condition Random} šanci při poškození způsobeným autoamtickým útokem.
 TlTheChosenOne	Vyvolen[:ý|á]
 TrTheChosenOne	Zvyšuje o {Damage G} the final healing of [>AbSealOfNecromancy].
 TlFromDeathComesLife	[>AbFromDeathComesLife]
 TrFromDeathComesLife	Pokud se Tvé zdraví dostane na <color=red>0</color>, tak na všechny aktivní členy party je aplikována dovednost [>AbFromDeathComesLife], čímž je uzdraví na {FromDeathComesLife DotTotalDmg} HP po dobu {FromDeathComesLife DotLength}.\n\nNemůže se opakovat častěji než jednou za minutu.
 TlOpenBuffet	Občerstvení zdarma
-TrOpenBuffet	Zvyšuje o {TalentX} the healing done by [>AbEatMyFlesh]. This doesn't raise the poškození done to you.
+TrOpenBuffet	Zvyšuje o {TalentX} léčení způsobené dovedností [>AbEatMyFlesh]. Poškození se nemění.
 TlSoulFeast	Duševní hostina
-TrSoulFeast	[>AbSoulSucking] heals another ally na {TalentX} of the initial amount.
+TrSoulFeast	Použití dovednosti [>AbSoulSucking] uzdraví dalšího člena bandy o {TalentX} původního léčení.
 TlLateSupper	Svačinka
 TrLateSupper	Adds {AddDotTick f} tick(s) to [>AbSoulEater], but Zvyšuje its pauzu mezi použitími o {CoolDown B}.
 TlShadowArmy	[>AbShadowArmy]
-TrShadowArmy	Applies [>AbShadowArmy] on the whole party when you cast [>AbArmyOfDarkness], which snižuje all poškození taken o {TalentX} na {ShadowArmy DotLength}.
+TrShadowArmy	Při použití dovednosti [>AbArmyOfDarkness] aplikuje dovednost [>AbShadowArmy] na celou bandu, čímž sniží veškeré příchozí poškození o {TalentX} po dobu {ShadowArmy DotLength}.
 TlAngrySpirits	Poltergeist
 TrAngrySpirits	Zvyšuje poškození Tvých útočných dovedností o {Damage}.
 TlDarkArts	Temná umění
@@ -2422,7 +2422,7 @@ TrDarkArts	Zvyšuje maximální manu o {TalentX}.
 TlOneFootInBothWorld	Nohama na zemi // One Foot in Both Worlds
 TrOneFootInBothWorld	Snižuje příchozí poškození o {TalentX G}.
 TlLastBreath	[>AbLastBreath]
-TrLastBreath	Applies [>AbLastBreath] on your [>AbLastIncantation]'s target, which Zvyšuje their [>Haste] o {LastBreath} over {LastBreath DotLength}.
+TrLastBreath	Přidá účinky dovednosti [>AbLastBreath] cíli dovednosti [>AbLastIncantation], čímž dotčené[:mu|] zvýší hodnotu dovednosti [>Haste] o {LastBreath} po dobu {LastBreath DotLength}.
 
 //=== Global Icons
 GiAttack	Attack
