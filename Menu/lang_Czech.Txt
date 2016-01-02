@@ -1450,26 +1450,26 @@ DescCauterize	Burns na {1} HP po dobu {2}.
 AbTorment	Muka
 DescTorment	Způsobí nepříteli poškození {1} HP po dobu {2}.
 
-AbShadowBall	Shadow Ball
+AbShadowBall	Závan temnoty
 DescShadowBall	Způsobí nepříteli poškození {0} HP.
 
-AbDirePlague	Dire Plague
-DescDirePlague	Způsobí nepříteli poškození {1} HP po dobu {2}. The poškození is bigger with time.
+AbDirePlague	Novodobý mor // Dire Plague
+DescDirePlague	Působí nepříteli poškození {1} HP po dobu {2}. Poškození se časem zvyšuje.
 
-AbHellFire	Hell Fire
-DescHellFire	Damages all surrounding enemies na {1} HP.
+AbHellFire	Pekelný oheň
+DescHellFire	Způsobí okolním nepřátelům poškození {1} HP.
 
-AbDominate	Dominate
-DescDominate	Způsobí nepříteli poškození {0} HP, a Zvyšuje o {5} all poškození of your periodical spells affecting the target po dobu {2}.
+AbDominate	Ovládni
+DescDominate	Způsobí nepříteli poškození {0} HP a zvyšuje po dobu {2} o {5} poškození způsobené Tvými dovednostmi ovládnutému nepříteli.
 
-AbDrainLife	Drain Life
-DescDrainLife	Způsobí nepříteli poškození {1} HP, a heals you for the same amount.
+AbDrainLife	Upír
+DescDrainLife	Způsobí nepříteli poškození {1} HP a použije ho na Tvé uzdravení.
 
-AbLethalEmpowerment	Lethal Empowerment
-DescLethalEmpowerment	Damages yourself na {0} HP, a restores your Mana for the same amount.
+AbLethalEmpowerment	Vražedná síla
+DescLethalEmpowerment	Způsobí Ti poškození {0} HP, které převede na manu.
 
-AbDemonicForm	Demonic Form
-DescDemonicForm	Transforms yourself into a demon po dobu {2}, which zvyšuje all your fyzické poškození o {5} a your shadow poškození o {9}, a also snižuje veškeré příchozí poškození o {10}.
+AbDemonicForm	V kůži démona
+DescDemonicForm	Přemění Tě na démona po dobu {2} - veškeré Tebou způsobené fyzické poškození se zvýší o {5}, temnotou způsobené poškození o {9} a veškeré příchozí poškození se zníží o {10}.
 
 //=== Mage - Arcanist
 AbArcaneRupture	Arcane Rupture
@@ -2297,38 +2297,38 @@ TlMovingShadows	Pohyblivé stíny
 TrMovingShadows	Snižuje čas potřebný na [>AbShadowBall] a [>AbDominate] o {AbsoluteSpeed f} s.
 TlMoreTorment	Větší muka
 TrMoreTorment	Zvyšuje o {Damage} poškození způsobené dovedností [>AbTorment].
-TlPiercingCurse	Piercing Curse
+TlPiercingCurse	Bodavá klatba
 TrPiercingCurse	Allows each damage-over-time abilities' tick to have {DotCritChance} of your normal critical chance.
-TlGloomyDoom	Gloomy Doom
+TlGloomyDoom	Zářivá pohroma
 TrGloomyDoom	Zvyšuje the critical chance of [>AbDirePlague]'s tick o {CritChance}.
-TlMakeItWorthThePain	Make it Worth the Pain
-TrMakeItWorthThePain	Zvyšuje o {DamageMana G} the Mana generated from [>AbLethalEmpowerment] without raising its poškození.
-TlOvercooked	Overcooked
-TrOvercooked	Zvyšuje o {Talent MageLockOvercooked Var B %} the length a poškození of [>AbHellFire].
+TlMakeItWorthThePain	Ať to za to stojí
+TrMakeItWorthThePain	Zvyšuje o {DamageMana G} množství many získané dovedností [>AbLethalEmpowerment], poškození se nemění.
+TlOvercooked	Od kosti
+TrOvercooked	Zvyšuje o {Talent MageLockOvercooked Var B %} délku trvání a poškození způsobené dovedností [>AbHellFire].
 TlSpiritSiphon	Spirit Siphon
 TrSpiritSiphon	Each [>AbTorment] tick has {Talent MageLockSpiritSiphon Condition Random} chance to heal you na {TalentX} of your Total Health.
-TlAcutePain	Acute Pain
-TrAcutePain	Zvyšuje the critical poškození of Shadow a Fire spells o {CritDamage}.
-TlDrainDry	Drain Dry
-TrDrainDry	Zvyšuje the poškození & healing of [>AbDrainLife] o {Damage} for each of your active DOT spell on the target.\n\nAlso snižuje all your threat o {LowerThreat}.
-TlUnendingTorment	Unending Torment
-TrUnendingTorment       Your [>AbDominate] a [>AbShadowBall] spells have {Talent MageLockUnendingTorment Condition Random} chance to reset the duration of your [>AbTorment] afflicting the target.
-TlBattleMage	Battle Mage
-TrBattleMage	Zvyšuje o {TalentX} your total HP, a your fyzické poškození o {Damage}.
-TlDarkWisdom	Dark Wisdom
-TrDarkWisdom	Zvyšuje o {TalentX} your total Mana.
+TlAcutePain	Strašná bolest
+TrAcutePain	Zvyšuje poškození plynoucí z KZ u útoků jejichž základem je [>DmgShadow] a [>DmgFire] o {CritDamage}.
+TlDrainDry	Do sucha
+TrDrainDry	Zvyšuje účinek dovednosti [>AbDrainLife] o {Damage} za každý dopad Tvých dovedností na vybraného nepřítele.\n\nNavíc sníží všechny Tvé hrozby o {LowerThreat}. // XBug - LowerThreat is uknown in this context
+TlUnendingTorment	Nekonečná muka
+TrUnendingTorment       Dovednosti [>AbDominate] a [>AbShadowBall] získají {Talent MageLockUnendingTorment Condition Random} šanci prodloužit účinek dovednosti [>AbTorment] - platí pouze pokud je vybraný nepřítel touto dovedností již zasažen.
+TlBattleMage	Bojový mág
+TrBattleMage	Zvyšuje o {TalentX} Tvé maximální zdraví a způsobené fyzické poškození o {Damage}.
+TlDarkWisdom	Moudrost temnoty
+TrDarkWisdom	Zvyšuje o {TalentX} Tvou maximální manu.
 
 //=== Mage - Arcanist
 TlArcanist	[>SpecArcanist]
 TrArcanist	Zvyšuje poškození u útoků jejichž základem je [>DmgArcane] o {Damage}.
-TlFasterThanLight	Faster Than Light
-TrFasterThanLight	Zvyšuje [>Haste] o {Haste}.
+TlFasterThanLight	Rychlejší než světlo
+TrFasterThanLight	Zvyšuje hodnotu vlastnosti [>Haste] o {Haste}.
 TlArcaneFusion	[>AbArcaneFusion]
-TrArcaneFusion	[>AbArcaneRupture] & [>AbArcaneImplosion] hits have {Talent MageArcaneFusion Condition Random} chance to trigger [>AbArcaneFusion] on the target, which Způsobí nepříteli poškození {ArcaneFusion DotTotalDmg} HP po dobu {ArcaneFusion DotLength} a can stack up to {ArcaneFusion MaxStack} krát po sobě.
-TlSurvivalOfTheFittest	Survival Of The Fittest
-TrSurvivalOfTheFittest	[>AbArcaneArmor] lasts {AddDotTick ExtraTime ArcaneArmor} longer.
-TlMentalArmor	Mental Armor
-TrMentalArmor	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {MentalArmor} a all your resistances o {MentalResistance f}% (v závislosti na hodnotě vlastnosti [>Wil]).
+TrArcaneFusion	Zásahy způsobené dovednostmi [>AbArcaneRupture] & [>AbArcaneImplosion] mají {Talent MageArcaneFusion Condition Random} šanci aktivovat dovednost [>AbArcaneFusion], která způsobí nepříteli poškození {ArcaneFusion DotTotalDmg} HP po dobu {ArcaneFusion DotLength}, toto může být zopakováno až {ArcaneFusion MaxStack} krát po sobě.
+TlSurvivalOfTheFittest	Přežije nejlepší
+TrSurvivalOfTheFittest	Protáhne účinek dovednosti [>AbArcaneArmor] o {AddDotTick ExtraTime ArcaneArmor}.
+TlMentalArmor	Duševní zbroj
+TrMentalArmor	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {MentalArmor} a odolností o {MentalResistance f}% (v závislosti na hodnotě vlastnosti [>Wil]).
 TlEthericEnergy	[>AbEthericEnergy]
 TrEthericEnergy	Each damaging spell has {Talent MageArcaneEthericEnergy Condition Random} chance to trigger [>AbEthericEnergy] which Snižuje množství many potřebné k použití dovednosti all of your spells o {EthericEnergy} na {EthericEnergy DotLength}.
 TlEthericCelerity	Etheric Celerity
