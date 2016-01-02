@@ -1472,22 +1472,22 @@ AbDemonicForm	V kůži démona
 DescDemonicForm	Přemění Tě na démona po dobu {2} - veškeré Tebou způsobené fyzické poškození se zvýší o {5}, temnotou způsobené poškození o {9} a veškeré příchozí poškození se zníží o {10}.
 
 //=== Mage - Arcanist
-AbArcaneRupture	Arcane Rupture
-DescArcaneRupture	Způsobí nepříteli poškození {1} HP po dobu {2}. Stack up to {4} krát po sobě.
+AbArcaneRupture	Tajemný výbuch
+DescArcaneRupture	Způsobí nepříteli poškození {1} HP po dobu {2}. Může se opakovat {4} krát po sobě.
 
-AbArcaneBurst	Arcane Burst
+AbArcaneBurst	Tajemné šípy
 DescArcaneBurst	Throws a series of deadly projectiles damaging the target na {1} HP.
 
-AbArcaneFusion	Arcane Fusion
-DescArcaneFusion	Způsobí nepříteli poškození {1} HP po dobu {2}. Stack up to {4} krát po sobě.
+AbArcaneFusion	Tajemná fůze
+DescArcaneFusion	Způsobí nepříteli poškození {1} HP po dobu {2}. Může se opakovat {4} krát po sobě.
 
-AbArcaneArmor	Arcane Armor
+AbArcaneArmor	Tajemná zbroj
 DescArcaneArmor	Zvyšuje armor o {5}% po dobu {2}.
 
-AbArcaneLock	Arcane Lock
+AbArcaneLock	Tajemná klec
 DescArcaneLock	Locks the target so they won't be able to attack po dobu {2}. Damaging the target na {5} HP will break the lock. Can't be used against Elite & Boss enemies.
 
-AbMindFocus	Mind Focus
+AbMindFocus	Soustředění
 DescMindFocus	Zvyšuje an ally's Critical chance o {5}% po dobu {2}. If the ally critically hits, your chances to critically hit are also raised o {5}% for <color=white>12 seconds</color>.
 
 AbTwinFocus	Twin Focus
@@ -1505,86 +1505,86 @@ DescArcaneImplosion	Způsobí nepříteli poškození {0} HP. Poškození se zvy
 AbEsotericConnection	Esoteric Connection
 DescEsotericConnection	Zvyšuje poškození of the whole party o {5} po dobu {2}.
 
-AbTotalRupture	Total Rupture
+AbTotalRupture	Erupce
 DescTotalRupture	Resets the duration of your [>AbArcaneRupture] afflicting the target.
 
 //=== Healer - Druid
-AbHeal		Heal
+AbHeal		Léčení
 DescHeal	Heals a friendly target na {0} HP.
 
-AbLifeBloom	Life Bloom
+AbLifeBloom	Bujení života
 DescLifeBloom	Heals the target na {1} HP po dobu {2}. When Life Bloom ends, the target is instantly healed na {3} HP. This effect Může být opakováno až {4} krát po sobě on the same target.
 
-AbRegrowth	Regrowth
+AbRegrowth	Dorůstání
 DescRegrowth	Heals the target na {1} HP po dobu {2}.
 
-AbSavior	Savior
+AbSavior	Spasitel
 DescSavior	Instantly heals the target na {0} HP.\n\nShare its pauzu mezi použitími with [>AbMortification] a [>AbOverMyDeadBody].
 
-AbDanceOfGaia	Dance Of Gaia
+AbDanceOfGaia	Tanec Země
 DescDanceOfGaia	Heals every member of the group o {1} HP.
 
-AbWildRegrowth	Wild Regrowth
+AbWildRegrowth	Zběsilé dorůstání
 DescWildRegrowth	Heals the target na {1} HP po dobu {2}.
 
-AbDanceOfStars	Dance Of Stars
+AbDanceOfStars	Tanec hvězd
 DescDanceOfStars	Heals the target na {1} HP po dobu {2}.
 
-AbRegrowthMana	Nature Gives Back
+AbRegrowthMana	Plody země
 DescRegrowthMana	Regenerates {1} Mana over {2}.
 
-AbRainOfLife	Rain Of Life
+AbRainOfLife	Déšť života
 DescRainOfLife	Heals every member of the group na {1} HP po dobu {2} ; the healing effect is stronger at start, a fades after that.
 
-AbTreeForm	Tree Form
+AbTreeForm	Býti stromem
 DescTreeForm	Transforms you into a tree po dobu {2} which zvyšuje all healing done o {5} a snižuje all poškození taken o {9}.
 
-AbDruidDispel	Dispell
+AbDruidDispel	Osvobození
 DescDruidDispel	Removes one negative effect from the target.\nClick on the effect you want to remove or click on an ally's portrait to remove the last negative effect applied.
 
 //=== Healer - Priest
-AbRitualRecover	Ritual Recover
+AbRitualRecover	Rituální obnova
 DescRitualRecover	Restores all your Mana.
 
-AbRighteousShield	Righteous Shield
+AbRighteousShield	Štít spravedlivého
 DescRighteousShield	Shields the target a absorbs up to {5} damages. Trvá {2}.
 ChTipRighteousShield	\n\nCan still absorb up to {0} poškození.
 
-AbFlashHeal	Flash Heal
+AbFlashHeal	Bleskovka
 DescFlashHeal	Quick but expensive spell that heals the target na {0} HP.
 
-AbRenew		Renew
+AbRenew		Obnova
 DescRenew	Heals the target na {1} HP po dobu {2}.
 
-AbSacrament	Sacrament
+AbSacrament	Hostie
 DescSacrament	Heals the target na {1} HP.
 
-AbTwinHeal	Twin Heal
+AbTwinHeal	Dvojitá léčba
 DescTwinHeal	Heals the target na {0} HP a yourself na {5} of that amount.
 
-AbDivineGrace	Divine Grace
+AbDivineGrace	Vděk boží
 DescDivineGrace	Zvyšuje healing done o {5} po dobu {2} ; Může být opakováno až {Poison MaxStack} krát po sobě {4} krát po sobě.
 
-AbSacredNova	Sacred Nova
+AbSacredNova	Svatá hvězda
 DescSacredNova	Heals the whole party na {0} HP.
 
-AbPrayerOfRedemption	Prayer Of Redemption
+AbPrayerOfRedemption	Modlitba za vykoupení
 DescPrayerOfRedemption	Heals the whole party na {0} HP.
 
-AbMortification	Mortification
+AbMortification	Umrtvení
 DescMortification	Reduces all poškození o {5} po dobu {2}. Castable when stunned.\n\nShare its pauzu mezi použitími with [>AbOverMyDeadBody] a [>AbSavior].
 
-AbHolyDiligence	Holy Diligence
+AbHolyDiligence	Pilný jako včelka
 DescHolyDiligence	Zvyšuje [>Haste] o {5}{7}%</color> po dobu {2}.
 
-AbSpiritualEffervescence	Spiritual Effervescence
+AbSpiritualEffervescence	Vůle boží
 DescSpiritualEffervescence	Absorbs up to {5} poškození. Trvá {2}.
 ChTipSpiritualEffervescence	[>ChTipRighteousShield]
 
-AbArchangelWatch	Archangel Watch
+AbArchangelWatch	Pod křídlem božím
 DescArchangelWatch	Snižuje poškození o {5} po dobu {2}.
 
-AbBlessedSpirit	Blessed Spirit
+AbBlessedSpirit	Požehnání
 DescBlessedSpirit	Heals the target na {9} HP the next time they take poškození. When the healing occurs, [>AbBlessedSpirit] jumps to another random ally.\nJumps up to 5 times a Trvá {2} after each jump.\n\nYou can have only 1 active [>AbBlessedSpirit].
 
 //=== Healer - Necromancer
@@ -2330,47 +2330,47 @@ TrSurvivalOfTheFittest	Protáhne účinek dovednosti [>AbArcaneArmor] o {AddDotT
 TlMentalArmor	Duševní zbroj
 TrMentalArmor	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {MentalArmor} a odolností o {MentalResistance f}% (v závislosti na hodnotě vlastnosti [>Wil]).
 TlEthericEnergy	[>AbEthericEnergy]
-TrEthericEnergy	Each damaging spell has {Talent MageArcaneEthericEnergy Condition Random} chance to trigger [>AbEthericEnergy] which Snižuje množství many potřebné k použití dovednosti all of your spells o {EthericEnergy} na {EthericEnergy DotLength}.
-TlEthericCelerity	Etheric Celerity
-TrEthericCelerity	When [>AbEthericEnergy] is active, your [>Haste] is also raised o {Haste}.
-TlEthericConvergence	Etheric Convergence
-TrEthericConvergence	When [>AbEthericEnergy] is active, your [>ManaCbRg] is also raised o {TalentX}.
-TlEsotericAlteration	Esoteric Alteration
-TrEsotericAlteration	[>AbEsotericConnection] lasts {AddDotTick ExtraTime EsotericConnection} longer.
-TlMultipleRupture	Multiple Rupture
-TrMultipleRupture	Snižuje pauzu mezi použitími of [>AbArcaneRupture] o {CoolDown} a its množství many potřebné k použití dovednosti o {LowerManaCost}.
-TlManaAddict	Mana Addict
-TrManaAddict	Zvyšuje poškození up to {TalentX} depending of your ratio of Mana left.
-TlImplosionDust	Implosion Dust
-TrImplosionDust	Refills {TalentX} of your total Mana when [>AbArcaneImplosion] critically hits.\n\nAlso snižuje all your threat o {LowerThreat}.
+TrEthericEnergy	Dovednosti způsobující poškození mají {Talent MageArcaneEthericEnergy Condition Random} šanci aktivovat dovednost [>AbEthericEnergy], která snižuje množství many potřebné k použití dovednosti o {EthericEnergy} na {EthericEnergy DotLength}.
+TlEthericCelerity	Jako vítr
+TrEthericCelerity	Je-li aktivní dovednost [>AbEthericEnergy], pak hodnota vlastnosti [>Haste] je zvýšena o {Haste}.
+TlEthericConvergence	Duševní jednota
+TrEthericConvergence	Je-li aktivní dovednost [>AbEthericEnergy], pak hodnota [>ManaCbRg] je zvýšena o {TalentX}.
+TlEsotericAlteration	Zásah shůry
+TrEsotericAlteration	Prodlouží účinek dovednosti [>AbEsotericConnection] o {AddDotTick ExtraTime EsotericConnection}.
+TlMultipleRupture	Násobný výbuch
+TrMultipleRupture	Snižuje pauzu mezi použitími dovednosti [>AbArcaneRupture] o {CoolDown} a množství many potřebné k použití dovednosti o {LowerManaCost}.
+TlManaAddict	Závislost na maně
+TrManaAddict	Zvyšuje poškození až o {TalentX}, v závislosti na zbývající maně.
+TlImplosionDust	Spad
+TrImplosionDust	Při KZ způsobeném dovedností [>AbArcaneImplosion] obnoví {TalentX} Tvého maximálního množství many.\n\nNavíc sníží všechny Tvé hrozby o {LowerThreat}.
 
 //=== Healer - Druid
 TlDruid		[>SpecDruid]
-TrDruid		Zvyšuje mana regeneration outside of combat o {ManaRegen}.
-TlClearState	Clear State
-TrClearState	Zvyšuje critical chances of all healing effects o {CritChance G}.
-TlAcutePersistance	Acute Persistance
-TrAcutePersistance	Allows each healing-over-time abilities' tick to have a critical chance.
-TlMeditation	Meditation
-TrMeditation	Zvyšuje mana regeneration during combat o {CombatManaRegen}.
+TrDruid		Zvyšuje regeneraci many o {ManaRegen} - neplatí pro boj.
+TlClearState	Čisté úmysly
+TrClearState	Zvyšuje šanci na KZ pro uzdravení o {CritChance G}.
+TlAcutePersistance	Úpornost
+TrAcutePersistance	Přidá každému dlouhodobému léčení šanci na KZ (znásobení zdraví).
+TlMeditation	Meditace
+TrMeditation	Zvyšuje regeneraci many v boji o {CombatManaRegen}.
 TlWildRegrowth	[>AbWildRegrowth]
-TrWildRegrowth	When you cast [>AbRegrowth] on a party member, [>AbWildRegrowth] will be applied to the other party member who lost most HP, healing him na {TalentX} of [>AbRegrowth] over {WildRegrowth DotLength}.
+TrWildRegrowth	Při použití dovednosti [>AbRegrowth], je aktivována dovednost [>AbWildRegrowth] - cílem je spoluhráč s nejměnším zdravím - uzdraví ho o {TalentX} z [>AbRegrowth] během {WildRegrowth DotLength}.
 TlDanceOfStars	[>AbDanceOfStars]
-TrDanceOfStars	Applies [>AbDanceOfStars] when [>AbDanceOfGaia] ends, healing each party member na {TalentX} of total [>AbDanceOfGaia]'s healing over {DanceOfStars DotLength}.
-TlEternalBloom	Eternal Bloom
-TrEternalBloom	[>AbLifeBloom] rewards {TalentX} of its množství many potřebné k použití dovednosti when ending (up to 3 stacks).
-TlHigherState	Higher State of Consciousness
-TrHigherState	Zvyšuje [>Awa] o {Awareness}.
-TlNaturalWay	Natural Way
-TrNaturalWay	Zvyšuje healing of [>AbHeal] a [>AbRegrowth] o {Damage G}.
-TlBarkskin	Barkskin
-TrBarkskin	Zvyšuje resistances against all magic o {ResHoly} a snižuje all healing spell threat o {LowerThreat}.
+TrDanceOfStars	Po skončení působení dovednosti [>AbDanceOfGaia] aktivuje dovednost [>AbDanceOfStars] a uzdraví členy bandy o {TalentX} z [>AbDanceOfGaia] během {DanceOfStars DotLength}.
+TlEternalBloom	Vnitřní rozpuk
+TrEternalBloom	Po skončení působení dovednosti [>AbLifeBloom] vrátí {TalentX} množství many potřebného ke svému použití zpět. Může být zopakováno až 3 krát po sobě.
+TlHigherState	Vyšší úroveň vědomí
+TrHigherState	Zvyšuje hodnotu vlastnosti [>Awa] o {Awareness}.
+TlNaturalWay	Přirozenou cestou
+TrNaturalWay	Zvyšuje účinky dovedností [>AbHeal] a [>AbRegrowth] o {Damage G}.
+TlBarkskin	Hroší kůže
+TrBarkskin	Zvyšuje odolnost o {ResHoly} a snižuje hrozbu všech dovedností přidávajících zdraví o {LowerThreat}.
 TlRegrowthMana	[>AbRegrowthMana]
 TrRegrowthMana	Each [>AbRegrowth] tick has 1% chance to give you a Mana regeneration of {TalentX} of your Total Mana over {RegrowthMana DotLength}.
-TlSelfPreservation	Self Preservation
-TrSelfPreservation	Each time you get attacked when your HP is below {Talent HealDruidSelfPreservation Condition HpRatio}, you have {Talent HealDruidSelfPreservation Condition Random} chance to cast [>AbRegrowth] on yourself for no množství many potřebné k použití dovednosti.
-TlPurifiedRain	Purified Rain
-TrPurifiedRain	Snižuje pauzu mezi použitími of [>AbRainOfLife] o {CoolDown}, its množství many potřebné k použití dovednosti o {LowerManaCost} a its threat o {LowerThreat}.
+TlSelfPreservation	Pud sebezáchovy
+TrSelfPreservation	Pokud Tvé zdraví klesne pod {Talent HealDruidSelfPreservation Condition HpRatio} budeš mít {Talent HealDruidSelfPreservation Condition Random} šanci na aktivaci dovednosti [>AbRegrowth] s nulovou spotřebou many.
+TlPurifiedRain	Očistný déšť
+TrPurifiedRain	Snižuje pauzu mezi použitími dovednosti [>AbRainOfLife] o {CoolDown}, množství many potřebné k použití dovednosti o {LowerManaCost} a hrozbu této dovednosti o {LowerThreat}.
 
 //=== Healer - Priest
 TlPriest	[>SpecPriest]
@@ -2378,8 +2378,8 @@ TlExtendedProtection	Extended Protection
 TrExtendedProtection	When [>AbRighteousShield] is ended by an enemy attack, there's a {Talent HealPriestExtendedProtection Condition Random} chance to apply [>AbRenew] on the ally.
 TlStrongerShield	Stronger Shield
 TrStrongerShield	Zvyšuje o {Talent HealPriestStrongerShield Var G %} the poškození absorbed by [>AbRighteousShield].
-TlAbsolution	Absolution
-TrAbsolution	Snižuje pauzu mezi použitími of [>AbRighteousShield] o {CoolDown}.
+TlAbsolution	Absolutorium
+TrAbsolution	Snižuje pauzu mezi použitími dovednosti [>AbRighteousShield] o {CoolDown}.
 TlHolyDiligence	[>AbHolyDiligence]
 TrHolyDiligence	Zvyšuje [>Haste] o {HolyDiligence} na {HolyDiligence DotLength} each time you cast [>AbRighteousShield], a reduces cast time of [>AbPrayerOfRedemption] o {AbsoluteSpeed f} second(s).
 TlStrongerFaith	Stronger Faith
