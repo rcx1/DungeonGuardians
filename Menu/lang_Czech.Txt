@@ -532,7 +532,7 @@ Weight		Hmotnost
 KgSymbol	Kg		// Kilograms
 ItemLevel	Úroveň
 ItemLevelN	Úroveň {0}
-ItemLevelSymbol	Ú
+ItemLevelSymbol	Úr
 ItemQuality	Kvalita
 GearSlot	Slot
 GearKind	Materiál
@@ -1007,7 +1007,7 @@ Level20		Strážcovo srdce // Guardian's Heart
 AddedToKeyRing	{0} přidán na kruh s klíči
 LevelAutoMapped	Automatická mapa povolena pro patro {0}
 LevelFullMapped	Plná mapa zpřístupněna pro patro {0}
-PutInInventory	{0} přidáno do inventáře
+PutInInventory	Nová věc v inventáři - {0}
 LookLikeCanHold	Vypadá to jako nějaký držák...
 CantHoldThat	Ale na tohle asi ne...
 UsedKey		Použit {0}
