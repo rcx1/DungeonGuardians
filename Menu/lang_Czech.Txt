@@ -1,8 +1,8 @@
 // lang CZE
-// ver 0.1a
+// ver 0.8
 // for game ver 1.0a
 // author rcx
-// in progress - editor, "tick" related lines
+// in progress - editor
 // Codes can't start with : §, -, 0-9
 
 //===System Errors
@@ -368,47 +368,47 @@ BrushAll/Center	Brush No Center
 TotalXpInLevel	Total XP
 EdMobXP		XP: {0} (In View: {1})\nTotal XP: {2}
 
-Normal		Normal
-Down		Down
-Up		Up
+Normal		XXNormal
+Down		Dolů
+Up		Nahoru
 
-Quantity	Quantity
+Quantity	Množství
 SubId		SubId
-Toon		Toon
-MapEdError	MapEd Error
-DungeonLevel	Level
+Toon		Banda // Toon
+MapEdError	Chyba v Editoru map // MapEd Error
+DungeonLevel	Patro // Level
 SeeOther	See Other
 
 NbEditCell	Selected Cells: {0}/{1}
 
 //=== Dungeon Tools
 SetPartyStart	Set Party Start
-DungeonName	Dungeon Name
-DungeonIni	Dungeon File
-SaveLevel	Save Level
-LoadLevel	Load Level
-SaveDungeon	Save Dungeon
-LoadDungeon	Load Dungeon
-BaseHeight 	Base Height
-DeleteLevel	Delete Level
-AddLevel	Add Level
-MoveResizeLvl	Move & Resize Level
-ResizeLevel	Resize Level
-TestDungeon	Save & Test Dungeon
-TestLevel	Save & Test Level
+DungeonName	Název podzemí
+DungeonIni	Soubor
+SaveLevel	Ulož patro
+LoadLevel	Nahraj patro
+SaveDungeon	Ulož podzemí
+LoadDungeon	Nahraj podzemí
+BaseHeight 	Základní výška
+DeleteLevel	Smaž patro
+AddLevel	Přidej patro
+MoveResizeLvl	Posuň nebo změn velikost patra
+ResizeLevel	Změn velikost patra
+TestDungeon	Ulož & Otestuj podzemí
+TestLevel	Ulož & Otestuj patro
 LevDefaultEnv	Level's Default Environment
 LevAmbience	Level Ambience Track
-AssignEnv	Assign Environment
-DungeonVersion	Version
-NewDungeon	New Dungeon
+AssignEnv	Přiřaď prosředí // Environment
+DungeonVersion	Verze
+NewDungeon	Nové podzemí
 
 LigthOnParty	Boost Light On Party
 BoostAmbient	Boost Ambient Light
 
-LevelSaved	Level Saved to {0}
-DungeonSaved	Dungeon Saved to {0}
+LevelSaved	Patro uloženo do {0}
+DungeonSaved	Podzemí uloženo do {0}
 
-NbLevelAround	Levels Around		//##
+NbLevelAround	Okolní patra		//##
 
 XpScale		XP Scale		//##
 
@@ -503,17 +503,17 @@ TrigItemAnySub	Any Sub Id
 Found		Found
 NotFound	NotFound
 
-AutoCeilHeight	Auto Ceiling Height
-CeilHeight	Ceiling Height
+AutoCeilHeight	Výška stropu - automaticky
+CeilHeight	Výška stropu
 DownTo		Down To
-Direction	Direction
+Direction	Směr
 MeterSymbol	m
 MsSymbol	m/s		// Meters  za sekundu
 ResetLast	Set To Last
 
 TriggerValue	Trigger Value
-AutoHeight	Auto Height
-Height		Height
+AutoHeight	Výška - automaticky
+Height		Výška
 SetToLast	Set To Last
 TriggerOnAggro	Trigger On Aggro
 TriggerOnDeath	On Death
@@ -570,19 +570,19 @@ MoveCol		Move Column
 ApplyPitChanges	Apply Pit Changes
 WarnCrop	Some occupied cells are going to be destroyed. This is NOT undoable.
 
-Floor		Floor
-Ceiling		Ceiling
-Wall		Wall
-Corner		Columns & Prop
-Prop		Wall's Prop
-Mob		Mob
-Item		Item
-Field		Field
-EditCells	Edit Cells
-Dungeon		Dungeon
+Floor		[>KeyEd_Floor]
+Ceiling		[>KeyEd_Ceiling]
+Wall		[>KeyEd_Wall]
+Corner		Sloupy & vlastnosti // Columns & Prop
+Prop		Vlastnosti zdi
+Mob		[>KeyEd_Mob]
+Item		[>KeyEd_Item]
+Field		[>KeyEd_Field]
+EditCells	[>KeyEd_EditCells]
+Dungeon		[>KeyEd_Dungeon]
 
-Undo		Undo
-Redo		Redo
+Undo		Zruš akci
+Redo		Zopakuj akci
 
 TotalLoot	Total Loot For Current Toon
 LootInLevel	In Current Level for All Toons
@@ -598,14 +598,14 @@ Cut		Cut
 NoCopiedCell	==> Copy/Cut Cells 1st <==
 SelectOnPaste	Select Cells On Paste
 
-SetCellHeight	Set Floor Height
-MoveCellHeight	Move Floor Height
-SetCeilingHgt	Set Ceiling Height
-MoveCeilingHgt	Move Ceiling Height
+SetCellHeight	Nastav výšku podlahy
+MoveCellHeight	Změň výšku podlahy
+SetCeilingHgt	Nastav výšku stropu
+MoveCeilingHgt	Změň výšku stropu
 
 //=== Field
-Speed		Speed
-Angle		Angle
+Speed		Rychlost
+Angle		Úhel
 Damage		Poškození
 GenMaxTotal	Max Generated
 GenMaxAlive	Max Alive
@@ -613,19 +613,19 @@ DelayAtStart	Delay At Start
 OnlyNotVisible	Only When Not Visible
 KillOnDisable	Kill All Generated On Disable
 DialogFile	Dialogue File
-EffectName	Ability
+EffectName	Dovednost
 EffectContent	Visual Effect
 TagField	Tag
 
 //=== Wall
-North		North
-East		East
-South		South
-West		West
-WallAuto	Auto
-Center		Center
-WallNoChange	No Change
-WallOpposite	Opposite Dir
+North		NorthW
+East		EastW
+South		SouthW
+West		WestW
+WallAuto	AutoW
+Center		CenterW
+WallNoChange	No ChangeW
+WallOpposite	Opposite DirW
 Pit		Pit
 AllWall		All
 WallLeft	Turn Left
@@ -1282,7 +1282,7 @@ ResFall		[>DmgFall]
 Crit		Šance na kritický zásah (šnKZ)
 mCritX		x poškození při KZ chladnou zbraní
 rCritX		x poškození při KZ střelnou zbraní
-sCritX		x poškození při KZ kouzlem
+sCritX		x poškození při KZ dovedností // kouzlem
 Haste		Spěch
 Hit		Šance na zásah
 Xpertise	Expertýza
@@ -1311,7 +1311,7 @@ RegenTip	Obnova many a uzdravování probíhají jednou za 5 vteřin.
 
 APTip		Zvyšuje poškození chladnými zbraněmi a dovednostmi založenými na chladných zbraních.
 RAPTip		Zvyšuje poškození střelnými zbraněmi a dovednostmi založenými na střelných zbraních.
-SPTip		Zvyšuje sílu všech kouzel.
+SPTip		Zvyšuje sílu všech dovedností. // kouzel.
 DpsTip		Průměrné poškození za sekundu - pouze pro automatické útoky.\n\nBere v úvahu šanci na zásah, šanci na kritický zásah (šnKZ), spěch a expertýzu.
 
 ParryTip	Šance na odražení útoku chladnými zbraněmi.\nÚspěšné odražení obvykle znamená zrušení celého útoku.
@@ -1330,7 +1330,7 @@ CritTip		Každý útok, ať už automatický nebo pomocí dovednosti, má takto 
 
 mCritXTip	Násobek poškození při kritickém zásahu (KZ) chladnou zbraní.
 rCritXTip	Násobek poškození při kritickém zásahu (KZ) střelnou zbraní.
-sCritXTip	Násobek poškození při kritickém zásahu (KZ) kouzlem.
+sCritXTip	Násobek poškození při kritickém zásahu (KZ) dovedností. // kouzlem.
 
 HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nNavíc snižuje [>GlobalCD], nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách.
 HitTip		Zvyšuje šanci zasáhnout cíl využitím dovedností.
@@ -2221,7 +2221,7 @@ TrEscapeArtist	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {ArmorFromAgi 
 TlRiposte	Riposta
 TrRiposte	Pokud úspěšně odrazíš útok nepřítele, pak máš {Talent RogueDuelRiposte Condition Random} šanci aktivaci dovednosti [>AbRiposte], která zvyšuje fyzické poškození o {Riposte B} na {Riposte DotLength}.
 TlInfectedWound	Zanícená rána
-TrInfectedWound	Adds {AddDotTick f} tick(s) to [>AbDeepCut], a [>AbLunge] has {Talent RogueDuelInfectedWoundB Condition Random} chance to reset the duration of your [>AbDeepCut] afflicting the target.
+TrInfectedWound	Natáhne časovač dovednosti [>AbDeepCut] o {AddDotTick f} tik(y). Navíc dovednost [>AbLunge] získá šanci {Talent RogueDuelInfectedWoundB Condition Random} šanci prodloužit účinek dovednosti [>AbDeepCut] - platí pouze pokud je vybraný nepřítel touto dovedností již zasažen.
 TlTillTheLastDrop	Do poslední kapky
 TrTillTheLastDrop	Zvyšuje hodnotu vlastnosti [>HP] o {HP}.
 TlAggressiveStance	Hrozivý postoj
@@ -2298,15 +2298,15 @@ TrMovingShadows	Snižuje čas potřebný na [>AbShadowBall] a [>AbDominate] o {A
 TlMoreTorment	Větší muka
 TrMoreTorment	Zvyšuje o {Damage} poškození způsobené dovedností [>AbTorment].
 TlPiercingCurse	Bodavá klatba
-TrPiercingCurse	Allows each damage-over-time abilities' tick to have {DotCritChance} of your normal critical chance.
+TrPiercingCurse	Každá dovednost, která má poškození rozložené v čase (má časovač), získá {DotCritChance} Tvé šance na KZ.
 TlGloomyDoom	Zářivá pohroma
-TrGloomyDoom	Zvyšuje the critical chance of [>AbDirePlague]'s tick o {CritChance}.
+TrGloomyDoom	Zvyšuje šance na KZ dovednosti [>AbDirePlague] o {CritChance}.
 TlMakeItWorthThePain	Ať to za to stojí
 TrMakeItWorthThePain	Zvyšuje o {DamageMana G} množství many získané dovedností [>AbLethalEmpowerment], poškození se nemění.
 TlOvercooked	Od kosti
 TrOvercooked	Zvyšuje o {Talent MageLockOvercooked Var B %} délku trvání a poškození způsobené dovedností [>AbHellFire].
 TlSpiritSiphon	Spirit Siphon
-TrSpiritSiphon	Each [>AbTorment] tick has {Talent MageLockSpiritSiphon Condition Random} chance to heal you na {TalentX} of your Total Health.
+TrSpiritSiphon	Každý tik časovače dovednosti [>AbTorment] má {Talent MageLockSpiritSiphon Condition Random} šanci Ti vyléčit {TalentX} z Tvého maximálního zdraví.
 TlAcutePain	Strašná bolest
 TrAcutePain	Zvyšuje poškození plynoucí z KZ u útoků jejichž základem je [>DmgShadow] a [>DmgFire] o {CritDamage}.
 TlDrainDry	Do sucha
@@ -2366,7 +2366,8 @@ TrNaturalWay	Zvyšuje účinky dovedností [>AbHeal] a [>AbRegrowth] o {Damage G
 TlBarkskin	Hroší kůže
 TrBarkskin	Zvyšuje odolnost o {ResHoly} a snižuje hrozbu všech dovedností přidávajících zdraví o {LowerThreat}.
 TlRegrowthMana	[>AbRegrowthMana]
-TrRegrowthMana	Each [>AbRegrowth] tick has 1% chance to give you a Mana regeneration of {TalentX} of your Total Mana během {RegrowthMana DotLength}.
+TrRegrowthMana	Každý tik časovače dovednosti [>AbRegrowth] má šanci 1% Ti obnovit {TalentX} z Tvého maximálního množství many během {RegrowthMana DotLength}.
+
 TlSelfPreservation	Pud sebezáchovy
 TrSelfPreservation	Pokud Tvé zdraví klesne pod {Talent HealDruidSelfPreservation Condition HpRatio} budeš mít {Talent HealDruidSelfPreservation Condition Random} šanci na aktivaci dovednosti [>AbRegrowth] s nulovou spotřebou many.
 TlPurifiedRain	Očistný déšť
@@ -2395,7 +2396,7 @@ TrGodlyGuidance	Snižuje o {LowerManaCost} množství many potřebné k použit�
 TlBlindFaith	Slepá víra
 TrBlindFaith	Zvyšuje hodnotu vlastnosti [>Haste] o {Haste}.
 TlRenewal	Bonusová obnova
-TrRenewal	Add 1 tick to [>AbRenew].
+TrRenewal	Natáhne časovač dovednosti [>AbRenew] o 1 tik.
 TlBlessedSpirit	[>AbBlessedSpirit]
 
 //=== Healer - Necromancer
@@ -2412,7 +2413,7 @@ TrOpenBuffet	Zvyšuje o {TalentX} léčení způsobené dovedností [>AbEatMyFle
 TlSoulFeast	Duševní hostina
 TrSoulFeast	Použití dovednosti [>AbSoulSucking] uzdraví dalšího člena bandy o {TalentX} původního léčení.
 TlLateSupper	Svačinka
-TrLateSupper	Adds {AddDotTick f} tick(s) to [>AbSoulEater], but Zvyšuje its pauzu mezi použitími o {CoolDown B}.
+TrLateSupper	Natáhne časovač dovenosti [>AbSoulEater] o {AddDotTick f} tik(y), ale zároveň zvýší pauzu mezi použitími o {CoolDown B}.
 TlShadowArmy	[>AbShadowArmy]
 TrShadowArmy	Při použití dovednosti [>AbArmyOfDarkness] aplikuje dovednost [>AbShadowArmy] na celou bandu, čímž sniží veškeré příchozí poškození o {TalentX} po dobu {ShadowArmy DotLength}.
 TlAngrySpirits	Poltergeist
