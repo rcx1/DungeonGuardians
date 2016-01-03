@@ -1408,115 +1408,115 @@ DmgWeapon	Zbraň
 
 //ChTip<AbName> => {0} Charge A ; {1} Charge B
 
-// XX
 //=== Mage - Elementalist
 AbFirebolt	Prskavka
-DescFirebolt	Throws a bolt of fire, damaging target na {0} HP.
+DescFirebolt	Vyšle ohnivý šíp, který zZpůsobí poškození {0} HP.
 
 AbFireball	Ohnivá koule
-DescFireball	Throws a big ball of fire, exploding on contact, damaging target na {0} HP, a also damaging surrounding enemies up to {6} HP.
+DescFireball	Vyšle velkou ohnivou kouli, která při dopadu exploduje a zZpůsobí poškození {0} HP, navíc zZpůsobí okolním nepřátelům poškození až {6} HP.
 
 AbScorch	Sežehnutí
-DescScorch	Scorches the target na {0} HP plus {1} HP po dobu {2}.
+DescScorch	Sežehnutí zZpůsobí poškození {0} HP plus {1} HP během {2}.
 
 AbIgnite	Zážeh
-TickIgnite	Burns the target na {1} HP po dobu {2}.
+TickIgnite	Popáleniny oběti zZpůsobí poškození {1} HP během {2}.
 
 AbRainOfFire	Ohnivý déšť
-DescRainOfFire	Burns enemies around the target na {1} HP.
+DescRainOfFire	Popáleniny zZpůsobí okolním nepřátelům poškození {1} HP.
 
 AbWaterShield	Vodní štít
-DescWaterShield	Summons a water shield that surrounds you a absords {5} of veškeré příchozí poškození po dobu {2}.
+DescWaterShield	Postaví kolem tebe vodní stěnu, která absorbuje {5} veškerého příchozího poškození po dobu {2}.
 
 AbIceShield	Ledový štít
-DescIceShield	Summons an ice shield that surrounds you a absorbs {5} of veškeré příchozí poškození po dobu {2}.
+DescIceShield	Postaví kolem tebe ledovou stěnu, která absorbuje {5} veškerého příchozího poškození po dobu {2}.
 
 AbFrostbolt	Ledový šíp
-DescFrostbolt	Sends a bolt of ice that Způsobí nepříteli poškození {0} HP.
+DescFrostbolt	Vyšle ledový šíp, který zZpůsobí nepříteli poškození {0} HP.
 
-AbFocus		Focus
-DescFocus	Restores {7}25%</color> of your total Mana.
+AbFocus		Soustředění
+DescFocus	Obnoví {7}25%</color> Tvého maximálního množství many.
 
-AbIceblast	Ice Blast
-DescIceblast	Instantly Způsobí nepříteli poškození {0} HP.
+AbIceblast	Ledovice
+DescIceblast	Okamžitě zZpůsobí nepříteli poškození {0} HP.
 
-AbFlashFreezing	Flash Freezing
-DescFlashFreezing	Snižuje [>Haste] o {5} po dobu {2}.
+AbFlashFreezing	Bleskový mráz
+DescFlashFreezing	Sníží nepříteli hodnotu vlastnosti [>Haste] o {5} po dobu {2}.
 
-AbCauterize	Cauterize
-DescCauterize	Burns na {1} HP po dobu {2}.
+// XWhere is used?
+AbCauterize	Zatavení
+DescCauterize	Popálením Způsobí poškození {1} HP během {2}.
 
 //=== Mage - Warlock
 AbTorment	Muka
-DescTorment	Způsobí nepříteli poškození {1} HP po dobu {2}.
+DescTorment	Způsobí nepříteli poškození {1} HP během {2}.
 
 AbShadowBall	Závan temnoty
-DescShadowBall	Způsobí nepříteli poškození {0} HP.
+DescShadowBall	ZZpůsobí nepříteli poškození {0} HP.
 
 AbDirePlague	Novodobý mor // Dire Plague
-DescDirePlague	Působí nepříteli poškození {1} HP po dobu {2}. Poškození se časem zvyšuje.
+DescDirePlague	Způsobí nepříteli poškození {1} HP během {2}. Poškození se časem zvyšuje.
 
 AbHellFire	Pekelný oheň
-DescHellFire	Způsobí okolním nepřátelům poškození {1} HP.
+DescHellFire	ZZpůsobí okolním nepřátelům poškození {1} HP.
 
 AbDominate	Ovládni
-DescDominate	Způsobí nepříteli poškození {0} HP a zvyšuje po dobu {2} o {5} poškození způsobené Tvými dovednostmi ovládnutému nepříteli.
+DescDominate	ZZpůsobí nepříteli poškození {0} HP a tomu sammému nepříteli zvyšuje po dobu {2} o {5} poškození způsobené Tvými dovednostmi.
 
 AbDrainLife	Upír
-DescDrainLife	Způsobí nepříteli poškození {1} HP a použije ho na Tvé uzdravení.
+DescDrainLife	ZZpůsobí nepříteli poškození {1} HP a získanou energii použije na Tvé uzdravení.
 
 AbLethalEmpowerment	Vražedná síla
-DescLethalEmpowerment	Způsobí Ti poškození {0} HP, které převede na manu.
+DescLethalEmpowerment	ZZpůsobí Ti poškození {0} HP a získanou energii převede na manu.
 
 AbDemonicForm	V kůži démona
-DescDemonicForm	Přemění Tě na démona po dobu {2} - veškeré Tebou způsobené fyzické poškození se zvýší o {5}, temnotou způsobené poškození o {9} a veškeré příchozí poškození se zníží o {10}.
+DescDemonicForm	Přemění Tě na démona na {2} - veškeré Tebou způsobené fyzické poškození se zvýší o {5}, temnotou způsobené poškození o {9} a veškeré příchozí poškození se zníží o {10}.
 
 //=== Mage - Arcanist
 AbArcaneRupture	Tajemný výbuch
-DescArcaneRupture	Způsobí nepříteli poškození {1} HP po dobu {2}. Může se opakovat {4} krát po sobě.
+DescArcaneRupture	Způsobí nepříteli poškození {1} HP během {2}. Může se opakovat {4} krát po sobě.
 
 AbArcaneBurst	Tajemné šípy
-DescArcaneBurst	Throws a series of deadly projectiles damaging the target na {1} HP.
+DescArcaneBurst	Vyšle sérii smrtících šípů, které zZpůsobí nepříteli poškození {1} HP.
 
 AbArcaneFusion	Tajemná fůze
-DescArcaneFusion	Způsobí nepříteli poškození {1} HP po dobu {2}. Může se opakovat {4} krát po sobě.
+DescArcaneFusion	Způsobí nepříteli poškození {1} HP během {2}. Může se opakovat {4} krát po sobě.
 
 AbArcaneArmor	Tajemná zbroj
-DescArcaneArmor	Zvyšuje armor o {5}% po dobu {2}.
+DescArcaneArmor	Zvyšuje hodnotu vlastnosti [>Armor] o {5}% po dobu {2}.
 
 AbArcaneLock	Tajemná klec
-DescArcaneLock	Locks the target so they won't be able to attack po dobu {2}. Damaging the target na {5} HP will break the lock. Can't be used against Elite & Boss enemies.
+DescArcaneLock	Uzavře nepřítele do klece a tím mu znemožní útočit po dobu {2}. Klec vydrží poškození až {5} HP, pak se rozpadne. Nelze použít proti nepřátelům tříd [>GenBoss] a [>GenElite].
 
 AbMindFocus	Soustředění
 DescMindFocus	Zvyšuje an ally's Critical chance o {5}% po dobu {2}. If the ally critically hits, your chances to critically hit are also raised o {5}% for <color=white>12 seconds</color>.
 
 AbTwinFocus	Maximální soustředění
-DescTwinFocus	Zvyšuje Critical chance o {5}% po dobu {2}.
+DescTwinFocus	Zvyšuje šanci na KZ o {5}% po dobu {2}.
 
 AbOverCharge	Akumulátor
-DescOverCharge	Zvyšuje all your arcane based poškození o {5} but all your spells' množství many potřebné k použití dovednosti is also raised o {9}. Trvá {2}.
+DescOverCharge	Zvyšuje poškození způsobené dovednostmi založenými na tajemnu o {5}, ale zároveň zvyšuje množství many k nim potřebné o {9}. Trvá {2}.
 
 AbEthericEnergy	Duševní energie
-DescEthericEnergy	Snižuje množství many potřebné k použití dovednosti of all your spells o {5} po dobu {2}.
+DescEthericEnergy	Snižuje množství many potřebné k použití dovedností o {5} po dobu {2}.
 
 AbArcaneImplosion	Tajemná imploze
-DescArcaneImplosion	Způsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}100%</color> for each stack of [>AbArcaneRupture] currently on the target.\n\nConsumes [>AbArcaneRupture].
+DescArcaneImplosion	ZZpůsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}100%</color> za každý aktivní efekt způsobený dovedností [>AbArcaneRupture].\n\nT.j. pokud jsem na nepřítele použil 3x [>AbArcaneRupture], z toho jedno použití už vypršelo, pak je dodatečné poškození {8}200%</color>\n\nZruší nepříteli následky dovednosti [>AbArcaneRupture].
 
 AbEsotericConnection	Spojení s Bohem
-DescEsotericConnection	Zvyšuje poškození of the whole party o {5} po dobu {2}.
+DescEsotericConnection	Zvyšuje poškození způsobené bandou o {5} po dobu {2}.
 
 AbTotalRupture	Erupce
-DescTotalRupture	Resets the duration of your [>AbArcaneRupture] afflicting the target.
+DescTotalRupture	Obnoví časovač dovednosti [>AbArcaneRupture] ovlivňující vybraného nepřítele.
 
 //=== Healer - Druid
 AbHeal		Léčení
-DescHeal	Heals a friendly target na {0} HP.
+DescHeal	Zvýší zdraví parťáka o {0} HP.
 
 AbLifeBloom	Bujení života
-DescLifeBloom	Heals the target na {1} HP po dobu {2}. When Life Bloom ends, the target is instantly healed na {3} HP. This effect Může být opakováno až {4} krát po sobě on the same target.
+DescLifeBloom	Heals the target na {1} HP během {2}. When Life Bloom ends, the target is instantly healed na {3} HP. This effect Může být opakováno až {4} krát po sobě on the same target.
 
 AbRegrowth	Dorůstání
-DescRegrowth	Heals the target na {1} HP po dobu {2}.
+DescRegrowth	Heals the target na {1} HP během {2}.
 
 AbSavior	Spasitel
 DescSavior	Instantly heals the target na {0} HP.\n\nShare its pauzu mezi použitími with [>AbMortification] a [>AbOverMyDeadBody].
@@ -1525,19 +1525,19 @@ AbDanceOfGaia	Tanec Země
 DescDanceOfGaia	Heals every member of the group o {1} HP.
 
 AbWildRegrowth	Zběsilé dorůstání
-DescWildRegrowth	Heals the target na {1} HP po dobu {2}.
+DescWildRegrowth	Heals the target na {1} HP během {2}.
 
 AbDanceOfStars	Tanec hvězd
-DescDanceOfStars	Heals the target na {1} HP po dobu {2}.
+DescDanceOfStars	Heals the target na {1} HP během {2}.
 
 AbRegrowthMana	Plody země
-DescRegrowthMana	Regenerates {1} Mana over {2}.
+DescRegrowthMana	Obnoví {1} maximálního množství many během {2}.
 
 AbRainOfLife	Déšť života
-DescRainOfLife	Heals every member of the group na {1} HP po dobu {2} ; the healing effect is stronger at start, a fades after that.
+DescRainOfLife	Heals every member of the group na {1} HP během {2} ; the healing effect is stronger at start, a fades after that.
 
 AbTreeForm	Býti stromem
-DescTreeForm	Transforms you into a tree po dobu {2} which zvyšuje all healing done o {5} a snižuje all poškození taken o {9}.
+DescTreeForm	Transforms you into a tree po dobu {2} which zvyšuje all healing done o {5} a snižuje příchozí poškození o {9}.
 
 AbDruidDispel	Osvobození
 DescDruidDispel	Removes one negative effect from the target.\nClick on the effect you want to remove or click on an ally's portrait to remove the last negative effect applied.
@@ -1554,7 +1554,7 @@ AbFlashHeal	Bleskovka
 DescFlashHeal	Quick but expensive spell that heals the target na {0} HP.
 
 AbRenew		Obnova
-DescRenew	Heals the target na {1} HP po dobu {2}.
+DescRenew	Heals the target na {1} HP během {2}.
 
 AbSacrament	Hostie
 DescSacrament	Heals the target na {1} HP.
@@ -1597,13 +1597,13 @@ DescQuietSpirit	Heals the whole party na {0} HP.
 NoSealCarrier	\n\nIf there's no Seal carrier, the healing is done to you.
 
 AbSoulSucking	Duševní upír
-DescSoulSucking Způsobí nepříteli poškození {0} HP a heals the [>AbSealOfNecromancy] carrier na {7}triple</color> that amount.[>NoSealCarrier]
+DescSoulSucking ZZpůsobí nepříteli poškození {0} HP a heals the [>AbSealOfNecromancy] carrier na {7}triple</color> that amount.[>NoSealCarrier]
 
 AbEatMyFlesh	Masochista
 DescEatMyFlesh	Heals the target na {0} HP but damages you na {8}half</color> that amount.
 
 AbSoulEater	Požírač duší
-DescSoulEater	Způsobí nepříteli poškození {1} HP po dobu {2}, a heals you na {7}triple</color> that amount.
+DescSoulEater	ZZpůsobí nepříteli poškození {1} HP během {2}, a heals you na {7}triple</color> that amount.
 
 AbRaiseFromTheDead	Vstaň z mrtvých
 DescRaiseFromTheDead	Puts a mark on the target po dobu {2}. If the target's health reaches {8}0</color> during that time, the target is healed na {5} HP plus a bonus up to {7}7</color> times bigger the longer the spell lasted.
@@ -1612,7 +1612,7 @@ AbArmyOfDarkness	Armáda temnoty
 DescArmyOfDarkness	Heals the [>AbSealOfNecromancy] carrier na {5} HP a the rest of the party na {7}half</color> that amount.[>NoSealCarrier]
 
 AbLastIncantation	Poslední slova
-DescLastIncantation	Heals the target na {1} HP po dobu {2}. When the incantation finishes, the [>AbSealOfNecromancy] carrier is healed na {5} HP.[>NoSealCarrier]
+DescLastIncantation	Heals the target na {1} HP během {2}. When the incantation finishes, the [>AbSealOfNecromancy] carrier is healed na {5} HP.[>NoSealCarrier]
 
 AbTouchOfDeath	Dotyk smrti
 DescTouchOfDeath	Snižuje nepřítelův [>Haste] o {5}{8}%</color> po dobu {2}.
@@ -1623,7 +1623,7 @@ AbOverMyDeadBodyShield	[>AbOverMyDeadBody]
 DescOverMyDeadBodyShield	[>DescOverMyDeadBody]
 
 AbFromDeathComesLife	Smrt v život se obrátí
-DescFromDeathComesLife	Heals {1} HP po dobu {2}.
+DescFromDeathComesLife	Heals {1} HP během {2}.
 
 AbShadowArmy	Temná armáda
 DescShadowArmy	Snižuje poškození o {5} po dobu {2}.
@@ -1633,10 +1633,10 @@ DescLastBreath	Zvyšuje [>Haste] o {5}{7}%</color> po dobu {2}.
 
 //=== Warrior - Protector
 AbRend		Zářez // Rend
-DescRend	Udělá nepříteli hlubokou, krvácející ránu a způsobí poškození {0} HP, Krvácení způsobuje dodatečné poškození {1} HP po dobu {2}. Děsivé - zvyšuje hrozbu.
+DescRend	Udělá nepříteli hlubokou, krvácející ránu a zZpůsobí poškození {0} HP, Krvácení způsobuje dodatečné poškození {1} HP během {2}. Děsivé - zvyšuje hrozbu.
 
 AbThunderClap	Hromobití
-DescThunderClap	Vytvoří vlnu energie, která poděsí všechny nepřátele a způsobí jim poškození {0} HP.
+DescThunderClap	Vytvoří vlnu energie, která poděsí všechny nepřátele a zZpůsobí jim poškození {0} HP.
 
 AbKick		Kopanec
 DescKick	Nečekaně přeruší přípravu nepřítele. Neskutečně pobuřující - zvyšuje hrozbu.
@@ -1645,7 +1645,7 @@ AbTaunt		Popíchnutí
 DescTaunt	Zvýší Tvou hrozbu tak, aby byla nejvyšší, a tím přiláká nepřátele.
 
 AbDevastate	Znič
-DescDevastate	Způsobí nepříteli poškození {0} HP, plus Sníží nepříteli hodnotu vlastnosti [>ArmorRating] o {5} po dobu {2}. Může být opakováno až {4} krát po sobě.
+DescDevastate	ZZpůsobí nepříteli poškození {0} HP, plus Sníží nepříteli hodnotu vlastnosti [>ArmorRating] o {5} po dobu {2}. Může být opakováno až {4} krát po sobě.
 
 AbLastStand	Poslední zůstává
 DescLastStand	Dočasně zvyšuje zdraví HP o {5} po dobu {2}. Po skončení efektu je maximální zdraví vráceno na původní hodnotu.
@@ -1660,7 +1660,7 @@ AbEnrage	Adrenalin
 DescEnrage	Zvyšuje všechno způsobené poškození o {5} a snižuje příchozí poškození o {7}5%</color> po dobu {2}.
 
 AbPulseWave	Elektřina // Pulse Wave
-DescPulseWave	Vyšle vlnu energiie, která způsobí poškození {0} HP a omráčí všechny nepřátele před Tebou na {2}. Velmi výhružné.
+DescPulseWave	Vyšle vlnu energiie, která zZpůsobí poškození {0} HP a omráčí všechny nepřátele před Tebou na {2}. Velmi výhružné.
 
 AbCounter	Protiútok
 DescCounter	Zvyšuje [>Haste] o {5}{7}%</color> po dobu {2} po každém úspěšně odraženém útoku. Může být opakováno až {4} krát po sobě.
@@ -1670,13 +1670,13 @@ DescShieldWall	Snižuje veškeré příchozí poškození o {5} po dobu {2}.
 
 //=== Warrior - Man At Arms
 AbSwipe		Výpad
-DescSwipe	Kruhový útok, který způsobí nepřátelům před Tebou poškození {0} HP.
+DescSwipe	Kruhový útok, který zZpůsobí nepřátelům před Tebou poškození {0} HP.
 
 AbHardStrike	Tvrdý úder
 DescHardStrike	Mocný útok způsobující poškození {0} HP.
 
 AbBleeding	Krvácení
-DescBleeding	Nepříteli způsobuje krvácení poškození {1} HP po dobu {2}.
+DescBleeding	Nepříteli způsobuje krvácení poškození {1} HP během {2}.
 
 AbDeadlyAssault	Smrtící útok
 DescDeadlyAssault	Precizní útok, založený víc na síle útoku, než na zbrani - výsledkem je poškození {0}.
@@ -1705,13 +1705,13 @@ DescBerserk	Zvyšuje nejen poškození nepříteli o {5}, ale i příchozí poš
 
 //=== Warrior - Paladin
 AbDivinePunishment	Boží trest
-DescDivinePunishment	Úder boží, který způsobí nepříteli poškození {0} HP.
+DescDivinePunishment	Úder boží, který zZpůsobí nepříteli poškození {0} HP.
 
 AbHammerOfJustice	Kladivo spravedlnosti
 DescHammerOfJustice	Požehná Tvou zbraň, která tak získá poškození {0} HP.
 
 AbCrusaderAssault	Útok Křižáků
-DescCrusaderAssault	Způsobí nepříteli poškození {0} HP a okolním nepřátelům poškození {6} HP.
+DescCrusaderAssault	ZZpůsobí nepříteli poškození {0} HP a okolním nepřátelům poškození {6} HP.
 
 AbAngelProtection	Štít andělů
 DescAngelProtection	Obklopí vybraného spolubojovníka bublinou, která pohltí {5} poškození po dobu {2}, ale také spolubojovníka dočasně znehybní, díky čemuž o něj nepřátelé ztratí zájem.
@@ -1729,7 +1729,7 @@ AbSaintlySacrifice	Svatá oběť
 DescSaintlySacrifice	Přesměruje na Paladina {5} poškození způsobeného spolubojovníkovi po dobu {2}.
 
 AbSealOfContrition	Znak kajícnosti
-DescSealOfContrition	Způsobí nepříteli poškození {1} HP po dobu {2}.
+DescSealOfContrition	ZZpůsobí nepříteli poškození {1} HP během {2}.
 
 AbSealOfRepentance	Znak pokání
 DescSealOfRepentance	Šance na KZ nepřítele se zvyšují o {5}{8}%</color>.
@@ -1750,16 +1750,16 @@ AddComboPoint	\n\nPřidává 1 útočný bod
 FinishCombo	Dovednost vhodná jako vrchol útoku - spotřebuje všechny útočné body.\n\n
 
 AbDreadfulJab	Kraťas // Dreadful Jab
-DescDreadfulJab Rafinovaný útok, který způsobí nepříteli poškození {0} HP.[>AddComboPoint].
+DescDreadfulJab Rafinovaný útok, který zZpůsobí nepříteli poškození {0} HP.[>AddComboPoint].
 
 AbSwiftKnife	Mrštná dýka 
-DescSwiftKnife	[>FinishCombo]Vrhne magickou dýku, která způsobí poškození {0} HP. Poškození se zvyšuje o {8}20%</color> za každý [>ComboPoint].
+DescSwiftKnife	[>FinishCombo]Vrhne magickou dýku, která zZpůsobí poškození {0} HP. Poškození se zvyšuje o {8}20%</color> za každý [>ComboPoint].
 
 AbPoison	Smrtící jed
 DescPoison	Způsobuje poškození {1} HP trvající {2}.
 
 AbExecute	Poprava
-DescExecute	[>FinishCombo]Způsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}20%</color> za každý [>ComboPoint].
+DescExecute	[>FinishCombo]ZZpůsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}20%</color> za každý [>ComboPoint].
 
 AbMug		Vobíračka
 DescMug		Útok oběma rukama. Zbraň v pravačče poškozuje nepřítele za {0} HP, zatímco levačka útočí na další nepřátele.\n\nPřidává 2 [>ComboPoints].
@@ -1768,7 +1768,7 @@ AbKillingSpree	Zabijačka
 DescKillingSpree	[>FinishCombo]Zvyšuje spěch o {5}% po dobu {2}. Každý [>ComboPoint] zvyšuje délku efektu o {7}100%</color>.
 
 AbThousandKnives	Tisíc nožů
-DescThousandKnives	[>FinishCombo]Vzduch okolo Tebe se zaplní dýkami, které způsobí každému ze zasaženému poškození {0} HP. Každý [>ComboPoint] zvyšuje poškození o {8}20%</color>.
+DescThousandKnives	[>FinishCombo]Vzduch okolo Tebe se zaplní dýkami, které zZpůsobí každému ze zasaženému poškození {0} HP. Každý [>ComboPoint] zvyšuje poškození o {8}20%</color>.
 
 AbHiredHitman	Nájemný zabiják
 DescHiredHitman	Někdo z Tvé bandy na sebe vezeme {7}65%</color> tvých hrozeb na <color=white>12s</color>.
@@ -1790,10 +1790,10 @@ AbPommel	Pecka
 DescPommel	[>DescKick][>AddComboPoint].
 
 AbSweepingBlow	Úklid
-DescSweepingBlow	Způsobí vybranému nepříteli poškození {0} HP a všem okolním nepřátelům poloviční. Navíc aktivuje dovednost [>AbDeepCut], která způsobé to samé poškození během <color=white>12s</color>. Velmi výhružné.[>AddComboPoint].
+DescSweepingBlow	ZZpůsobí vybranému nepříteli poškození {0} HP a všem okolním nepřátelům poloviční. Navíc aktivuje dovednost [>AbDeepCut], která způsobé to samé poškození během <color=white>12s</color>. Velmi výhružné.[>AddComboPoint].
 
 AbDeepCut	Hluboká rána
-DescDeepCut	Způsobí nepříteli poškození {1} HP po dobu {2}. Velmi výhružné.
+DescDeepCut	ZZpůsobí nepříteli poškození {1} HP během {2}. Velmi výhružné.
 
 AbInvitation	Pozvánka
 DescInvitation	Zvýší Tvou hrozbu tak, aby byla nejvyšší, a tím přiláká nepřátele.[>AddComboPoint].
@@ -1805,7 +1805,7 @@ AbRiposte	Odveta
 DescRiposte	Zvyšuje fyzické poškození o {5} po dobu {2}.
 
 AbLunge		Výpad
-DescLunge	[>FinishCombo]Způsobí nepříteli poškození {0} HP. Každý [>ComboPoint] zvyšuje poškození o {8}30%</color>. Děsivé - zvyšuje hrozbu.
+DescLunge	[>FinishCombo]ZZpůsobí nepříteli poškození {0} HP. Každý [>ComboPoint] zvyšuje poškození o {8}30%</color>. Děsivé - zvyšuje hrozbu.
 
 AbBladeDancer	Šavlový tanec // Blade Dancer
 DescBladeDancer	Zvyšuje šanci na [>Dodge] o {5}{7}%</color> a snižuje veškeré příchozí poškození o {9} po dobu {2}.
@@ -1817,32 +1817,32 @@ AbRubSaltWound	Sůl do rány // Rub Salt in the Wound
 DescRubSaltWound	[>FinishCombo]Protáhne trvání dovednosti [>AbDeepCut] o {8}1 tik</color> za každý [>ComboPoint].
 
 AbPiercingStrike	Probodnutí
-DescPiercingStrike	[>FinishCombo]Způsobí nepříteli poškození {0} HP. Nehledí na hodnotu vlastnosti [>ArmorRating]. Děsivé - zvyšuje hrozbu.\nKaždý [>ComboPoint] zvyšuje poškození o {8}30%</color>.
+DescPiercingStrike	[>FinishCombo]ZZpůsobí nepříteli poškození {0} HP. Nehledí na hodnotu vlastnosti [>ArmorRating]. Děsivé - zvyšuje hrozbu.\nKaždý [>ComboPoint] zvyšuje poškození o {8}30%</color>.
 
 AbRecovery	Krvavé procitnutí // Recovery in Blood
-DescRecovery	[>FinishCombo]Přidává {1} HP po dobu {2}. Každý [>ComboPoint] zvyšuje délku léčení o {7}100%</color>.
+DescRecovery	[>FinishCombo]Přidává {1} HP během {2}. Každý [>ComboPoint] zvyšuje délku léčení o {7}100%</color>.
 
 AbSlipperyFish	Jako úhoř
 DescSlipperyFish	Zvyšuje šanci na [>Dodge] o {5}{7}%</color>.
 
 //=== Rogue - Ranger
 AbInstinctShot	Poslepu
-DescInstinctShot	Způsobí nepříteli poškození {0} HP.[>AddComboPoint].
+DescInstinctShot	ZZpůsobí nepříteli poškození {0} HP.[>AddComboPoint].
 
 AbSniperShot	Odstřelovač[:|ka]
-DescSniperShot	[>FinishCombo]Způsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}15%</color> za každý [>ComboPoint].
+DescSniperShot	[>FinishCombo]ZZpůsobí nepříteli poškození {0} HP. Poškození se zvyšuje o {8}15%</color> za každý [>ComboPoint].
 
 AbDoubleShot	Dvojče
-DescDoubleShot	Způsobí nepříteli poškození {0} HP. Vyšle druhý projektil, který způsobí poškození ve výši {8}75%</color> původního.\n\nPřidává 2 [>ComboPoints].
+DescDoubleShot	ZZpůsobí nepříteli poškození {0} HP. Vyšle druhý projektil, který zZpůsobí poškození ve výši {8}75%</color> původního.\n\nPřidává 2 [>ComboPoints].
 
 AbHemorrhage	Puštění žilou
-DescHemorrhage	Způsobí nepříteli poškození {1} HP po dobu {2}.
+DescHemorrhage	ZZpůsobí nepříteli poškození {1} HP během {2}.
 
 AbMaimThenKill	Zmržačit a ukončit
 DescMaimThenKill	Zvyšuje poškození způsobené dovedností [>AbSniperShot] o {5} po dobu {2}.
 
 AbVolleyOfArrows	Salva
-DescVolleyOfArrows	[>FinishCombo]Vyšle smršť šípů na nepřátele, způsobí poškození {1} HP. Poškození se zvyšuje o {8}20%</color> za každý [>ComboPoint].
+DescVolleyOfArrows	[>FinishCombo]Vyšle smršť šípů na nepřátele, zZpůsobí poškození {1} HP. Poškození se zvyšuje o {8}20%</color> za každý [>ComboPoint].
 
 AbPlayingPossum	Mrtvej brouk
 DescPlayingPossum	Předstíráš smrt, díky čemuž se Tvé hrozby vynulují, vedlejším účinkem je ochromení po dobu {2}.
@@ -1870,9 +1870,9 @@ DescHunterTracking	Zanecháváš za sebou kouřovou stopu po dobu {2}. // X? no 
 
 //=== Field Abilities ===================================================
 AbPoisonField	Jed
-DescPoisonField	Způsobí otravu a poškození {0} HP plus {1} HP po dobu {2}.
+DescPoisonField	ZZpůsobí otravu a poškození {0} HP plus {1} HP během {2}.
 AbFireField	Oheň
-DescFireField	Způsobí popáleniny a poškození {0} HP plus {1} HP po dobu {2}.
+DescFireField	ZZpůsobí popáleniny a poškození {0} HP plus {1} HP během {2}.
 AbShadowProtField	Ochrana proti temné magii
 DescShadowProtField	Chrání proti poškození na bázi temné magie - {5}{7}%</color>.
 AbNatureProtField	Ochrana proti přírodní magii
@@ -1888,7 +1888,7 @@ DescHealField   Uzdraví {3} HP s odstupem {2}.
 AbHighDamager	Síla Dědy // Inner Force
 DescHighDamager	Všechna poškození jsou po dobu {2} zvýšena o {5}.
 AbDarkDecay	Temná hniloba
-DescDarkDecay	Vyrážka na kůži ti bude způsobovat poškození {1} HP po dobu {2}. Může být opakováno až {4} krát po sobě.
+DescDarkDecay	Vyrážka na kůži ti bude způsobovat poškození {1} HP během {2}. Může být opakováno až {4} krát po sobě.
 
 //=== Mob Abilities ===================================================
 AbCharge	Výboj
@@ -1940,10 +1940,10 @@ AbMobWarCry	Válečný ryk
 DescMobWarCry	Zvyšuje sílu útoku spojenců o {5} po dobu {2}.
 AbMobFire	Ručnice
 AbRodentCurse	Krysí prokletí
-DescRodentCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
+DescRodentCurse	ZZpůsobí nepříteli poškození {1} HP během {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
 AbMobSmashFrenzy	Mlátička
 AbTrollRegen	Trolí regenerace
-DescTrollRegen	Uzdravuje {1} HP po dobu {2}.
+DescTrollRegen	Uzdravuje {1} HP během {2}.
 AbMobWhirlWind	Větrník
 AbMobBash	Rána
 DescMobBash	Útok vedený plochou zbraně namísto její ostrou částí. Útok ochromí nepřítele po dobu {2}.
@@ -1989,7 +1989,7 @@ DescBossShieldBash	Vyruší zasaženého nepřítele a navíc ho ochromení na 3
 AbBossSlowEnrage	Rostoucí vztek
 DescBossSlowEnrage	Útočníkův vztek roste po dobu {2}, výsledkem je doplňkové poškození {5} HP.
 AbWitchCurse	Uhranutí
-DescWitchCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
+DescWitchCurse	ZZpůsobí nepříteli poškození {1} HP během {2}, může být opakováno až {4} krát po sobě. Poškození se zvyšuje exponenciálně.
 AbWitchBall	Chrchel
 AbWitchHeal	Magické uzdravení
 AbTeleportPath	Rychlost světla
@@ -1998,7 +1998,7 @@ AbBossDeathRay	Paprsek smrti
 AbTeleportWarlock	Temné mrknutí
 AbWarlockHeal	Temné uzdravení
 AbWarlockCurse	Temná klatba
-DescWarlockCurse	Způsobí nepříteli poškození {1} HP po dobu {2}, může být opakováno až {4} krát po sobě.
+DescWarlockCurse	ZZpůsobí nepříteli poškození {1} HP během {2}, může být opakováno až {4} krát po sobě.
 AbBossShadowCurse	[>AbWarlockCurse]
 DescBossShadowCurse	[>DescWarlockCurse]
 AbBossNova	Supernova
@@ -2047,7 +2047,7 @@ DescSpecElementalist	[>SpecElementalist] využívá elementy k likvidaci nepřá
 DescSpecWarlock		[>SpecWarlock] spoléhá na dlouhodobé účinky svých kouzel, kterými pomalu, ale jistě vysává život ze svých objetí.
 DescSpecArcanist	[>SpecArcanist] je mistr[:|yně] rychlosti a přesnosti. Nepřítele vítá vlnou tajemných kouzel, která kosí řady nepřátel.
 
-DescSpecDruid	[>SpecDruid] je se svými dlouho působícími kouzly typickým léčitelem.
+DescSpecDruid	[>SpecDruid] je se svými dlouho Způsobícími kouzly typickým léčitelem.
 DescSpecPriest	[>SpecPriest] sice má léčitelské schopnosti, ale dává přednost ochraně Tanka.
 DescSpecNecromancer	[>SpecNecromancer] je adeptem temných umění kradoucím zdraví nepřátelům.
 
@@ -2113,7 +2113,7 @@ TrShieldMaster	Zvyšuje šanci na blokování štítem o {WarProtShield}.
 TlArmorMaster	Zbrojmistr[:|yně] 
 TrArmorMaster	Zvyšuje hodnotu vlastností typu [>ArmorRating] získanou z vybavení o {Armor}.
 TlDevastating	Ničitel
-TrDevastating	Dovednost [>AbDevastate] způsobí poškození nejen nepříteli, ale i některému z jeho druhů ve výši {TalentX B} původního poškození.
+TrDevastating	Dovednost [>AbDevastate] zZpůsobí poškození nejen nepříteli, ale i některému z jeho druhů ve výši {TalentX B} původního poškození.
 TlEnrage	Zuřivost
 TrEnrage	Zvyšuje odchozí poškození o {Enrage} a snižuje příchozí poškození o {Enrage #1} na {Enrage DotLength}. // X? meaning? ~ when casting [>AbRageYell].
 TlRetaliate	Ústup
@@ -2184,7 +2184,7 @@ TrNoSacrificeInVain	Pokud použiješ dovednost [>AbSaintlySacrifice], pak se pou
 TlAssassin	[>SpecAssassin]
 TrAssassin	Zvyšuje poškození založené na přírodní magii o {Damage}.
 TlToxicKnife	Jedovatý nůž
-TbToxicKnife	Při KZ dovedností [>AbSwiftKnife] přidá [>AbPoison], který způsobí poškození {Poison DotTotalDmg} HP za {Poison DotLength}. Může být opakováno až {Poison MaxStack} krát po sobě.
+TbToxicKnife	Při KZ dovedností [>AbSwiftKnife] přidá [>AbPoison], který zZpůsobí poškození {Poison DotTotalDmg} HP za {Poison DotLength}. Může být opakováno až {Poison MaxStack} krát po sobě.
 TrToxicKnife	Zvyšuje šanci na KZ u dovednosti [>AbSwiftKnife] o {CritChance}.
 TlSmoothCriminal	Jako samet
 TrSmoothCriminal	Snižuje hrozbu pro všechna přímá poškození o {TalentX}, plus snižuje hrozbu u dovedností [>AbSweepingBlow] a [>AbDeepCut] o {LowerThreat:RogueAssSmoothCriminalB}.
@@ -2247,7 +2247,7 @@ TrMarksman	Zvyšuje poškození způsobené dovednostmi [>AbSniperShot] a [>AbDo
 TlHunterTracking	[>AbHunterTracking]
 TrHunterTracking	Snižuje všechny Tvoje hrozby o {LowerThreat}.
 TlHardenedSteel	Kalená ocel
-TrHardenedSteel	KZ způsobené Tvými dovenostmi akivují [>AbHemorrhage], čímž způsobí nepříteli poškození {TalentX B} původního poškození během {Hemorrhage DotLength}.
+TrHardenedSteel	KZ způsobené Tvými dovenostmi akivují [>AbHemorrhage], čímž zZpůsobí nepříteli poškození {TalentX B} původního poškození během {Hemorrhage DotLength}.
 TlFrenzyStreak	Divoký útok
 TrFrenzyStreak	Poškození zppůsobené automatickým útokem se zvyšuje o {TalentX B} za každý nasbíraný [>ComboPoint].
 TlRepeatingShot	Repete
@@ -2267,10 +2267,10 @@ TrElementalist	Zvyšuje o {CritChance} šanci na KZ u útoků jejichž základem
 TlSpeedyEle	Rychlé ruce // Swift Elements
 TrSpeedyEle	Snižuje čas potřebný na [>AbFrostbolt], [>AbFireball] a [>AbArcaneBurst] o {AbsoluteSpeed f} s.
 TlIgnite	[>AbIgnite]
-TrIgnite	KZ dovedností [>AbFireball] zapálí nepřítele a způsobí mu {TalentX B} původního poškození po dobu {Ignite DotLength}.\nNavíc zvyšuje poškození způsobené dovedností [>AbHellFire] o {Damage}.
+TrIgnite	KZ dovedností [>AbFireball] zapálí nepřítele a zZpůsobí mu {TalentX B} původního poškození po dobu {Ignite DotLength}.\nNavíc zvyšuje poškození způsobené dovedností [>AbHellFire] o {Damage}.
 TlIceShield	[>AbIceShield]
 TlWaterfallShield	Vodopád
-TrWaterfallShield	Když použiješ dovednost [>AbIceShield], pak na zbytek bandy bude chránit dovednost [>AbWaterShield].
+TrWaterfallShield	Když použiješ dovednost [>AbIceShield], pak zbytek bandy bude chránit dovednost [>AbWaterShield].
 TlHappyRain	Láska k dešti // Only Happy When it Rains
 TrHappyRain	Zvyšuje poškození způsobené dovedností [>AbRainOfFire] o {Damage} a zároveň snižuje pauzu mezi použitími o {CoolDown}.
 TlChainSmoking	Řetězová reakce // Chain Smoking
@@ -2316,7 +2316,7 @@ TrUnendingTorment       Dovednosti [>AbDominate] a [>AbShadowBall] získají {Ta
 TlBattleMage	Bojový mág
 TrBattleMage	Zvyšuje o {TalentX} Tvé maximální zdraví a způsobené fyzické poškození o {Damage}.
 TlDarkWisdom	Moudrost temnoty
-TrDarkWisdom	Zvyšuje o {TalentX} Tvou maximální manu.
+TrDarkWisdom	Zvyšuje o {TalentX} Tvé maximální množství many.
 
 //=== Mage - Arcanist
 TlArcanist	[>SpecArcanist]
@@ -2324,7 +2324,7 @@ TrArcanist	Zvyšuje poškození u útoků jejichž základem je [>DmgArcane] o {
 TlFasterThanLight	Rychlejší než světlo
 TrFasterThanLight	Zvyšuje hodnotu vlastnosti [>Haste] o {Haste}.
 TlArcaneFusion	[>AbArcaneFusion]
-TrArcaneFusion	Zásahy způsobené dovednostmi [>AbArcaneRupture] & [>AbArcaneImplosion] mají {Talent MageArcaneFusion Condition Random} šanci aktivovat dovednost [>AbArcaneFusion], která způsobí nepříteli poškození {ArcaneFusion DotTotalDmg} HP po dobu {ArcaneFusion DotLength}, toto může být zopakováno až {ArcaneFusion MaxStack} krát po sobě.
+TrArcaneFusion	Zásahy způsobené dovednostmi [>AbArcaneRupture] & [>AbArcaneImplosion] mají {Talent MageArcaneFusion Condition Random} šanci aktivovat dovednost [>AbArcaneFusion], která zZpůsobí nepříteli poškození {ArcaneFusion DotTotalDmg} HP po dobu {ArcaneFusion DotLength}, toto může být zopakováno až {ArcaneFusion MaxStack} krát po sobě.
 TlSurvivalOfTheFittest	Přežije nejlepší
 TrSurvivalOfTheFittest	Protáhne účinek dovednosti [>AbArcaneArmor] o {AddDotTick ExtraTime ArcaneArmor}.
 TlMentalArmor	Duševní zbroj
@@ -2366,7 +2366,7 @@ TrNaturalWay	Zvyšuje účinky dovedností [>AbHeal] a [>AbRegrowth] o {Damage G
 TlBarkskin	Hroší kůže
 TrBarkskin	Zvyšuje odolnost o {ResHoly} a snižuje hrozbu všech dovedností přidávajících zdraví o {LowerThreat}.
 TlRegrowthMana	[>AbRegrowthMana]
-TrRegrowthMana	Each [>AbRegrowth] tick has 1% chance to give you a Mana regeneration of {TalentX} of your Total Mana over {RegrowthMana DotLength}.
+TrRegrowthMana	Each [>AbRegrowth] tick has 1% chance to give you a Mana regeneration of {TalentX} of your Total Mana během {RegrowthMana DotLength}.
 TlSelfPreservation	Pud sebezáchovy
 TrSelfPreservation	Pokud Tvé zdraví klesne pod {Talent HealDruidSelfPreservation Condition HpRatio} budeš mít {Talent HealDruidSelfPreservation Condition Random} šanci na aktivaci dovednosti [>AbRegrowth] s nulovou spotřebou many.
 TlPurifiedRain	Očistný déšť
@@ -2418,7 +2418,7 @@ TrShadowArmy	Při použití dovednosti [>AbArmyOfDarkness] aplikuje dovednost [>
 TlAngrySpirits	Poltergeist
 TrAngrySpirits	Zvyšuje poškození Tvých útočných dovedností o {Damage}.
 TlDarkArts	Temná umění
-TrDarkArts	Zvyšuje maximální manu o {TalentX}.
+TrDarkArts	Zvyšuje Tvé maximální množství many o {TalentX}.
 TlOneFootInBothWorld	Nohama na zemi // One Foot in Both Worlds
 TrOneFootInBothWorld	Snižuje příchozí poškození o {TalentX G}.
 TlLastBreath	[>AbLastBreath]
