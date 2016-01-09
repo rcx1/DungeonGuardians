@@ -1,4 +1,8 @@
-﻿EmperorGhost	At last, you freed me ! Thank you so much, now my spirit will be released and finally vanish within the forces of our universe !
+﻿// lang CZE
+// ver 0.8
+// for game ver 1.0a
+// author rcx
+EmperorGhost	At last, you freed me ! Thank you so much, now my spirit will be released and finally vanish within the forces of our universe !
 G	But you're just a kid ?!
 EmperorGhost	I was once, but I guess I'm not really one anymore, even though you only see the body I had when I died in there. This is all too far in the past for me...
 N	So you're really the Young Emperor ?
