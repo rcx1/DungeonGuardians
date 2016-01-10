@@ -1,0 +1,76 @@
+﻿Vstup do rozlehlého, masivního podzemí, plného nebezpečí, záhad a tajemství.
+Probojuj se hordami nepřátel a mocných příšer.
+Vyřeš hádanky, vyhni se smrtícím pastem, najdi skryté chodby a nestrať se v bludišti chodeb.
+
+===========================================
+
+[h2] Úvod :[/h2]
+
+The Fall of the Dungeon Guardians (Konec strážců podzemí) je RPG odehrávající se v podzemí, které vidíte z pohledu hráče (First Person View).
+Je inspirovaná klasikami, jako jsou série Might & Magic® nebo Eye of the Beholder®. Okořeněná moderním systémem boje založeném na osvědčené trojici "tank / bojovník / léčitel".
+
+
+[h2] Příběh :[/h2]
+
+Nastupuješ jako strážce do vězení ukrytém hluboko v podzemí. Zatím, co sníš své první žalářnické sny, okolo se dějí podivné věci a když se ráno vzbudiš, všichni vězňové jsou na útěku. Správe vězení moudře opouští podzemí, předávajíc Ti veškerou zodpovědnost za pronásledování uprchlíků. Pak si vybereš zbytek bandy a vyrazíte do tajemného podzemí.
+
+[h2] Cesta za dobrodružstvím :[/h2]
+
+Vstup do rozlehlého, masivního podzemí, plného nebezpečí, záhad a tajemství.
+Probojuj se hordami nepřátel a mocných příšer.
+Prozkoumej spletité chodby, podzemní paláce, doly upadlé v zapomnění a zlem bující krypty.
+Vyřeš hádanky, vyhni se smrtícím pastem, najdi skryté chodby a nestrať se v bludišti chodeb.
+
+
+[h2] Vývoj postavy :[/h2]
+
+Budeš velet partě 4 strážců. Každý se svou vlastní sadou dovedností, které budou během dobrodružství přibývat.
+Za každou úroveň, na kterou se strážce dostane, obdrží bod do Stromu dovedností, kde mu můžeš vybrat dovednosti a tím určit směr jeho / jejího vývoje.
+Můžeš si vybrat ze 4 tříd : Bojovník, Léčitel, Mág a Zloděj. Každá třída má 3 specializace se svým stromem dovedností. Takže v základu máš 12 profesí, ze kterých můžeš vybírat.
+Navíc můžeš postavu naučit něco i ze zbylých 2 specializací její třídy a tím vypilovat její profil.
+
+Podzemí je plné lupu a pokladů : epická brnění, legendární zbraně a tajemné, magické předměty, které strážce obdaří neuvěřitelnými schopnostmi. Když zlikviduješ nějakou skupinu nepřátel, tak po nich zůstane náhodný kus vybavení, který je užitečný pro některého ze strážců.
+
+[h2] Pokročilý systém boje :[/h2]
+
+Boj je založen na osvědčené trojici "tank / bojovník / léčitel" rozšířené o systém hrozeb : léčení spolubojovníků je pro nepřítele stejná hrozba jako útok bojovníka, proto je v rukách tanka, aby nepřátele na sebe nalákal zpět a tím léčitele ochránil. To znamená, že hlavním atributem tanka bude obrana a brnění.
+Zbylí 2 strážci budou ti, kteří budou kosit nic netušící, na tanka útočící, nepřátele.
+
+Klíčem k vítězství nad nejobtížnějšími protivníky bude nejen využití vhodných dovedností jednotlivých strážců, ale i jejich kombinace a načasování.
+Vypadá to složitě, ale opak je pravdou - hra má možnost taktické pauzy : kdykoli chceš, můžeš hru zastavit, projít si, co jednotliví strážci dělají a mají v plánu dělat a případně to změnit, pak hru zase pustit.
+
+Nelíbí se ti idea tanka nebo nerad zastavuješ hru ? Žádný problém, sniž si obtížnost hry a zahraješ si i bez tanka či pauz. 
+Obtížnost můžeš měnit i v průběhu hry, buď si vybereš z velké řady připravených nastavení (od Kojence po Likvidátora) nebo si jednotlivé aspekty nastavíš dle sebe.
+
+Na rozdíl od RPG staré školy nemusíš při boji volit mezi útokem a obranou. Všichni strážci mají schopnost se bránit, podpořenou brněním a obratností, což je, za pomoci léčitele, ve většině případů dostačující.
+Samozřejmě budou chvíle, kdy se strážci budou muset vypořádat s mimořádně silným útokem, například krokem zpět či úkrokem - takže je dobré boj i okolí sledovat a žádá-li to situace rychle reagovat.
+
+
+[h2] Vestavěný editor map & Rozšíření :[/h2]
+
+Součástí hry je plnohodnotný editor, umožňující stvořit vlastní podzemí. Jeho ovládání je intuitivní, ikdyž složitější úkoly budou vyžadovat trochu učení nebo zkoušení metodou pokus - omyl.
+Navíc se sadou pro tvorbu rozšíření budeš schopen upravit chování existujících nepřátel, tříd, specializací, dovedností a vybavení. S trochou úsilí i tvořit nové. O přidávání efektů a zvuků ani nemluvě.
+
+
+[h2] Hra nabízí :[/h2]
+[list]
+[*]    Partu o 4 členech
+[*]    Pohyb po mřížce : uděláš buď 1 krok nebo se otočíš o 90 stupňů
+[*]    Z pohledu hráče (First Person View)
+[*]    4 třídy, 12 specializací
+[*]    5 hratelných ras : člověk, trpaslík, elf, temný elf, půlčík
+[*]    Taktická pauza (tj: můžeš zastavit hru a v klidu vydat pokyny strážcům)
+[*]    25-50 hodin hraní, v závislosti na Tvých dovednostech a nastavení obtížnosti
+[*]    20 bosů
+[*]    100 druhů příšer (včetně variant)
+[*]    Hádanky (těch pár, co je nutných k dokončení hry, není obtížných)
+[*]    Velké množství taktického boje
+[*]    Vestavěný editor map & Možnost tvorby vlastních rozšíření
+[/list]
+
+======================================
+
+
+S podporou Shader Model 3.0 ; NVidia GeForce GTX 260 (2008) nebo GT 730 (2014), AMD Radeon HD 5670 (2009) nebo HD7570 (2012) ; hra poběží i na slabších kartách s podporou 3D, ale bude nutné snížit dohlednost, případně kvalitu zobrazení
+
+Na některých starších integrovaných grafických kartách hra nemusí běžet ; na Intel HD5000 sice běží, ale vše musí být nastaveno na minimum a i tak je FPS 20-30.
