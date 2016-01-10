@@ -2,48 +2,48 @@
 // ver 0.8
 // for game ver 1.0a
 // author rcx
-EmperorGhost	At last, you freed me ! Thank you so much, now my spirit will be released and finally vanish within the forces of our universe !
-G	But you're just a kid ?!
-EmperorGhost	I was once, but I guess I'm not really one anymore, even though you only see the body I had when I died in there. This is all too far in the past for me...
-N	So you're really the Young Emperor ?
-EmperorGhost	I was, yes. I've been entrapped in this dungeon for so long, bound to be his "guardian". But I found a way to escape. I had to trigger a set of events so you'll come after me, setting traps & challenges on your way so you'd get stronger & stronger, and thus would be able to defeat the magic slaving me.
-N	So you organized the mysterious escape of the prisoners and forced them to guard the path leading to you ?
-EmperorGhost	My mind is getting blur. I'll be gone very soon now. Thanks again. I'm deeply sorry it means you'll die there, though.
-B	What the heck ?!?
-EmperorGhost	Yes, I was the last guardian of this dungeon, so now it's going to collapse on your heads. But do not worry, you are heroes of the Empire now, your souls will travel quickly to Heavens! You do believe in Heavens, right ?
-N	Didn't you just say your spirit was going to vanish ? Shouldn't you go to Heavens as well ? Or Hell ?
-EmperorGhost	Oh bummer, I guess I talked too much... Just remember your deaths will not have been in vain... We're all going to rest together... Now...
+EmperorGhost	Konečně mě někdo vysvobodil ! Velice Vám děkuji, konečně jsem volný a duše má může zpět do všehomíra !
+G	Vždyť jsi ještě dítě ?!
+EmperorGhost	Kdysi jsem byl, ale to už je dávno, jsem jen obrazem těla, které je dlouho mrtvé. Všecho to je pro mě dávná minulost ...
+N	Takže Vy jste opravdu Malý císař ?
+EmperorGhost	Byl jsem. Tohle podzemí mě polapilo a přinutilo mě stát se jeho "strážcem". Ale přišel jsem na to, jak utéci. Stačilo vše nachystat tak, abyste se za mnou vydali, díky pastem a nástrahám se zlepšovali a utužovali, abyste nakonec byli schopni vyzrát i na mé stážcovské já.
+N	Takže ten tajemný útěk a vězňové hlídající cestu, jsou Vaším dílem ?
+EmperorGhost	Slábnu, myšlenky se ztrácejí. Brzy se ztratím i já. Jestě jednou děkuji. Upřímně lituji, že tu zemřete.
+B	Cože ?!?
+EmperorGhost	Podzemí bylo vyztuženou prastarou magií, která je svázána s jeho stážcem. Mou srmtí ta magie přestane účinkovat a chodby se na nás zřítí. Ale nebojte, stali se z Vás hrdinové, Vaše duše půjdou přímo do Ráje ! Doufám, že věříte na Ráj.
+N	Neříkal jste, že Vás duch se rozplyne ? Neměl byste tedy jít do Ráje či Pekla ?
+EmperorGhost	Bože ... asi jsem toho řekl příliš ... Prostě - Vaše smrt nebude marná ... Budeme tu společně odpočívat... 3, 2, 1 ...
 Title	The Fall of the Dungeon Guardians
-Title	Story
-DetailL	The Dungeon Guardian
-Title	Dungeon Architecture
-DetailL	The Dungeon Guardian
-Title	Traps
-DetailL	The Dungeon Guardian
-Title	Puzzles
-DetailL	The Dungeon Guardian
-Title	Keeping all the lights on
-DetailL	The Invisible Imp Horde
-Title	Starring, in their own tragic roles
-N	Guys, it has been an honor to serve with you. I'd have rather died in my bed in my very old years, but this is probably my 2nd preferred way to die.
-B	Glad we made your day. See you on the other side, if there's any !
-Title	Level Design
-DetailL	The Dungeon Guardian
-Title	Also starring, in their own petty roles
-DetailL	Trolls
-DetailL	Orcs
-DetailL	Goblins
-DetailL	Barbarians
-DetailL	Skeletons
-DetailL	Gnomes
-DetailL	Ratkins
-DetailL	Demons
-DetailL	Spiders
-DetailL	etc.
-N	Did you hear that ?
-B	The busting water ?
-N	Yes, it's  great !
-B	That maybe we're going to die drowning instead of being crushed to death ? Yeah, sounds great.
-N	No, the water flows quickly lowered, it means there's a wall that collapsed and there was a natural cavity behind it, holding some water. If it's natural, then it's not a part of the dungeon, so it won't collapse, just run to it !
-G	Really ? Where it is ? Can't see much without light !
-B	I think it was this way, hurry up !
+Title	Příběh
+DetailL	{>MobBigBoss}
+Title	Design podzemí
+DetailL	{>MobBigBoss}
+Title	Pasti
+DetailL	{>MobBigBoss}
+Title	Hádanky
+DetailL	{>MobBigBoss}
+Title	Ovětlovači
+DetailL	Horda neviditelných skřítků
+Title	Hrají - ve svých vlastních tragických rolích
+N	Bylo mi ctí s Vámi všemi sloužit (lidu). Raději bych zemřel v posteli v opradu pokročilém věku, ale ... pokud bych si měl vybrat, tak toto by byla má druhá nejoblíbenější smrt.
+B	Sme rádi, že se ti s náma líbilo. Uvidíme se na druhý straně, pokud ňáká je !
+Title	Design pater
+DetailL	{>MobBigBoss}
+Title	Ve vedlejších rolích
+DetailL	Trolové
+DetailL	Orkové
+DetailL	Goblini
+DetailL	Barbaři
+DetailL	Kostlivci
+DetailL	Gnómové
+DetailL	Krysáci
+DetailL	Démoni
+DetailL	Pavouci
+DetailL	a další
+N	Slyšeli jste to ?
+B	Hukot vody ?
+N	Ano, to je skvělé !
+B	Jako, že se spíš utopíme, než že budem rozdrceni na padrť ? Jo, to sní skvěle. A ohňostroj by k tomu nebyl ?
+N	Ne, voda se sem vevalila, ale rychle ustupuje, což znamená, že někde tu byla zeď, která padla a za ní byla dutina plná vody. Pokud je dutina přírodní, pak není částí podzemí a podpůrná magie na ni nemá vliv, takže rychle dovnitř !
+G	Opravdu ? Kam ? Bez světla nic nevidím !
+B	Myslím, že tudy, rychle !
