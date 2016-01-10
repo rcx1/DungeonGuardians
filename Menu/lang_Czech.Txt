@@ -254,7 +254,7 @@ KeyMoveLeft	Krok vlevo
 KeyMoveRight	Krok vpravo
 KeyTurnLeft	Otočka vlevo
 KeyTurnRight	Otočka vpravo
-KeyActivePause	Bojová pauza
+KeyActivePause	Taktická pauza
 
 KeyNextDialog	Další dialog
 KeyDpsGraph	[>GuiDpsLog]
@@ -1519,7 +1519,7 @@ AbRegrowth	Dorůstání
 DescRegrowth	Uzdraví parťáka o {1} HP během {2}.
 
 AbSavior	Spasitel
-DescSavior	Okamžitě uzdraví parťáka o {0} HP.\n\nPozor - pauzu mezi použitími sídlí s dovednostmi [>AbMortification] a [>AbOverMyDeadBody].
+DescSavior	Okamžitě uzdraví parťáka o {0} HP.\n\nPozor - pauzu mezi použitími sdílí s dovednostmi [>AbMortification] a [>AbOverMyDeadBody].
 
 AbDanceOfGaia	Tanec Země
 DescDanceOfGaia	Uzdraví celou bandu o {1} HP.
@@ -1572,7 +1572,7 @@ AbPrayerOfRedemption	Modlitba za vykoupení
 DescPrayerOfRedemption	Uzdraví celou bandu o {0} HP.
 
 AbMortification	Umrtvení
-DescMortification	Sníží po dobu {2} příchozí poškození o {5}. Lze použít i při ochromení.\n\nPozor - pauzu mezi použitími sídlí s dovednostmi [>AbOverMyDeadBody] a [>AbSavior].
+DescMortification	Sníží po dobu {2} příchozí poškození o {5}. Lze použít i při ochromení.\n\nPozor - pauzu mezi použitími sdílí s dovednostmi [>AbOverMyDeadBody] a [>AbSavior].
 
 AbHolyDiligence	Pilný jako včelka
 DescHolyDiligence	Zvyšuje hodnotu vlastnosti [>Haste] o {5}{7}%</color> po dobu {2}.
@@ -1618,7 +1618,7 @@ AbTouchOfDeath	Dotyk smrti
 DescTouchOfDeath	Snižuje hodnotu nepřítelovy vlastnosti [>Haste] o {5}{8}%</color> po dobu {2}.
 
 AbOverMyDeadBody	Jen přes mou mrtvolu
-DescOverMyDeadBody	Vyvolá ducha, který Tě po dobu {2} ochraňuje - absorbuje {7}60%</color> příchozího poškození - a neustále Tě popichuje. Jakmile duch zmizí jsou všechny Tvé hrozby sníženy o {7}50%</color>.\n\nPozor - pauzu mezi použitími sídlí s dovednostmi [>AbMortification] a [>AbSavior].
+DescOverMyDeadBody	Vyvolá ducha, který Tě po dobu {2} ochraňuje - absorbuje {7}60%</color> příchozího poškození - a neustále Tě popichuje. Jakmile duch zmizí jsou všechny Tvé hrozby sníženy o {7}50%</color>.\n\nPozor - pauzu mezi použitími sdílí s dovednostmi [>AbMortification] a [>AbSavior].
 AbOverMyDeadBodyShield	[>AbOverMyDeadBody]
 DescOverMyDeadBodyShield	[>DescOverMyDeadBody]
 
