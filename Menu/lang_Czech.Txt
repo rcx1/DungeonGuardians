@@ -1,5 +1,5 @@
 // lang CZE
-// ver 0.8
+// ver 0.89
 // for game ver 1.0a
 // author rcx
 // in progress - editor
@@ -765,9 +765,9 @@ Stone04		Prasklý malý kámen
 Stone05		Oblázek
 StoneHeavy	Neskutečně těžký malý kámen
 
-Urn-DM1		"<i>Popel Bluegoldův</i>"
-Urn-DM2		"<i>Popel Notwena Reklawa</i>" // nice Walter N ;)
-Urn-DM3		"<i>Popel Redloha Soraje</i>" // Holder ;)
+Urn-DM1		"<i>Argaiv - popel</i>" // Bluegold
+Urn-DM2		"<i>Šivid Pokorp - popel</i>" // nice Notwen Reklaw = Walter N ;)
+Urn-DM3		"<i>Kážrd Najots - popel</i>" // Redloh Soraj = Holder ;)
 
 IdolTiger	Soška tygra
 IdolSnake	Soška hada
@@ -998,7 +998,7 @@ Level13		Mrtvý palác // Dead Palace
 Level14		Šilencův předpokoj // Madness Antechamber
 Level15		Pekelná pec // Furnace of Doom
 Level16		Dračí zámek // Temple of the Dragon
-Level17		Vež goblinů // Goblins' Tower
+Level17		Věž goblinů // Goblins' Tower
 Level18		Zapovězené brány // Forbidden Gates
 Level19		Nejtemnější krypta // Black Crypt
 Level20		Strážcovo srdce // Guardian's Heart
@@ -1012,7 +1012,7 @@ LookLikeCanHold	Vypadá to jako nějaký držák...
 CantHoldThat	Ale na tohle asi ne...
 UsedKey		Použit {0}
 NoMatchingKey	Nemám vhodný klíč
-LevelUp		{0} právě povýšil na {1} !
+LevelUp		{0} právě povýšil[:|a] na {1} !
 GotXp		Získal[:|a] {0} bodů
 XpMobKill	Získal[:|a] {0} bodů za zabití {1} úrovně {2}
 Screenshot	Screenshot uložen do {0}
@@ -1188,11 +1188,11 @@ MobWyvernElder	Stará saň
 MobSorceress	Čarodějka
 MobNightshade	Stín noci
 MobDemonist	Pekelník
-MobBigBoss1	Strážce podzemí
+MobBigBoss1	[>MobBigBoss]
 MobBigBoss2	[>MobBigBoss1]
 MobBigBoss3	[>MobBigBoss1]
 MobBigBoss4	[>MobBigBoss1]
-MobEmperorGhost	Imperátorův duch
+MobEmperorGhost	Císařův duch
 MobJanitor	Žalářník
 MobWarden	Správce vězení
 
@@ -1981,8 +1981,8 @@ AbDragonShadow	Vyvolání temnoty
 AbDragonAcid	Kyselá smršť
 AbBossSwipe	Monumentální otočka
 AbBossArrowRain	Déšť šípů
-AbBossArrowRainLight	Déšť svatých šípů
-AbBossArrowRainShadow	Déšť stínových šípů
+AbBossArrowRainLight	Déšť jasných šípů
+AbBossArrowRainShadow	Déšť temných šípů
 AbBossSniperArrow	Srdcovka
 AbBossShieldBash	Masivní útok štítem
 DescBossShieldBash	Vyruší zasaženého nepřítele a navíc ho ochromení na 3s.
