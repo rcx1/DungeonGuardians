@@ -2531,7 +2531,7 @@ DescOblivionStone	Zvýší počet možných kompletních změn Stromu dovednost�
 NoteL01-02	Někdy bych chtěl ležet na lavici, protože pak se stane něco milého.
 NoteL02-10	Výtečně ! Ale pokračujme ve hře. Dej mě do prázdné místnosti, vedle trojice v pokoji odpočívajících legend, pod svítidlo. // urny v L4
 NoteL04-10	Překvapils mě ! Asi je to na Tebe příliš snadné ! Uvidíme, jak si poradíš s tímto : dej mě před hromadu kamení a já Tě dovedu na druhou stranu.\n\nPS: Doufám, že se Ti můj dárek líbí ! // L4
-NoteL04-11	Ok, teď je to jisté, jsi opravdu dobrý. Tak mi ukaž, jak se popereš s tímto : put me under a sun in a place of many dreams.		// Sun = metal plate with the shape of a sun ; place of many dreams = dormitory
+NoteL04-11	Ok, teď je to jisté, jsi opravdu dobrý. Tak mi ukaž, jak se popereš s tímto : najdi místo kde se sní a tam mě pod slunce dej.		// Sun = metal plate with the shape of a sun ; place of many dreams = dormitory
 NoteL06-10	Přál bych si být pavoukem, pak bych se mohl schovat do malých děsivých prostor.
 NoteL06-11	Očividně Tě šetřím, musím být přísnější !\n\nHala smrti. 4 strany. 1 s mřížemi pro chudáky, 2 pro boháče a malá pro Císaře. Hoď něco pod slunce, pak mnou otevřeš poslední překážku. // L7 arena
 NoteL07-10	Mezi křivolakými trhlinami slunce je, hoď pod něj něco a pak najdi další slunce a tam mě polož.
