@@ -1,6 +1,6 @@
 // lang CZE
-// ver 0.89
-// for game ver 1.0a
+// ver 0.891
+// for game ver 1.0b
 // author rcx
 // in progress - editor
 // Codes can't start with : §, -, 0-9
@@ -132,7 +132,7 @@ AutoPause03	Zastav, pokud je léčitel bez many
 AutoPause04	Zastav, pokud je útočník bez many
 AutoPause05	Zastav po dlouhém dobití
 AutoPause06	Zastav na začátku bitvy
-AutoPause07	Zastav, pokud nepřítel útočí na jinou postavu než tanka
+AutoPause07	Zastav, pokud nepřítel útočí na ne-tanka
 
 GlobalIcons	Globální ikony
 DigitalCD	Digital Cooldowns
@@ -265,7 +265,7 @@ KeyLoot		Sebrat vše ze země	//##
       //=== Ability
 KeyRightClick	Odebrat Dovednost z fronty
 DescKeyRightClick	Drž stisknutou tuto klávesu spolu s klávesou Dovednosti, kterou chceš odebrat z fronty
-DescKeyModifier1	Jedna z rozšiřujících kláves SHIFT, CTRL, ALT, které znásobují množsví přiřaditelných klávesových zkratek
+DescKeyModifier1	Jedna z rozšiřujících kláves SHIFT, CTRL, ALT, které znásobují množství přiřaditelných klávesových zkratek
 DescKeyModifier2	[>DescKeyModifier1]
 DescKeyModifier3	[>DescKeyModifier1]
 
@@ -1376,7 +1376,7 @@ MobTarget	Cíl
 Owner		Vlastník
 
 AbRequire	Vyžaduje
-WeaponTip	{1} {0}		// {1} = Hand ; {0} = Weapon Kind
+WeaponTip	{0} ({1})		// {1} = Hand ; {0} = Weapon Kind
 AllExceptTip	Všechny zbraně vyjma
 
 AbInstant	ihned
@@ -2237,7 +2237,7 @@ TrTastierBlood	Zvyšuje léčení způsobené dovedností [>AbRecovery] o {Incre
 
 //=== Rogue - Ranger
 TlRanger	[>SpecRanger]
-TrRanger	Zvyšuje hodnotu vlastnosti [>Agi] o {Agility f}. // XBug unknown multiplier AgilityMultiply, probably Agility f
+TrRanger	Zvyšuje hodnotu vlastnosti [>Agi] o {AgilityMultiply}.
 TlQuickAim	Rychlá muška
 TrQuickAim	Zvyšuje [>Haste] o {Haste}.
 TlFocusedHunting	Odhodlaný lovec // Focused Hunting
@@ -2310,7 +2310,7 @@ TrSpiritSiphon	Každý tik časovače dovednosti [>AbTorment] má {Talent MageLo
 TlAcutePain	Strašná bolest
 TrAcutePain	Zvyšuje poškození plynoucí z KZ u útoků jejichž základem je [>DmgShadow] a [>DmgFire] o {CritDamage}.
 TlDrainDry	Do sucha
-TrDrainDry	Zvyšuje účinek dovednosti [>AbDrainLife] o {Damage} za každý dopad Tvých dovedností na vybraného nepřítele.\n\nNavíc sníží všechny Tvé hrozby o {LowerThreat}. // XBug - LowerThreat is uknown in this context
+TrDrainDry	Zvyšuje účinek dovednosti [>AbDrainLife] o {Damage} za každý dopad Tvých dovedností na vybraného nepřítele.\n\nNavíc sníží všechny Tvé hrozby o {LowerThreat}.
 TlUnendingTorment	Nekonečná muka
 TrUnendingTorment       Dovednosti [>AbDominate] a [>AbShadowBall] získají {Talent MageLockUnendingTorment Condition Random} šanci prodloužit účinek dovednosti [>AbTorment] - platí pouze pokud je vybraný nepřítel touto dovedností již zasažen.
 TlBattleMage	Bojový mág
@@ -2523,3 +2523,26 @@ EnchStone	{0} kamene	//##
 EnchMonolith	{0} monolitu	//##
 EnchTiger	{0} tigra	//##
 //Ench	{0} of the
+
+//=== Scavenger Hunt
+OblivionStone	Kámen zapomění
+DescOblivionStone	Zvýší počet možných kompletních změn Stromu dovedností o 1.
+
+NoteL01-02	Někdy bych chtěl ležet na lavici, protože pak se stane něco milého.
+NoteL02-10	Výtečně ! Ale pokračujme ve hře. Dej mě do prázdné místnosti, vedle trojice v pokoji odpočívajících legend, pod svítidlo. // urny v L4
+NoteL04-10	Překvapils mě ! Asi je to na Tebe příliš snadné ! Uvidíme, jak si poradíš s tímto : dej mě před hromadu kamení a já Tě dovedu na druhou stranu.\n\nPS: Doufám, že se Ti můj dárek líbí ! // L4
+NoteL04-11	Ok, teď je to jisté, jsi opravdu dobrý. Tak mi ukaž, jak se popereš s tímto : put me under a sun in a place of many dreams.		// Sun = metal plate with the shape of a sun ; place of many dreams = dormitory
+NoteL06-10	Přál bych si být pavoukem, pak bych se mohl schovat do malých děsivých prostor.
+NoteL06-11	Očividně Tě šetřím, musím být přísnější !\n\nHala smrti. 4 strany. 1 s mřížemi pro chudáky, 2 pro boháče a malá pro Císaře. Hoď něco pod slunce, pak mnou otevřeš poslední překážku. // L7 arena
+NoteL07-10	Mezi křivolakými trhlinami slunce je, hoď pod něj něco a pak najdi další slunce a tam mě polož.
+NoteL08-10	V temných jeskyních, skryti v temnotách, vrátíme se na začátek všeho.	// This means the player will have to put the paper on an empty bench hidden in the dark, same as he did to start the Scavenger Hunt
+NoteL09-10	Patřím Rudé plazí smrti.	// Need to put note between Red Crystal, Snake Statue & Skull Sculpture
+NoteL10-10	Jsem odpad. Zahoď mě do rozbitého teleportu. Nic jiného si nezasloužím.		// Need to throw the note in a teleporter that doesn't teleport the party
+NoteL12-10	Krok další v těchto jeskyních se nachází. A nebo ne. Poznáš, až to uvidíš a nebos to už viděl.	// Need to put the note on a trap door in the same level, to open it so the note will fall down to the next level & open a door there
+NoteL13-10	Sám budu souzen těmi nejstaršími.	// Need to put note on an altar between statues of old mages
+NoteL14-10	Všiml sis, co jsem pro Tebe nechal ? Pokud máš dobrou paměť, tak si určitě vzpomeneš, kdes viděl podobné. Až se tak stane, tak tam jdi. Polož 4 staré okolo hlavního sloupu a pak přidej nový na západ - zvenku.	// 4 old = 4 swords in the armor at start of the game ; new one = same kind of sword
+NoteL08-11	Vzpomínáš, jaks našel cár papíru o kterém jsi říkal, že to je [>EmptyMap] ? Ona až tak bezcenná není - její cenu zjistíš, až ji položíš pod schody, které v žáru stojí. A co se mnou ? Mě dej mezi 2 dřevěné mřížky na naedostupném místě. // Stairs are in middle of lava
+NoteL15-10	Hoď mě do klece, která končí v hlubinách.
+NoteL07-11	Jsou místa, kam se nedostaneš ... zatím.
+NoteL07-12	Chci být s rodinou, v temné místnosti plné svítidel.
+NoteL18-10	Dej mě na místo, kde jsi něco vzal, čekal, že se něco stane, ale nic se nestane. A teprve po té se konečně potkáme.
