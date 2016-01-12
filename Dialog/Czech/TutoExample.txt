@@ -1,0 +1,17 @@
+﻿// lang CZE
+// ver 0.91
+// for game ver 1.0b
+// author rcx
+T1	Ahoj, pojmenovali mě {Self.Name} a budu tu jako {>Self.Role}.
+T2	Čau, pojmenovali mě {Self.Name} jsem (jak vidíš) [:muž|žena] a budu tu jako {>Self.Role}.
+T3	Ahoj ahoj ahoj, jmenuju se {Self.Name} a budu tu jako {>Self.Role}.
+T4	Zdravím [P:pane|paní], jmenuji se {Self.Name}, jsem [:kluk|dívka] a budu tu jako {>Self.Role}. Má třída je {>Self.Class}.
+P	Hm, čau lidičky, jsem {Self.Name}, má role je {>Self.Role} a budu tady tomu šéfovat - hádám.
+C1	Jen doufám, že nás neženu do záhuby..
+C2	Netuším jako to dopadne, ale doufám, že co nejlíp.
+C3	Když dáte na mě, určitě se odsud dostanem živí a zdraví.
+B	No jasně, přesně jak říkáš.
+N	Zaručeně.
+G	Věříme Ti !
+P	Dobrá, neztrácejme čas a vzhůru dolů ;) !
+B	Hele, Ty, co to tu vedeš, a co ta páka, neměl bys ji dát dolů ?

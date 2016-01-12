@@ -1,0 +1,6 @@
+﻿// lang CZE
+// ver 0.91
+// for game ver 1.0b
+// author rcx
+B	Hádám, že tady by bylo další patro, kdyby dodavatelé hru nesabotovali zbytečným spaním.
+G	Přesně. Takže je na čase poreferovat ManuTOO, co si myslíme o téhle Beta verzi ! ;-)

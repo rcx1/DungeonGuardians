@@ -1,0 +1,9 @@
+﻿// lang CZE
+// ver 0.91
+// for game ver 1.0b
+// author rcx
+CaveVampire	Dokonalé, až do konce. Jsem na Vás pyšný. Věřím, že se ještě potkáme.
+B	Kde ? Dyť zrovna umejráš.
+CaveVampire	...
+N	Netuším, co to bylo za chlápka, ale svým způsobem nám pomohl, aspoň trochu. Což se nedá říct o většině příšer ať lidských či nelidských, co jsme tu potkali.
+P	To je pravde, ale nejsem si jist, jestli nám to nakonec k něčemu bude. Pojďme !
