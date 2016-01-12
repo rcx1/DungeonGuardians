@@ -12,7 +12,7 @@ Je inspirovaná klasikami, jako jsou série Might & Magic® nebo Eye of the Beho
 
 [h2] Příběh :[/h2]
 
-Nastupuješ jako strážce do vězení ukrytém hluboko v podzemí. Zatím, co sníš své první žalářnické sny, okolo se dějí podivné věci a když se ráno vzbudiš, všichni vězňové jsou na útěku. Správe vězení moudře opouští podzemí, předávajíc Ti veškerou zodpovědnost za pronásledování uprchlíků. Pak si vybereš zbytek bandy a vyrazíte do tajemného podzemí.
+Nastupuješ jako strážce do vězení ukrytém hluboko v podzemí. Zatím, co sníš své první žalářnické sny, okolo se dějí podivné věci a když se ráno vzbudiš, všichni vězňové jsou na útěku. Správce vězení moudře opouští podzemí, předávajíc Ti veškerou zodpovědnost za pronásledování uprchlíků. Pak si vybereš zbytek bandy a vyrazíte do tajemného podzemí.
 
 [h2] Cesta za dobrodružstvím :[/h2]
 
@@ -29,14 +29,14 @@ Za každou úroveň, na kterou se strážce dostane, obdrží bod do Stromu dove
 Můžeš si vybrat ze 4 tříd : Bojovník, Léčitel, Mág a Zloděj. Každá třída má 3 specializace se svým stromem dovedností. Takže v základu máš 12 profesí, ze kterých můžeš vybírat.
 Navíc můžeš postavu naučit něco i ze zbylých 2 specializací její třídy a tím doladit její profil.
 
-Podzemí je plné lupu a pokladů : epických brnění, legendárních zbraní a tajemných, magickách předmětů, které strážce obdaří neuvěřitelnými schopnostmi. Když zlikviduješ skupinu nepřátel, tak po nich často zůstane náhodný kus vybavení, který je užitečný pro některého ze strážců.
+Podzemí je plné lupu a pokladů : epických brnění, legendárních zbraní a tajemných, magických předmětů, které strážce obdaří neuvěřitelnými schopnostmi. Když zlikviduješ skupinu nepřátel, tak po nich často zůstane náhodný kus vybavení, který je užitečný pro některého ze strážců.
 
 [h2] Pokročilý systém boje :[/h2]
 
 Boj je založen na osvědčené trojici "tank / bojovník / léčitel" rozšířené o systém hrozeb : léčení spolubojovníků je pro nepřítele stejná hrozba jako útok bojovníka. Je proto v rukách tanka, aby nepřátele na sebe nalákal a tím léčitele ochránil. To znamená, že hlavním atributem tanka bude obrana a brnění. Zbylí 2 strážci budou ti, kteří budou kosit nic netušící, na tanka útočící, nepřátele.
 
 Klíčem k vítězství nad nejobtížnějšími protivníky bude nejen využití vhodných dovedností jednotlivých strážců, ale i jejich kombinace a načasování.
-Vypadá to složitě, ale opak je pravdou - hra má možnost taktické pauzy : kdykoli budeš chceš, můžeš hru zastavit, projít si, co jednotliví strážci dělají a mají v plánu dělat a případně to změnit, pak hru zase pustit.
+Vypadá to složitě, ale opak je pravdou - hra má možnost taktické pauzy : kdykoli budeš chtít, můžeš hru zastavit, projít si, co jednotliví strážci dělají a mají v plánu dělat a případně to změnit, pak hru zase pustit.
 
 Nelíbí se ti idea tanka nebo zastavování hry ? Žádný problém, sniž si obtížnost hry a zahraješ si i bez tanka či pauz. 
 Obtížnost můžeš měnit i v průběhu hry, buď si vybereš z velké řady připravených nastavení (od Kojence po Likvidátora) nebo si jednotlivé aspekty nastavíš dle sebe.
