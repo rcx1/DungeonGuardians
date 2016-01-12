@@ -7,7 +7,7 @@ Vyřeš hádanky, vyhni se smrtícím pastem, najdi skryté chodby a neztrať se
 [h2] Úvod :[/h2]
 
 The Fall of the Dungeon Guardians (Konec strážců podzemí) je RPG odehrávající se v podzemí, které vidíte z pohledu hráče (First Person View).
-Je inspirovaná klasikami, jako jsou série Might & Magic® nebo Eye of the Beholder® a okořeněná moderním systémem boje založeném na osvědčené trojici "tank / bojovník / léčitel".
+Je inspirovaná klasikami, jako jsou série Might & Magic® nebo Dungeon Master™ a okořeněná moderním systémem boje založeném na osvědčené trojici "tank / bojovník / léčitel".
 
 
 [h2] Příběh :[/h2]
