@@ -1,5 +1,5 @@
 // lang CZE
-// ver 0.891
+// ver 0.892
 // for game ver 1.0b
 // author rcx
 // in progress - editor
@@ -804,12 +804,12 @@ TipCombatBack	Ukaž předchozí
 Threat		Hrozba
 
 //=== Notes
-Note		Poznámka
-NoteTip		Poznámka, která zní:\n"<i>{0}</i>"
+Note		Zpráva // Poznámka
+NoteTip		Zpráva, která zní:\n"<i>{0}</i>"
 NoteL01-01	Rád[P:|a] se honíš za poklady ? Pokud ano, tak mě u nějakého odlož...
 Skull		Lebka
 StrangeSkull	Podivná lebka
-NoteL08-01	Jsi si jist[P:ý|á] kdo je tu lovcem a kdo štvanou zvěří ?
+NoteL08-01	Jsi si jist[P:ý|á], kdo je tu lovcem a kdo štvanou zvěří ?
 NoteL09-01	Cítíš se osaměle ?\n\nNemusíš.\n\nJÁ Tě pozoruju ... POŘÁD.
 NoteL13-01	Jsem ztracen. Nevím, kde mi hlava stojí. Pomozte mi se najít.	// Note beside a Skull in an alcove
 NoteL13-02	Není cesty zpět ... nikdy nebylo.
