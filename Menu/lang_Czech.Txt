@@ -806,24 +806,24 @@ Threat		Hrozba
 //=== Notes
 Note		Zpráva // Poznámka
 NoteTip		Zpráva, která zní:\n"<i>{0}</i>"
-NoteL01-01	Rád[P:|a] se honíš za poklady ? Pokud ano, tak mě u nějakého odlož...
+NoteL01-01	Rád[:|a] se honíš za poklady ? Pokud ano, tak mě u nějakého odlož ...
 Skull		Lebka
 StrangeSkull	Podivná lebka
-NoteL08-01	Jsi si jist[P:ý|á], kdo je tu lovcem a kdo štvanou zvěří ?
+NoteL08-01	Jsi si jist[:ý|á], kdo je tu lovcem a kdo štvanou zvěří ?
 NoteL09-01	Cítíš se osaměle ?\n\nNemusíš.\n\nJÁ Tě pozoruju ... POŘÁD.
 NoteL13-01	Jsem ztracen. Nevím, kde mi hlava stojí. Pomozte mi se najít.	// Note beside a Skull in an alcove
 NoteL13-02	Není cesty zpět ... nikdy nebylo.
-NoteL13-03	Naštěstí pro Tebe neovládám telepatii, jinak už bych Ti dávno nakukal[P:a|], že jsem [P:Tvoje|Tvůj], chtěl[P:a|] po Tobě hromadu náročnejch úkolů, jen abys nakonec zjistil[P:|a], že jsem [P:Tvůj|Tvoje] největší ne-přítel[P:kyně|].\n\nTo by byl nečekanej zvrat, co ?
+NoteL13-03	Naštěstí pro Tebe neovládám telepatii, jinak už bych Ti dávno nakukal, že jsem Tvůj - chtěl po Tobě hromadu náročnejch úkolů, jen abys nakonec zjistil[:|a], že jsem Tvůj největší ne-přítel.\n\nTo by byl nečekanej zvrat, co ?
 NoteL14-01	Každý krok vpřed Tě jen přibližuje smrti.
 NoteL15-01	Myslíš si, že jsi strážce podzemí ? Jedině JÁ jsem ten pravý Strážce podzemí.
-NoteL15-02	Zrovna jsem se vrátil z knihovny, četl jsem tam knížku o proroctví a na něco jsem přišel : Ty seš Vyvolen[P:ej|á] ! Povolali Tě, abys vnesl[P:|a] světlo do tohoto doupěte temnoty a navždy ho zbavil[P:|a] toho největšího nejčernějšího zla.\n\nUž teď se třesu strachy. Naštěsetí v tý knížce je dalších, bratru, 4000 proroctví, jedno lákavější než druhé.\n\nMě zaujalo tohle - Až prasata budou lítat, slépky budou zuby mít - řek bych, že se tohle stane dřív, co říkáš ? Mlčís ?
+NoteL15-02	Zrovna jsem se vrátil z knihovny, četl jsem tam knížku o proroctví a na něco jsem přišel : Ty seš Vyvolen[:ej|á] ! Povolali Tě, abys vnesl[:|a] světlo do tohoto doupěte temnoty a navždy ho zbavil[:|a] toho největšího nejčernějšího zla.\n\nUž teď se třesu strachy. Naštěstí v tý knížce je dalších, bratru, 4 000 proroctví, jedno lákavější než druhé.\n\nMě zaujalo tohle - Až prasata budou lítat, slépky budou zuby mít - řek bych, že se tohle stane dřív, co říkáš ? Mlčíš ?
 NoteL16-01	Vítej v mém prostém domě.\n\nUdělej si pohodlí, budeš tu pěkně dlouho.\n\nAbych byl přesný - věčnost.
 NoteL16-02	Uhádneš, kdo jsem ?\n\nNápověda : Nemám 6 stran, jen 3.	// 6 Faces for the Cube boss of LoG1
 NoteL17-01	Stejně jako můj táta ani Ty tu nevydržíš dlouho.
 NoteL18-01	Pojďte ke mě zlatíška. Ja rád zlatíška.
 NoteL18-02	Jsme jako spojené nádoby - Tvůj pád bude můj vzestup.
-NoteL19-01	Nečekal jsem, že se dostaneš až sem...\n\nKecám, čekal jsem  ! Proč jinak by tu byla tahle poznámka ?!?\n\nZemřeš, kdy jen si budu přát. Tak si pomalu chystej poslední slova. Protože já pro Tebe žádná mít nebudu.
-NoteL19-02	Přinesl[P:|a]s si Ohnivou hůl ?\n\nNe? To je dobře, stejně by Ti byla k ničemu. Mrtví většinou nepotřebují vůbec žádné hole.	// Firestaff from Dungeon Master
+NoteL19-01	Nečekal jsem, že se dostaneš až sem ...\n\nKecám, čekal jsem ! Proč jinak by tu byla tahle poznámka ?!?\n\nZemřeš, kdy jen si budu přát. Tak si pomalu chystej poslední slova. Protože já pro Tebe žádná mít nebudu.
+NoteL19-02	Přinesl[:|a]s si Ohnivou hůl ?\n\nNe? To je dobře, stejně by Ti byla k ničemu. Mrtví většinou nepotřebují vůbec žádné hole.	// Firestaff from Dungeon Master
 NoteL20-01	Smrt nevyzkoušíš.		// Yoda (if you ask "Yoda who ?", you're out of here ! ;-) )
 NoteL20-02	Konečně nastal ten čas - přeješ si rychlou či pomalou smrt ?
 
@@ -1008,8 +1008,8 @@ AddedToKeyRing	{0} přidán na kruh s klíči
 LevelAutoMapped	Automatická mapa povolena pro patro {0}
 LevelFullMapped	Plná mapa zpřístupněna pro patro {0}
 PutInInventory	Nová věc v inventáři - {0}
-LookLikeCanHold	Vypadá to jako nějaký držák...
-CantHoldThat	Ale na tohle asi ne...
+LookLikeCanHold	Vypadá to jako držák, ale na co ?
+CantHoldThat	Ale na tohle asi ne ...
 UsedKey		Použit {0}
 NoMatchingKey	Nemám vhodný klíč
 LevelUp		{0} právě povýšil[:|a] na {1} !
@@ -1159,7 +1159,7 @@ MobOrcGrunt	Ork - mrzout
 MobOrcBrute	Ork - nelida
 MobWarlock	Bojový mág
 MobPigHead	Prasečí hlava
-MobEmissary	Vyslanec
+MobEmissary	Vyslanyně // Vyslanec
 MobDragon	Drak
 MobDragonIce	Ledový drak
 MobMinionCrusher	Pomocník - drtič
@@ -1332,12 +1332,12 @@ mCritXTip	Násobek poškození při kritickém zásahu (KZ) chladnou zbraní.
 rCritXTip	Násobek poškození při kritickém zásahu (KZ) střelnou zbraní.
 sCritXTip	Násobek poškození při kritickém zásahu (KZ) dovedností. // kouzlem.
 
-HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nNavíc snižuje [>GlobalCD], nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách.
+HasteTip	Zvyšuje rychlost použití dovedností a všechny efekty vázané na čas.\n\nNavíc snižuje <i>Globální pauzu</i>, nikoli však pauzu mezi dovednostmi - ta je pevně zafixovaná na 6 sekundách. // [>GlobalCD]
 HitTip		Zvyšuje šanci zasáhnout cíl využitím dovedností.
 XpertiseTip	Snižuje šanci na odražení.\nMaximální použitelná míra je 5%, protože i maximální šance na odražení je 5%.
 ExperienceTip	Když postava dosáhne požadovaného množství bodů, pak se jí zvýší úroveň.
 
-GlobalCD	Globální pauzu
+GlobalCD	Globální pauza
 
 CharStats	Statistika
 CharStat00	Počet omdlení // Fallen Uncounscious
@@ -2021,7 +2021,7 @@ AbBigBossRegen	Regenerace
 
 //=== Ab Stun Tip
 TipStun		Ochromen[:|a]
-TipInterrupted	Přerušeno!\n\ntvoje dovednost {0} byla přerušena útokem nepřítele.
+TipInterrupted	Přerušeno !\n\nTvoje dovednost {0} byla přerušena útokem nepřítele.
 
 //=== Spec
 Specialization	Specializace
@@ -2541,7 +2541,7 @@ NoteL10-10	Jsem odpad. Zahoď mě do rozbitého teleportu. Nic jiného si nezasl
 NoteL12-10	Krok další v těchto jeskyních se nachází. A nebo ne. Poznáš, až to uvidíš a nebos to už viděl.	// Need to put the note on a trap door in the same level, to open it so the note will fall down to the next level & open a door there
 NoteL13-10	Sám budu souzen těmi nejstaršími.	// Need to put note on an altar between statues of old mages
 NoteL14-10	Všiml sis, co jsem pro Tebe nechal ? Pokud máš dobrou paměť, tak si určitě vzpomeneš, kdes viděl podobné. Až se tak stane, tak tam jdi. Polož 4 staré okolo hlavního sloupu a pak přidej nový na západ - zvenku.	// 4 old = 4 swords in the armor at start of the game ; new one = same kind of sword
-NoteL08-11	Vzpomínáš, jaks našel cár papíru o kterém jsi říkal, že to je [>EmptyMap] ? Ona až tak bezcenná není - její cenu zjistíš, až ji položíš pod schody, které v žáru stojí. A co se mnou ? Mě dej mezi 2 dřevěné mřížky na naedostupném místě. // Stairs are in middle of lava
+NoteL08-11	Vzpomínáš, jaks našel cár pergamenu o kterém jsi říkal, že to je [>EmptyMap] ? Ona až tak bezcenná není - její cenu zjistíš, až ji položíš pod schody, které v žáru stojí. A co se mnou ? Mě dej mezi 2 dřevěné mřížky na naedostupném místě. // Stairs are in middle of lava
 NoteL15-10	Hoď mě do klece, která končí v hlubinách.
 NoteL07-11	Jsou místa, kam se nedostaneš ... zatím.
 NoteL07-12	Chci být s rodinou, v temné místnosti plné svítidel.
