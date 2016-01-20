@@ -821,11 +821,11 @@ NoteL16-01	Vítej v mém prostém domě.\n\nUdělej si pohodlí, budeš tu pěkn
 NoteL16-02	Uhádneš, kdo jsem ?\n\nNápověda : Nemám 6 stran, jen 3.	// 6 Faces for the Cube boss of LoG1
 NoteL17-01	Stejně jako můj táta ani Ty tu nevydržíš dlouho.
 NoteL18-01	Pojďte ke mě zlatíška. Ja rád zlatíška.
-NoteL18-02	Jsme jako spojené nádoby - Tvůj pád bude můj vzestup.
-NoteL19-01	Nečekal jsem, že se dostaneš až sem ...\n\nKecám, čekal jsem ! Proč jinak by tu byla tahle poznámka ?!?\n\nZemřeš, kdy jen si budu přát. Tak si pomalu chystej poslední slova. Protože já pro Tebe žádná mít nebudu.
+NoteL18-02	Jsme jako spojené nádoby - Tvůj konec bude mým začátkem. // Tvůj pád bude můj vzestup.
+NoteL19-01	Nečekal jsem, že se dostaneš až sem ...\n\nKecám, čekal jsem ! Proč jinak by tu byla tahle zpráva ?!?\n\nZemřeš, kdy jen si budu přát. Tak si pomalu chystej poslední slova. Protože já pro Tebe žádná mít nebudu.
 NoteL19-02	Přinesl[:|a]s si Ohnivou hůl ?\n\nNe? To je dobře, stejně by Ti byla k ničemu. Mrtví většinou nepotřebují vůbec žádné hole.	// Firestaff from Dungeon Master
 NoteL20-01	Smrt nevyzkoušíš.		// Yoda (if you ask "Yoda who ?", you're out of here ! ;-) )
-NoteL20-02	Konečně nastal ten čas - přeješ si rychlou či pomalou smrt ?
+NoteL20-02	Konečně ses dočkal[:|a] - přeješ si rychlou či pomalou smrt ?
 
 //=== Gear Leather
 GuardChest	Strážcova zbroj // hrudní plát
@@ -1279,7 +1279,7 @@ ResFrost	[>DmgFrost]
 ResShad		[>DmgShadow]
 ResHoly		[>DmgHoly]
 ResFall		[>DmgFall]
-Crit		Šance na kritický zásah (šnKZ)
+Crit		Šance na kritický zásah (KZ)
 mCritX		x poškození při KZ chladnou zbraní
 rCritX		x poškození při KZ střelnou zbraní
 sCritX		x poškození při KZ dovedností // kouzlem
@@ -1312,7 +1312,7 @@ RegenTip	Obnova many a uzdravování probíhají jednou za 5 vteřin.
 APTip		Zvyšuje poškození chladnými zbraněmi a dovednostmi založenými na chladných zbraních.
 RAPTip		Zvyšuje poškození střelnými zbraněmi a dovednostmi založenými na střelných zbraních.
 SPTip		Zvyšuje sílu všech dovedností. // kouzel.
-DpsTip		Průměrné poškození za sekundu - pouze pro automatické útoky.\n\nBere v úvahu šanci na zásah, šanci na kritický zásah (šnKZ), spěch a expertýzu.
+DpsTip		Průměrné poškození za sekundu - pouze pro automatické útoky.\n\nBere v úvahu šanci na zásah, šanci na kritický zásah (KZ), spěch a expertýzu.
 
 ParryTip	Šance na odražení útoku chladnými zbraněmi.\nÚspěšné odražení obvykle znamená zrušení celého útoku.
 DodgeTip	Šance na úhyb před útokem chladnými zbraněmi.\nÚspěšný úhyb se rovná vyhnutí se celému útoku.
