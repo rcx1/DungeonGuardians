@@ -1,5 +1,5 @@
 ﻿// lang CZE
-// ver 0.91
+// ver 0.92
 // for game ver 1.0b
 // author rcx
 CaveVampire	Srdečně Vás vítám a gratuluji !

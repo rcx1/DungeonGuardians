@@ -1,6 +1,6 @@
 ﻿// lang CZE
-// ver 0.9
-// for game ver 1.0a
+// ver 0.92
+// for game ver 1.0b
 // author rcx
 EmperorGhost	Konečně mě někdo vysvobodil ! Velice Vám děkuji, konečně jsem volný a duše má může zpět do všehomíra !
 G	Vždyť jsi ještě dítě ?!
@@ -43,7 +43,7 @@ DetailL	a další
 N	Slyšeli jste to ?
 B	Hukot vody ?
 N	Ano, to je skvělé !
-B	Jako, že se spíš utopíme, než že budem rozdrceni na padrť ? Jo, to sní skvěle. A ohňostroj by k tomu nebyl ?
+B	Jako, že se spíš utopíme, než že budem rozdrceni na padrť ? Jo, to zní skvěle. A vohňostroj by k tomu nebyl ?
 N	Ne, voda se sem vevalila, ale rychle ustupuje, což znamená, že někde tu byla zeď, která padla a za ní byla dutina plná vody. Pokud je dutina přírodní, pak není částí podzemí a podpůrná magie na ni nemá vliv, takže rychle dovnitř !
 G	Opravdu ? Kam ? Bez světla nic nevidím !
 B	Myslím, že tudy, rychle !
