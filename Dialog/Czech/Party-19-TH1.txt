@@ -1,10 +1,10 @@
 ﻿// lang CZE
-// ver 0.92
+// ver 0.99
 // for game ver 1.0b
 // author rcx
 CaveVampire	Srdečně Vás vítám a gratuluji !
 B	Cože !?
-CaveVampire	Kloubou dolů nad Vašimi schopnostmi : zvládli jste bez zaškobrtnutí celý Lov pokladů.
+CaveVampire	Kloubou dolů nad Vašimi schopnostmi : zvládli jste bez zaškobrtnutí celou <i>Honbu za pokladem</i>.
 N	Opravdu ?
-CaveVampire	Zajisté ! A tady je Váš drahocenný poklad : já. Tak neváhejte a vezměte si mě !
-P	To neříkej dvakrát ! Bando, připravte se ...
+CaveVampire	Zajisté ! A tady je Váš drahocenný poklad : já.\nTak neváhejte a vezměte si mě !
+P	To neříkej dvakrát !\nBando, připravte se ...

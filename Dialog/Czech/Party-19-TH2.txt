@@ -1,5 +1,5 @@
 ﻿// lang CZE
-// ver 0.92
+// ver 0.99
 // for game ver 1.0b
 // author rcx
 CaveVampire	Dokonalé, až do konce. Jsem na Vás pyšný. Věřím, že se ještě potkáme.

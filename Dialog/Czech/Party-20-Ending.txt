@@ -1,5 +1,5 @@
 ﻿// lang CZE
-// ver 0.92
+// ver 0.99
 // for game ver 1.0b
 // author rcx
 EmperorGhost	Konečně mě někdo vysvobodil ! Velice Vám děkuji, konečně jsem volný a duše má může zpět do všehomíra !
