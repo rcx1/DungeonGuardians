@@ -1,5 +1,5 @@
 // lang CZE
-// ver 0.892
+// ver 0.99
 // for game ver 1.0b
 // author rcx
 // in progress - editor
@@ -159,7 +159,7 @@ GameOver	Konec hry
 LoadLastGame	Nahrát poslední uloženou hru
 
 CheckAccount	Kontrola licenčního klíče online
-SaveLocked	Tvoje uložené hry byly uzamčeny. Prosím nech si zkontrolovat online liceční klíč.\nPokud sis hru nekoupil, tak teď je ten pravý čas.
+SaveLocked	Tvoje uložené hry byly uzamčeny. Prosím nech si zkontrolovat online licenční klíč.\nPokud sis hru nekoupil, tak teď je ten pravý čas.
 Unlocked	Tvoje přístupové údaje jsou v pořádku - uložené hry odemčeny !
 
 //=== Select Mods		//##
@@ -291,10 +291,10 @@ KeyEd_Ceiling	Strop
 KeyEd_Wall	Zeď
 KeyEd_Corner	Roh
 KeyEd_Prop	Vlastnosti
-KeyEd_Field	XXField
-KeyEd_Mob	Příšera
-KeyEd_Item	Věc
-KeyEd_EditCells	XXEdit Cells
+KeyEd_Field	Políčko // v menu editoru
+KeyEd_Mob	Příšera // v menu editoru
+KeyEd_Item	Věc // v menu editoru
+KeyEd_EditCells	Edituj políčka
 KeyEd_Level	[>DungeonLevel]
 KeyEd_Dungeon	Podzemí
 
@@ -379,7 +379,7 @@ MapEdError	Chyba v Editoru map // MapEd Error
 DungeonLevel	Patro // Level
 SeeOther	See Other
 
-NbEditCell	Selected Cells: {0}/{1}
+NbEditCell	Označená políčka: {0}/{1}
 
 //=== Dungeon Tools
 SetPartyStart	Set Party Start
@@ -527,19 +527,19 @@ ClosedUntrig'ed	Closed (Untrigged)
 OpenUntriggered	Open (Untriggered)
 ClosedTriggered	Closed (Triggered)
 
-ItemLoot	Odloženo příserami // Dropped by Mobs
+ItemLoot	Odloženo příšerami // Dropped by Mobs
 Weight		Hmotnost
-KgSymbol	Kg		// Kilograms
+KgSymbol	\32Kg		// Kilograms
 ItemLevel	Úroveň
 ItemLevelN	Úroveň {0}
-ItemLevelSymbol	Úr
+ItemLevelSymbol	Úr\32
 ItemQuality	Kvalita
 GearSlot	Slot
 GearKind	Materiál
 StackSize	Počet
 TotalWeight	Celková hmotnost
-OverWeight	Banda toho nese moc a tudíž se hýbe pomaleji, měl by ses něčeho zbavit.
-CrushingWeight	Banda je zavalena lupem, pokud se něčeho nezbavíš, tak už se nepohneš z místa.
+OverWeight	Banda toho nese moc a tudíž se hýbe pomaleji, měli by se něčeho zbavit.
+CrushingWeight	Banda je zavalena lupem, pokud se něčeho nezbaví, tak už se nepohne z místa.
 
 Active		Active
 Inactive	Inactive
@@ -588,15 +588,15 @@ TotalLoot	Total Loot For Current Toon
 LootInLevel	In Current Level for All Toons
 
 //=== Edit Cells
-SelectAll	Select All
-SelectOnlyUsed	Only Used
-SelectOnlyEmpty	Only Empty
-Select		Select
-Paste		Paste
-Copy		Copy
-Cut		Cut
-NoCopiedCell	==> Copy/Cut Cells 1st <==
-SelectOnPaste	Select Cells On Paste
+SelectAll	Označ všechny
+SelectOnlyUsed	Označ jen používané
+SelectOnlyEmpty	Označ Jen prázdné
+Select		Označ
+Paste		Vlož
+Copy		Kopíruj
+Cut		Vyřízni
+NoCopiedCell	==> Nejřív políčko zkopíruj <==
+SelectOnPaste	Vyber, kam políčka vložit // Select Cells On Paste
 
 SetCellHeight	Nastav výšku podlahy
 MoveCellHeight	Změň výšku podlahy
@@ -806,7 +806,7 @@ Threat		Hrozba
 //=== Notes
 Note		Zpráva // Poznámka
 NoteTip		Zpráva, která zní:\n"<i>{0}</i>"
-NoteL01-01	Rád[:|a] se honíš za poklady ? Pokud ano, tak mě u nějakého odlož ...
+NoteL01-01	HZP - Rád[:|a] se honíš za poklady ? Pokud ano, tak mě u nějakého odlož do prázdného výklenku ...
 Skull		Lebka
 StrangeSkull	Podivná lebka
 NoteL08-01	Jsi si jist[:ý|á], kdo je tu lovcem a kdo štvanou zvěří ?
@@ -2098,7 +2098,7 @@ TalentNoReroll	Nyní nemáš nárok na změnu stromu.
 // {TalentX [G|B] [EffectIndex]}
 // {<AbilityUsedByTalent[:TalentPart}> [Dmg|DotLength|DotTotalDmg|MaxStack] [%|f] [#<EffectIndex>]}
 // {<AbilityUsedByTalentAddingTick> ExtraTime <OtherAbilityWithDot>}
-// {Talent <TalentPartName> Condition <O                                                                                                                                                                                                                                                                                                                                                                             therAbilityActive|FamilyActive|HpRatio|ManaRatio|Random>}
+// {Talent <TalentPartName> Condition <OtherAbilityActive|FamilyActive|HpRatio|ManaRatio|Random>}
 // {Talent <TalentPartName> Var [G|B [%]} 
 
 //=== Warrior - Protector
@@ -2221,7 +2221,7 @@ TrEscapeArtist	Zvyšuje hodnotu vlastností typu [>ArmorRating] o {ArmorFromAgi 
 TlRiposte	Riposta
 TrRiposte	Pokud úspěšně odrazíš útok nepřítele, pak máš {Talent RogueDuelRiposte Condition Random} šanci aktivaci dovednosti [>AbRiposte], která zvyšuje fyzické poškození o {Riposte B} na {Riposte DotLength}.
 TlInfectedWound	Zanícená rána
-TrInfectedWound	Natáhne časovač dovednosti [>AbDeepCut] o {AddDotTick f} tik(y). Navíc dovednost [>AbLunge] získá šanci {Talent RogueDuelInfectedWoundB Condition Random} šanci prodloužit účinek dovednosti [>AbDeepCut] - platí pouze pokud je vybraný nepřítel touto dovedností již zasažen.
+TrInfectedWound	Natáhne časovač dovednosti [>AbDeepCut] o {AddDotTick f} tik(y) ({AddDotTick ExtraTime DeepCut}). Navíc dovednost [>AbLunge] získá šanci {Talent RogueDuelInfectedWoundB Condition Random} šanci prodloužit účinek dovednosti [>AbDeepCut] - platí pouze pokud je vybraný nepřítel touto dovedností již zasažen.
 TlTillTheLastDrop	Do poslední kapky
 TrTillTheLastDrop	Zvyšuje hodnotu vlastnosti [>HP] o {HP}.
 TlAggressiveStance	Hrozivý postoj
@@ -2396,7 +2396,7 @@ TrGodlyGuidance	Snižuje o {LowerManaCost} množství many potřebné k použit�
 TlBlindFaith	Slepá víra
 TrBlindFaith	Zvyšuje hodnotu vlastnosti [>Haste] o {Haste}.
 TlRenewal	Bonusová obnova
-TrRenewal	Natáhne časovač dovednosti [>AbRenew] o 1 tik.
+TrRenewal	Natáhne časovač dovednosti [>AbRenew] o 1 tik ({AddDotTick ExtraTime Renew}).
 TlBlessedSpirit	[>AbBlessedSpirit]
 
 //=== Healer - Necromancer
@@ -2413,7 +2413,7 @@ TrOpenBuffet	Zvyšuje o {TalentX} léčení způsobené dovedností [>AbEatMyFle
 TlSoulFeast	Duševní hostina
 TrSoulFeast	Použití dovednosti [>AbSoulSucking] uzdraví dalšího člena bandy o {TalentX} původního léčení.
 TlLateSupper	Svačinka
-TrLateSupper	Natáhne časovač dovenosti [>AbSoulEater] o {AddDotTick f} tik(y), ale zároveň zvýší pauzu mezi použitími o {CoolDown B}.
+TrLateSupper	Natáhne časovač dovenosti [>AbSoulEater] o {AddDotTick f} tik(y) ({AddDotTick ExtraTime SoulEater}), ale zároveň zvýší pauzu mezi použitími o {CoolDown B}.
 TlShadowArmy	[>AbShadowArmy]
 TrShadowArmy	Při použití dovednosti [>AbArmyOfDarkness] aplikuje dovednost [>AbShadowArmy] na celou bandu, čímž sniží veškeré příchozí poškození o {TalentX} po dobu {ShadowArmy DotLength}.
 TlAngrySpirits	Poltergeist
@@ -2525,24 +2525,24 @@ EnchTiger	{0} tigra	//##
 //Ench	{0} of the
 
 //=== Scavenger Hunt
-OblivionStone	Kámen zapomění
+OblivionStone	Kámen zapomnění
 DescOblivionStone	Zvýší počet možných kompletních změn Stromu dovedností o 1.
 
-NoteL01-02	Někdy bych chtěl ležet na lavici, protože pak se stane něco milého.
-NoteL02-10	Výtečně ! Ale pokračujme ve hře. Dej mě do prázdné místnosti, vedle trojice v pokoji odpočívajících legend, pod svítidlo. // urny v L4
-NoteL04-10	Překvapils mě ! Asi je to na Tebe příliš snadné ! Uvidíme, jak si poradíš s tímto : dej mě před hromadu kamení a já Tě dovedu na druhou stranu.\n\nPS: Doufám, že se Ti můj dárek líbí ! // L4
-NoteL04-11	Ok, teď je to jisté, jsi opravdu dobrý. Tak mi ukaž, jak se popereš s tímto : najdi místo kde se sní a tam mě pod slunce dej.		// Sun = metal plate with the shape of a sun ; place of many dreams = dormitory
-NoteL06-10	Přál bych si být pavoukem, pak bych se mohl schovat do malých děsivých prostor.
-NoteL06-11	Očividně Tě šetřím, musím být přísnější !\n\nHala smrti. 4 strany. 1 s mřížemi pro chudáky, 2 pro boháče a malá pro Císaře. Hoď něco pod slunce, pak mnou otevřeš poslední překážku. // L7 arena
-NoteL07-10	Mezi křivolakými trhlinami slunce je, hoď pod něj něco a pak najdi další slunce a tam mě polož.
-NoteL08-10	V temných jeskyních, skryti v temnotách, vrátíme se na začátek všeho.	// This means the player will have to put the paper on an empty bench hidden in the dark, same as he did to start the Scavenger Hunt
-NoteL09-10	Patřím Rudé plazí smrti.	// Need to put note between Red Crystal, Snake Statue & Skull Sculpture
-NoteL10-10	Jsem odpad. Zahoď mě do rozbitého teleportu. Nic jiného si nezasloužím.		// Need to throw the note in a teleporter that doesn't teleport the party
-NoteL12-10	Krok další v těchto jeskyních se nachází. A nebo ne. Poznáš, až to uvidíš a nebos to už viděl.	// Need to put the note on a trap door in the same level, to open it so the note will fall down to the next level & open a door there
-NoteL13-10	Sám budu souzen těmi nejstaršími.	// Need to put note on an altar between statues of old mages
-NoteL14-10	Všiml sis, co jsem pro Tebe nechal ? Pokud máš dobrou paměť, tak si určitě vzpomeneš, kdes viděl podobné. Až se tak stane, tak tam jdi. Polož 4 staré okolo hlavního sloupu a pak přidej nový na západ - zvenku.	// 4 old = 4 swords in the armor at start of the game ; new one = same kind of sword
-NoteL08-11	Vzpomínáš, jaks našel cár pergamenu o kterém jsi říkal, že to je [>EmptyMap] ? Ona až tak bezcenná není - její cenu zjistíš, až ji položíš pod schody, které v žáru stojí. A co se mnou ? Mě dej mezi 2 dřevěné mřížky na naedostupném místě. // Stairs are in middle of lava
-NoteL15-10	Hoď mě do klece, která končí v hlubinách.
-NoteL07-11	Jsou místa, kam se nedostaneš ... zatím.
-NoteL07-12	Chci být s rodinou, v temné místnosti plné svítidel.
-NoteL18-10	Dej mě na místo, kde jsi něco vzal, čekal, že se něco stane, ale nic se nestane. A teprve po té se konečně potkáme.
+NoteL01-02	HZP - Pokud mne necháš odpočívat na lavici, tak se stane něco, co Tě mile překvapí. // L1 mala cela s lavici, otevre se vedlejsi mala cela
+NoteL02-10	HZP - Výtečně ! Ale pokračujme ve hře. Dej mě pod svítidlo do prázdné místnosti, která je vedle trojice v pokoji odpočívajících legend. // L4 vedle hrobek a uren - vlevo
+NoteL04-10	HZP - Překvapils mě ! Asi je to na Tebe příliš snadné ! Uvidíme, jak si poradíš s tímto : dej mě před hromadu kamení a já Tě dovedu na druhou stranu.\n\nPS: Doufám, že se Ti můj dárek líbí ! // L4
+NoteL04-11	HZP - Ok, teď je to jisté, jsi opravdu dobr[:ý|á]. Tak mi ukaž, jak se popereš s tímto : najdi místo kde se sní a tam mne pod slunce dej.		// L6 Sun = metal plate with the shape of a sun ; place of many dreams = dormitory
+NoteL06-10	HZP - Přála bych si být pavoukem, pak bych se mohla schovat do malých temných prostor. // L6 misto, kde je jen skvira u podlahy
+NoteL06-11	HZP - Očividně Tě šetřím, musím být přísnější !\n\Hala smrti. 4 strany. 1 s mřížemi pro chudáky, 2 pro boháče a malá pro Císaře. Hoď něco pod slunce, pak mnou otevřeš poslední překážku. // L7 arena
+NoteL07-10	HZP - Mezi křivolakými trhlinami slunce je, hoď pod něj něco a pak najdi další slunce a tam mě polož. // L8 mistnost s uzkymi chodniky, otevre dvere a za nimi je dalsi slunce
+NoteL08-10	HZP - V temné jeskyni, skryti v temnotách, vrátíme se na začátek všeho (zažijeme déjà vu).	// L9 vpravo skoro dole This means the player will have to put the paper on an empty bench hidden in the dark, same as he did to start the Scavenger Hunt
+NoteL09-10	HZP - Patřím Rudé plazí smrti.	// L10 levy horni roh Need to put note between Red Crystal, Snake Statue & Skull Sculpture
+NoteL10-10	HZP - Nejsem nic než odpad. Zahoď mě třeba do rozbitého teleportu. Nic jiného si nezasloužím.		// L12 vpravo dole Need to throw the note in a teleporter that doesn't teleport the party
+NoteL12-10	HZP - Krok další v těchto jeskyních se nachází. A nebo ne. Poznáš, až to uvidíš a nebos to už viděl.	// L13 vlevo propadlo za mrizi Need to put the note on a trap door in the same level, to open it so the note will fall down to the next level & open a door there
+NoteL13-10	HZP - Jen já budu souzena těmi nejstaršími.	// L14 Need to put note on an altar between statues of old mages
+NoteL14-10	HZP - Všiml[:|a] sis, co jsem pro Tebe nechal ? Pokud máš dobrou paměť, tak si určitě vzpomeneš, kdes viděl[:|a] podobné. Až se tak stane, tak tam jdi.\nMožná budeš muset položit 4 staré okolo hlavního sloupu než budeš moci přidat další na západ, ale tentokrát zvenku anebo bude stačit jen ten západní. Co já vím, záležet bude ja se vyspím.	// L1 / L8 mec ziskany v L14 dat na zapadni drzak 4 old = 4 swords in the armor at start of the game ; new one = same kind of sword
+NoteL08-11	HZP - Vzpomínáš, jaks našel cár pergamenu o kterém jsi říkal, že to je [>EmptyMap] ? Ona až tak bezcenná není - její cenu zjistíš, až ji položíš pod schody, které v žáru stojí.\nA co se mnou ? Mě dej na nedostupné místo mezi 2 dřevěné mříže.\nA jak na místo nedostupné, tak to je otázka pro jednu malou sochu. // L15 nutno nejdrive umistit jen sosku tyhra Stairs are in middle of lava
+NoteL15-10	HZP - Hoď mě do klece, která končí v hlubinách. // L17 adds a teleport to L7
+NoteL07-11	Jsou místa, kam se nedostaneš ... zatím. // L7 jen info text
+NoteL07-12	HZP - Chci být s rodinou, v temné místnosti plné svítidel. // L18 vpravo nahore
+NoteL18-10	HZP - Dej mě na místo, kde bys něco vzal[:|a] a čekal[:|a], že se něco stane, ale nic se nestalo. A teprve po té se konečně potkáme. // L19
